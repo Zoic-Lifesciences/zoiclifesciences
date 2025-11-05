@@ -1,9 +1,14 @@
 "use client";
 import Image from "next/image";
 import { ShieldCheck, Cog, Users, Package, Scale } from "lucide-react";
-import { motion } from "framer-motion";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function ChooseUs() {
+  useEffect(() => {
+    AOS.init({ duration: 700, easing: "ease-in-out", once: false });
+  }, []);
   const items = [
     {
       icon: <ShieldCheck className="w-8 h-8 text-[#048DB7]" />,
@@ -42,16 +47,10 @@ export default function ChooseUs() {
           {/* Left Content */}
           <div className="flex flex-col gap-5 w-[55%]">
             {items.map((item, index) => (
-              <motion.div
+              <div
                 key={index}
-                initial={{ opacity: 0, x: -100 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{
-                  duration: 0.2,
-                  ease: "easeInOut",
-                  delay: index * 0.1,
-                }}
+                data-aos="fade-right"          // slide in from left
+          data-aos-delay={index * 100}   // stagger effect
                 className="flex items-center gap-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-5 relative overflow-hidden"
               >
                 <div className="absolute left-0 top-0 h-full w-3 bg-[#03045E] rounded-l-xl"></div>
@@ -64,7 +63,7 @@ export default function ChooseUs() {
                   </h3>
                   <p className="text-gray-600 text-sm">{item.desc}</p>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
 
@@ -73,7 +72,7 @@ export default function ChooseUs() {
             <div
               className="w-[350px] h-[90%] bg-cover bg-center overflow-hidden"
               style={{
-                backgroundImage: "url('/product.png')",
+                backgroundImage: "url('/DrugStore.jpg')",
                 borderTopLeftRadius: "20%",
                 borderBottomRightRadius: "20%",
                 boxShadow: "8px -8px 20px rgba(3, 4, 94, 0.9)",
