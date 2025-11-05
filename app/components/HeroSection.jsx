@@ -66,7 +66,7 @@ export default function HeroSection() {
       </div>
 
       {/* Right Product Cards Section */}
-      <div className="flex flex-col w-[40%] h-screen">
+      <div className="flex flex-col w-[40%] h-screen ">
         <div className="flex flex-col items-start">
           <div className="h-[80vh] w-[40vw] mt-10 ml-[-120px] flex justify-center items-center relative">
             <div className="w-[22vw] h-[55vh] bg-black rounded-4xl bg-[url('/moisturizer.png')] bg-cover bg-center absolute z-5"></div>
@@ -75,7 +75,8 @@ export default function HeroSection() {
             <motion.div
               initial={{ rotate: 0, marginLeft: "0px", marginTop: "0px" }}
               whileInView={{ rotate: 12, marginLeft: "300px", marginTop: "-20px" }}
-              transition={{ duration: 1.5, ease: "easeInOut" }}
+              transition={{ duration: 1.5, ease: "easeInOut" , delay: 2 }}
+              viewport={{ once: true }}
               className="w-[22vw] h-[55vh] ml-[300px] origin-bottom-left bg-[url('/Aloevera.jpeg')] bg-cover bg-center rounded-4xl absolute"
             ></motion.div>
 
@@ -83,7 +84,8 @@ export default function HeroSection() {
             <motion.div
               initial={{ rotate: 0, marginRight: "0px", marginTop: "0px" }}
               whileInView={{ rotate: -12, marginRight: "300px", marginTop: "-20px" }}
-              transition={{ duration: 1.5, ease: "easeInOut" }}
+              transition={{ duration: 1.5, ease: "easeInOut", delay: 2  }}
+              viewport={{ once: true }}
               className="w-[22vw] h-[55vh] mr-[300px] origin-bottom-right bg-[url('/haldi.jpeg')] bg-cover bg-center rounded-4xl absolute"
             ></motion.div>
           </div>

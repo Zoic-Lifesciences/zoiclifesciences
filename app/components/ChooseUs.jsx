@@ -72,7 +72,7 @@ export default function ChooseUs() {
             <div
               className="w-[350px] h-[90%] bg-cover bg-center overflow-hidden"
               style={{
-                backgroundImage: "url('/DrugStore.jpg')",
+                backgroundImage: "url('/Drugstore.jpg')",
                 borderTopLeftRadius: "20%",
                 borderBottomRightRadius: "20%",
                 boxShadow: "8px -8px 20px rgba(3, 4, 94, 0.9)",
