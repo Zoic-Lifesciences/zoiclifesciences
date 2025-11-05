@@ -64,3 +64,6 @@ body {
 .animate-marqueeRight {
   animation: marqueeRight 25s linear infinite;
 }
+.scrollbar-thin::-webkit-scrollbar {
+  height: 2px; /* height for horizontal scrollbar */
+}
