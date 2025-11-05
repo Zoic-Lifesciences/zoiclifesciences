@@ -39,7 +39,7 @@ export default function HeroSection() {
                 {/* Right tilted card */}
     <motion.div
       initial={{ rotate: 0, marginLeft: "150px", marginTop: "0px" }}
-      animate={{ rotate: 12, marginLeft: "300px", marginTop: "-20px" }}
+      whileInView={{ rotate: 12, marginLeft: "300px", marginTop: "-20px" }}
       transition={{ duration: 2, ease: "easeInOut" }}
       className="w-[340px] h-[460px] ml-[300px] origin-bottom-left bg-[url('/product.png')] bg-cover bg-center rounded-4xl absolute"
     ></motion.div>
@@ -47,7 +47,7 @@ export default function HeroSection() {
     {/* Left tilted card */}
     <motion.div
       initial={{ rotate: 0, marginRight: "150px", marginTop: "0px" }}
-      animate={{ rotate: -12, marginRight: "300px", marginTop: "-20px" }}
+      whileInView={{ rotate: -12, marginRight: "300px", marginTop: "-20px" }}
       transition={{ duration: 2, ease: "easeInOut" }}
       className="w-[340px] h-[460px] mr-[300px] origin-bottom-right bg-[url('/product.png')] bg-cover bg-center rounded-4xl absolute"
     ></motion.div>

@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { ShieldCheck, Cog, Users, Package, Scale } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function ChooseUs() {
   const items = [
@@ -32,47 +33,55 @@ export default function ChooseUs() {
   ];
 
   return (
-    <section className="relative w-screen h-screen flex items-center justify-center bg-gradient-to-b from-[#F0F9FF] to-[#DCF1FF] py-20">
-        <div className="flex flex-col w-[75%] h-[90vh]">
-            <h2 className="text-5xl font-bold text-gray-900 mb-6 text-center">Why Choose Us?</h2>
-            <div className="flex flex-row h-full items-center justify-between ">
-        {/* Left Content */}
-        <div className="flex flex-col gap-5 w-[55%]">
-          
+    <section className="relative w-screen h-screen flex items-center justify-center bg-linear-to-b from-[#F0F9FF] to-[#DCF1FF] py-20">
+      <div className="flex flex-col w-[70%] h-[90vh]">
+        <h2 className="text-5xl font-bold text-gray-900 mb-6 text-center">
+          Why Choose Us?
+        </h2>
+        <div className="flex flex-row h-full items-center justify-between">
+          {/* Left Content */}
+          <div className="flex flex-col gap-5 w-[55%]">
+            {items.map((item, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{
+                  duration: 0.2,
+                  ease: "easeInOut",
+                  delay: index * 0.1,
+                }}
+                className="flex items-center gap-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-5 relative overflow-hidden"
+              >
+                <div className="absolute left-0 top-0 h-full w-3 bg-[#03045E] rounded-l-xl"></div>
+                <div className="flex items-center justify-center bg-[#E6F4FA] rounded-full w-14 h-14 shrink-0">
+                  {item.icon}
+                </div>
+                <div>
+                  <h3 className="font-semibold text-sm text-gray-900">
+                    {item.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm">{item.desc}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
 
-          {items.map((item, index) => (
+          {/* Right Image */}
+          <div className="w-[40%] h-full flex justify-center items-center">
             <div
-              key={index}
-              className="flex items-center gap-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-5 relative overflow-hidden"
-            >
-              <div className="absolute left-0 top-0 h-full w-3 bg-[#03045E] rounded-l-xl"></div>
-              <div className="flex items-center justify-center bg-[#E6F4FA] rounded-full w-14 h-14 flex-shrink-0">
-                {item.icon}
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg text-gray-900">{item.title}</h3>
-                <p className="text-gray-600 text-sm">{item.desc}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Right Image */}
-        <div className="w-[40%] h-full flex justify-center items-center">
-          <div
-  className="w-[350px] h-[90%] bg-cover bg-center overflow-hidden"
-  style={{
-    backgroundImage: "url('/product.png')",
-    borderTopLeftRadius: "20%",
-    borderBottomRightRadius: "20%",
-    boxShadow: "8px -8px 20px rgba(3, 4, 94, 0.9)", // shadow only on top & right
-  }}
-></div>
-
+              className="w-[350px] h-[90%] bg-cover bg-center overflow-hidden"
+              style={{
+                backgroundImage: "url('/product.png')",
+                borderTopLeftRadius: "20%",
+                borderBottomRightRadius: "20%",
+                boxShadow: "8px -8px 20px rgba(3, 4, 94, 0.9)",
+              }}
+            ></div>
+          </div>
         </div>
       </div>
-        </div>
-      
     </section>
   );
 }
