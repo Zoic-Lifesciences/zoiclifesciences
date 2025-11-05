@@ -16,7 +16,7 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed bg-white">
+    <header className="fixed bg-white z-50">
       {/* Top bar */}
       <div className="flex justify-center w-screen">
         <div className="flex w-[95%] text-[12px] items-center justify-between px-6 py-3 text-sm text-gray-600 border-b border-gray-300">
