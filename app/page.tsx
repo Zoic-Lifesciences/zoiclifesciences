@@ -12,6 +12,7 @@ import NewsRoom from "./components/NewsRoom";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import AnimatedText from "./components/FrontPage"; // import the component
+import Category from "./components/Category"
 
 export default function Home() {
   const [showIntro, setShowIntro] = useState(true);
@@ -24,7 +25,7 @@ export default function Home() {
   return (
     <>
       {showIntro && (
-        <div className="fixed inset-0 bg-gradient-to-b from-[#4244CB] to-[#070865] flex justify-center items-center z-50 transition-transform duration-700 ease-in-out">
+        <div className="fixed inset-0 bg-linear-to-b from-[#4244CB] to-[#070865] flex justify-center items-center z-50 transition-transform duration-700 ease-in-out">
           <AnimatedText text="ZOIC" />
         </div>
       )}
@@ -34,9 +35,10 @@ export default function Home() {
           <NavBar />
         </div>
         <HeroSection />
+        <NewlyLaunched />
         <MissionSection />
         <ChooseUs />
-        <NewlyLaunched />
+        <Category/>
         <Certifications />
         <WhatWeOffer />
         <NewsRoom />

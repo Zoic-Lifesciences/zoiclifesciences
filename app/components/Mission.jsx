@@ -52,7 +52,6 @@ export default function MissionSection() {
         {/* Right Section - Heading */}
         <div className="bg-[url('/Rectangle3.png')] bg-cover bg-center h-[90vh]  w-[30vw] right-0  absolute"></div>
         <div className="w-[45%] pl-12 relative">
-          <div className="absolute -z-10 w-[900px] h-[500px] rounded-full ml-[-450px] mt-[-250px] blur-3xl bg-[radial-gradient(circle_at_center,rgba(4,160,209,0.3)_0%,rgba(255,255,255,0)_70%)]"></div>
 
           <h1 className="text-5xl font-bold text-gray-900 mb-4 leading-tight">
             Our Mission, Vision, <br /> and Values
