@@ -1,10 +1,11 @@
 "use client";
 import { Target, Eye, Gem, ShieldCheck } from "lucide-react";
+import Image from "next/image";
 
 export default function MissionSection() {
   return (
-    <section className="w-screen h-screen flex items-center justify-center bg-linear-to-br">
-      <div className="flex flex-row items-center justify-between w-[75%]">
+    <section className="relative w-screen h-screen flex items-center justify-center bg-linear-to-br">
+      <div className="flex flex-row justify-between w-[75%]">
         {/* Left Section - Cards */}
         <div className="grid grid-cols-2 gap-6 w-[50%]">
           {/* Mission */}
@@ -49,6 +50,7 @@ export default function MissionSection() {
         </div>
 
         {/* Right Section - Heading */}
+        <div className="bg-[url('/Rectangle3.png')] bg-cover bg-center h-[90vh]  w-[30vw] right-0  absolute"></div>
         <div className="w-[45%] pl-12 relative">
           <div className="absolute -z-10 w-[900px] h-[500px] rounded-full ml-[-450px] mt-[-250px] blur-3xl bg-[radial-gradient(circle_at_center,rgba(4,160,209,0.3)_0%,rgba(255,255,255,0)_70%)]"></div>
 
