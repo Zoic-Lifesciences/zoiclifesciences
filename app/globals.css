@@ -49,12 +49,8 @@ body {
 }
 
 @keyframes marqueeRight {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(50%);
-  }
+  0% { transform: translateX(-50%); } /* start from -50% so rightward scroll fills */
+  100% { transform: translateX(0%); }
 }
 
 .animate-marqueeLeft {

@@ -1,94 +1,109 @@
-// components/Footer.jsx
+'use client'
+
 import Image from "next/image";
-import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineLocationMarker, HiOutlinePhone, HiOutlineMail } from "react-icons/hi";
+import { FaFacebookF, FaTwitter, FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-[#0474A7] to-[#121C92] text-white py-12 px-6 md:px-20 rounded-t-3xl shadow-[0_0_40px_rgba(0,0,0,0.3)]">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-16 mb-8">
-        {/* --- Logo & Description --- */}
+    <footer className="bg-[#252526] text-gray-300 pt-10">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        {/* Contact Us */}
         <div>
-          <Image src="/logo.png" alt="Zoic Logo" width={120} height={80} />
-          <p className="text-sm mt-4 leading-relaxed text-gray-200">
-            Zoic Life Sciences has earned a reputation as Top Pharma Company in Dehradun 
-            with complete customer satisfaction, accredited by ISO 9001:2008, WHO, GMP, 
-            and FDI specialized agencies.
-          </p>
-          <p className="text-sm mt-4 text-gray-200">
-            The organization is also known as the best PCD Pharma Franchise Company in India.
-          </p>
-        </div>
-
-        {/* --- Quick Links --- */}
-        <div>
-          <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-cyan-300">Home</a></li>
-            <li><a href="#" className="hover:text-cyan-300">About</a></li>
-            <li><a href="#" className="hover:text-cyan-300">Services</a></li>
-            <li><a href="#" className="hover:text-cyan-300">Products</a></li>
-            <li><a href="#" className="hover:text-cyan-300">Contact Us</a></li>
-          </ul>
-        </div>
-
-        {/* --- Our Products --- */}
-        <div>
-          <h3 className="font-semibold text-lg mb-4">Our Products</h3>
-          <ul className="space-y-2 text-sm">
-            <li>Tablets</li>
-            <li>Capsules</li>
-            <li>Syrup</li>
-            <li>Oil</li>
-            <li>Injections</li>
-          </ul>
-        </div>
-
-        {/* --- Contact Info --- */}
-        <div>
-          <h3 className="font-semibold text-lg mb-4">Connect With Us</h3>
-          <div className="space-y-3 text-sm text-gray-200">
-            <p className="flex items-start gap-2">
-              <HiOutlineLocationMarker className="text-xl text-cyan-300" />
+          <h2 className="text-md text-gray-200 mb-4">CONTACT US</h2>
+          <p className="flex items-center space-x-2 text-sm text-gray-400 mb-5">
+            <FaMapMarkerAlt className="text-gray-400" />
+            <a 
+              href="https://www.google.com/maps?q=123+Street,+City,+Country" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               Plot No.72/1 Tyagi Road, Dehradun-248001, Uttarakhand, India
-            </p>
-            <p className="flex items-center gap-2">
-              <HiOutlinePhone className="text-xl text-cyan-300" /> 
-              +91 7088014041, +91 7060249961
-            </p>
-            <p className="flex items-center gap-2">
-              <HiOutlineMail className="text-xl text-cyan-300" /> 
-              zoiclifesciences.sales@gmail.com
-            </p>
-            <p className="flex items-center gap-2">
-              <HiOutlineMail className="text-xl text-cyan-300" /> 
-              zoiclifesciences.med@gmail.com
-            </p>
-          </div>
+            </a>
+          </p>
+          <p className="flex items-center space-x-2 text-sm text-gray-400 mb-5">
+            <FaPhoneAlt className="text-gray-400" />
+            <a href="tel:+917088014041" className="hover:text-white">
+                +917088014041,<br/> +917060249961
+            </a>
+          </p>
+          <p className="flex items-center space-x-2 mt-2 text-sm text-gray-400">
+            <FaEnvelope className="text-gray-400" />
+            <a href="mailto:zoiclifesciences.sales@gmail.com" className="hover:text-white">
+                zoiclifesciences.sales@gmail.com, zoiclifesciences.med@gmail.com
+            </a>
+          </p>
+        </div>
 
-          {/* --- Social Icons --- */}
-          <div className="flex gap-4 mt-4">
-            {[
-              { Icon: FaTwitter, href: "#" },
-              { Icon: FaFacebookF, href: "#" },
-              { Icon: FaInstagram, href: "#" },
-              { Icon: FaLinkedinIn, href: "#" },
-            ].map(({ Icon, href }, i) => (
-              <a
-                key={i}
-                href={href}
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-black/20 hover:bg-cyan-500 transition-colors"
-              >
-                <Icon className="text-white" size={16} />
-              </a>
-            ))}
+        {/* Products + Quick Links */}
+        <div className="flex flex-row justify-between gap-10">
+          <div>
+            <h2 className="text-md text-gray-200 mb-4">PRODUCTS</h2>
+            <ul className="space-y-1 text-sm text-gray-400">
+              <li><a href="/about" className="hover:text-white">About</a></li>
+              <li><a href="/contact" className="hover:text-white">Contact</a></li>
+              <li><a href="/privacy" className="hover:text-white">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="text-md text-gray-200 mb-4">QUICK LINKS</h2>
+            <ul className="space-y-1 text-sm text-gray-400">
+              <li><a href="/about" className="hover:text-white">About</a></li>
+              <li><a href="/contact" className="hover:text-white">Contact</a></li>
+              <li><a href="/privacy" className="hover:text-white">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Follow Us + Logo */}
+        <div>
+          <div className="border-t border-gray-600 pt-6">
+            <div className="flex flex-row items-center justify-between">
+              
+              {/* Logo in white rounded bg */}
+              <div className="bg-white rounded-lg p-2 flex items-center justify-center w-[80px] h-[50px]">
+                <Image
+                  src="/logo.png"
+                  alt="Zoic Logo"
+                  width={50}
+                  height={50}
+                  className="object-contain"
+                />
+              </div>
+
+              {/* Social Icons */}
+              <div className="flex space-x-4">
+                <a
+                  href="#"
+                  aria-label="Facebook"
+                  className="bg-white text-gray-900 rounded-full p-2 hover:bg-gray-200 transition"
+                >
+                  <FaFacebookF className="h-3 w-3" />
+                </a>
+                <a
+                  href="#"
+                  aria-label="Twitter"
+                  className="bg-white text-gray-900 rounded-full p-2 hover:bg-gray-200 transition"
+                >
+                  <FaTwitter className="h-3 w-3" />
+                </a>
+                <a
+                  href="#"
+                  aria-label="Instagram"
+                  className="bg-white text-gray-900 rounded-full p-2 hover:bg-gray-200 transition"
+                >
+                  <FaInstagram className="h-3 w-3" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* --- Copyright --- */}
-      <div className="border-t border-white/30 pt-6 text-center text-sm text-gray-200">
-        Copyright ©2025, <span className="font-semibold text-white">Zoic Life Sciences</span>
+      {/* Bottom bar */}
+      <div className="bg-black pb-5 border-t border-gray-700 mt-8 pt-4 text-center text-sm">
+        &copy; {new Date().getFullYear()} Zoic Life Sciences. All rights reserved.
       </div>
     </footer>
   );

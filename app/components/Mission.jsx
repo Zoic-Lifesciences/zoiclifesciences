@@ -1,15 +1,28 @@
 "use client";
 import { Target, Eye, Gem, ShieldCheck } from "lucide-react";
-import Image from "next/image";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function MissionSection() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: "ease-in-out",
+      once: true,
+    });
+  }, []);
+
   return (
     <section className="relative w-screen h-screen flex items-center justify-center bg-linear-to-br">
       <div className="flex flex-row justify-between w-[75%]">
         {/* Left Section - Cards */}
         <div className="grid grid-cols-2 gap-6 w-[50%]">
           {/* Mission */}
-          <div className="group bg-[#04A0D1] text-white p-6 rounded-2xl shadow-2xl transform -rotate-6 hover:rotate-0 transition-transform duration-300">
+          <div
+            className="group bg-[#04A0D1] text-white p-6 rounded-2xl shadow-2xl transform -rotate-6 hover:rotate-0 transition-transform duration-300"
+            data-aos="fade-up"
+          >
             <Target className="w-10 h-10 mb-3 group-hover:text-white transition-colors duration-300" />
             <h2 className="text-xl font-semibold mb-2">Our Mission</h2>
             <p>
@@ -19,7 +32,11 @@ export default function MissionSection() {
           </div>
 
           {/* Vision */}
-          <div className="group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300">
+          <div
+            className="group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <Eye className="w-10 h-10 mb-3 text-gray-700 group-hover:text-white transition-colors duration-300" />
             <h2 className="text-xl font-semibold mb-2">Our Vision</h2>
             <p>
@@ -29,7 +46,11 @@ export default function MissionSection() {
           </div>
 
           {/* Value */}
-          <div className="group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300">
+          <div
+            className="group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <Gem className="w-10 h-10 mb-3 text-gray-700 group-hover:text-white transition-colors duration-300" />
             <h2 className="text-xl font-semibold mb-2">Our Value</h2>
             <p>
@@ -39,7 +60,11 @@ export default function MissionSection() {
           </div>
 
           {/* Quality Control */}
-          <div className="group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300">
+          <div
+            className="group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <ShieldCheck className="w-10 h-10 mb-3 text-gray-700 group-hover:text-white transition-colors duration-300" />
             <h2 className="text-xl font-semibold mb-2">Quality Control</h2>
             <p>
@@ -50,9 +75,12 @@ export default function MissionSection() {
         </div>
 
         {/* Right Section - Heading */}
-        <div className="bg-[url('/Rectangle3.png')] bg-cover bg-center h-[90vh]  w-[30vw] right-0  absolute"></div>
-        <div className="w-[45%] pl-12 relative">
+        <div
+          className="bg-[url('/Rectangle3.png')] bg-cover bg-center h-[90vh] w-[30vw] right-0 absolute"
+          data-aos="fade-left"
+        ></div>
 
+        <div className="w-[45%] pl-12 relative" data-aos="fade-right">
           <h1 className="text-5xl font-bold text-gray-900 mb-4 leading-tight">
             Our Mission, Vision, <br /> and Values
           </h1>
