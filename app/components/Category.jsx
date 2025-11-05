@@ -8,10 +8,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 const data = [
   { id: 1, img: "/haldi.jpeg" },
-  { id: 2, img: "/haldi.jpeg" },
-  { id: 3, img: "/haldi.jpeg" },
-  { id: 4, img: "/haldi.jpeg" },
-  { id: 5, img: "/haldi.jpeg" },
+  { id: 2, img: "/Aloevera.jpeg" },
+  { id: 3, img: "/gulabjal.jpeg" },
+  { id: 4, img: "/footcream.jpeg" },
+  { id: 5, img: "/suncreen.jpeg" },
 ];
 
 export default function Category() {

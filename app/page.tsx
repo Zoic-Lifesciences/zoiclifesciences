@@ -13,6 +13,8 @@ import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import AnimatedText from "./components/FrontPage"; // import the component
 import Category from "./components/Category"
+import Speciality from "./components/Speciality"
+import Awards from "./components/Awards"
 
 export default function Home() {
   const [showIntro, setShowIntro] = useState(true);
@@ -41,6 +43,8 @@ export default function Home() {
         <Category/>
         <Certifications />
         <WhatWeOffer />
+        <Speciality/>
+        <Awards/>
         <NewsRoom />
         <Testimonial />
         <Footer />
