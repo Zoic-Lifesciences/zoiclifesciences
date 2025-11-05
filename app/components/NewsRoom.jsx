@@ -27,7 +27,7 @@ export default function NewRoom() {
   ];
 
   return (
-    <section className="bg-gradient-to-b from-[#F6FBFF] to-white flex justify-center flex-col items-center">
+    <section className="flex justify-center flex-col items-center">
         <div className="w-[80vw]  py-20 px-6 flex flex-col items-center text-center ">
             {/* Section Header */}
       <h2 className="text-4xl md:text-5xl font-bold mb-4">
