@@ -41,7 +41,7 @@ export default function Category() {
 
   return (
     <div className="flex flex-col overflow-x-hidden items-center">
-         <h1 className="text-5xl text-center my-10 ">Categories</h1>
+         <h1 className="text-6xl text-center my-10 ">Categories</h1>
         <p className="w-[40vw] mb-10 text-center">Owning ISO GMP manufacturing infrastructure facilities benefits associates with in-house services of drug formulations sourced from trusted and credible vendors.</p>
         <div className="w-screen h-[80vh] justify-center items-center">
 <div

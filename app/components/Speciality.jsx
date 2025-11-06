@@ -17,7 +17,7 @@ export default function Speciality() {
     <div className="flex flex-col items-center mt-10 mb-12">
       {/* Heading slides in from left */}
       <h1
-        className="text-5xl text-center my-10"
+        className="text-6xl text-center my-10 text-[#090A69]"
         data-aos="fade-right"
       >
         Experiences build specialities - 25 Years of Experience

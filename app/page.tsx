@@ -15,6 +15,13 @@ import AnimatedText from "./components/FrontPage"; // import the component
 import Category from "./components/Category"
 import Speciality from "./components/Speciality"
 import Awards from "./components/Awards"
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 
 export default function Home() {
   const [showIntro, setShowIntro] = useState(true);
@@ -32,20 +39,20 @@ export default function Home() {
         </div>
       )}
 
-      <main className={`overflow-x-hidden transition-all duration-700 ${showIntro ? "opacity-0" : "opacity-100"}`}>
+      <main className={`${montserrat.className} overflow-x-hidden transition-all duration-700 ${showIntro ? "opacity-0" : "opacity-100"}`}>
         <div className="flex justify-center bg-white">
           <NavBar />
         </div>
         <HeroSection />
-        <NewlyLaunched />
         <MissionSection />
         <ChooseUs />
-        <Category/>
+        <NewlyLaunched />
         <Certifications />
+        <Category/>
         <WhatWeOffer />
         <Speciality/>
-        <Awards/>
         <NewsRoom />
+        <Awards/>
         <Testimonial />
         <Footer />
       </main>

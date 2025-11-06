@@ -41,7 +41,7 @@ export default function NewRoom() {
     <section className="flex justify-center flex-col items-center">
       <div className="w-[80vw] py-20 px-6 flex flex-col items-center text-center">
         {/* Section Header */}
-        <h2 className="text-4xl md:text-5xl font-bold mb-4" data-aos="fade-down">
+        <h2 className="text-6xl mt-10 mb-5" data-aos="fade-down">
           <span className="text-[#04A0D1]">ZOIC’s</span> Newsroom
         </h2>
         <p className="text-gray-600 max-w-3xl mb-12" data-aos="fade-down" data-aos-delay="100">
