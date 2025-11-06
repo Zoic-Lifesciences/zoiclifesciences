@@ -39,14 +39,13 @@ export default function WhatWeOffer() {
   return (
     <section className="bg-linear-to-r from-[#1BA3CD] to-[#090A69] h-[90vh] py-16 px-6 text-white flex flex-col items-center text-center">
       {/* Header */}
-      <h2 className="text-4xl md:text-5xl font-bold mb-4" data-aos="fade-down">
+      <h2 className="text-6xl mb-4" data-aos="fade-down">
         What we offer
       </h2>
       <p className="max-w-3xl text-gray-200 mb-10" data-aos="fade-right" data-aos-delay="100">
         At <span className="text-white font-semibold">ZOIC Life Sciences</span>, we are committed to empowering pharma professionals,
         distributors, and entrepreneurs with profitable franchise opportunities backed by trust,
-        quality, and innovation. With years of industry experience, we deliver everything you need to
-        succeed in the PCD Pharma business.
+        quality, and innovation. 
       </p>
 
       {/* Offer Cards */}

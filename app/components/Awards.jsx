@@ -17,7 +17,7 @@ export default function Awards() {
     <div className="flex flex-col text-white items-center bg-linear-to-r pb-10 from-[#1BA3CD] to-[#090A69] h-[100vh] w-screen">
       <div className="w-[80%] h-full flex flex-col items-center">
         <h1
-          className="text-5xl text-center mt-10 mb-5 font-bold"
+          className="text-6xl text-center mt-10 mb-5 "
           data-aos="fade-right"
         >
           Awards and Achievements

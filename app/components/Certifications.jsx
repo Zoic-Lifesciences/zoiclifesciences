@@ -39,7 +39,7 @@ export default function Certifications() {
   return (
     <section className="bg-[#EFFBFF] py-16 px-6 flex flex-col items-center text-center">
       <div className="w-[90vw] text-center flex justify-center flex-col items-center h-[70vh]">
-        <h2 className="text-4xl md:text-5xl font-bold text-black mb-4" data-aos="fade-up">
+        <h2 className="text-6xl text-[#090A69] mb-4" data-aos="fade-up">
           Certifications That Define Excellence
         </h2>
         <p className="text-gray-600 max-w-3xl text-center" data-aos="fade-up" data-aos-delay="100">
@@ -65,7 +65,7 @@ export default function Certifications() {
                 className="mb-4"
               />
               <h3 className="font-semibold text-lg text-black mb-2">{cert.title}</h3>
-              <p className="text-gray-500 text-start text-sm max-w-[250px]">{cert.desc}</p>
+              
             </div>
           ))}
         </div>

@@ -3,6 +3,13 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Abhaya_Libre, Inter } from "next/font/google";
 import { Phone, MessageCircle, Mail } from "lucide-react";
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 
 const abhaya = Abhaya_Libre({
   weight: "500",
@@ -21,26 +28,23 @@ export default function HeroSection() {
       <div className="flex flex-col justify-center items-start w-[60%] h-screen bg-[url('/Rectangle1.png')] bg-cover bg-center">
         <div className="text-white w-[80%] ml-10">
           <h1
-            className={`${abhaya.className} text-2xl md:text-5xl font-semibold leading-tight mb-4`}
+            className={`${montserrat.className} text-6xl leading-none mb-4`}
           >
             India&apos;s Leading <br />
-            <span className="text-[#32A0C3] font-semibold">PCD Pharma</span>{" "}
+            <span className="text-[#32A0C3] ">PCD Pharma</span>{" "}
             Franchise
             <br /> Company
           </h1>
 
-          <p className={`${inter.className} text-sm text-gray-200 max-w-md`}>
+          <p className={` text-sm mt-10 text-gray-200 max-w-md`}>
             Zoic Life Sciences is a trusted ISO 9001:2008, WHO, GMP, and
-            FDI-certified pharma company based in Dehradun. We deliver
-            high-quality, affordable medicines across major therapeutic segments
-            and offer India’s most reliable and profitable PCD Pharma Franchise
-            opportunities.
+            FDI-certified pharma company based in Dehradun. 
             <br />
             Explore a partnership that promotes better health and brighter
             business growth.
           </p>
 
-          <button className="mt-6 px-6 py-3 bg-[#14A5C9] text-white font-medium rounded-full shadow-md hover:bg-[#048DB7] transition">
+          <button className="mt-10 px-6 py-3 bg-[#14A5C9] text-white font-medium rounded-full shadow-md hover:bg-[#048DB7] transition">
             Apply for Franchise
           </button>
         </div>

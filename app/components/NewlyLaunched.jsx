@@ -60,7 +60,7 @@ export default function NewlyLaunched() {
 
   return (
     <section className="px-8 py-12">
-      <h2 className="text-4xl font-bold text-center mb-2" data-aos="fade-up">Newly Launched</h2>
+      <h2 className="text-6xl text-center mb-5 mt-5" data-aos="fade-up">Newly Launched</h2>
       <p className="text-center text-gray-500 mb-8" data-aos="fade-up" data-aos-delay="100">
         At <span className="text-[#048DB7] font-semibold">ZOIC</span> it’s all about continuous innovations.
       </p>

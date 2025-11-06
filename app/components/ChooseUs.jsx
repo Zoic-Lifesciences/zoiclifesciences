@@ -40,7 +40,7 @@ export default function ChooseUs() {
   return (
     <section className="relative w-screen h-screen flex items-center justify-center bg-linear-to-b from-[#F0F9FF] to-[#DCF1FF] py-20">
       <div className="flex flex-col w-[70%] h-[90vh]">
-        <h2 className="text-5xl font-bold text-gray-900 mb-6 text-center">
+        <h2 className="text-6xl text-[#090A69] mb-6 text-center">
           Why Choose Us?
         </h2>
         <div className="flex flex-row h-full items-center justify-between">
