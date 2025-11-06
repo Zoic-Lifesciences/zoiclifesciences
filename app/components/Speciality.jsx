@@ -14,10 +14,12 @@ export default function Speciality() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center mt-10 mb-12">
-      {/* Heading slides in from left */}
-      <h1
-        className="text-6xl text-center my-10 text-[#090A69]"
+    <div className="flex flex-col w-screen items-center my-10 py-10">
+      <div className="w-[80%] flex">
+        {/* Heading slides in from left */}
+        <div className="flex flex-col w-[30%]">
+          <h1
+        className="text-6xl text-start my-10 text-[#090A69]"
         data-aos="fade-right"
       >
         Experiences build specialities - 25 Years of Experience
@@ -25,7 +27,7 @@ export default function Speciality() {
 
       {/* Paragraph slides in from right */}
       <p
-        className="w-[80vw] mb-10 text-center"
+        className="mb-10 text-start"
         data-aos="fade-left"
         data-aos-delay="150"
       >
@@ -33,10 +35,12 @@ export default function Speciality() {
         entrepreneurs with profitable franchise opportunities backed by trust, quality, and innovation.
         With years of industry experience, we deliver everything you need to succeed in the PCD Pharma business.
       </p>
+        </div>
+      
 
       {/* Image flips in */}
       <div
-        className="flex justify-center"
+        className="flex justify-center w-[70%]"
         data-aos="flip-left"
         data-aos-delay="300"
       >
@@ -48,6 +52,8 @@ export default function Speciality() {
           className="object-contain"
         />
       </div>
+      </div>
+      
     </div>
   );
 }

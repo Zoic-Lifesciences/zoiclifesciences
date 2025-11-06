@@ -1,14 +1,31 @@
 "use client";
 import Image from "next/image";
 import { ShieldCheck, Cog, Users, Package, Scale } from "lucide-react";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { useEffect, useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import Lenis from "@studio-freight/lenis";
 
 export default function ChooseUs() {
+  const container = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: container,
+    offset: ["start start", "end end"],
+  });
+
   useEffect(() => {
-    AOS.init({ duration: 700, easing: "ease-in-out", once: false });
+    const lenis = new Lenis({
+      duration: 1.2,
+      smooth: true,
+      smoothTouch: true,
+      lerp: 0.08,
+    });
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
   }, []);
+
   const items = [
     {
       icon: <ShieldCheck className="w-8 h-8 text-[#048DB7]" />,
@@ -38,39 +55,48 @@ export default function ChooseUs() {
   ];
 
   return (
-    <section className="relative w-screen h-screen flex items-center justify-center bg-linear-to-b from-[#F0F9FF] to-[#DCF1FF] py-20">
-      <div className="flex flex-col w-[70%] h-[90vh]">
-        <h2 className="text-6xl text-[#090A69] mb-6 text-center">
+    <section
+      ref={container}
+      className="relative w-screen flex items-center justify-center bg-gradient-to-b from-[#F0F9FF] to-[#DCF1FF] py-20"
+    >
+      <div className="flex flex-col w-[70%] h-full">
+        <h2 className="text-6xl text-[#090A69] mb-12 text-center">
           Why Choose Us?
         </h2>
-        <div className="flex flex-row h-full items-center justify-between">
+
+        <div className="flex flex-row justify-between mt-5">
           {/* Left Content */}
-          <div className="flex flex-col gap-5 w-[55%]">
-            {items.map((item, index) => (
-              <div
-                key={index}
-                data-aos="fade-right"          // slide in from left
-          data-aos-delay={index * 100}   // stagger effect
-                className="flex items-center gap-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-5 relative overflow-hidden"
-              >
-                <div className="absolute left-0 top-0 h-full w-3 bg-[#03045E] rounded-l-xl"></div>
-                <div className="flex items-center justify-center bg-[#E6F4FA] rounded-full w-14 h-14 shrink-0">
-                  {item.icon}
-                </div>
-                <div>
-                  <h3 className="font-semibold text-sm text-gray-900">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm">{item.desc}</p>
-                </div>
-              </div>
-            ))}
+          <div className="flex flex-col h-full gap-5 w-[55%]">
+            {items.map((item, index) => {
+              const targetScale = 1 - (items.length - index) * 0.05;
+              const range = [index * 0.2, 1];
+              const scale = useTransform(scrollYProgress, range, [1, targetScale]);
+
+              return (
+                <motion.div
+                  key={index}
+                  style={{ scale, top: `${200 + index * 10}px` }}
+                  className="flex sticky top-[20vh] items-center gap-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 px-5 py-10"
+                >
+                  <div className="absolute left-0 top-0 h-full w-3 bg-[#03045E] rounded-l-xl"></div>
+                  <div className="flex items-center justify-center bg-[#E6F4FA] rounded-full w-14 h-14 shrink-0">
+                    {item.icon}
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-xl text-gray-900">
+                      {item.title}
+                    </h3>
+                    <p className="text-gray-600 text-xl mt-3">{item.desc}</p>
+                  </div>
+                </motion.div>
+              );
+            })}
           </div>
 
           {/* Right Image */}
-          <div className="w-[40%] h-full flex justify-center items-center">
+          <div className="w-[40%] flex">
             <div
-              className="w-[350px] h-[90%] bg-cover bg-center overflow-hidden"
+              className="w-[350px] h-[90vh] sticky top-[20vh] bg-cover bg-center overflow-hidden"
               style={{
                 backgroundImage: "url('/Drugstore.jpg')",
                 borderTopLeftRadius: "20%",

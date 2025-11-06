@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Phone, Mail, ChevronDown, ChevronUp } from "lucide-react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(null);
@@ -62,7 +63,7 @@ export default function Header() {
                 )}
               </li>
             ))}
-            <li className="hover:text-[#048DB7] cursor-pointer">Blogs</li>
+            <li className="hover:text-[#048DB7] cursor-pointer"><Link href="/about">About</Link></li>
             <li className="hover:text-[#048DB7] cursor-pointer">Careers</li>
           </ul>
 
