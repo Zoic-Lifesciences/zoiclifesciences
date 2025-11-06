@@ -14,7 +14,7 @@ export default function MissionSection() {
   }, []);
 
   return (
-    <section className="relative w-screen h-screen flex items-center justify-center bg-linear-to-br">
+    <section className="relative w-screen h-[110vh] py-12 flex items-center justify-center bg-linear-to-br">
       <div className="flex flex-row justify-between w-[80%]">
         {/* Left Section - Cards */}
         <div className="grid grid-cols-2 gap-6 w-[70%]">
@@ -38,7 +38,7 @@ export default function MissionSection() {
             data-aos-delay="100"
           >
             <Eye className="w-10 h-10 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
-            <h2 className="text-4xl mb-2 hover:text-white text-[#090A69]">Our Vision</h2>
+            <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69]">Our Vision</h2>
             <p className="text-md mt-5">
               To uphold our social responsibilities by delivering the highest
               standard of healthcare services.
@@ -52,7 +52,7 @@ export default function MissionSection() {
             data-aos-delay="200"
           >
             <Gem className="w-10 h-10 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
-            <h2 className="text-4xl mb-2 hover:text-white text-[#090A69]">Our Value</h2>
+            <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69]">Our Value</h2>
             <p className="text-md mt-5">
               Our business values with clients are as simple as lifelong
               “business relations”.
@@ -66,7 +66,7 @@ export default function MissionSection() {
             data-aos-delay="300"
           >
             <ShieldCheck className="w-10 h-10 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
-            <h2 className="text-4xl mb-2 hover:text-white text-[#090A69]">Quality Control</h2>
+            <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69]">Quality Control</h2>
             <p className="text-md mt-5">
               Our medicines are developed under the strict guidance of renowned
               healthcare professionals.

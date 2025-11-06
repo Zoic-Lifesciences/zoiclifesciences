@@ -74,3 +74,37 @@ body {
 .animate-fade-up {
   animation: fade-up 0.5s forwards;
 }
+
+.container {
+  width: 100%;
+}
+
+.section {
+  position: relative;
+  min-height: 120vh; /* taller than viewport for scroll effect */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sticky-card {
+  position: sticky;
+  top: 20px; /* distance from top while sticking */
+  background-color: white;
+  padding: 2rem;
+  margin-top: 5rem;
+  width: 70%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sticky-card h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sticky-card p {
+  color: #444;
+  line-height: 1.6;
+}

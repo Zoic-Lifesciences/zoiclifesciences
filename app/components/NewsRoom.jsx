@@ -38,7 +38,7 @@ export default function NewRoom() {
   ];
 
   return (
-    <section className="flex justify-center flex-col items-center">
+    <section className="flex justify-center flex-col items-center bg-gray-100">
       <div className="w-[80vw] py-20 px-6 flex flex-col items-center text-center">
         {/* Section Header */}
         <h2 className="text-6xl mt-10 mb-5" data-aos="fade-down">
