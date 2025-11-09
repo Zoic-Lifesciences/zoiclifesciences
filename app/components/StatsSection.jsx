@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
 export default function StatsSection() {
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
+  const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.3 });
 
   const stats = [
     { labelTop: "Present In", number: 20, suffix: "+", labelBottom: "States" },

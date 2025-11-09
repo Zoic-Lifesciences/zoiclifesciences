@@ -18,15 +18,12 @@ export default function Awards() {
       <div className="w-[80%] h-full flex flex-col items-center">
         <h1
           className="text-6xl text-center mt-10 mb-5 "
-          data-aos="fade-right"
         >
           Awards and Achievements
         </h1>
 
         <p
           className="w-[25vw] mb-5 text-center"
-          data-aos="fade-left"
-          data-aos-delay="150"
         >
           Your Trusted Partner in PCD Pharma Franchise
           <br />
@@ -35,7 +32,7 @@ export default function Awards() {
           Established in 2000. 
         </p>
 
-        <a className="flex items-center gap-2" data-aos="fade-up" data-aos-delay="300">
+        <a className="flex items-center gap-2" >
           See More <ArrowRight size={24} color="currentColor" />
         </a>
 
@@ -45,20 +42,18 @@ export default function Awards() {
               <div
                 className="w-[48%] h-full bg-black rounded-lg bg-cover bg-center"
                 style={{ backgroundImage: "url('/image1.png')" }}
-                data-aos="fade-up"
+               
               ></div>
               <div
                 className="w-[48%] h-full bg-black rounded-lg bg-cover bg-center"
                 style={{ backgroundImage: "url('/image2.png')" }}
-                data-aos="fade-up"
-                data-aos-delay="100"
+
               ></div>
             </div>
             <div
               className="w-full h-[65%] bg-black rounded-lg bg-cover bg-center"
               style={{ backgroundImage: "url('/image4.png')" }}
-              data-aos="fade-up"
-              data-aos-delay="200"
+ 
             ></div>
           </div>
 
@@ -66,14 +61,11 @@ export default function Awards() {
             <div
               className="w-full h-[65%] bg-black rounded-lg bg-cover bg-center"
               style={{ backgroundImage: "url('/image3.png')" }}
-              data-aos="fade-up"
-              data-aos-delay="150"
+
             ></div>
             <div
               className="w-full h-[30%] bg-black rounded-lg bg-cover bg-center"
               style={{ backgroundImage: "url('/image5.png')" }}
-              data-aos="fade-up"
-              data-aos-delay="250"
             ></div>
           </div>
         </div>

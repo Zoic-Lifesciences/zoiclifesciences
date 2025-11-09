@@ -20,7 +20,6 @@ export default function Speciality() {
         <div className="flex flex-col w-[30%]">
           <h1
         className="text-6xl text-start my-10 text-[#090A69]"
-        data-aos="fade-right"
       >
         Experiences build specialities - 25 Years of Experience
       </h1>
@@ -28,8 +27,6 @@ export default function Speciality() {
       {/* Paragraph slides in from right */}
       <p
         className="mb-10 text-start"
-        data-aos="fade-left"
-        data-aos-delay="150"
       >
         At ZOIC Life Sciences, we are committed to empowering pharma professionals, distributors, and
         entrepreneurs with profitable franchise opportunities backed by trust, quality, and innovation.
@@ -41,8 +38,7 @@ export default function Speciality() {
       {/* Image flips in */}
       <div
         className="flex justify-center w-[70%]"
-        data-aos="flip-left"
-        data-aos-delay="300"
+        data-aos="fade-right"
       >
         <Image
           src="/Speciality.png"

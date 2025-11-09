@@ -41,10 +41,10 @@ export default function NewRoom() {
     <section className="flex justify-center flex-col items-center bg-gray-100">
       <div className="w-[80vw] py-20 px-6 flex flex-col items-center text-center">
         {/* Section Header */}
-        <h2 className="text-6xl mt-10 mb-5" data-aos="fade-down">
+        <h2 className="text-6xl mt-10 mb-5">
           <span className="text-[#04A0D1]">ZOIC’s</span> Newsroom
         </h2>
-        <p className="text-gray-600 max-w-3xl mb-12" data-aos="fade-down" data-aos-delay="100">
+        <p className="text-gray-600 max-w-3xl mb-12">
           Discover the newest developments, innovations, and announcements from India’s leading
           pharma franchise company. Stay updated with latest news by{" "}
           <span className="text-[#04A0D1] font-semibold">ZOIC</span>.
@@ -95,8 +95,6 @@ export default function NewRoom() {
         {/* View All Button */}
         <button
           className="mt-12 bg-[#04A0D1] hover:bg-[#0384b0] text-white px-8 py-3 rounded-full font-medium shadow-md transition-all duration-300"
-          data-aos="zoom-in"
-          data-aos-delay="300"
         >
           View all articles
         </button>

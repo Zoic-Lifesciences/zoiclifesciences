@@ -48,6 +48,7 @@ export default function Home() {
         <MissionSection />
         <ChooseUs />
         <StatsSection/>
+        <NewlyLaunched/>
         <Certifications />
         <Category/>
         <WhatWeOffer />
