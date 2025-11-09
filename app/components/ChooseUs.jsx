@@ -76,7 +76,7 @@ export default function ChooseUs() {
                 <motion.div
                   key={index}
                   style={{ scale, top: `${200 + index * 10}px` }}
-                  className="flex sticky top-[20vh] items-center gap-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 px-5 py-10"
+                  className="flex border-t-2 sticky top-[20vh] items-center gap-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 px-5 py-10"
                 >
                   <div className="absolute left-0 top-0 h-full w-3 bg-[#03045E] rounded-l-xl"></div>
                   <div className="flex items-center justify-center bg-[#E6F4FA] rounded-full w-14 h-14 shrink-0">
