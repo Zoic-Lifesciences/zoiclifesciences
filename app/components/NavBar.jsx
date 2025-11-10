@@ -18,7 +18,6 @@ export default function Header() {
 
   return (
     <header className="fixed bg-white z-50">
-      {/* Top bar */}
       <div className="flex justify-center w-screen">
         <div className="flex w-[95%] text-[12px] items-center justify-between px-6 py-3 text-sm text-gray-600 border-b border-gray-300">
           <div className="flex items-center gap-6">
@@ -38,24 +37,23 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Navbar */}
       <div className="w-screen flex justify-center">
         <nav className="flex w-[95vw] justify-between py-2">
           <div className="flex items-center gap-2">
             <Image src="/logo.png" alt="Zoic Logo" width={50} height={50} />
           </div>
 
-          {/* Menu */}
           <ul className="flex items-center gap-10 text-lg">
-            <li className="text-[#048DB7] font-semibold">Home</li>
+            <li className="text-[#048DB7] font-semibold">
+              <Link href="/">Home</Link>
+            </li>
             {["About", "Services", "Products"].map((menu) => (
               <li
                 key={menu}
                 className="hover:text-[#048DB7] cursor-pointer flex items-center gap-1 relative"
                 onMouseEnter={() => handleMouseEnter(menu)}
-                onMouseLeave={() => handleMouseLeave(null)}
               >
-                {menu}
+                <Link href={`/${menu.toLowerCase()}`}>{menu}</Link>
                 {openMenu === menu ? (
                   <ChevronUp size={16} />
                 ) : (
@@ -63,17 +61,20 @@ export default function Header() {
                 )}
               </li>
             ))}
-            <li className="hover:text-[#048DB7] cursor-pointer"><Link href="/about">About</Link></li>
-            <li className="hover:text-[#048DB7] cursor-pointer">Careers</li>
+            <li className="hover:text-[#048DB7] cursor-pointer">
+              <Link href="/about">About</Link>
+            </li>
+            <li className="hover:text-[#048DB7] cursor-pointer">
+              <Link href="/careers">Careers</Link>
+            </li>
           </ul>
 
           <button className="bg-[#048DB7] text-white px-5 py-2 rounded-full hover:bg-[#048DB7] transition">
-            Contact Us
+            <Link href="/contact">Contact Us</Link>
           </button>
         </nav>
       </div>
 
-      {/* Animated Dropdown Panel */}
       <AnimatePresence>
         {openMenu && (
           <motion.div
@@ -82,58 +83,49 @@ export default function Header() {
             animate={{ opacity: 1, height: "50vh" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
-            className="w-screen bg-gray-50 border-t border-gray-300 shadow-lg flex justify-center items-center z-10 overflow-hidden"
+            className="w-screen bg-gray-50 border-t border-gray-300 shadow-lg flex z-10 overflow-hidden justify-center items-center"
           >
             {openMenu === "About" && (
-              <div className="text-center">
+              <div className="text-start " onMouseLeave={() => handleMouseLeave(null)}>
                 <h2 className="text-2xl font-semibold text-[#048DB7] mb-4">
                   About Us
                 </h2>
-                <p className="text-gray-600 max-w-xl">
-                  We are a trusted pharmaceutical company committed to improving
-                  lives through quality healthcare products and innovation.
-                </p>
+                <ul className="text-gray-600 space-y-2 text-xl">
+                  <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/about/director-message">Director's Message</Link></li>
+                  <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/about/award-achievement">Award Achievement</Link></li>
+                  <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/about/our-team">Our Team</Link></li>
+                </ul>
               </div>
             )}
 
             {openMenu === "Services" && (
-              <div className="text-center">
+              <div className="text-start " onMouseLeave={() => handleMouseLeave(null)}>
                 <h2 className="text-2xl font-semibold text-[#048DB7] mb-4">
                   Our Services
                 </h2>
-                <ul className="text-gray-600 space-y-2">
-                  <li>🔹 Contract Manufacturing</li>
-                  <li>🔹 Third-Party Pharmaceutical Solutions</li>
-                  <li>🔹 Research & Development</li>
-                  <li>🔹 Distribution & Supply Chain</li>
+                <ul className="text-gray-600 space-y-2  text-xl">
+                  <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/services/contract-manufacturing">Contract Manufacturing</Link></li>
+                  <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/services/third-party">Third-Party Pharmaceutical Solutions</Link></li>
+                  <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/services/research-development">Research & Development</Link></li>
+                  <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/services/distribution">Distribution & Supply Chain</Link></li>
                 </ul>
               </div>
             )}
 
             {openMenu === "Products" && (
-              <div className="text-center">
+              <div className="text-center " onMouseLeave={() => handleMouseLeave(null)}>
                 <h2 className="text-2xl font-semibold text-[#048DB7] mb-4">
                   Our Products
                 </h2>
-                <div className="grid grid-cols-3 gap-6 text-gray-600">
-                  <div>
-                    <h3 className="font-semibold text-teal-600">Tablets</h3>
-                    <p>
-                      High-quality formulations for various health conditions.
-                    </p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-teal-600">Capsules</h3>
-                    <p>
-                      Safe and effective dosages for better patient outcomes.
-                    </p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-teal-600">Syrups</h3>
-                    <p>
-                      Trusted liquid solutions suitable for all age groups.
-                    </p>
-                  </div>
+                <div className="space-y-2 text-gray-600 text-xl">
+                  <ul>
+                    <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/products/tablets">Tablets</Link></li>
+                    <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/products/capsules">Capsules</Link></li>
+                    <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/products/soap">Soap</Link></li>
+                    <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/products/syrup">Syrup</Link></li>
+                    <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/products/drop">Drop</Link></li>
+                    <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/products/tube">Tube</Link></li>
+                  </ul>
                 </div>
               </div>
             )}

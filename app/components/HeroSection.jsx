@@ -23,10 +23,11 @@ const inter = Inter({
 
 export default function HeroSection() {
   return (
-    <section className="w-screen h-screen flex flex-row overflow-x-hidden">
+    <section className="w-full h-screen flex flex-row overflow-x-hidden">
       {/* Left Text Section */}
-      <div className="flex flex-col justify-center items-start w-[60%] h-screen bg-[url('/Rectangle1.png')] bg-cover bg-center">
-        <div className="text-white w-[80%] ml-10">
+      <div className="flex flex-col items-start justify-between w-[60%] h-screen bg-[url('/Rectangle1.png')] bg-cover bg-center">
+      <div className="w-[2px] h-[2px]"></div>
+        <div className="text-white w-[80%] ml-10 mt-10">
           <h1
             className={`${montserrat.className} text-6xl leading-none mb-4`}
           >
@@ -49,7 +50,7 @@ export default function HeroSection() {
           </button>
         </div>
 
-        <div className="text-white text-xl gap-8 flex flex-row ml-10 w-full absolute bottom-4">
+        <div className="text-white text-xl gap-8 flex flex-row ml-10 w-full mb-5">
           <a href="tel:+1234567890" className="flex items-center">
             <Phone className="w-6 h-6 mr-2" /> Phone
           </a>
