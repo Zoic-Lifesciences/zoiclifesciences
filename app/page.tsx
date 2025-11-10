@@ -1,6 +1,7 @@
 "use client"; 
 
 import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import MissionSection from "./components/Mission";
@@ -35,7 +36,7 @@ export default function Home() {
   return (
     <>
       {showIntro && (
-        <div className="fixed inset-0 bg-linear-to-b from-[#4244CB] to-[#070865] flex justify-center items-center z-50 transition-transform duration-700 ease-in-out">
+        <div className="fixed inset-0 bg-linear-to-b from-[#4244CB] to-[#070865] flex justify-center items-center z-50 transition-transform duration-700">
           <AnimatedText text="ZOIC" />
         </div>
       )}
