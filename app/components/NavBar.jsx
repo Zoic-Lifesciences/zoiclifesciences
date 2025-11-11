@@ -91,6 +91,7 @@ export default function Header() {
                   About Us
                 </h2>
                 <ul className="text-gray-600 space-y-2 text-xl">
+                  <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/about">Overview</Link></li>
                   <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/about/director-message">Director's Message</Link></li>
                   <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/about/award-achievement">Award Achievement</Link></li>
                   <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/about/our-team">Our Team</Link></li>
@@ -119,6 +120,7 @@ export default function Header() {
                 </h2>
                 <div className="space-y-2 text-gray-600 text-xl">
                   <ul>
+                    <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/products">All Products</Link></li>
                     <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/products/tablets">Tablets</Link></li>
                     <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/products/capsules">Capsules</Link></li>
                     <li><Link className="hover:text-[#048DB7] transition-colors duration-300 hover:font-bold" href="/products/soap">Soap</Link></li>
