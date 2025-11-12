@@ -28,7 +28,7 @@ export default function StatsSection() {
       className="flex flex-col items-center text-center py-16 bg-gray-800 text-white"
     >
       <h2 className="text-2xl md:text-3xl font-bold  mb-12">
-        DRIVEN BY QUALITY, <br /> DRIVEN BY TRUST
+        DRIVEN BY QUALITY,&nbsp; DRIVEN BY TRUST
       </h2>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16">

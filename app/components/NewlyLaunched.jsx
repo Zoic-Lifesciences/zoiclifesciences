@@ -48,8 +48,8 @@ export default function NewlyLaunched() {
 
   return (
     <section className="px-8 py-12 overflow-hidden">
-      <h2 className="text-6xl text-center mb-5 mt-5">Newly Launched</h2>
-      <p className="text-center text-gray-500 mb-8">
+      <h2 className="text-4xl text-center mb-5 mt-5">Newly Launched</h2>
+      <p className="text-center text-gray-500 mb-12">
         At <span className="text-[#048DB7] font-semibold">ZOIC</span> it’s all
         about continuous innovations.
       </p>
@@ -61,10 +61,10 @@ export default function NewlyLaunched() {
           {[...products, ...products].map((p, index) => (
             <div
               key={p.id + index}
-              className="h-[60vh] w-[25vw] shrink-0 bg-white shadow-xl border border-gray-200 rounded-t-[50%]"
+              className="h-[55vh] w-[20vw] shrink-0 bg-white shadow-xl border border-gray-200 rounded-t-[50%]"
             >
               <div
-                className="h-[70%] w-full bg-cover bg-center overflow-hidden rounded-t-[50%]"
+                className="h-[70%] w-full bg-cover bg-center overflow-hidden rounded-t-[10%]"
                 style={{ backgroundImage: `url(${p.image})` }}
               ></div>
               <div className="p-4">
@@ -72,7 +72,7 @@ export default function NewlyLaunched() {
                   {p.name}
                 </h3>
                 <p className="text-sm font-bold text-gray-700">{p.price}</p>
-                <p className="text-sm text-gray-500 mt-2">{p.desc}</p>
+                <p className="text-[10px] text-gray-500 mt-2">{p.desc}</p>
               </div>
             </div>
           ))}

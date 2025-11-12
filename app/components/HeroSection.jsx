@@ -31,13 +31,10 @@ export default function HeroSection() {
           <h1
             className={`${montserrat.className} text-6xl leading-none mb-4`}
           >
-            India&apos;s Leading <br />
-            <span className="text-[#32A0C3] ">PCD Pharma</span>{" "}
-            Franchise
-            <br /> Company
+            Pioneering <br /> Excellence In Pharma
           </h1>
 
-          <p className={` text-sm mt-10 text-gray-200 max-w-md`}>
+          <p className={` text-sm mt-10 text-gray-200 max-w-md tracking-wide`}>
             Zoic Life Sciences is a trusted ISO 9001:2008, WHO, GMP, and
             FDI-certified pharma company based in Dehradun. 
             <br />

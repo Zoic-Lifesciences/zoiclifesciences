@@ -3,11 +3,11 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 const data = [
-  { id: 1, img: "/haldi.jpeg" },
-  { id: 2, img: "/Aloevera.jpeg" },
-  { id: 3, img: "/gulabjal.jpeg" },
-  { id: 4, img: "/footcream.jpeg" },
-  { id: 5, img: "/suncreen.jpeg" },
+  { id: 1, img: "/tablets-cover.jpg", category:"Tablet" },
+  { id: 2, img: "/syrup-cover.webp", category:"Syrup" },
+  { id: 3, img: "/softgel-cover.jpg", category:"Soft Gel" },
+  { id: 4, img: "/powder-cover.jpg", category:"Powder" },
+  { id: 5, img: "/oil-cover.avif", category:"Oil" },
 ];
 
 export default function Category() {
@@ -55,8 +55,8 @@ export default function Category() {
                     marginBottom: `${scaledMb}px`,
                   }}
                 >
-                  <h2 className="w-full bg-gray-400/60 font-semibold text-2xl text-center absolute bottom-0">
-                    OIL
+                  <h2 className="w-full bg-gray-400/60 font-semibold text-2xl rounded-lg text-center absolute bottom-0">
+                    {item.category}
                   </h2>
                 </div>
               );

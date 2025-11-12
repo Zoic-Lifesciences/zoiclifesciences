@@ -22,18 +22,16 @@ export default function Awards() {
           Awards and Achievements
         </h1>
 
-        <p
+        {/* <p
           className="w-[25vw] mb-5 text-center"
         >
           Your Trusted Partner in PCD Pharma Franchise
           <br />
           Pan India Presence | Monopoly Rights | DCGI-Approved Range
-          <br />
-          Established in 2000. 
-        </p>
+        </p> */}
 
-        <a className="flex items-center gap-2" >
-          See More <ArrowRight size={24} color="currentColor" />
+        <a className="flex items-center gap-2 cursor-pointer" >
+          Explore More <ArrowRight size={24} color="currentColor" />
         </a>
 
         <div className="w-full h-[90%] flex justify-between mt-10">

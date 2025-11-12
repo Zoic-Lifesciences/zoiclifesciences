@@ -13,6 +13,7 @@ const products = [
     pack: "10*1*10 ALU ALU",
     price: "3737.00",
     category: "Tablets",
+    speciality: "Ortho"
   },
   {
     img: "/product.png",
@@ -21,6 +22,7 @@ const products = [
     pack: "10*10 ALU ALU",
     price: "478.00",
     category: "Tablets",
+    speciality: "Ortho"
   },
   {
     img: "/product.png",
@@ -29,6 +31,7 @@ const products = [
     pack: "10*10 ALU ALU",
     price: "984.00",
     category: "Sachets",
+    speciality: "Ortho"
   },
   {
     img: "/product.png",
@@ -37,6 +40,7 @@ const products = [
     pack: "10*10",
     price: "Unknown",
     category: "Syrup",
+    speciality: "Ortho"
   },
   {
     img: "/product.png",
@@ -45,6 +49,7 @@ const products = [
     pack: "200ml Bottle",
     price: "320.00",
     category: "Oil",
+    speciality: "Ortho"
   },
 ];
 
