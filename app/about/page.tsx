@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Header from "../components/NavBar";
 import Footer from "../components/Footer";
 import Image from "next/image";
 
@@ -16,8 +15,6 @@ export default function AboutPage() {
 
   return (
     <main className="bg-gradient-to-b from-[#f9fbfd] to-white text-gray-800 overflow-hidden">
-      {/* ===== Navbar ===== */}
-      <Header />
 
       {/* ===== Hero Section ===== */}
        <section
