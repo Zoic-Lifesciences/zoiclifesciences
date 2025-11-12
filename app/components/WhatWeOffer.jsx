@@ -17,7 +17,7 @@ export default function WhatWeOffer() {
     {
       title: "Monopoly PCD Franchise Rights",
       desc: "Gain exclusive monopoly rights in your preferred location and build your business without market saturation.",
-      img: "/Offer.png",
+      img: "/monopoly-cover.jpg",
     },
     {
       title: "Extensive Product Portfolio",
@@ -27,12 +27,12 @@ export default function WhatWeOffer() {
     {
       title: "WHO-GMP Certified Manufacturing",
       desc: "Our products are manufactured in world-class facilities adhering to strict quality standards, ensuring safety, stability, and efficacy.",
-      img: "/Offer.png",
+      img: "/certification-cover.jpg",
     },
     {
       title: "Complete Promotional Support",
       desc: "Boost your market presence with free promotional materials like MR bags, visual aids, catch covers, samples, and reminder cards.",
-      img: "/Offer.png",
+      img: "/promotion-cover.png",
     },
   ];
 
@@ -64,6 +64,7 @@ export default function WhatWeOffer() {
             <div
               className="h-full bg-cover bg-center bg-no-repeat"
               style={{
+                opacity: 0.4,
                 backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('${offer.img}')`,
               }}
             ></div>

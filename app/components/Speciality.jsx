@@ -43,8 +43,8 @@ export default function Speciality() {
         <Image
           src="/Speciality.png"
           alt="Speciality"
-          width={1000}
-          height={1000}
+          width={720}
+          height={800}
           className="object-contain"
         />
       </div>

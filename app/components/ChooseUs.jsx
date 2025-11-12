@@ -83,10 +83,10 @@ export default function ChooseUs() {
                     {item.icon}
                   </div>
                   <div>
-                    <h3 className="font-semibold text-xl text-gray-900">
+                    <h3 className="font-semibold text-3xl text-gray-900">
                       {item.title}
                     </h3>
-                    <p className="text-gray-600 text-xl mt-3">{item.desc}</p>
+                    <p className="text-gray-600 text-sm mt-3">{item.desc}</p>
                   </div>
                 </motion.div>
               );
