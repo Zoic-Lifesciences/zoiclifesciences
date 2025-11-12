@@ -2,7 +2,6 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, Clock, ArrowRight } from "lucide-react";
-import Header from "../components/NavBar";
 import { useState } from "react";
 import { X } from "lucide-react";
 import Footer from "../components/Footer";
@@ -39,7 +38,6 @@ export default function CareersPage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-900">
-      <Header />
 
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center py-48 px-6">

@@ -42,9 +42,6 @@ export default function Home() {
       )}
 
       <main className={`${montserrat.className} transition-all duration-700 ${showIntro ? "opacity-0" : "opacity-100"}`}>
-        <div className="flex justify-center bg-white">
-          <NavBar />
-        </div>
         <HeroSection />    
         <MissionSection />
         <ChooseUs />

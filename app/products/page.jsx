@@ -2,7 +2,6 @@
 import { useState } from "react";
 import Sidebar from "../components/ProductSidebar";
 import ProductCard from "../components/ProductCard";
-import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 
 const products = [
@@ -63,7 +62,6 @@ export default function Page() {
 
   return (
     <div>
-      <NavBar />
       <div className="flex gap-8 p-8 bg-gray-100 min-h-screen pt-[15vh]">
         <Sidebar
           selectedCategory={selectedCategory}
