@@ -37,7 +37,7 @@
     "**/*.mts",
     ".next\\dev/types/**/*.ts",
     ".next\\dev/types/**/*.ts"
-, "app/about/page.jsx"  ],
+, "app/about/page.jsx", "app/careers/life-at-zoic"  ],
   "exclude": [
     "node_modules"
   ]
