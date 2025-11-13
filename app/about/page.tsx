@@ -174,7 +174,7 @@ export default function AboutPage() {
 
       {/* ===== Philosophy Section ===== */}
         <section className="py-28 bg-[#f6f9fc] px-10 md:px-32">
-        <div className="max-w-6xl mx-auto flex flex-row gap-10 items-center">
+        <div className="max-w-6xl mx-auto flex md:flex-row flex-col gap-10 items-center">
             
             {/* ===== Left Side: Heading & Tagline ===== */}
             <div className="md:col-span-1 text-left flex flex-col items-start">
@@ -214,7 +214,7 @@ export default function AboutPage() {
       
 
       {/* ===== Global Presence Section ===== */}
-      <section className="py-28 bg-[#f6f9fc] text-center relative px-10 md:px-32">
+      <section className="md:py-28 py-5 bg-[#f6f9fc] text-center relative px-10 md:px-32">
         <h2 className="text-4xl md:text-5xl font-semibold text-[#048DB7] mb-10 font-[cursive]">Global Presence</h2>
         <p className="max-w-2xl mx-auto text-gray-600 mb-10">
           Our network spans across 40+ countries with state-of-the-art research, manufacturing, and distribution facilities serving millions worldwide.
@@ -231,7 +231,7 @@ export default function AboutPage() {
       </section>
 
       {/* ===== Future Section ===== */}
-      <section className="py-28 px-10 md:px-32 bg-white relative flex flex-row gap-1 items-center">
+      <section className="md:py-28 py-10 px-10 md:px-32 bg-white relative flex md:flex-row flex-col gap-1 items-center">
         {/* <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#048DB7] to-black"></div> */}
         <div>
             <h2 className="text-4xl font-semibold text-[#048DB7] mb-6 md:text-5xl font-[cursive]">The Future of Pharma with ZOIC</h2>
