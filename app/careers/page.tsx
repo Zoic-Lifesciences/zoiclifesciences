@@ -67,7 +67,7 @@ export default function CareersPage() {
 
       {/* Benefits Section */}
       <section className="py-16 bg-white flex flex-col gap-12">
-        <div className="max-w-6xl mx-auto px-6 flex flex-row items-center">
+        <div className="max-w-6xl mx-auto px-6 flex md:flex-row flex-col items-center">
           <h2 className="text-3xl font-[cursive] text-center text-[#048DB7] mb-10 w-[100%]">
             Why Work  With Us
           </h2>
