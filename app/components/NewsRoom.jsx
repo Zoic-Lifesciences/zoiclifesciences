@@ -39,9 +39,9 @@ export default function NewRoom() {
 
   return (
     <section className="flex justify-center flex-col items-center bg-gray-100">
-      <div className="w-[80vw] py-20 px-6 flex flex-col items-center text-center">
+      <div className="md:w-[80vw] w-[90vw] py-20 px-6 flex flex-col items-center text-center">
         {/* Section Header */}
-        <h2 className="text-6xl mt-10 mb-5">
+        <h2 className="md:text-6xl text-5xl md:mt-10 mt-5 mb-5">
           <span className="text-[#04A0D1]">ZOIC’s</span> Newsroom
         </h2>
         <p className="text-gray-600 max-w-3xl mb-12">
@@ -51,7 +51,7 @@ export default function NewRoom() {
         </p>
 
         {/* News Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-7xl w-full">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-none md:max-w-7xl w-full">
           {news.map((item, index) => (
             <div
               key={index}

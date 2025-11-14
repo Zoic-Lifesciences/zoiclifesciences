@@ -37,9 +37,9 @@ export default function WhatWeOffer() {
   ];
 
   return (
-    <section className="bg-linear-to-r from-[#1BA3CD] to-[#090A69] h-[90vh] py-16 px-6 text-white flex flex-col items-center text-center">
+    <section className="bg-linear-to-r from-[#1BA3CD] to-[#090A69] py-16 px-6 text-white flex flex-col items-center text-center">
       {/* Header */}
-      <h2 className="text-6xl mb-4" >
+      <h2 className="md:text-6xl text-5xl mb-4" >
         What we offer
       </h2>
       <p className="max-w-3xl text-gray-200 mb-10" >
@@ -49,11 +49,11 @@ export default function WhatWeOffer() {
       </p>
 
       {/* Offer Cards */}
-      <div className="grid grid-cols-1 h-full sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl">
+      <div className="flex md:flex-row flex-col gap-8 max-w-7xl">
         {offers.map((offer, index) => (
           <div
             key={index}
-            className="relative flex flex-col h-full w-[20vw] overflow-hidden group shadow-lg hover:scale-105 transition-transform duration-300"
+            className="relative flex flex-col md:h-[60vh] h-[40vh] md:w-[20vw] w-[80vw] overflow-hidden group shadow-lg hover:scale-105 transition-transform duration-300"
             style={{
               borderTopRightRadius: "20%",
               borderBottomLeftRadius: "20%",

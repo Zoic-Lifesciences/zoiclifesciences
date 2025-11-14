@@ -38,8 +38,8 @@ export default function Certifications() {
 
   return (
     <section className="bg-[#EFFBFF] py-16 px-6 flex flex-col items-center text-center">
-      <div className="w-[90vw] text-center flex justify-center flex-col items-center h-[70vh]">
-        <h2 className="text-6xl text-[#090A69] mb-4" data-aos="fade-up">
+      <div className="w-[90vw] text-center flex justify-center flex-col items-center">
+        <h2 className="md:text-6xl text-5xl text-[#090A69] mb-4" data-aos="fade-up">
           Certifications That Define Excellence
         </h2>
         <p className="text-gray-600 max-w-3xl text-center" data-aos="fade-up" data-aos-delay="100">
