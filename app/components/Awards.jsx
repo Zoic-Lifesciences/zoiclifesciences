@@ -17,7 +17,7 @@ export default function Awards() {
     <div className="flex flex-col text-white items-center bg-linear-to-r pb-10 from-[#1BA3CD] to-[#090A69] h-[100vh] w-screen">
       <div className="w-[80%] h-full flex flex-col items-center">
         <h1
-          className="text-6xl text-center mt-10 mb-5 "
+          className="md:text-6xl text-5xl text-center mt-10 mb-5 "
         >
           Awards and Achievements
         </h1>
@@ -35,7 +35,7 @@ export default function Awards() {
         </a>
 
         <div className="w-full h-[90%] flex justify-between mt-10">
-          <div className="w-[65%] h-full flex flex-col justify-between">
+          <div className="w-[65%] h-full md:flex flex-col justify-between hidden">
             <div className="w-full h-[30%] flex justify-between">
               <div
                 className="w-[48%] h-full bg-black rounded-lg bg-cover bg-center"
@@ -55,7 +55,7 @@ export default function Awards() {
             ></div>
           </div>
 
-          <div className="w-[30%] h-full flex flex-col justify-between">
+          <div className="md:w-[30%] w-[90%] h-full flex flex-col justify-between">
             <div
               className="w-full h-[65%] bg-black rounded-lg bg-cover bg-center"
               style={{ backgroundImage: "url('/image3.png')" }}

@@ -12,19 +12,6 @@ export default function ChooseUs() {
     offset: ["start start", "end end"],
   });
 
-  useEffect(() => {
-    const lenis = new Lenis({
-      duration: 1.2,
-      smooth: true,
-      smoothTouch: true,
-      lerp: 0.08,
-    });
-    function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
-  }, []);
 
   const items = [
     {
@@ -59,14 +46,14 @@ export default function ChooseUs() {
       ref={container}
       className="relative w-screen flex items-center justify-center bg-gradient-to-b from-[#F0F9FF] to-[#DCF1FF] py-20"
     >
-      <div className="flex flex-col w-[70%] h-full">
-        <h2 className="text-6xl text-[#090A69] mb-12 text-center">
+      <div className="flex flex-col md:w-[70%] w-[80%] h-full">
+        <h2 className="md:text-6xl text-5xl text-[#090A69] mb-12 text-center">
           Why Choose Us?
         </h2>
 
-        <div className="flex flex-row justify-between mt-5">
+        <div className="flex md:flex-row flex-col justify-between mt-5">
           {/* Left Content */}
-          <div className="flex flex-col h-full gap-5 w-[55%]">
+          <div className="flex flex-col h-full gap-5 md:w-[55%] w-full">
             {items.map((item, index) => {
               const targetScale = 1 - (items.length - index) * 0.05;
               const range = [index * 0.2, 1];
@@ -94,7 +81,7 @@ export default function ChooseUs() {
           </div>
 
           {/* Right Image */}
-          <div className="w-[40%] flex">
+          <div className="w-[40%] md:flex hidden">
             <div
               className="w-[350px] h-[90vh] sticky top-[20vh] bg-cover bg-center overflow-hidden"
               style={{

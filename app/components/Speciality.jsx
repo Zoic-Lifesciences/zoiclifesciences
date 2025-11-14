@@ -15,11 +15,11 @@ export default function Speciality() {
 
   return (
     <div className="flex flex-col w-screen items-center my-10 py-10">
-      <div className="w-[80%] flex">
+      <div className="w-[80%] flex md:flex-row flex-col">
         {/* Heading slides in from left */}
-        <div className="flex flex-col w-[30%]">
+        <div className="flex flex-col md:w-[30%] w-full">
           <h1
-        className="text-6xl text-start my-10 text-[#090A69]"
+        className="md:text-6xl text-5xl text-start my-10 text-[#090A69]"
       >
         Experiences build specialities - 25 Years of Experience
       </h1>

@@ -61,10 +61,10 @@ export default function NewlyLaunched() {
           {[...products, ...products].map((p, index) => (
             <div
               key={p.id + index}
-              className="h-[55vh] w-[20vw] shrink-0 bg-white shadow-xl border border-gray-200 rounded-t-[50%]"
+              className=" md:w-[20vw] w-[80vw] shrink-0 bg-white shadow-xl border border-gray-200 rounded-t-[50%]"
             >
               <div
-                className="h-[70%] w-full bg-cover bg-center overflow-hidden rounded-t-[10%]"
+                className="h-[35vh] w-full bg-cover bg-center overflow-hidden rounded-t-[10%]"
                 style={{ backgroundImage: `url(${p.image})` }}
               ></div>
               <div className="p-4">

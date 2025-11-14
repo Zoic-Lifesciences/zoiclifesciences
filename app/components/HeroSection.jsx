@@ -23,13 +23,13 @@ const inter = Inter({
 
 export default function HeroSection() {
   return (
-    <section className="w-full h-screen flex flex-row overflow-x-hidden">
+    <section className="w-full md:h-screen flex md:flex-row flex-col overflow-x-hidden">
       {/* Left Text Section */}
-      <div className="flex flex-col items-start justify-between w-[60%] h-screen bg-[url('/Rectangle1.png')] bg-cover bg-center">
+      <div className="flex flex-col items-start justify-between md:w-[60%] w-full h-screen md:bg-[url('/Rectangle1.png')] bg-cover bg-center bg-linear-to-l from-[#1BA3CD] to-[#090A69]">
       <div className="w-[2px] h-[2px]"></div>
         <div className="text-white w-[80%] ml-10 mt-10">
           <h1
-            className={`${montserrat.className} text-6xl leading-none mb-4`}
+            className={`${montserrat.className} md:text-6xl text-5xl leading-none mb-4`}
           >
             Pioneering <br /> Excellence In Pharma
           </h1>
@@ -47,7 +47,7 @@ export default function HeroSection() {
           </button>
         </div>
 
-        <div className="text-white text-xl gap-8 flex flex-row ml-10 w-full mb-5">
+        <div className="text-white md:text-xl text-sm md:gap-8 gap-2 flex flex-row ml-10 w-full mb-5">
           <a href="tel:+1234567890" className="flex items-center">
             <Phone className="w-6 h-6 mr-2" /> Phone
           </a>
@@ -68,7 +68,7 @@ export default function HeroSection() {
       </div>
 
       {/* Right Product Cards Section */}
-      <div className="flex flex-col w-[40%] h-screen ">
+      <div className="md:flex flex-col md:w-[40%] w-[full] h-screen hidden">
         <div className="flex flex-col items-start">
           <div className="h-[80vh] w-[40vw] mt-10 ml-[-120px] flex justify-center items-center relative">
             <div className="w-[22vw] h-[55vh] bg-black rounded-4xl bg-[url('/moisturizer.png')] bg-cover bg-center absolute z-5"></div>

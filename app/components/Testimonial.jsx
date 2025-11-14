@@ -47,11 +47,11 @@ const bottomTestimonials = [
 
 export default function Testimonial() {
   return (
-    <section className="relative overflow-hidden py-16 bg-gradient-to-b from-[#FFFFFF] to-[#D3EDFF]">
+    <section className="relative overflow-hidden py-16 bg-linear-to-b from-[#FFFFFF] to-[#D3EDFF]">
       <div className="text-start mb-10 flex justify-center">
-        <div className="flex justify-between w-[80%] items-center">
+        <div className="flex md:flex-row flex-col justify-between w-[80%] items-center">
           <div>
-            <h2 className="text-6xl text-[#090A69]">
+            <h2 className="md:text-6xl text-5xl text-[#090A69]">
               What <span className="text-[#048DB7]">Our Clients</span> Say
             </h2>
             <p className="text-gray-600 mt-2">
@@ -59,7 +59,7 @@ export default function Testimonial() {
             </p>
           </div>
 
-          <button className="px-6 py-4 min-h-0 bg-[#048DB7] hover:bg-sky-600 text-white rounded-full shadow-md transition">
+          <button className="px-6 py-4 md:mt-0 mt-10 min-h-0 bg-[#048DB7] hover:bg-sky-600 text-white rounded-full shadow-md transition">
             Review us on Google
           </button>
         </div>
@@ -88,7 +88,7 @@ export default function Testimonial() {
 
 function TestimonialCard({ name, role, text, image }) {
   return (
-    <div className="bg-white shadow-lg rounded-xl p-6 w-[400px] flex-shrink-0 overflow-hidden">
+    <div className="bg-white shadow-lg rounded-xl p-6 md:w-[400px] w-[300px] shrink-0 overflow-hidden">
       <div className="text-gray-500 text-2xl mb-2">“</div>
       <p className="text-gray-600 text-sm mb-4 break-words whitespace-normal">{text}</p>
       <div className="flex items-center gap-3 mt-4 min-w-0">

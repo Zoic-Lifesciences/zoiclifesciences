@@ -21,8 +21,8 @@ export default function Category() {
 
   return (
     <div className="flex flex-col items-center">
-      <h1 className="text-6xl text-center my-10">Categories</h1>
-      <p className="w-[40vw] mb-10 text-center">
+      <h1 className="md:text-6xl text-5xl text-center my-10">Categories</h1>
+      <p className="md:w-[40vw] w-[80vw] mb-10 text-center">
         Owning ISO GMP manufacturing infrastructure facilities benefits
         associates with in-house services of drug formulations sourced from
         trusted and credible vendors.
@@ -48,7 +48,7 @@ export default function Category() {
               return (
                 <div
                   key={item.id}
-                  className="relative w-[18vw] h-[50vh] bg-black bg-cover bg-center rounded-xl shadow-lg"
+                  className="relative md:w-[18vw] w-[30vw] h-[50vh] bg-black bg-cover bg-center rounded-xl shadow-lg"
                   style={{
                     backgroundImage: `url(${item.img})`,
                     transform: `rotate(${angle}deg)`,
