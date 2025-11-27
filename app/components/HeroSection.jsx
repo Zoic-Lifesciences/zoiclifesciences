@@ -10,7 +10,7 @@ import "swiper/css/effect-fade";
 import { motion } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
 
-export default function HeroSection() {
+export default function Herosection() {
   const slides = [
     {
       img: "/army.webp",

@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import NavBar from "./components/NavBar";
-import HeroSection from "./components/Herosection";
+import Herosection from "./components/Herosection";
 import VideoSection from "./components/VideoSection";
 import MissionSection from "./components/Mission";
 import ChooseUs from "./components/ChooseUs";
@@ -43,7 +43,7 @@ export default function Home() {
       )}
 
       <main className={`${montserrat.className} transition-all duration-700 ${showIntro ? "opacity-0" : "opacity-100"}`}>
-        <HeroSection />   
+        <Herosection />   
         <VideoSection />
         <MissionSection />
         <ChooseUs />
