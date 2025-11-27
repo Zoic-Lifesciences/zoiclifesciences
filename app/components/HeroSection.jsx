@@ -1,111 +1,146 @@
 "use client";
-import Image from "next/image";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
+
 import { motion } from "framer-motion";
-import { Abhaya_Libre, Inter } from "next/font/google";
-import { Phone, MessageCircle, Mail } from "lucide-react";
-import { Montserrat } from "next/font/google";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
-
-const abhaya = Abhaya_Libre({
-  weight: "500",
-  subsets: ["latin"],
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+import { FaChevronDown } from "react-icons/fa";
 
 export default function HeroSection() {
+  const slides = [
+    {
+      img: "/army.webp",
+      title: "Trusted By THE INDIAN ARMY",
+      desc: "Strength That Matches the Indian Army.",
+      button: "Explore Our Legacy",
+    },
+    {
+      img: "/innovation.gif",
+      title: "Precision Powered by Innovation",
+      desc: "ZOIC’s advanced systems for smarter, safer healing.",
+      button: "Join Our Mission",
+    },
+    {
+      img: "/biclav1000.jpg",
+      title: "A Healthcare Network That Covers India",
+      desc: "From metros to remote frontiers ZOIC delivers reliability everywhere.",
+      button: "Contact Us",
+    },
+  ];
+
+  const textVariant = {
+    hidden: { opacity: 0, y: 40 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, ease: "easeOut" },
+    },
+  };
+
   return (
-    <section className="w-full md:h-screen flex md:flex-row flex-col overflow-x-hidden">
-      {/* Left Text Section */}
-      <div className="flex flex-col items-start justify-between md:w-[60%] w-full h-screen md:bg-[url('/Rectangle1.png')] bg-cover bg-center bg-linear-to-l from-[#1BA3CD] to-[#090A69]">
-      <div className="w-[2px] h-[2px]"></div>
-        <div className="text-white w-[80%] ml-10 mt-10">
-          <h1
-            className={`${montserrat.className} md:text-6xl text-5xl leading-none mb-4`}
-          >
-            Pioneering <br /> Excellence In Pharma
-          </h1>
+    <section className="relative w-full h-[90vh] md:h-[100vh] bg-white text-white overflow-hidden">
+      <Swiper
+        modules={[Navigation, Pagination, Autoplay]}
+        slidesPerView={1}
+        navigation
+        pagination={{ clickable: true }}
+        loop
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        className="h-full relative overflow-hidden"
+      >
+        {slides.map((slide, i) => (
+          <SwiperSlide key={i} className="h-full relative">
+            <div
+              className="relative w-full h-full bg-center bg-cover bg-no-repeat"
+              style={{ backgroundImage: `url(${slide.img})` }}
+            >
+              {/* Overlay */}
+              <div className="absolute inset-0 bg-linear-to-l from-[#1BA3CD]/10 via-[#1BA3CD]/60 to-[#090A69]"></div>
+              <div className="w-full h-40 absolute inset-0 bg-linear-to-b from-[#090A69]/80 via-[#090A69]/10 to-transparent" ></div>
+              {/* <div className="absolute inset-0 bg-red-500 w-[50%] h-[50%]"></div> */}
 
-          <p className={` text-sm mt-10 text-gray-200 max-w-md tracking-wide`}>
-            Zoic Life Sciences is a trusted ISO 9001:2008, WHO, GMP, and
-            FDI-certified pharma company based in Dehradun. 
-            <br />
-            Explore a partnership that promotes better health and brighter
-            business growth.
-          </p>
+              {/* Animated Text Content */}
+              <div className="relative z-10 flex flex-col items-start justify-top pt-28 md:pt-0 md:justify-center h-full px-6  max-w-sm md:max-w-7xl mx-auto">
+                <motion.h1
+                  key={slide.title}
+                  variants={textVariant}
+                  initial="hidden"
+                  animate="visible"
+                  className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 tracking-wide w-150"
+                >
+                  {slide.title}
+                </motion.h1>
 
-          <button className="mt-10 px-6 py-3 bg-[#14A5C9] text-white font-medium rounded-full shadow-md hover:bg-[#048DB7] transition">
-            Apply for Franchise
-          </button>
-        </div>
+                <motion.p
+                  key={slide.desc}
+                  variants={textVariant}
+                  initial="hidden"
+                  animate="visible"
+                  transition={{ delay: 0.3 }}
+                  className="max-w-3xl text-gray-300 text-base sm:text-lg md:text-xl mb-8"
+                >
+                  {slide.desc}
+                </motion.p>
 
-        <div className="text-white md:text-xl text-sm md:gap-8 gap-2 flex flex-row ml-10 w-full mb-5">
-          <a href="tel:+1234567890" className="flex items-center">
-            <Phone className="w-6 h-6 mr-2" /> Phone
-          </a>
+                <motion.a
+                  href="#products"
+                  variants={textVariant}
+                  initial="hidden"
+                  animate="visible"
+                  transition={{ delay: 0.6 }}
+                  className="inline-block bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-lg hover:shadow-xl transition transform hover:scale-105"
+                >
+                  {slide.button}
+                </motion.a>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
 
-          <a
-            href="https://wa.me/1234567890"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center"
-          >
-            <MessageCircle className="w-6 h-6 mr-2" /> Whatsapp
-          </a>
-
-          <a href="/enquire" className="flex items-center">
-            <Mail className="w-6 h-6 mr-2" /> Enquire
-          </a>
-        </div>
-      </div>
-
-      {/* Right Product Cards Section */}
-      <div className="md:flex flex-col md:w-[40%] w-[full] h-screen hidden">
-        <div className="flex flex-col items-start">
-          <div className="h-[80vh] w-[40vw] mt-10 ml-[-120px] flex justify-center items-center relative">
-            <div className="w-[22vw] h-[55vh] bg-black rounded-4xl bg-[url('/moisturizer.png')] bg-cover bg-center absolute z-5"></div>
-
-            {/* Right tilted card */}
-            <motion.div
-              initial={{ rotate: 0, marginLeft: "0px", marginTop: "0px" }}
-              whileInView={{ rotate: 12, marginLeft: "300px", marginTop: "-20px" }}
-              transition={{ duration: 2, ease: "easeInOut" , delay: 2.2 }}
-              viewport={{ once: true }}
-              className="w-[22vw] h-[55vh] ml-[300px] origin-bottom-left bg-[url('/Aloevera.jpeg')] bg-cover bg-center rounded-4xl absolute"
-            ></motion.div>
-
-            {/* Left tilted card */}
-            <motion.div
-              initial={{ rotate: 0, marginRight: "0px", marginTop: "0px" }}
-              whileInView={{ rotate: -12, marginRight: "300px", marginTop: "-20px" }}
-              transition={{ duration: 2, ease: "easeInOut", delay: 2.2  }}
-              viewport={{ once: true }}
-              className="w-[22vw] h-[55vh] mr-[300px] origin-bottom-right bg-[url('/haldi.jpeg')] bg-cover bg-center rounded-4xl absolute"
-            ></motion.div>
-          </div>
-        </div>
-
-        {/* Marquee Section */}
-        <div className="w-[200%] -z-10 ml-[-60%] overflow-hidden pl-10">
-          <div className="whitespace-nowrap animate-marquee">
-            <h1 className="inline-block text-8xl text-gray-400 font-extrabold px-10">
-              ZOIC LIFESCIENCES
-            </h1>
-            <h1 className="inline-block text-8xl text-gray-400 font-extrabold px-10">
-              ZOIC LIFESCIENCES
-            </h1>
-          </div>
-        </div>
-        
+      {/* Scroll Down Indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center">
+        <motion.div
+          animate={{ y: [0, 8, 0] }}
+          transition={{ repeat: Infinity, duration: 1.5 }}
+          className="text-teal-400 text-2xl sm:text-3xl"
+        >
+          <FaChevronDown />
+        </motion.div>
+        <span className="text-gray-300 text-xs sm:text-sm mt-1 tracking-wider">
+          Scroll Down
+        </span>
       </div>
     </section>
   );
 }
+
+// return(
+//     <>
+    
+//         <Swiper
+//       // install Swiper modules
+//       modules={[Navigation, Pagination]}
+//       spaceBetween={10}
+//       slidesPerView={1}
+//       navigation
+//       pagination={{ clickable: true }}
+//       onSwiper={(swiper) => console.log(swiper)}
+//       onSlideChange={() => console.log('slide change')}
+//     >
+//       <SwiperSlide>Slide 1</SwiperSlide>
+//       <SwiperSlide>Slide 2</SwiperSlide>
+//       <SwiperSlide>Slide 3</SwiperSlide>
+//       <SwiperSlide>Slide 4</SwiperSlide>
+//       ...
+//     </Swiper>
+//     </>
+// );
+// }

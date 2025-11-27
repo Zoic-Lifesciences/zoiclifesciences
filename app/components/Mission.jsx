@@ -14,16 +14,16 @@ export default function MissionSection() {
   }, []);
 
   return (
-    <section className="relative w-screen mt-10 py-12 flex items-center justify-center bg-linear-to-br">
+    <section className="relative w-screen mt-10 py-48 flex items-center justify-center bg-linear-to-br">
       <div className="flex md:flex-row flex-col-reverse justify-between md:items-start items-center md:w-[80%] w-[95%]">
         {/* Left Section - Cards */}
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-6 md:w-[70%] w-[80%] md:mt-0 mt-10">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-6 gap-y-12 md:w-[70%] w-[80%] md:mt-0 mt-10">
           {/* Mission */}
           <div
-            className="group bg-[#04A0D1] text-white p-6 rounded-2xl shadow-2xl transform -rotate-6 hover:rotate-0 transition-transform duration-300"
+            className="h-[50vh] group bg-[#04A0D1] text-white p-6 rounded-2xl shadow-2xl transform -rotate-6 hover:rotate-0 transition-transform duration-300"
             data-aos="fade-up"
           >
-            <Target className="w-10 h-10 mb-3 group-hover:text-white transition-colors duration-300" />
+            <Target className="w-10 h-20 mb-3 group-hover:text-white transition-colors duration-300" />
             <h2 className="text-4xl mb-2 ">Our Mission</h2>
             <p className="text-md mt-5">
               We at Zoic Life Sciences believe that complete customer
@@ -33,11 +33,11 @@ export default function MissionSection() {
 
           {/* Vision */}
           <div
-            className="group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300"
+            className=" h-[50vh] group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300"
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <Eye className="w-10 h-10 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
+            <Eye className="w-10 h-20 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
             <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69]">Our Vision</h2>
             <p className="text-md mt-5">
               To uphold our social responsibilities by delivering the highest
@@ -47,11 +47,11 @@ export default function MissionSection() {
 
           {/* Value */}
           <div
-            className="group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300"
+            className="h-[50vh] group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <Gem className="w-10 h-10 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
+            <Gem className="w-10 h-20 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
             <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69]">Our Value</h2>
             <p className="text-md mt-5">
               Our business values with clients are as simple as lifelong
@@ -61,11 +61,11 @@ export default function MissionSection() {
 
           {/* Quality Control */}
           <div
-            className="group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300"
+            className="h-[50vh] group bg-white text-gray-800 p-6 rounded-2xl shadow-xl transform hover:bg-[#04A0D1] hover:text-white transition-transform duration-300"
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <ShieldCheck className="w-10 h-10 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
+            <ShieldCheck className="w-10 h-20 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
             <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69]">Quality Control</h2>
             <p className="text-md mt-5">
               Our medicines are developed under the strict guidance of renowned
@@ -76,7 +76,7 @@ export default function MissionSection() {
 
         {/* Right Section - Heading */}
         <div
-          className="bg-[url('/Rectangle3.png')] bg-cover bg-center h-[90vh] w-[30vw] right-0 absolute md:flex hidden"
+          className="bg-[url('/Rectangle3.png')] bg-cover bg-center h-full w-[30vw] right-0 absolute md:flex hidden"
           data-aos="fade-left"
         ></div>
 

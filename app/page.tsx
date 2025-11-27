@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import NavBar from "./components/NavBar";
-import HeroSection from "./components/HeroSection";
+import HeroSection from "./components/Herosection";
 import MissionSection from "./components/Mission";
 import ChooseUs from "./components/ChooseUs";
 import NewlyLaunched from "./components/NewlyLaunched";
@@ -46,9 +46,9 @@ export default function Home() {
         <MissionSection />
         <ChooseUs />
         <StatsSection/>
-        <NewlyLaunched/>
         <Certifications />
         <Category/>
+        <NewlyLaunched/>
         <WhatWeOffer />
         <Speciality/>
         <NewsRoom />

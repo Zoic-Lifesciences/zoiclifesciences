@@ -4,78 +4,111 @@ export default function NewlyLaunched() {
   const products = [
     {
       id: 1,
-      name: "Hello Foot Care Cream",
+      name: "COMBICEF-XL",
       price: "INR. 249/-",
       desc: "Overnight Moisturising, Softens & Heals Dry Feet",
-      image: "/footcream.jpeg",
+      image: "/combicef-xl.jpg",
+      pack: "10x10 Tablets",
+      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
     },
     {
       id: 2,
-      name: "Hello Sunscreen",
+      name: "FIXCEF- 0",
       price: "INR. 349/-",
       desc: "Broad Spectrum, Protects from UV, Blue Light",
-      image: "/suncreen.jpeg",
+      image: "/fixcef-o1.jpg",
+      pack: "10x10 Tablets",
+      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
     },
     {
       id: 3,
-      name: "Hello Gulabjal",
+      name: "SEEZIDE-T",
       price: "INR. 149/-",
       desc: "Natural & Premium Rose Water for Skin",
-      image: "/gulabjal.jpeg",
+      image: "/seezidet.jpg",
+      pack: "10x10 Tablets",
+      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
     },
     {
       id: 4,
-      name: "Charcoal Facewash",
+      name: "SEEZONE 1000mg",
       price: "INR. 199/-",
       desc: "Removes Dirt, Deep Cleans & Refreshes",
-      image: "/haldi.jpeg",
+      image: "/seezone1000mg.jpg",
+      pack: "10x10 Tablets",
+      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
     },
     {
       id: 5,
-      name: "Hello Gulabjal",
+      name: "SEEZONE SB",
       price: "INR. 149/-",
       desc: "Natural & Premium Rose Water for Skin",
-      image: "/gulabjal.jpeg",
+      image: "/SeezoneSB.jpg",
+      pack: "10x10 Tablets",
+      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
     },
     {
       id: 6,
-      name: "Charcoal Facewash",
+      name: "SULTAB",
       price: "INR. 199/-",
       desc: "Removes Dirt, Deep Cleans & Refreshes",
-      image: "/aloevera.jpeg",
+      image: "/sultab.jpg",
+      pack: "10x10 Tablets",
+      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
+    },
+    {
+      id: 7,
+      name: "BI-CLAV 1000",
+      price: "INR. 199/-",
+      desc: "Removes Dirt, Deep Cleans & Refreshes",
+      image: "/biclav1000.jpg",
+      pack: "10x10 Tablets",
+      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
     },
   ];
 
   return (
-    <section className="px-8 py-12 overflow-hidden">
-      <h2 className="text-4xl text-center mb-5 mt-5">Newly Launched</h2>
-      <p className="text-center text-gray-500 mb-12">
+    <section className="px-8 py-32 overflow-hidden">
+      <h2 className="text-7xl text-center mb-5">Newly Launched</h2>
+      <p className="text-center text-gray-500 ">
         At <span className="text-[#048DB7] font-semibold">ZOIC</span> it’s all
         about continuous innovations.
       </p>
 
       {/* Marquee container */}
-      <div className="relative w-full overflow-hidden">
+      <div className="max-w-7xl mx-auto relative py-12 w-full overflow-hidden">
         {/* Left scroll */}
-        <div className="flex animate-marqueeLeft space-x-10">
-          {[...products, ...products].map((p, index) => (
-            <div
-              key={p.id + index}
-              className=" md:w-[20vw] w-[80vw] shrink-0 bg-white shadow-xl border border-gray-200 rounded-t-[50%]"
-            >
-              <div
-                className="h-[35vh] w-full bg-cover bg-center overflow-hidden rounded-t-[10%]"
-                style={{ backgroundImage: `url(${p.image})` }}
-              ></div>
-              <div className="p-4">
-                <h3 className="text-lg font-semibold text-[#048DB7]">
-                  {p.name}
-                </h3>
-                <p className="text-sm font-bold text-gray-700">{p.price}</p>
-                <p className="text-[10px] text-gray-500 mt-2">{p.desc}</p>
-              </div>
+        <div className="relative overflow-hidden py-12 w-full">
+          <div className="scroll-container">
+            <div className="scroll-content">
+              {[...products, ...products].map((p, index) => (
+                <div
+                  key={p.id + index}
+                  className="md:w-[20vw] w-[80vw] shrink-0 bg-white shadow-xl
+                    border border-gray-200 rounded-t-[10%] mx-5"
+                >
+                  <div
+                    className="h-[28vh] w-full bg-contain bg-no-repeat bg-center overflow-hidden rounded-t-[10%]"
+                    style={{ backgroundImage: `url(${p.image})` }}
+                  ></div>
+                  <div className="p-4 h-48">
+                    <h3 className="text-lg font-semibold text-[#048DB7]">
+                      {p.name}
+                    </h3>
+                    <p className="text-sm font-bold text-gray-700 mt-2">
+                      Packaging: {p.pack}
+                    </p>
+                    <p className="text-[10px] text-gray-500 mt-2">
+                      <b>Composition:</b> {p.composition}
+                    </p>
+                    <p className="text-[10px] text-gray-500 mt-2">
+                      <b>Usage:</b> {p.desc}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </div>
     </section>

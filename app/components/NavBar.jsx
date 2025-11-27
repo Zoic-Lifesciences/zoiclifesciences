@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { Phone, Mail, ChevronDown, ChevronUp } from "lucide-react";
 import Image from "next/image";
@@ -17,11 +17,30 @@ export default function Header() {
 
   const isActive = (path) => pathname === path;
 
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50); // when scrolling past 50px
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+
   return (
-    <header className="fixed w-screen bg-white z-50 shadow-sm">
+    <header
+      className={`fixed w-screen z-50 transition-all duration-500 ${
+        scrolled
+          ? "bg-linear-to-l from-[#1BA3CD] to-[#090A69] backdrop-blur-sm shadow-md"
+          : "bg-transparent"
+      }`}
+    >
+
       {/* Top Bar */}
-      <div className="flex justify-center w-full">
-        <div className="hidden md:flex w-[95%] text-[12px] items-center justify-between py-3 text-sm text-gray-600 border-b border-gray-300">
+      <div className={`${scrolled ? "hidden" : ""} transition-all max-w-7xl  mx-auto flex justify-center w-full`}>
+        <div className="hidden text-white md:flex w-[94%] text-[12px] items-center justify-between py-3 text-sm border-b border-gray-300">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone size={16} />
@@ -32,7 +51,7 @@ export default function Header() {
               <span>info@zoiclifesciences.com</span>
             </div>
           </div>
-          <p className="text-gray-500 text-[12px]">
+          <p className="text-white text-[12px]">
             Delivering trusted pharmaceutical excellence — because your health
             deserves the best. Happy to serve you!
           </p>
@@ -72,7 +91,7 @@ export default function Header() {
             >
               {/* Header with Logo & Close */}
               <div className="flex justify-between items-center mb-6">
-                <Image src="/logo.png" alt="Zoic Logo" width={45} height={45} />
+                <Image src="/logo2.png" alt="Zoic Logo" width={45} height={45} />
                 <button onClick={() => setIsOpen(false)}>
                   <X size={28} className="text-gray-700 hover:text-[#048DB7]" />
                 </button>
@@ -141,10 +160,9 @@ export default function Header() {
                       {menu === "Services" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
-                            ["/services/contract-manufacturing", "Contract Manufacturing"],
-                            ["/services/third-party", "Third-Party Pharmaceutical Solutions"],
-                            ["/services/research-development", "Research & Development"],
-                            ["/services/distribution", "Distribution & Supply Chain"],
+                            ["/services/contract-manufacturing", "Pharma Franchise"],
+                            ["/services/third-party", "Third-Party Manufacturing"],
+                            ["/services/research-development", "Oversees Business"],
                           ].map(([href, label]) => (
                             <li key={href}>
                               <Link
@@ -163,8 +181,8 @@ export default function Header() {
                       {menu === "Careers" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
-                            ["/careers/life-at-zoic", "Life At Zoic"],
                             ["/careers/apply", "Apply"],
+                            ["/careers/life-at-zoic", "Life At Zoic"],
                           ].map(([href, label]) => (
                             <li key={href}>
                               <Link
@@ -199,11 +217,13 @@ export default function Header() {
         )}
       </AnimatePresence>
 
-      <div className="w-full flex justify-center">
-        <nav className="hidden md:flex md:flex-row flex-col py-2 items-center relative w-full justify-between md:w-[95%]">
+
+        {/* Desktop Version */}
+      <div className="max-w-7xl mx-auto flex justify-center">
+        <nav className="hidden md:flex md:flex-row flex-col py-2 items-center relative w-full justify-between md:w-[94%]">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <Image src="/logo.png" alt="Zoic Logo" width={50} height={50} />
+            <div className="flex items-center gap-2">
+              <Image src="/logo2.png" alt="Zoic Logo" width={scrolled ? 50 : 100} height={scrolled ? 50 : 100} />
           </div>
 
           {/* Navigation Links */}
@@ -211,7 +231,7 @@ export default function Header() {
             <ul className="flex md:flex-row flex-col md:items-center items-start gap-10 text-lg">
             <li
               className={`${
-                isActive("/") ? "text-[#048DB7] font-semibold" : "text-gray-800 hover:text-[#048DB7]"
+                isActive("/") ? "text-[#048DB7] font-semibold" : "text-white hover:text-[#048DB7]"
               }`}
             >
               <Link href="/">Home</Link>
@@ -223,7 +243,7 @@ export default function Header() {
                 className={`relative cursor-pointer flex items-center gap-1 ${
                   pathname.startsWith(`/${menu.toLowerCase()}`)
                     ? "text-[#048DB7] font-semibold"
-                    : "text-gray-800 hover:text-[#048DB7]"
+                    : "text-white hover:text-[#048DB7]"
                 }`}
                 onMouseEnter={() => handleMouseEnter(menu)}
                 onMouseLeave={handleMouseLeave}
@@ -248,9 +268,9 @@ export default function Header() {
                       {menu === "About" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
-                            ["/about/director-message", "Director's Message"],
-                            ["/about/award-achievement", "Award Achievement"],
-                            ["/about/our-team", "Our Team"],
+                            ["/about/", "Overview"],
+                            ["/about/awards", "Award Achievement"],
+                            ["/about/team", "Our Team"],
                           ].map(([href, label]) => (
                             <li key={href}>
                               <Link
@@ -269,10 +289,9 @@ export default function Header() {
                       {menu === "Services" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
-                            ["/services/contract-manufacturing", "Contract Manufacturing"],
-                            ["/services/third-party", "Third-Party Pharmaceutical Solutions"],
-                            ["/services/research-development", "Research & Development"],
-                            ["/services/distribution", "Distribution & Supply Chain"],
+                            ["/services/pharma-franchise", "Pharma Franchise"],
+                            ["/services/third-party", "Third-Party Manufacturing"],
+                            ["/services/oversees-business", "Oversees Business"],
                           ].map(([href, label]) => (
                             <li key={href}>
                               <Link
@@ -291,8 +310,8 @@ export default function Header() {
                       {menu === "Careers" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
+                            ["/careers/", "Apply For Job"],
                             ["/careers/life-at-zoic", "Life At Zoic"],
-                            ["/careers/apply", "Apply"],
                           ].map(([href, label]) => (
                             <li key={href}>
                               <Link
@@ -317,10 +336,19 @@ export default function Header() {
               className={`cursor-pointer ${
                 pathname.startsWith("/products")
                   ? "text-[#048DB7] font-semibold"
-                  : "text-gray-800 hover:text-[#048DB7]"
+                  : "text-white hover:text-[#048DB7]"
               }`}
             >
               <Link href="/products">Products</Link>
+            </li>
+            <li
+              className={`cursor-pointer ${
+                pathname.startsWith("/blog")
+                  ? "text-[#048DB7] font-semibold"
+                  : "text-white hover:text-[#048DB7]"
+              }`}
+            >
+              <Link href="/blog">Blogs</Link>
             </li>
           </ul>
 

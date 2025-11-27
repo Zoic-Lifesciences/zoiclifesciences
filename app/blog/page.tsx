@@ -1,5 +1,3 @@
-// // import { hygraph } from "@/lib/hygraph";
-// // import { GET_POSTS } from "@/lib/queries";
 import { hygraph } from "../lib/hygraph";
 import { GET_POSTS } from "../lib/queries";
 import Link from "next/link";
@@ -8,7 +6,7 @@ export const revalidate = 60; // ISR: revalidate every 60s
 
 export default async function BlogPage() {
   const { posts } = await hygraph.request(GET_POSTS);
-
+  
   return (
     <main className="max-w-5xl mx-auto px-6 py-10">
       <h1 className="text-4xl font-bold mb-10">Company Blog</h1>
@@ -35,13 +33,3 @@ export default async function BlogPage() {
     </main>
   );
 }
-
-// import React from 'react'
-
-// function BlogPosts() {
-//   return (
-//     <div>bpage</div>
-//   )
-// }
-
-// export default BlogPosts

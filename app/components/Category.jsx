@@ -20,7 +20,7 @@ export default function Category() {
   const endAngle = 20;
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center bg-linear-to-r from-[#1BA3CD] to-[#090A69] text-white">
       <h1 className="md:text-6xl text-5xl text-center my-10">Categories</h1>
       <p className="md:w-[40vw] w-[80vw] mb-10 text-center">
         Owning ISO GMP manufacturing infrastructure facilities benefits
@@ -55,7 +55,7 @@ export default function Category() {
                     marginBottom: `${scaledMb}px`,
                   }}
                 >
-                  <h2 className="w-full bg-gray-400/60 font-semibold text-2xl rounded-lg text-center absolute bottom-0">
+                  <h2 className="w-full text-white bg-[#048DB7] font-semibold text-2xl rounded-lg text-center absolute bottom-0">
                     {item.category}
                   </h2>
                 </div>

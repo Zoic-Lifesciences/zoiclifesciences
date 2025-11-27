@@ -61,14 +61,14 @@ export default function Page() {
       : products.filter((item) => item.category === selectedCategory);
 
   return (
-    <div>
-      <div className="flex gap-8 p-8 bg-gray-100 min-h-screen pt-[15vh]">
+    <div className="relative">
+      <div className="flex gap-8 p-8 bg-gray-100 min-h-screen pt-[20vh]">
         <Sidebar
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
 
-        <div className="flex-1">
+        <div className="flex-1 ">
 
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
             {filteredProducts.length > 0 ? (

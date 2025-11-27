@@ -53,7 +53,7 @@ export default function WhatWeOffer() {
         {offers.map((offer, index) => (
           <div
             key={index}
-            className="relative flex flex-col md:h-[60vh] h-[40vh] md:w-[20vw] w-[80vw] overflow-hidden group shadow-lg hover:scale-105 transition-transform duration-300"
+            className="relative flex flex-col md:h-[40vh] h-[40vh] md:w-[20vw] w-[80vw] overflow-hidden group shadow-lg hover:scale-105 transition-transform duration-300"
             style={{
               borderTopRightRadius: "20%",
               borderBottomLeftRadius: "20%",
