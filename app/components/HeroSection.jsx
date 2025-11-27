@@ -30,6 +30,12 @@ export default function HeroSection() {
       desc: "From metros to remote frontiers ZOIC delivers reliability everywhere.",
       button: "Contact Us",
     },
+    {
+      img: "/sultab.jpg",
+      title: "Pioneering Excellence In Pharma",
+      desc: "From metros to remote frontiers ZOIC delivers reliability everywhere.",
+      button: "Contact Us",
+    },
   ];
 
   const textVariant = {

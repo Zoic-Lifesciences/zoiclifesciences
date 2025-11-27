@@ -48,7 +48,7 @@ export default function Category() {
               return (
                 <div
                   key={item.id}
-                  className="relative md:w-[18vw] w-[30vw] h-[50vh] bg-black bg-cover bg-center rounded-xl shadow-lg"
+                  className="relative md:w-[vw] w-[40vw] h-[60vh] bg-black bg-cover bg-center rounded-xl shadow-lg"
                   style={{
                     backgroundImage: `url(${item.img})`,
                     transform: `rotate(${angle}deg)`,

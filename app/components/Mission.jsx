@@ -25,7 +25,7 @@ export default function MissionSection() {
           >
             <Target className="w-10 h-20 mb-3 group-hover:text-white transition-colors duration-300" />
             <h2 className="text-4xl mb-2 ">Our Mission</h2>
-            <p className="text-md mt-5">
+            <p className="text-md mt-5 leading-relaxed">
               We at Zoic Life Sciences believe that complete customer
               satisfaction is the key to expanding business everywhere.
             </p>
@@ -39,7 +39,7 @@ export default function MissionSection() {
           >
             <Eye className="w-10 h-20 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
             <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69]">Our Vision</h2>
-            <p className="text-md mt-5">
+            <p className="text-md mt-5 leading-relaxed">
               To uphold our social responsibilities by delivering the highest
               standard of healthcare services.
             </p>
@@ -53,7 +53,7 @@ export default function MissionSection() {
           >
             <Gem className="w-10 h-20 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
             <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69]">Our Value</h2>
-            <p className="text-md mt-5">
+            <p className="text-md mt-5 leading-relaxed">
               Our business values with clients are as simple as lifelong
               “business relations”.
             </p>
@@ -67,7 +67,7 @@ export default function MissionSection() {
           >
             <ShieldCheck className="w-10 h-20 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
             <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69]">Quality Control</h2>
-            <p className="text-md mt-5">
+            <p className="text-md mt-5 leading-relaxed">
               Our medicines are developed under the strict guidance of renowned
               healthcare professionals.
             </p>
@@ -84,7 +84,7 @@ export default function MissionSection() {
           <h1 className="md:text-6xl text-5xl text-[#090A69] mb-4 leading-tight">
             Our Mission, Vision, <br /> and Values
           </h1>
-          <p className="text-gray-600">
+          <p className="text-gray-800 leading-relaxed text-lg">
             We strive to deliver excellence in every aspect of healthcare,
             combining integrity, innovation, and compassion.
           </p>

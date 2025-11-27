@@ -85,8 +85,9 @@ export default function AboutPage() {
       {/* ===== COO SECTION ===== */}
       <section className="py-28 px-10 md:px-32 bg-white flex flex-col lg:flex-row items-center gap-16">
         <motion.div {...fadeLeft} className="lg:w-1/2">
-          <h2 className="text-5xl font-[cursive] font-semibold text-blue-800 mb-6">Mr. Rohit Mamgain</h2>
-          <p className="text-gray-600 text-sm mb-6">Chief Operating Officer (COO)</p>
+          <h2 className="text-5xl font-semibold text-blue-800 mb-2">Mr. Rohit Mamgain</h2>
+          <p className="text-gray-600 text-sm mb-6 ml-48"> - (Corporate Strategist, IIM Banglore)</p>
+          <p className="text-gray-600 text-sm mb-6"><b>Chief Operating Officer (COO)</b></p>
           <p className="text-xl italic text-gray-700 border-l-4 border-blue-800 pl-6 mb-10">
             “Innovation, discipline, and precision are the pillars of ZOIC’s future.”
           </p>
@@ -95,7 +96,7 @@ export default function AboutPage() {
           </div>
         </motion.div>
         <motion.div {...fadeRight} className="lg:w-1/2">
-          <Image src="/rohit.png" alt="COO Rohit Mamgain" width={700} height={700} className="rounded-3xl shadow-2xl object-cover"/>
+          <Image src="/team/rohit2.jpg" alt="COO Rohit Mamgain" width={700} height={500} className="rounded-3xl shadow-2xl object-cover"/>
         </motion.div>
       </section>
 
