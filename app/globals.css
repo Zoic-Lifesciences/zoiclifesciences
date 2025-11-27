@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   /* --background: #ffffff;
   --foreground: #171717; */
@@ -107,4 +111,23 @@ body {
 .sticky-card p {
   color: #444;
   line-height: 1.6;
+}
+
+.scroll-container {
+  width: 200%;               /* big enough to hold duplicated items */
+}
+
+.scroll-content {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 30s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }

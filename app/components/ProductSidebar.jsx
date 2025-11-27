@@ -2,7 +2,7 @@ export default function ProductSidebar({ selectedCategory, setSelectedCategory }
   const categories = ["All", "Tablets", "Syrup", "Oil", "Sachets", "Suspensions", "Softgels"];
 
   return (
-    <div className="w-64 bg-gray-50 p-6 rounded-xl h-fit sticky top-4">
+    <div className="w-64 bg-gray-50 p-6 rounded-xl h-fit sticky top-40">
       <h2 className="text-lg font-semibold mb-4">Categories</h2>
       <ul className="space-y-2">
         {categories.map((cat, idx) => (

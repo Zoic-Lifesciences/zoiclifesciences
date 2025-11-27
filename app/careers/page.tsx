@@ -40,35 +40,81 @@ export default function CareersPage() {
     <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-900">
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center py-48 px-6">
-        <motion.h1
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-5xl font-[cursive] text-black"
-        >
-          Join Our Mission to Redefine Healthcare
-        </motion.h1>
+      <section className="relative flex flex-col items-center justify-center text-center py-48 px-6 bg-[url('/career-cover.webp')] bg-cover bg-no-repeat bg-top">
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 0.8 }}
-          className="mt-4 max-w-2xl text-gray-600"
-        >
-          At{" "}
-          <span className="font-semibold text-[#048DB7]">
-            ZOIC
-          </span>
-          , we empower people who innovate, care, and create meaningful impact
-          in global healthcare.
-        </motion.p>
+      {/* Black overlay */}
+      <div className="absolute inset-0 bg-black/60"></div>
+
+      {/* Content */}
+      <motion.h1
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="relative text-5xl font-[cursive] text-white"
+      >
+        Join Our Mission to Redefine Healthcare
+      </motion.h1>
+
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2, duration: 0.8 }}
+        className="relative mt-4 max-w-2xl text-gray-200"
+      >
+        At{" "}
+        <span className="font-semibold text-[#04B8E0]">
+          ZOIC
+        </span>
+        , we empower people who innovate, care, and create meaningful impact
+        in global healthcare.
+      </motion.p>
+    </section>
+
+    {/* Open Positions Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-3xl font-bold text-black font-[cursive] text-center mb-10">
+            Current Openings
+          </h2>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {jobs.map((job, i) => (
+              <motion.div
+                key={job.title}
+                initial={{ opacity: 0, y: 40 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 * i }}
+                className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1"
+              >
+                <h3 className="text-xl font-semibold text-indigo-700 mb-3">
+                  {job.title}
+                </h3>
+                <div className="flex items-center text-sm text-gray-600 mb-2">
+                  <MapPin className="w-4 h-4 mr-2" /> {job.location}
+                </div>
+                <div className="flex items-center text-sm text-gray-600 mb-3">
+                  <Clock className="w-4 h-4 mr-2" /> {job.type}
+                </div>
+                <p className="text-gray-700 text-sm mb-4">
+                  {job.description}
+                </p>
+                <button
+                  onClick={() => setSelectedJob(job)}
+                  className="w-full flex items-center justify-center gap-2 py-2 rounded-xl bg-[#048DB7] text-white font-medium hover:bg-indigo-700 transition-colors"
+                >
+                  Apply Now
+                </button>
+              </motion.div>
+            ))}
+          </div>
+        </div>
       </section>
 
+
       {/* Benefits Section */}
-      <section className="py-16 bg-white flex flex-col gap-12">
+      <section className="py-16 bg-linear-to-b from-[#1BA3CD] to-[#090A69] flex flex-col gap-12">
         <div className="max-w-6xl mx-auto px-6 flex md:flex-row flex-col items-center">
-          <h2 className="text-3xl font-[cursive] text-center text-[#048DB7] mb-10 w-[100%]">
+          <h2 className="text-3xl font-[cursive] text-center text-white mb-10 w-[100%]">
             Why Work  With Us
           </h2>
 
@@ -105,51 +151,13 @@ export default function CareersPage() {
         <div className="mx-auto">
             <button 
             onClick={() => router.push("/careers/life-at-zoic")}
-            className="bg-[#048DB7] text-white font-semibold px-6 py-3 rounded-xl hover:bg-green-500 cursor-pointer transition-all hover:shadow-md hover:-translate-y-1">
+            className="bg-[#048DB7] text-white font-semibold px-6 py-3 rounded-xl hover:text-indigo-800 cursor-pointer transition-all hover:shadow-md hover:-translate-y-1">
               Explore Life At ZOIC
             </button>
         </div>
       </section>
 
-      {/* Open Positions Section */}
-      <section className="py-20 bg-gradient-to-b from-indigo-50 to-blue-100">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-[#048DB7] font-[cursive] text-center mb-10">
-            Current Openings
-          </h2>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {jobs.map((job, i) => (
-              <motion.div
-                key={job.title}
-                initial={{ opacity: 0, y: 40 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 * i }}
-                className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1"
-              >
-                <h3 className="text-xl font-semibold text-indigo-700 mb-3">
-                  {job.title}
-                </h3>
-                <div className="flex items-center text-sm text-gray-600 mb-2">
-                  <MapPin className="w-4 h-4 mr-2" /> {job.location}
-                </div>
-                <div className="flex items-center text-sm text-gray-600 mb-3">
-                  <Clock className="w-4 h-4 mr-2" /> {job.type}
-                </div>
-                <p className="text-gray-700 text-sm mb-4">
-                  {job.description}
-                </p>
-                <button
-                  onClick={() => setSelectedJob(job)}
-                  className="w-full flex items-center justify-center gap-2 py-2 rounded-xl bg-[#048DB7] text-white font-medium hover:bg-indigo-700 transition-colors"
-                >
-                  Apply Now
-                </button>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* Call to Action
       <section className="py-16 text-center bg-indigo-700 text-white">

@@ -44,10 +44,10 @@ export default function ChooseUs() {
   return (
     <section
       ref={container}
-      className="relative w-screen flex items-center justify-center bg-gradient-to-b from-[#F0F9FF] to-[#DCF1FF] py-20"
+      className="relative  w-screen flex items-center justify-center bg-linear-to-r from-[#1BA3CD] to-[#090A69] py-20"
     >
       <div className="flex flex-col md:w-[70%] w-[80%] h-full">
-        <h2 className="md:text-6xl text-5xl text-[#090A69] mb-12 text-center">
+        <h2 className="md:text-6xl text-5xl text-white mb-12 text-center font-bold">
           Why Choose Us?
         </h2>
 
@@ -63,9 +63,9 @@ export default function ChooseUs() {
                 <motion.div
                   key={index}
                   style={{ scale, top: `${200 + index * 10}px` }}
-                  className="flex border-t-2 sticky top-[20vh] items-center gap-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 px-5 py-10"
+                  className="flex border-t-2 sticky top-[20vh] items-center gap-4 bg-gray-200 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 px-5 py-10"
                 >
-                  <div className="absolute left-0 top-0 h-full w-3 bg-[#03045E] rounded-l-xl"></div>
+                  <div className="absolute left-0 top-0 h-full w-3 bg-[#00A0E3] rounded-l-xl"></div>
                   <div className="flex items-center justify-center bg-[#E6F4FA] rounded-full w-14 h-14 shrink-0">
                     {item.icon}
                   </div>
@@ -73,7 +73,7 @@ export default function ChooseUs() {
                     <h3 className="font-semibold text-3xl text-gray-900">
                       {item.title}
                     </h3>
-                    <p className="text-gray-600 text-sm mt-3">{item.desc}</p>
+                    <p className="text-gray-600 text-sm mt-3 leading-relaxed">{item.desc}</p>
                   </div>
                 </motion.div>
               );
@@ -83,9 +83,9 @@ export default function ChooseUs() {
           {/* Right Image */}
           <div className="w-[40%] md:flex hidden">
             <div
-              className="w-[350px] h-[90vh] sticky top-[20vh] bg-cover bg-center overflow-hidden"
+              className="w-[350px] h-[70vh] sticky top-[20vh] bg-[length:120%_100%] bg-center bg-no-repeat overflow-hidden"
               style={{
-                backgroundImage: "url('/Drugstore.jpg')",
+                backgroundImage: "url('/whyus.jpeg')",
                 borderTopLeftRadius: "20%",
                 borderBottomRightRadius: "20%",
                 boxShadow: "8px -8px 20px rgba(3, 4, 94, 0.9)",

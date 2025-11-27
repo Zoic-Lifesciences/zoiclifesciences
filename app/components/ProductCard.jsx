@@ -12,7 +12,7 @@ export default function ProductCard({ img, title, description, pack, price, cate
   return (
     <div className="bg-white rounded-2xl shadow p-4 flex flex-col justify-between hover:shadow-lg transition">
       {img ? (
-        <img src={img} alt={title} className="h-32 mx-auto object-contain" />
+        <img src={img} alt={title} className="h-76 mx-auto object-contain" />
       ) : (
         <div className="h-32 flex items-center justify-center text-gray-400">
           No Image Available
@@ -32,9 +32,9 @@ export default function ProductCard({ img, title, description, pack, price, cate
         <p className="text-orange-600 font-semibold mt-2">₹ {price}</p>
         <button
           onClick={handleClick}
-          className="mt-3 bg-blue-600 cursor-pointer hover:bg-blue-700 text-white py-2 px-4 rounded-lg w-full"
+          className="mt-3 bg-[#048DB7] cursor-pointer hover:bg-blue-700 text-white py-2 px-4 rounded-lg w-full"
         >
-          Get Details
+          View Details
         </button>
       </div>
     </div>

@@ -12,12 +12,12 @@ const lifeEvents = [
     subtitle: "Teamwork beyond the boardroom",
     desc: "Every year, ZOICians come together for friendly cricket matches that bring out the true spirit of teamwork, strategy, and fun.",
     images: [
-      "/images/cricket1.jpg",
-      "/images/cricket2.jpg",
-      "/images/cricket3.jpg",
-      "/images/cricket4.jpg",
-      "/images/cricket5.jpg",
-      "/images/cricket6.jpg",
+      "/life/1.jpg",
+      "/life/2.jpg",
+      "/life/3.jpg",
+      "/life/4.jpg",
+      "/life/5.jpg",
+      "/life/6.jpg",
     ],
     gradient: "from-blue-50 to-indigo-100",
   },
@@ -70,7 +70,7 @@ export default function LifeAtZoic() {
     <main className="bg-white text-gray-800">
       <Header />
       {/* ===== Page Header ===== */}
-      <section className="text-center py-48 bg-gradient-to-br from-[#048DB7] to-blue-700 text-white font-[cursive]">
+      <section className="text-center py-48 bg-linear-to-b from-[#1BA3CD] to-[#090A69] text-white font-[cursive]">
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -142,7 +142,7 @@ export default function LifeAtZoic() {
       ))}
 
       {/* ===== CTA Section ===== */}
-      <section className="text-center py-24 bg-[#048DB7] text-white">
+      <section className="text-center py-24 bg-linear-to-b from-[#1BA3CD] to-[#090A69] text-white">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
