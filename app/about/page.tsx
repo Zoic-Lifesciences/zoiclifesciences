@@ -2,10 +2,68 @@
 
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
 import MissionSection from "../components/Mission";
 import Image from "next/image";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useEffect, useRef } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function AboutPage() {
+  const boxRef = useRef(null);
+  const boxRef2 = useRef(null);
+  const boxRef3 = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      boxRef.current,
+      { height: "0vh" },       // start height
+      {
+        height: "20vh",       // end height
+        ease: "none",
+        scrollTrigger: {
+          trigger: boxRef.current,
+          start: "top 40%",
+          end: "top 10%",
+          scrub: true,
+          markers: true,
+        },
+      }
+    );
+    gsap.fromTo(
+      boxRef2.current,
+      { height: "0vh" },       // start height
+      {
+        height: "20vh",       // end height
+        ease: "none",
+        scrollTrigger: {
+          trigger: boxRef.current,
+          start: "top 40%",
+          end: "top 10%",
+          scrub: true,
+          markers: true,
+        },
+      }
+    );
+    gsap.fromTo(
+      boxRef3.current,
+      { height: "0vh" },       // start height
+      {
+        height: "20vh",       // end height
+        ease: "none",
+        scrollTrigger: {
+          trigger: boxRef.current,
+          start: "top 40%",
+          end: "top 10%",
+          scrub: true,
+          markers: true,
+        },
+      }
+    );
+  }, []);
+
  const fadeUp = {
     initial: { opacity: 0, y: 50 },
     whileInView: { opacity: 1, y: 0 },
@@ -53,8 +111,9 @@ export default function AboutPage() {
 
   return (
     <main className="bg-white text-gray-800 overflow-x-hidden">
+      <NavBar/>
       
-      <div className="h-[50vh] w-[100vw] flex flex-col items-center justify-center relative bg-linear-to-l from-[#1BA3CD] to-[#090A69] text-white">
+      <div className="h-[50vh] w-[100vw] mt-[10vh] flex flex-col items-center justify-center relative bg-linear-to-l from-[#1BA3CD] to-[#090A69] text-white">
         <h1 className="text-6xl text-center font-semibold mt-10">Our mission:Keeping<br></br>Patients Healthy</h1>
         <p className="w-[35vw] text-lg text-center mt-5">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore</p>
         <div className="absolute w-[20vw] h-[50vh] bg-green-300 bottom-0 right-0 rounded-2xl mb-[-10vh] z-10 "
@@ -104,29 +163,49 @@ export default function AboutPage() {
 
       {/* ===== LEGACY TIMELINE ===== */}
       <section className="py-28 px-10 md:px-32 bg-[#1BA3CD]/10 relative">
-        <h2 className="text-6xl text-center  mb-20">Our Legacy</h2>
-        <div className="relative flex flex-col items-start">
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-800/30"></div>
+        <h2 className="text-5xl font-[cursive] font-semibold text-center  mb-20">Our Legacy</h2>
+        <div className="w-[80vw] gap-12 flex flex-col justify-between relative">
+          
+          <div className="flex flex-row-reverse  justify-between h-[35vh]">
+            <div className="w-[40%] relative">
+              <h1 className="text-6xl absolute left-[-25%] ">01</h1>
+              <div className="w-[10px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]">
+              </div>
+          <div ref={boxRef} className="w-[10px] h-[20vh] absolute bg-blue-300 left-[-20%] top-[10vh] flex">
+          </div>
+              <h1>heading</h1>
+              <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+            </div>
+            <div className="w-[40%] "></div>
+          </div>
 
-          {milestones.map((milestone, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: i % 2 === 0 ? 50 : -50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: i % 2 === 0 ? 50 : -50 }}
-              viewport={{ once: false, amount: 0.2 }}
-              transition={{ duration: 0.8, delay: i * 0.1 }}
-              className={`flex flex-col md:flex-row items-center w-full mb-20 ${i % 2 === 0 ? 'md:justify-start' : 'md:justify-end'}`}
-            >
-              <div className="md:w-1/2 flex justify-center md:justify-end">
-                <div className="w-10 h-10 rounded-full bg-blue-800 shadow-lg border-4 border-white z-10"></div>
+          <div className="flex flex-row h-[35vh] justify-between">
+            <div className="w-[40%] relative">
+            
+              <h1>heading</h1>
+              <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+            </div>
+            <div className="w-[40%] relative">
+              <h1 className="text-6xl absolute left-[-25%] ">02</h1>
+              <div className="w-[10px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]">
               </div>
-              <div className={`md:w-1/2 bg-white rounded-xl shadow-lg p-8 text-center md:text-left ${i % 2 === 0 ? 'md:ml-10' : 'md:mr-10'}`}>
-                <h3 className="text-3xl font-bold text-blue-800">{milestone.year}</h3>
-                <p className="mt-2 text-gray-700 text-lg">{milestone.text}</p>
+          <div ref={boxRef2} className="w-[10px] h-[20vh] absolute bg-blue-300 left-[-20%] top-[10vh] flex">
+          </div>
+            </div>
+          </div>
+
+          <div className="flex flex-row-reverse h-[35vh]  justify-between">
+            <div className="w-[40%] relative">
+              <h1 className="text-6xl absolute left-[-25%] ">03</h1>
+              <div className="w-[10px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]">
               </div>
-            </motion.div>
-          ))}
+          <div ref={boxRef3} className="w-[10px] h-[20vh] absolute bg-blue-300 left-[-20%] top-[10vh] flex">
+          </div>
+              <h1>heading</h1>
+              <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+            </div>
+            <div className="w-[40%] "></div>
+          </div>
         </div>
       </section>
 

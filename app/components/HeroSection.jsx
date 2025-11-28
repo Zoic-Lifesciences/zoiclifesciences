@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
+import NavBar from "../components/NavBar";
 
 import { motion } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
@@ -49,6 +50,7 @@ export default function Herosection() {
 
   return (
     <section className="relative w-full h-[90vh] md:h-[100vh] bg-white text-white overflow-hidden">
+      <NavBar/>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}

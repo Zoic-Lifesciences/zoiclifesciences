@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../components/NavBar";
+import Header from "../components/NavBar2";
 import Footer from "../components/Footer";
 
 type FormState = {
