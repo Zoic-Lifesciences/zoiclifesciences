@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import VideoSection from "./components/VideoSection";
-import MissionSection from "./components/Mission";
+import MissionSection from "./components/Mission2";
 import ChooseUs from "./components/ChooseUs";
 import NewlyLaunched from "./components/NewlyLaunched";
 import Certifications from "./components/Certifications";
