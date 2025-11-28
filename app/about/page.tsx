@@ -2,10 +2,69 @@
 
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
+import MissionSection from "../components/Mission";
 import Image from "next/image";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useEffect, useRef } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function AboutPage() {
-  const fadeUp = {
+  const boxRef = useRef(null);
+  const boxRef2 = useRef(null);
+  const boxRef3 = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      boxRef.current,
+      { height: "0vh" },       // start height
+      {
+        height: "20vh",       // end height
+        ease: "none",
+        scrollTrigger: {
+          trigger: boxRef.current,
+          start: "top 40%",
+          end: "top 10%",
+          scrub: true,
+          markers: true,
+        },
+      }
+    );
+    gsap.fromTo(
+      boxRef2.current,
+      { height: "0vh" },       // start height
+      {
+        height: "20vh",       // end height
+        ease: "none",
+        scrollTrigger: {
+          trigger: boxRef.current,
+          start: "top 40%",
+          end: "top 10%",
+          scrub: true,
+          markers: true,
+        },
+      }
+    );
+    gsap.fromTo(
+      boxRef3.current,
+      { height: "0vh" },       // start height
+      {
+        height: "20vh",       // end height
+        ease: "none",
+        scrollTrigger: {
+          trigger: boxRef.current,
+          start: "top 40%",
+          end: "top 10%",
+          scrub: true,
+          markers: true,
+        },
+      }
+    );
+  }, []);
+
+ const fadeUp = {
     initial: { opacity: 0, y: 50 },
     whileInView: { opacity: 1, y: 0 },
     exit: { opacity: 0, y: 50 },
@@ -52,109 +111,166 @@ export default function AboutPage() {
 
   return (
     <main className="bg-white text-gray-800 overflow-x-hidden">
+      <NavBar/>
       
-      {/* ===== HERO ===== */}
-      <section className="relative h-[100vh] flex items-center justify-center text-white">
-        <Image src="/logo.png" alt="ZOIC Logo" fill className="object-contain"/>
-        <div className="absolute inset-0 bg-black/70"></div>
-        <motion.div {...fadeUp} className="relative z-10 text-center px-6">
-          <h1 className="text-6xl md:text-7xl font-bold tracking-tight mb-6 max-w-7xl">
-            25 Years of Global Healthcare Innovation
-          </h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto text-blue-100 leading-relaxed">
-            For over two decades, ZOIC has transformed lives through science — driven by ethics, powered by innovation, and committed to global wellness.
-          </p>
-        </motion.div>
-      </section>
-
-      {/* ===== MD SECTION (VISIONARY) ===== */}
-      <section className="relative py-28 px-10 md:px-32 bg-[#f4f7fb] flex flex-col lg:flex-row items-center gap-16">
-        <motion.div {...fadeLeft} className="lg:w-1/2">
-          <h2 className="text-6xl md:text-7xl font-bold text-blue-800 mb-4">Mr. Sanjay Gupta</h2>
-          <p className="text-gray-600 text-lg mb-6">Managing Director & Founder</p>
-          <p className="text-3xl md:text-2xl italic text-gray-700 border-l-4 border-blue-800 pl-6 mb-10">
-            “Most of us rely on both medicines and blessings for recovery. At Zoic, our medicine works independently where even blessings do not.”
-          </p>
-        </motion.div>
-        <motion.div {...fadeRight} className="lg:w-1/2 relative h-[500px] md:h-[600px] w-full rounded-3xl overflow-hidden shadow-2xl">
-          <Image src="/md.png" alt="MD ZOIC" fill className="object-cover"/>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
-        </motion.div>
-      </section>
-
-      {/* ===== COO SECTION ===== */}
-      <section className="py-28 px-10 md:px-32 bg-white flex flex-col lg:flex-row items-center gap-16">
-        <motion.div {...fadeLeft} className="lg:w-1/2">
-          <h2 className="text-5xl font-semibold text-blue-800 mb-2">Mr. Rohit Mamgain</h2>
-          <p className="text-gray-600 text-sm mb-6 ml-48"> - (Corporate Strategist, IIM Banglore)</p>
-          <p className="text-gray-600 text-sm mb-6"><b>Chief Operating Officer (COO)</b></p>
-          <p className="text-xl italic text-gray-700 border-l-4 border-blue-800 pl-6 mb-10">
-            “Innovation, discipline, and precision are the pillars of ZOIC’s future.”
-          </p>
-          <div className="w-full h-64 lg:h-96 rounded-xl shadow-lg overflow-hidden">
-            <video className="w-full h-full object-cover" autoPlay loop muted src="/coo.mp4" />
+      <div className="h-[50vh] w-[100vw] mt-[10vh] flex flex-col items-center justify-center relative bg-linear-to-l from-[#1BA3CD] to-[#090A69] text-white">
+        <h1 className="text-6xl text-center font-semibold mt-10">Our mission:Keeping<br></br>Patients Healthy</h1>
+        <p className="w-[35vw] text-lg text-center mt-5">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore</p>
+        <div className="absolute w-[20vw] h-[50vh] bg-green-300 bottom-0 right-0 rounded-2xl mb-[-10vh] z-10 "
+        
+        >
+          <Image
+    src="/heart.png"
+    alt="Heart"
+    fill
+    className="object-contain p-4"
+  />
+        </div>
+      </div>
+      <div className="h-[100vh] w-[100vw] bg-gray-100 relative flex items-center justify-center">
+        <div className="absolute w-[20vw] h-[50vh] top-0 left-0 rounded-2xl mt-[-22vh] bg-amber-200">
+          <Image
+    src="/medicine.png"
+    alt="Heart"
+    fill
+    className="object-contain p-4"
+  />
+        </div>
+        <div className="flex w-[85%] justify-between">
+          <div className="w-[50%] z-10 flex flex-col justify-center ">
+            <h1 className="text-5xl text-start ">Our Director<br></br> Mr.Sanjay Gupta</h1>
+          <p className="w-[90%] mt-5 text-lg">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum duis aute irure dolor in reprehendert in voluptate velit esse cillumsint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
           </div>
-        </motion.div>
-        <motion.div {...fadeRight} className="lg:w-1/2">
-          <Image src="/team/rohit2.jpg" alt="COO Rohit Mamgain" width={700} height={500} className="rounded-3xl shadow-2xl object-cover"/>
-        </motion.div>
-      </section>
+          
+          <div className="w-[40vw] h-[60vh] mt-[10vh] bg-amber-200 rounded-2xl bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/md.png')" }}
+          ></div>
+        </div>
+      </div>
+      <div className="h-[90vh] w-[100vw] relative flex items-center justify-center">
+        <div className="flex w-[85%] justify-between">
+          <div className="w-[40vw] h-[60vh] mt-[10vh] bg-amber-200 rounded-2xl bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/team/rohit2.jpg')" }}
+          ></div>
+          <div className="w-[50%] z-10 flex flex-col justify-center ">
+            <h1 className="text-5xl text-start ">The Story Behind<br></br> Our Success</h1>
+          <p className="w-[90%] mt-5 text-lg">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum duis aute irure dolor in reprehendert in voluptate velit esse cillumsint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
+          </div>
+          
+          
+        </div>
+      </div>
 
       {/* ===== LEGACY TIMELINE ===== */}
-      <section className="py-28 px-10 md:px-32 bg-[#f8fbff] relative">
-        <h2 className="text-5xl font-[cursive] font-semibold text-center text-blue-800 mb-20">Our Legacy</h2>
-        <div className="relative flex flex-col items-start">
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-800/30"></div>
+      <section className="py-28 px-10 md:px-32 bg-[#1BA3CD]/10 relative">
+        <h2 className="text-5xl font-[cursive] font-semibold text-center  mb-20">Our Legacy</h2>
+        <div className="w-[80vw] gap-12 flex flex-col justify-between relative">
+          
+          <div className="flex flex-row-reverse  justify-between h-[35vh]">
+            <div className="w-[40%] relative">
+              <h1 className="text-6xl absolute left-[-25%] ">01</h1>
+              <div className="w-[10px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]">
+              </div>
+          <div ref={boxRef} className="w-[10px] h-[20vh] absolute bg-blue-300 left-[-20%] top-[10vh] flex">
+          </div>
+              <h1>heading</h1>
+              <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+            </div>
+            <div className="w-[40%] "></div>
+          </div>
 
-          {milestones.map((milestone, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: i % 2 === 0 ? 50 : -50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: i % 2 === 0 ? 50 : -50 }}
-              viewport={{ once: false, amount: 0.2 }}
-              transition={{ duration: 0.8, delay: i * 0.1 }}
-              className={`flex flex-col md:flex-row items-center w-full mb-20 ${i % 2 === 0 ? 'md:justify-start' : 'md:justify-end'}`}
-            >
-              <div className="md:w-1/2 flex justify-center md:justify-end">
-                <div className="w-10 h-10 rounded-full bg-blue-800 shadow-lg border-4 border-white z-10"></div>
+          <div className="flex flex-row h-[35vh] justify-between">
+            <div className="w-[40%] relative">
+            
+              <h1>heading</h1>
+              <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+            </div>
+            <div className="w-[40%] relative">
+              <h1 className="text-6xl absolute left-[-25%] ">02</h1>
+              <div className="w-[10px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]">
               </div>
-              <div className={`md:w-1/2 bg-white rounded-xl shadow-lg p-8 text-center md:text-left ${i % 2 === 0 ? 'md:ml-10' : 'md:mr-10'}`}>
-                <h3 className="text-3xl font-bold text-blue-800">{milestone.year}</h3>
-                <p className="mt-2 text-gray-700 text-lg">{milestone.text}</p>
+          <div ref={boxRef2} className="w-[10px] h-[20vh] absolute bg-blue-300 left-[-20%] top-[10vh] flex">
+          </div>
+            </div>
+          </div>
+
+          <div className="flex flex-row-reverse h-[35vh]  justify-between">
+            <div className="w-[40%] relative">
+              <h1 className="text-6xl absolute left-[-25%] ">03</h1>
+              <div className="w-[10px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]">
               </div>
-            </motion.div>
-          ))}
+          <div ref={boxRef3} className="w-[10px] h-[20vh] absolute bg-blue-300 left-[-20%] top-[10vh] flex">
+          </div>
+              <h1>heading</h1>
+              <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+            </div>
+            <div className="w-[40%] "></div>
+          </div>
         </div>
       </section>
 
-      {/* ===== TEAM SECTION ===== */}
-      <section className="py-28 px-10 md:px-32 bg-white">
-        <motion.h2 {...fadeUp} className="text-5xl font-[cursive] font-semibold text-center text-blue-800 mb-16">Meet Our Team</motion.h2>
-        <div className="grid md:grid-cols-3 gap-20">
-          {["Arindam Gupta", "Rohit Mamgain", "Sophia Kim"].map((name, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 50 }}
-              viewport={{ once: false, amount: 0.2 }}
-              transition={{ duration: 0.8, delay: i * 0.2 }}
-              className="text-center"
-            >
-              <div className="w-52 h-52 rounded-full mx-auto bg-gray-200 overflow-hidden shadow-xl">
-                <Image src="/team-placeholder.png" alt={name} width={300} height={300} className="object-cover"/>
+      <section className="h-[100vh]">
+        <MissionSection/>
+      </section>
+
+      <section className="w-[100vw] flex justify-center items-center pb-10">
+        <div className="w-[85%]  flex flex-col items-center ">
+          <h1 className="text-6xl text-center">The dream team of<br></br> Marketing</h1>
+          <p className="text-center text-gray-500 text-lg mt-5"> We grow business Online</p>
+          <div className="flex w-full justify-between gap-12">
+            <div className="h-[65vh] w-[22vw] bg-blue-100 rounded-2xl">
+              <div className="h-[60%] w-full bg-cover bg-center bg-no-repeat  rounded-t-2xl"
+              style={{ backgroundImage: "url('/md.png')" }}>
               </div>
-              <h4 className="text-2xl font-semibold text-blue-800 mt-6">{name}</h4>
-              <p className="text-gray-500 text-sm mt-2">
-                {i === 0
-                  ? "Chief Executing Officer (CEO)"
-                  : i === 1
-                  ? "Chief Operating Officer (COO)"
-                  : "VP – International Markets"}
-              </p>
-            </motion.div>
-          ))}
+              <div className="bg-blue-900 text-white">
+                <h1  className="ml-5 py-2 text-lg font-semibold">02</h1>
+              </div>
+              <div className="flex justify-center items-center w-full mt-5">
+                <div className="w-[90%]">
+                  <h1 className="text-xl font-bold mb-3">SEO Website Design</h1>
+                  <p className="text-gray-500">1st on the List provides highly effective PPC advertising for every budget including Google PPC Ads, Bing PPC, and ad</p>
+                </div>
+                
+                
+              </div>
+              
+            </div>
+            <div className="h-[70vh] w-[27vw] bg-blue-100 rounded-2xl mt-[8vh]">
+              <div className="h-[65%] w-full bg-cover bg-center bg-no-repeat  rounded-t-2xl"
+              style={{ backgroundImage: "url('/md.png')" }}>
+              </div>
+              <div className="bg-blue-900 text-white">
+                <h1  className="ml-5 py-2 text-lg font-semibold">02</h1>
+              </div>
+              <div className="flex justify-center items-center w-full mt-5">
+                <div className="w-[90%]">
+                  <h1 className="text-xl font-bold mb-3">SEO Website Design</h1>
+                  <p className="text-gray-500">1st on the List provides highly effective PPC advertising for every budget including Google PPC Ads, Bing PPC, and ad</p>
+                </div>
+                
+                
+              </div>
+              
+            </div>
+            <div className="h-[65vh] w-[22vw] bg-blue-100 rounded-2xl">
+              <div className="h-[60%] w-full bg-cover bg-center bg-no-repeat  rounded-t-2xl"
+              style={{ backgroundImage: "url('/md.png')" }}>
+              </div>
+              <div className="bg-blue-900 text-white">
+                <h1  className="ml-5 py-2 text-lg font-semibold">02</h1>
+              </div>
+              <div className="flex justify-center items-center w-full mt-5">
+                <div className="w-[90%]">
+                  <h1 className="text-xl font-bold mb-3">SEO Website Design</h1>
+                  <p className="text-gray-500">1st on the List provides highly effective PPC advertising for every budget including Google PPC Ads, Bing PPC, and ad</p>
+                </div>
+                
+                
+              </div>
+              
+            </div>
+          </div>
+          
         </div>
       </section>
 
