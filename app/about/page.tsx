@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
+import Timeline from "../components/Timeline";
 import MissionSection from "../components/Mission";
 import Image from "next/image";
 import gsap from "gsap";
@@ -12,86 +13,11 @@ import { useEffect, useRef } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function AboutPage() {
-  const boxRef = useRef(null);
-  const boxRef2 = useRef(null);
-  const boxRef3 = useRef(null);
-
-  useEffect(() => {
-    gsap.fromTo(
-      boxRef.current,
-      { height: "0vh" },       // start height
-      {
-        height: "20vh",       // end height
-        ease: "none",
-        scrollTrigger: {
-          trigger: boxRef.current,
-          start: "top 40%",
-          end: "top 10%",
-          scrub: true,
-          markers: true,
-        },
-      }
-    );
-    gsap.fromTo(
-      boxRef2.current,
-      { height: "0vh" },       // start height
-      {
-        height: "20vh",       // end height
-        ease: "none",
-        scrollTrigger: {
-          trigger: boxRef.current,
-          start: "top 40%",
-          end: "top 10%",
-          scrub: true,
-          markers: true,
-        },
-      }
-    );
-    gsap.fromTo(
-      boxRef3.current,
-      { height: "0vh" },       // start height
-      {
-        height: "20vh",       // end height
-        ease: "none",
-        scrollTrigger: {
-          trigger: boxRef.current,
-          start: "top 40%",
-          end: "top 10%",
-          scrub: true,
-          markers: true,
-        },
-      }
-    );
-  }, []);
 
  const fadeUp = {
     initial: { opacity: 0, y: 50 },
     whileInView: { opacity: 1, y: 0 },
     exit: { opacity: 0, y: 50 },
-    viewport: { once: false, amount: 0.2 },
-    transition: { duration: 0.8 },
-  };
-
-  const fadeDown = {
-    initial: { opacity: 0, y: -50 },
-    whileInView: { opacity: 1, y: 0 },
-    exit: { opacity: 0, y: -50 },
-    viewport: { once: false, amount: 0.2 },
-    transition: { duration: 0.8 },
-  };
-
-  const fadeLeft = {
-    initial: { opacity: 0, x: -50 },
-    whileInView: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: -50 },
-    viewport: { once: false, amount: 0.2 },
-    transition: { duration: 0.8 },
-  };
-
-  const fadeRight = {
-    initial: { opacity: 0, x: 50 },
-    whileInView: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: 50 },
     viewport: { once: false, amount: 0.2 },
     transition: { duration: 0.8 },
   };
@@ -113,36 +39,26 @@ export default function AboutPage() {
     <main className="bg-white text-gray-800 overflow-x-hidden">
       <NavBar/>
       
-      <div className="h-[50vh] w-[100vw] mt-[10vh] flex flex-col items-center justify-center relative bg-linear-to-l from-[#1BA3CD] to-[#090A69] text-white">
-        <h1 className="text-6xl text-center font-semibold mt-10">Our mission:Keeping<br></br>Patients Healthy</h1>
-        <p className="w-[35vw] text-lg text-center mt-5">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore</p>
-        <div className="absolute w-[20vw] h-[50vh] bg-green-300 bottom-0 right-0 rounded-2xl mb-[-10vh] z-10 "
-        
-        >
-          <Image
-    src="/heart.png"
-    alt="Heart"
-    fill
-    className="object-contain p-4"
-  />
-        </div>
-      </div>
+      <section className="relative h-[100vh] flex items-center justify-center text-white">
+              <Image src="/logo.png" alt="ZOIC Logo" fill className="object-contain"/>
+              <div className="absolute inset-0 bg-black/70"></div>
+              <motion.div {...fadeUp} className="relative z-10 text-center px-6">
+                <h1 className="text-6xl md:text-7xl font-bold tracking-tight mb-6 max-w-7xl">
+                  25 Years of Global Healthcare Innovation
+                </h1>
+                <p className="text-xl md:text-2xl max-w-3xl mx-auto text-blue-100 leading-relaxed">
+                  For over two decades, ZOIC has transformed lives through science — driven by ethics, powered by innovation, and committed to global wellness.
+                </p>
+              </motion.div>
+            </section>
       <div className="h-[100vh] w-[100vw] bg-gray-100 relative flex items-center justify-center">
-        <div className="absolute w-[20vw] h-[50vh] top-0 left-0 rounded-2xl mt-[-22vh] bg-amber-200">
-          <Image
-    src="/medicine.png"
-    alt="Heart"
-    fill
-    className="object-contain p-4"
-  />
-        </div>
         <div className="flex w-[85%] justify-between">
           <div className="w-[50%] z-10 flex flex-col justify-center ">
             <h1 className="text-5xl text-start ">Our Director<br></br> Mr.Sanjay Gupta</h1>
           <p className="w-[90%] mt-5 text-lg">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum duis aute irure dolor in reprehendert in voluptate velit esse cillumsint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
           </div>
           
-          <div className="w-[40vw] h-[60vh] mt-[10vh] bg-amber-200 rounded-2xl bg-cover bg-center bg-no-repeat"
+          <div className="w-[40vw] h-[60vh] bg-amber-200 rounded-2xl bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url('/md.png')" }}
           ></div>
         </div>
@@ -162,64 +78,19 @@ export default function AboutPage() {
       </div>
 
       {/* ===== LEGACY TIMELINE ===== */}
-      <section className="py-28 px-10 md:px-32 bg-[#1BA3CD]/10 relative">
-        <h2 className="text-5xl font-[cursive] font-semibold text-center  mb-20">Our Legacy</h2>
-        <div className="w-[80vw] gap-12 flex flex-col justify-between relative">
-          
-          <div className="flex flex-row-reverse  justify-between h-[35vh]">
-            <div className="w-[40%] relative">
-              <h1 className="text-6xl absolute left-[-25%] ">01</h1>
-              <div className="w-[10px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]">
-              </div>
-          <div ref={boxRef} className="w-[10px] h-[20vh] absolute bg-blue-300 left-[-20%] top-[10vh] flex">
-          </div>
-              <h1>heading</h1>
-              <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
-            </div>
-            <div className="w-[40%] "></div>
-          </div>
-
-          <div className="flex flex-row h-[35vh] justify-between">
-            <div className="w-[40%] relative">
-            
-              <h1>heading</h1>
-              <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
-            </div>
-            <div className="w-[40%] relative">
-              <h1 className="text-6xl absolute left-[-25%] ">02</h1>
-              <div className="w-[10px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]">
-              </div>
-          <div ref={boxRef2} className="w-[10px] h-[20vh] absolute bg-blue-300 left-[-20%] top-[10vh] flex">
-          </div>
-            </div>
-          </div>
-
-          <div className="flex flex-row-reverse h-[35vh]  justify-between">
-            <div className="w-[40%] relative">
-              <h1 className="text-6xl absolute left-[-25%] ">03</h1>
-              <div className="w-[10px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]">
-              </div>
-          <div ref={boxRef3} className="w-[10px] h-[20vh] absolute bg-blue-300 left-[-20%] top-[10vh] flex">
-          </div>
-              <h1>heading</h1>
-              <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
-            </div>
-            <div className="w-[40%] "></div>
-          </div>
-        </div>
-      </section>
+      <Timeline/>
 
       <section className="h-[100vh]">
         <MissionSection/>
       </section>
 
-      <section className="w-[100vw] flex justify-center items-center pb-10">
+      <section className="w-[100vw] bg-gray-100 flex justify-center items-center pb-10 pt-12">
         <div className="w-[85%]  flex flex-col items-center ">
           <h1 className="text-6xl text-center">The dream team of<br></br> Marketing</h1>
           <p className="text-center text-gray-500 text-lg mt-5"> We grow business Online</p>
-          <div className="flex w-full justify-between gap-12">
-            <div className="h-[65vh] w-[22vw] bg-blue-100 rounded-2xl">
-              <div className="h-[60%] w-full bg-cover bg-center bg-no-repeat  rounded-t-2xl"
+          <div className="flex w-full justify-between">
+            <div className=" w-[22vw] bg-blue-100 rounded-2xl">
+              <div className="h-[50vh] w-full bg-cover bg-center bg-no-repeat  rounded-t-2xl"
               style={{ backgroundImage: "url('/md.png')" }}>
               </div>
               <div className="bg-blue-900 text-white">
@@ -235,8 +106,8 @@ export default function AboutPage() {
               </div>
               
             </div>
-            <div className="h-[70vh] w-[27vw] bg-blue-100 rounded-2xl mt-[8vh]">
-              <div className="h-[65%] w-full bg-cover bg-center bg-no-repeat  rounded-t-2xl"
+            <div className=" w-[27vw] bg-blue-100 rounded-2xl mt-[8vh] pb-10">
+              <div className="h-[50vh] w-full bg-cover bg-center bg-no-repeat  rounded-t-2xl"
               style={{ backgroundImage: "url('/md.png')" }}>
               </div>
               <div className="bg-blue-900 text-white">
@@ -252,8 +123,8 @@ export default function AboutPage() {
               </div>
               
             </div>
-            <div className="h-[65vh] w-[22vw] bg-blue-100 rounded-2xl">
-              <div className="h-[60%] w-full bg-cover bg-center bg-no-repeat  rounded-t-2xl"
+            <div className=" w-[22vw] bg-blue-100 rounded-2xl">
+              <div className="h-[50vh] w-full bg-cover bg-center bg-no-repeat  rounded-t-2xl"
               style={{ backgroundImage: "url('/md.png')" }}>
               </div>
               <div className="bg-blue-900 text-white">
