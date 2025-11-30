@@ -67,6 +67,10 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="">
+        <MissionSection />
+      </section>
+
       <div className="h-[90vh] w-[100vw] bg-linear-to-r from-[#1BA3CD] to-[#090A69] relative flex items-end justify-center">
         <div className="flex w-[85%] h-[80%] justify-between items-end ">
           <div className="w-[50%] flex flex-col text-white mb-[10vh] ">
@@ -163,10 +167,6 @@ export default function AboutPage() {
       </div>
 
       <Timeline />
-
-      <section className="h-[100vh]">
-        <MissionSection />
-      </section>
 
       <section className="w-[100vw] bg-gray-100 flex justify-center items-center pb-10 pt-12">
         <div className="w-[85%] flex flex-col items-center">

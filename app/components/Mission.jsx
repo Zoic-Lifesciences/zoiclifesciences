@@ -14,7 +14,7 @@ export default function MissionSection() {
   }, []);
 
   return (
-    <section className="relative w-screen mt-10 py-12 flex items-center justify-center bg-linear-to-br">
+    <section className="relative w-screen h-screen mt-10 py-12 flex items-center justify-center bg-linear-to-br">
       <div className="flex md:flex-row flex-col-reverse justify-between md:items-start items-center md:w-[80%] w-[95%]">
         {/* Left Section - Cards */}
         <div className="grid md:grid-cols-2 grid-cols-1 gap-6 md:w-[70%] w-[80%] md:mt-0 mt-10">
