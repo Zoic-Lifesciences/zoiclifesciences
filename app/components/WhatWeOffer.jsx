@@ -39,7 +39,7 @@ export default function WhatWeOffer() {
   return (
     <section className="bg-linear-to-r from-[#1BA3CD] to-[#090A69] py-16 px-6 text-white flex flex-col items-center text-center">
       {/* Header */}
-      <h2 className="md:text-6xl text-5xl mb-4" >
+      <h2 className="regulator-nova-alts-straight tracking-wider md:text-6xl text-5xl mb-4" >
         What we offer
       </h2>
       <p className="max-w-3xl text-gray-200 mb-10" >
@@ -70,8 +70,8 @@ export default function WhatWeOffer() {
             ></div>
 
             <div className="absolute bottom-10 w-full text-white bg-opacity-50 transition duration-300 flex flex-col justify-end text-left p-6">
-              <h3 className="font-bold text-lg md:text-xl">{offer.title}</h3>
-              <p className="text-gray-200 text-sm mt-2">{offer.desc}</p>
+              <h3 className="regulator-nova-alts font-bold tracking-wider text-lg md:text-xl">{offer.title}</h3>
+              <p className="regulator-nova-alts-straight text-gray-200 text-sm mt-2">{offer.desc}</p>
             </div>
           </div>
         ))}

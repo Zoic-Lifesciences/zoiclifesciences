@@ -53,7 +53,7 @@ export default function Home() {
         <WhatWeOffer />
         <Speciality/>
         <NewsRoom />
-        <Awards/>
+        {/* <Awards/> */}
         <Testimonial />
         <Footer />
       </main>

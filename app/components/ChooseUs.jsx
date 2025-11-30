@@ -47,7 +47,7 @@ export default function ChooseUs() {
       className="relative  w-screen flex items-center justify-center bg-linear-to-r from-[#1BA3CD] to-[#090A69] py-20"
     >
       <div className="flex flex-col md:w-[70%] w-[80%] h-full">
-        <h2 className="md:text-6xl text-5xl text-white mb-12 text-center font-bold">
+        <h2 className="regulator-nova-alts-straight tracking-wider md:text-6xl text-5xl text-white mb-12 text-center font-bold">
           Why Choose Us?
         </h2>
 
@@ -70,7 +70,7 @@ export default function ChooseUs() {
                     {item.icon}
                   </div>
                   <div>
-                    <h3 className="font-semibold text-3xl text-gray-900">
+                    <h3 className="regulator-nova-alts-straight tracking-wider font-semibold text-3xl text-gray-900">
                       {item.title}
                     </h3>
                     <p className="text-gray-600 text-sm mt-3 leading-relaxed">{item.desc}</p>

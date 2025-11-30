@@ -131,3 +131,33 @@ body {
     transform: translateX(-50%);
   }
 }
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+@font-face {
+  font-family: "Regulator Nova Alts";
+  src: url("/fonts/regulator-nova/RegulatorNovaAlts-Medium.woff2") format("woff2"),
+       url("/fonts/regulator-nova/RegulatorNovaAlts-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Regulator Nova Alts Medium";
+  src: url("/fonts/regulator-nova/RegulatorNovaAlts-Medium_straight.woff2") format("woff2"),
+       url("/fonts/regulator-nova/RegulatorNovaAlts-Medium_straight.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.regulator-nova-alts {
+  font-family: "Regulator Nova Alts", sans-serif;
+}
+
+.regulator-nova-alts-straight{
+  font-family: "Regulator Nova Alts Medium", sans-serif;
+}

@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar2";
 
 import { motion } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
@@ -15,25 +15,31 @@ export default function Herosection() {
   const slides = [
     {
       img: "/army.webp",
-      title: "Trusted By THE INDIAN ARMY",
+      title: "Trusted by the INDIAN ARMY",
       desc: "Strength That Matches the Indian Army.",
       button: "Explore Our Legacy",
     },
     {
+      img: "/aiims.png",
+      title: "A Legacy that AIIMS relies on",
+      desc: "For 25+ years, ZOIC has stood for uncompromising quality in Indian healthcare.",
+      button: "Explore Our Legacy",
+    },
+    {
       img: "/innovation.gif",
-      title: "Precision Powered by Innovation",
+      title: "Precision powered by Innovation",
       desc: "ZOIC’s advanced systems for smarter, safer healing.",
       button: "Join Our Mission",
     },
     {
       img: "/biclav1000.jpg",
-      title: "A Healthcare Network That Covers India",
+      title: "A Healthcare network that covers India",
       desc: "From metros to remote frontiers ZOIC delivers reliability everywhere.",
       button: "Contact Us",
     },
     {
       img: "/sultab.jpg",
-      title: "Pioneering Excellence In Pharma",
+      title: "Pioneering excellence in Pharma",
       desc: "From metros to remote frontiers ZOIC delivers reliability everywhere.",
       button: "Contact Us",
     },
@@ -70,7 +76,7 @@ export default function Herosection() {
               style={{ backgroundImage: `url(${slide.img})` }}
             >
               {/* Overlay */}
-              <div className="absolute inset-0 bg-linear-to-l from-[#1BA3CD]/10 via-[#1BA3CD]/60 to-[#090A69]"></div>
+              <div className="absolute inset-0 bg-linear-to-l from-transparent via-[#1BA3CD]/20 to-[#090A69]"></div>
               <div className="w-full h-40 absolute inset-0 bg-linear-to-b from-[#090A69]/80 via-[#090A69]/10 to-transparent" ></div>
               {/* <div className="absolute inset-0 bg-red-500 w-[50%] h-[50%]"></div> */}
 
@@ -81,7 +87,7 @@ export default function Herosection() {
                   variants={textVariant}
                   initial="hidden"
                   animate="visible"
-                  className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 tracking-wide w-150"
+                  className="regulator-nova-alts-straight tracking-wider text-3xl sm:text-4xl md:text-6xl lg:text-6xl mb-4 w-150"
                 >
                   {slide.title}
                 </motion.h1>
@@ -92,7 +98,7 @@ export default function Herosection() {
                   initial="hidden"
                   animate="visible"
                   transition={{ delay: 0.3 }}
-                  className="max-w-3xl text-gray-300 text-base sm:text-lg md:text-xl mb-8"
+                  className="regulator-nova-alts max-w-lg text-gray-300 text-base sm:text-lg md:text-xl mb-8"
                 >
                   {slide.desc}
                 </motion.p>
@@ -122,7 +128,7 @@ export default function Herosection() {
         >
           <FaChevronDown />
         </motion.div>
-        <span className="text-gray-300 text-xs sm:text-sm mt-1 tracking-wider">
+        <span className="text-gray-300 text-xs sm:text-sm mt-1 tracking-wider ">
           Scroll Down
         </span>
       </div>

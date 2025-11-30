@@ -50,9 +50,9 @@ export default function CompanyVideoPremium() {
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
-          className="relative w-[50%] mx-auto rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)]"
+          className="relative w-[100%] mx-auto rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)]"
         //   data-aos="fade-right"
-          style={{ height: "520px" }}
+          style={{ height: "550px" }}
         >
           {/* CYAN PLAY BUTTON */}
           {!isPlaying && (
@@ -76,11 +76,11 @@ export default function CompanyVideoPremium() {
 
           <video
             ref={videoRef}
-            src="/v1.mp4"
+            src="/v2.mp4"
             controls={isPlaying}
             loop
             playsInline
-            className="w-full h-full object-contain"
+            className="w-full h-full object-cover object-[40%_40%]"
             onPlay={() => setIsPlaying(true)}
           />
 
@@ -95,27 +95,24 @@ export default function CompanyVideoPremium() {
         //   data-aos="fade-left"
           className="flex flex-col justify-center"
         >
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-[1.2] font-['Plus_Jakarta_Sans'] tracking-tight">
-            Transforming Enterprises  
-            <span className="text-blue-600"> Through Innovation</span>
+          <h2 className="regulator-nova-alts-straight text-4xl lg:text-5xl leading-[1.2] font-['Plus_Jakarta_Sans'] tracking-normal">
+            A Legacy That Reaches <br/>
+            <span className="text-[#048DB7]">  Every Corner of India </span>
           </h2>
 
           <p className="mt-6 text-gray-600 text-lg leading-relaxed">
-            We build intelligent, scalable systems for enterprise-grade digital
-            transformation. Our teams combine strategy, design, and engineering
-            to deliver world-class outcomes.
+            For over 25 years, ZOIC Lifesciences has built a nationwide network that spans top hospitals, institutions, and healthcare providers. Trusted by giants like AIIMS and the Indian Army, our commitment to quality and excellence has made us a leader in Indian healthcare.
           </p>
 
           <p className="mt-4 text-gray-700 text-[15px] leading-relaxed">
-            This video captures the essence of our mission: empowering businesses
-            with next-generation digital solutions backed by global expertise.
+            Today, we celebrate this journey, connecting millions through care, trust, and innovation—just as Arjun Kapoor joins us in honoring our legacy.
           </p>
 
           <motion.a
             href="#"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.98 }}
-            className="inline-block mt-10 px-8 py-4 bg-gray-900 text-white rounded-xl shadow-lg text-sm tracking-wide font-semibold hover:bg-gray-800 transition-all"
+            className="regulator-nova-alts-straight w-[32%] inline-block mt-10 px-2 py-4 bg-[#048DB7] text-white rounded-xl shadow-lg text-sm tracking-wide font-semibold hover:bg-blue-800 transition-all"
           >
             Explore Our Capabilities
           </motion.a>
