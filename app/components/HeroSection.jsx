@@ -56,7 +56,6 @@ export default function Herosection() {
 
   return (
     <section className="relative w-full h-[90vh] md:h-[100vh] bg-white text-white overflow-hidden">
-      <NavBar/>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}

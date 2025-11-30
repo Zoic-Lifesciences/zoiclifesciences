@@ -19,28 +19,35 @@ export default function Header() {
 
   const [scrolled, setScrolled] = useState(false);
 
+
   useEffect(() => {
+  if (pathname === "/contact") {
+    setScrolled(true);
+  }
+  else{
     const handleScroll = () => {
       setScrolled(window.scrollY > 50); // when scrolling past 50px
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }
+}, [pathname]);
 
 
   return (
     <header
       className={`fixed w-screen z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-linear-to-l from-[#1BA3CD] to-[#090A69] backdrop-blur-sm shadow-md"
-          : "bg-transparent"
+          ? "bg-white text-black backdrop-blur-sm shadow-md"
+          : "bg-transparent text-white "
       }`}
     >
 
       {/* Top Bar */}
+      
       <div className={`${scrolled ? "hidden" : ""} transition-all max-w-7xl  mx-auto flex justify-center w-full`}>
-        <div className="hidden text-white md:flex w-[94%] text-[12px] items-center justify-between py-3 text-sm border-b border-gray-300">
+        <div className="hidden md:flex w-[94%] text-[12px] items-center justify-between py-3 text-sm border-b border-gray-300">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone size={16} />
@@ -51,12 +58,13 @@ export default function Header() {
               <span>info@zoiclifesciences.com</span>
             </div>
           </div>
-          <p className="text-white text-[12px]">
+          <p className=" text-[12px]">
             Delivering trusted pharmaceutical excellence — because your health
             deserves the best. Happy to serve you!
           </p>
         </div>
       </div>
+
       <div className="w-screen h-[10vh] md:hidden justify-end pr-5 flex">
         {isOpen ? <>
 <button onClick={() => setIsOpen(false)}>
@@ -206,7 +214,7 @@ export default function Header() {
                   <Link
                     href="/contact"
                     onClick={() => setIsOpen(false)}
-                    className="bg-[#048DB7] text-white px-4 py-2 rounded-full block text-center mt-4"
+                    className="bg-[#048DB7]  px-4 py-2 rounded-full block text-center mt-4"
                   >
                     Contact Us
                   </Link>
@@ -223,7 +231,13 @@ export default function Header() {
         <nav className="hidden md:flex md:flex-row flex-col py-2 items-center relative w-full justify-between md:w-[94%]">
           {/* Logo */}
             <div className="flex items-center gap-2">
-              <Image src="/logo2.png" alt="Zoic Logo" width={scrolled ? 50 : 100} height={scrolled ? 50 : 100} />
+              <Image
+    src={scrolled ? "/logo.png" : "/logo2.png"}   // <-- change image based on scroll
+    alt="Zoic Logo"
+    width={scrolled ? 50 : 100}
+    height={scrolled ? 50 : 100}
+    className="transition-all duration-500"
+  />
           </div>
 
           {/* Navigation Links */}
@@ -231,7 +245,7 @@ export default function Header() {
             <ul className="flex md:flex-row flex-col md:items-center items-start gap-10 text-lg">
             <li
               className={`${
-                isActive("/") ? "text-[#048DB7] font-semibold" : "text-white hover:text-[#048DB7]"
+                isActive("/") ? "text-[#048DB7] font-semibold" : " hover:text-[#048DB7]"
               }`}
             >
               <Link href="/">Home</Link>
@@ -243,7 +257,7 @@ export default function Header() {
                 className={`relative cursor-pointer flex items-center gap-1 ${
                   pathname.startsWith(`/${menu.toLowerCase()}`)
                     ? "text-[#048DB7] font-semibold"
-                    : "text-white hover:text-[#048DB7]"
+                    : "hover:text-[#048DB7]"
                 }`}
                 onMouseEnter={() => handleMouseEnter(menu)}
                 onMouseLeave={handleMouseLeave}
@@ -336,7 +350,7 @@ export default function Header() {
               className={`cursor-pointer ${
                 pathname.startsWith("/products")
                   ? "text-[#048DB7] font-semibold"
-                  : "text-white hover:text-[#048DB7]"
+                  : " hover:text-[#048DB7]"
               }`}
             >
               <Link href="/products">Products</Link>
@@ -345,7 +359,7 @@ export default function Header() {
               className={`cursor-pointer ${
                 pathname.startsWith("/blog")
                   ? "text-[#048DB7] font-semibold"
-                  : "text-white hover:text-[#048DB7]"
+                  : "hover:text-[#048DB7]"
               }`}
             >
               <Link href="/blog">Blogs</Link>
