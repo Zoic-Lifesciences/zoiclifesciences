@@ -61,8 +61,8 @@ export default function LegacyTimeline() {
     
 
   return (
-    <section className="py-28 px-10 md:px-32 relative bg-blue-100">
-      <h2 className="text-5xl font-semibold text-center mb-20">Our Legacy</h2>
+    <section className="py-28 px-10 md:px-32 relative bg-linear-to-b from-[#1BA3CD]/10 to-[#090A69]/90">
+      <h2 className="text-6xl font- text-center mb-20">Our Legacy</h2>
 
       <div className="w-[80vw] gap-12 flex flex-col justify-between relative">
 

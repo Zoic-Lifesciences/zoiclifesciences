@@ -1,8 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
 import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
 import Timeline from "../components/Timeline";
 import MissionSection from "../components/Mission";
 import Image from "next/image";
@@ -51,7 +49,6 @@ export default function AboutPage() {
 
   return (
     <main className="bg-white text-gray-800 overflow-x-hidden">
-      <NavBar />
 
       <section className="relative h-[100vh] flex items-center justify-center text-white">
         <Image src="/medworld.jpg" alt="ZOIC Logo" fill className="object-cover" />
