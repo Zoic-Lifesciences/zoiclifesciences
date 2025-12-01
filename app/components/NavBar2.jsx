@@ -24,6 +24,10 @@ export default function Header() {
     setScrolled(true);
     return;
   }
+  if (pathname === "/products") {
+    setScrolled(true);
+    return;
+  }
 
   const handleScroll = () => {
     setScrolled(window.scrollY > 70);

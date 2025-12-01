@@ -145,13 +145,22 @@ export default function AboutPage() {
       <div className="h-[90vh] w-[100vw] relative flex items-center justify-center">
         <div className="flex w-[85%] justify-between">
           <div
-            className="w-[40vw] rounded-xl h-[70vh] rounded-2xl bg-contain bg-center bg-no-repeat"
+            className="w-[40vw] h-[70vh] rounded-2xl bg-contain bg-center bg-no-repeat"
             style={{ backgroundImage: "url('/team/rohit2.jpg')" }}
           ></div>
 
           <div className="w-[50%] z-10 flex flex-col">
+            <div className="mb-10">
+              <Image
+              src="/iimLogo.webp"
+              alt="Sanjay Gupta"
+              width={200}
+    height={200}
+              className="fade-in-right object-cover"
+            />
+            <h6 className="regulator-nova-alts mt-2 text-gray-500 text-lg">(Global Strategist, IIM Bangalore)</h6>
+          </div>
             <h1 className="text-5xl text-start regulator-nova-alts-straight tracking-wider">Mr. Rohit Mamgain</h1>
-            <h6 className="regulator-nova-alts mt-2 text-gray-500 text-xs">(Corporate Strategist, IIM Bangalore)</h6>
             <p className="regulator-nova-alts tracking-wider w-[90%] mt-5 text-lg">
               <span className="inline-block ml-2 mr-4">
                   <FaQuoteLeft className="text-xl" />
@@ -159,7 +168,19 @@ export default function AboutPage() {
               Our journey at Zoic is driven by trust, strengthened by global ambition, and defined by the legacy we’re creating for generations to come.
             </p>
 
-            <div className="w-full flex flex-col relative items-center mt-10">
+            
+          </div>
+          
+        </div>
+      </div>
+
+      <section className="flex justify-center h-[100vh]">
+        <div className="w-[90vw] h-[80vh] bg-[#048DB7]/20 rounded-2xl flex flex-col items-center">
+        <div className="text-center w-[50%]">
+          <h1 className="text-5xl text-center mt-10">Graphic Design Basic Core :<br></br>Principles for Visual Design</h1>
+          <p className="mt-10">Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+        </div>
+        <div className="w-full flex flex-col relative items-center mt-10">
               {!isPlaying && (
                 <button
                   onClick={handlePlay}
@@ -182,15 +203,14 @@ export default function AboutPage() {
                 controls={isPlaying}
                 loop
                 playsInline
-                className="w-[30vw] h-[30vh] mt-10 ml-10 bg-gray-100 object-contain"
+                className="w-[70vw] h-[60vh]  ml-10 bg-gray-100 object-contain rounded-3xl"
                 onPlay={() => setIsPlaying(true)}
               />
 
               <div className="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent pointer-events-none" />
             </div>
-          </div>
         </div>
-      </div>
+      </section>
 
       <Timeline />
 

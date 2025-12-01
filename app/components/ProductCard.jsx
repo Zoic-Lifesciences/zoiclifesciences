@@ -1,7 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 
-export default function ProductCard({ img, title, description, pack, price, category, speciality }) {
+export default function ProductCard({ img, title, description, pack, productPacking, price, category }) {
   const router = useRouter();
 
   const handleClick = () => {
@@ -10,7 +10,7 @@ export default function ProductCard({ img, title, description, pack, price, cate
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow p-4 flex flex-col justify-between hover:shadow-lg transition">
+    <div className="bg-white rounded-2xl shadow-md p-4 flex flex-col justify-between hover:shadow-lg transition">
       {img ? (
         <img src={img} alt={title} className="h-76 mx-auto object-contain" />
       ) : (
@@ -24,7 +24,7 @@ export default function ProductCard({ img, title, description, pack, price, cate
           <span className="bg-green-600 text-white text-sm px-4 py-1 rounded-full">
             {category} 
           </span>
-          <span className="bg-yellow-500 text-white text-sm px-4 py-1 rounded-full">{speciality} </span>
+          <span className="bg-yellow-500 text-white text-sm px-4 py-1 rounded-full">{productPacking} </span>
         </div>
         <h3 className="text-lg font-semibold mt-2">{title}</h3>
         <p className="text-sm text-wrap text-gray-400 truncate h-10">Composition: {description}</p>

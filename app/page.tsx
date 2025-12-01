@@ -10,7 +10,8 @@ import ChooseUs from "./components/ChooseUs";
 import NewlyLaunched from "./components/NewlyLaunched";
 import Certifications from "./components/Certifications";
 import WhatWeOffer from "./components/WhatWeOffer";
-import NewsRoom from "./components/NewsRoom";     
+import NewsRoom from "./components/NewsRoom"; 
+import BestSeller from "./components/BestSeller";      
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import AnimatedText from "./components/FrontPage"; // import the component
@@ -47,6 +48,7 @@ export default function Home() {
       <main className={`${montserrat.className} transition-all duration-700 ${showIntro ? "opacity-0" : "opacity-100"}`}>
         <HeroSection />   
         <VideoSection />
+        <BestSeller/>
         <ChooseUs />
         <StatsSection/>
         <Certifications />

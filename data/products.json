@@ -1,0 +1,3836 @@
+[
+  {
+    "img": "/product.png",
+    "title": "ACEWAY CAPSULE",
+    "description": "Acebrophylline 100mg",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "99.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ACEWAY M TABLET",
+    "description": "Montelukast 10 mg+Acebrophylline 200mg  SR (bi-layered tab)",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "159",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ACEWAY-N TABLET",
+    "description": "Acebrophylline  & Acetylcysteine Tablets",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "219",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "AIRWAY TAB",
+    "description": "levocetirizine 5 mg + Ambroxol 60 mg",
+    "pack": "20X10",
+    "productPacking": "blister",
+    "price": "59.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ASTHARIL TABLET",
+    "description": "Paracetamol500mg + Phenylephrine HCL 5 mg + diphenhydramine 25MG+ caffeine 30mg",
+    "pack": "25X10",
+    "productPacking": "blister",
+    "price": "36.74",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ASTHARIL-DMR 60ml",
+    "description": "Dextromethorphan Hydrobromide10mg + Phenylephrine Hydrochloride 5mg  + CPM 2mg / 5ml",
+    "pack": "60ml",
+    "productPacking": "Syrup",
+    "price": "65",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ASTHARIL-DMR 100ML",
+    "description": "Dextromethorphen 10 mg. + Phenylpropalamine 5 mg + Chorpheniramine 2 mg /5ml",
+    "pack": "100 ml",
+    "productPacking": "Syrup",
+    "price": "94.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ASTHARIL-LS SYRUP",
+    "description": "Ambroxol 30mg  + LevoSalbutamol 1mg+Guaiphensin 50mg  / 5ml",
+    "pack": "100ml",
+    "productPacking": "Syrup",
+    "price": "115",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ASTHARIL-LS JUNIOR",
+    "description": "Ambroxol Hydrochloride, Levosalbutamol & Guaiphenesin Syrup",
+    "pack": "60ml",
+    "productPacking": "Syrup",
+    "price": "54.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ASTHARIL-LR SYRUP",
+    "description": "Levocloperastine Fendizoate Oral Susp.",
+    "pack": "100ml",
+    "productPacking": "Syrup",
+    "price": "199",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MUCOREST DROPS",
+    "description": "Ambroxol Hydrochloride Drops",
+    "pack": "15ml",
+    "productPacking": "drops",
+    "price": "44",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ASTHARIL-BR SYRUP",
+    "description": "Bromhexine HCL Guaiphenesin , Terbutaline Sulphate & Menthol Syrup",
+    "pack": "60ml",
+    "productPacking": "Syrup",
+    "price": "119",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ASTHARIL-LS Drop",
+    "description": "Ambroxol 7.5MG  + LevoSalbutamol 0.25MG +Guaiphensin 12.5MG   each ml",
+    "pack": "15 ml",
+    "productPacking": "Drops",
+    "price": "59",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ASTHARIL-EX SYRUP",
+    "description": "Ambroxol 15 mg + Terbutaline 1.25 mg. + Guaiphensin 50 mg.",
+    "pack": "100 ml",
+    "productPacking": "Syrup",
+    "price": "119",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ASTHARIL-AS",
+    "description": "Ambroxol 30 mg + Salbutamol 2mg/5ml",
+    "pack": "100 ml",
+    "productPacking": "Syrup",
+    "price": "94.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CODY-DX",
+    "description": "dextromethorphan hydrobromide  10mg+chlorpheniramine 4mg",
+    "pack": "100ml",
+    "productPacking": "Syrup",
+    "price": "99",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DOXWAY-200 TABLET",
+    "description": "Doxofylline 200 mg",
+    "pack": "20x15",
+    "productPacking": "blister",
+    "price": "62.5",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DOXWAY-400 TABLET",
+    "description": "Doxofylline 400 mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "66.5",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DOXWAY-M TABLET",
+    "description": "Montelucast Sodium 10 mg  &  Doxofylline 400 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "149",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DOXWAY-AM TABLET",
+    "description": "Doxofylline 400MG + Ambroxol 30 MG Tablet",
+    "pack": "20X10",
+    "productPacking": "blister",
+    "price": "89",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DOXWAY-650  TABLET",
+    "description": "Doxofylline Modified Release 650mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "119.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DOXWAY INJECTION",
+    "description": "Doxofylline Injection",
+    "pack": "5x10ml",
+    "productPacking": "Vial",
+    "price": "59",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FLUCORIL-P DROP",
+    "description": "Paracetamol , Phenylephrine Hydrochloride  & Chlorpheniramine Maleate drops  each ml",
+    "pack": "15ml",
+    "productPacking": "Drops",
+    "price": "60.39",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FLUCORIL TAB",
+    "description": "Paracetamol , Phenylephrine Hydrochloride & Chlorpheniramine Maleate tablets",
+    "pack": "30x10",
+    "productPacking": "Blister",
+    "price": "49.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FLUCORIL-LC",
+    "description": "Levodropropizine & Chlorapheniramine Maleate Syrup",
+    "pack": "100ml",
+    "productPacking": "Susp.",
+    "price": "129",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FLUCORIL  DROP",
+    "description": "Phenylephrine Hydrochloride  & Chlorpheniramine Maleate drops  each ml",
+    "pack": "15ml",
+    "productPacking": "Drops",
+    "price": "54.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FLUCORIL SYRUP",
+    "description": "Phenylephrine Hydrochloride & Chlorpheniramine Maleate IP",
+    "pack": "60ML",
+    "productPacking": "SUSP.",
+    "price": "54.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FLUCORIL P SUSP.(60ML)",
+    "description": "Paracetamol250mg , Phenylephrine HCL 5 mg & Chlorpheniramine Maleate 2 mg , Suspension  / 5ml",
+    "pack": "60ml",
+    "productPacking": "Susp.",
+    "price": "69.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LEVOJET SYP",
+    "description": "Levocetrizine Dyhydrochloride 2.5 mg",
+    "pack": "30 ml",
+    "productPacking": "Syrup",
+    "price": "49",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LEVOJET TABLET",
+    "description": "Levocetrizine Dyhydrochloride 5 mg",
+    "pack": "50x15",
+    "productPacking": "blister",
+    "price": "29.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MONTJET SUSP",
+    "description": "Levocetirizine Hydrochloride 2.5 mg+montelukast sodium 4 mg suspension",
+    "pack": "30 ml",
+    "productPacking": "Susp.",
+    "price": "69.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MONTJET Syrup",
+    "description": "Levocetirizine Hydrochloride 2.5 mg+montelukast sodium 4 mg  Syrup",
+    "pack": "60 ml",
+    "productPacking": "Syrup",
+    "price": "109",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MONTJET KID",
+    "description": "Levocetrizine Hydrochloride 2.5 mg+montelukast sodium 4 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "69.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MONTJET TABLET",
+    "description": "Levocetirizine 5 mg + Montelukast 10 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "140",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BILMONTY",
+    "description": "Montelukast 10 mg + Bilastine 20mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "169",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BILLU TAB",
+    "description": "Bilastine 20mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "99",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PULMORIL SYRUP",
+    "description": "Acebrophylline 50 mg + Terbutaline 1.25 mg. + Guaiphensin 50 mg. (sugar free)",
+    "pack": "100 ml",
+    "productPacking": "Syrup",
+    "price": "135",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "2H-10 TABLET",
+    "description": "Hydroxyzine Hydrochloride USP 10 mg",
+    "pack": "10x15",
+    "productPacking": "blister",
+    "price": "39.3",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "2H-25 TABLET",
+    "description": "Hydroxyzine Hydrochloride USP 25 mg",
+    "pack": "10x15",
+    "productPacking": "blister",
+    "price": "72.1",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "2H DROPS",
+    "description": "Hydroxyzine Hydrochloride 6mg/ each ml",
+    "pack": "15 ml",
+    "productPacking": "Drops",
+    "price": "42.35",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "2H SYRUP",
+    "description": "Hydroxyzine Hydrochloride 10mg/5ml",
+    "pack": "100ml",
+    "productPacking": "Syrup",
+    "price": "99",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PROGUN SYRUP",
+    "description": "Promethazine Hydrochloride Syrup I.P.",
+    "pack": "60ML",
+    "productPacking": "Syrup",
+    "price": "30.22",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FM-130 TABLET",
+    "description": "Fexofenadine 120 mg + Montelukast 10 mg",
+    "pack": "10x6",
+    "productPacking": "blister",
+    "price": "119.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "F-120 TABLET",
+    "description": "Fexofenadine 120 mg",
+    "pack": "10x6",
+    "productPacking": "blister",
+    "price": "69.9",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "F-30 Susp.",
+    "description": "Fexofenadine 30 mg",
+    "pack": "100ml",
+    "productPacking": "Susp.",
+    "price": "109",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PIKU  SYRUP",
+    "description": "Sodium Picosulfate Oral Susp BP",
+    "pack": "100ml",
+    "productPacking": "Susp",
+    "price": "69",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PIKU  SYRUP",
+    "description": "Sodium Picosulfate Oral Susp BP",
+    "pack": "200ml",
+    "productPacking": "Susp",
+    "price": "209",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PULGESIC SUSP",
+    "description": "Ibuprofen And Paracetamol  Suspension",
+    "pack": "60ML",
+    "productPacking": "Susp",
+    "price": "44.5",
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ACOVISE-100",
+    "description": "Acotiamide Hydrochloride hydrate 100mg",
+    "pack": "10*10",
+    "productPacking": "Alu-Alu",
+    "price": "269",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "Electrofill SAC",
+    "description": "ORS SACHET",
+    "pack": "20X21.8G",
+    "productPacking": "sachet",
+    "price": "23.11",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "Electrofill ORS",
+    "description": "ORS LIQUID",
+    "pack": "200ML",
+    "productPacking": "TATRA PACK",
+    "price": "31.5",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FULLFLORA",
+    "description": "Bacillus Clausi Spores Suspension (5ml each)",
+    "pack": "1x12",
+    "productPacking": "ampule",
+    "price": "49",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FULLFLORA-LB TAB.",
+    "description": "Lactic Acid Bacillus..  Viable spores… 120million",
+    "pack": "20x20",
+    "productPacking": "strip",
+    "price": "59.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FULLFLORA-Z PWD.",
+    "description": "Sacchromyces boulardii (corresponding to 250mg of yeast) 282.5mg + Zinc lactate eq. to Elemental zinc 7.5mg + Rececadotril 15mg",
+    "pack": "1gmx20",
+    "productPacking": "sachet",
+    "price": "23.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "GUTON TABLET",
+    "description": "Levosulpiride 25mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "99",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RIFAMAX-550 TAB",
+    "description": "Rifaximin 550 mg",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "429",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RIFAMAX-400 TAB",
+    "description": "Rifaximin 400 mg",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "349",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RIFAMAX-M TAB",
+    "description": "Rifaximin and Metronidazole tab",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "229",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RIFAMAX-200 TAB",
+    "description": "Rifaximin 200 mg",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "190",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KOOLCAP-40 INJ",
+    "description": "Omeprazole inj",
+    "pack": "40MG",
+    "productPacking": "vial",
+    "price": "44.99",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KOOLCAP-20 CAP.",
+    "description": "Omeprazole 20 mg",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "59.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KOOLCAP-D CAP.",
+    "description": "Omeprazole 20 mg + Domperidone 10 mg",
+    "pack": "10x15",
+    "productPacking": "strip",
+    "price": "89.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KOOL GEL SUSP",
+    "description": "Magaldrate + Simethicone Oral Susp",
+    "pack": "200ml",
+    "productPacking": "susp",
+    "price": "139",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KOOL GEL - A SUSP",
+    "description": "Magaldrate 540 mg + Oxethazaine 10 mg + Simethicone 50 mg",
+    "pack": "170 ml",
+    "productPacking": "Susp.",
+    "price": "149",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KOOLGEL-ELAICHI SUSP",
+    "description": "Magaldrate + Simethicone Oral Susp",
+    "pack": "200ml",
+    "productPacking": "Susp.",
+    "price": "139",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "URIKOOL-100 SYP",
+    "description": "Disodium Hydrogen Citrate Syp",
+    "pack": "100ml",
+    "productPacking": "syp",
+    "price": "93",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "POLY GEL",
+    "description": "Oxetacaine, Dried Aluminium Hydroxide & Magnesium Hydroxide Oral Suspension",
+    "pack": "200ML",
+    "productPacking": "Susp.",
+    "price": "120",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "COLOPRIDE-2 TAB",
+    "description": "PRUCALOPRIDE 2MG",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "279",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MYREX-SR Caps.",
+    "description": "Mebeverine Hydrochloride IP 200mg  SR",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "220",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "EHP KIT",
+    "description": "Combipack of Clarithromycin Tablets Esomeprazole Gastro-Resistant Tablets & Amoxicillin Tabelts",
+    "pack": "10x1 kit",
+    "productPacking": "strip",
+    "price": "279",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PRODOM-10MD TAB.",
+    "description": "Domperidone 10 mg MD",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "24.52",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PENTAKOOL INJ",
+    "description": "Pantoprazole 40 mg I.V.",
+    "pack": "10ml",
+    "productPacking": "vial",
+    "price": "56.5",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PENTAKOOL-40 TAB.",
+    "description": "Pantoprazole 40 mg",
+    "pack": "20x10",
+    "productPacking": "alu-alu",
+    "price": "69.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PENTAKOOL-D TAB.",
+    "description": "Pantoprazole 40 mg + Domperidone 10 mg",
+    "pack": "20x10",
+    "productPacking": "alu-alu",
+    "price": "74.5",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PENTAKOOL-DSR",
+    "description": "Pantoprazole 40 mg + Domperidone 30 mg (SR)",
+    "pack": "10x10",
+    "productPacking": "strip/ Alu-lau",
+    "price": "99.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PHYTOFLEX",
+    "description": "Curcumin , Boswellic Acids & Piperine",
+    "pack": "3X10",
+    "productPacking": "blister",
+    "price": "219",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LANKIND-15MG TAB",
+    "description": "Lansoprazole orally disintegrating tab 15 mg",
+    "pack": "10x10",
+    "productPacking": "Alu-alu",
+    "price": "99",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RABICLIP-D TABLET",
+    "description": "Rabeprazole 20 mg + Domperidone 10 mg",
+    "pack": "20x10",
+    "productPacking": "alu-alu",
+    "price": "69.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RABICLIP INJ",
+    "description": "Rabeprazole Inj 20mg",
+    "pack": "VAIL",
+    "productPacking": "",
+    "price": "99",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RABICLIP-ITR CAP",
+    "description": "Rabeprazole 20 mg + Itopride 150 mg",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "219",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RABICLIP-LS CAP",
+    "description": "Rabeprazole Sodium 20 MG & Sustained Release levosulpiride 75MG capsules",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "229 /207",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RABICLIP-DSR CAP",
+    "description": "Rabeprazole 20 mg + Domperidone 30 mg SR",
+    "pack": "10x10",
+    "productPacking": "strip/ Alu-lau",
+    "price": "99.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RIBS TABLET",
+    "description": "Clidinium Bromide 2.5 mg , Chlordiazepoxide 5mg",
+    "pack": "5x5x10",
+    "productPacking": "blister",
+    "price": "49.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RIBS-D TABLET",
+    "description": "Clidinium Bromide 2.5 mg , Chlordiazepoxide 5mg  + Dicyclomine Hyd.  10mg",
+    "pack": "5x5x10",
+    "productPacking": "blister",
+    "price": "49.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SUPER-KOOL SUSP.",
+    "description": "Sucralfate 1 gm +Oxetacaine 20 mg/10ml",
+    "pack": "100 ml",
+    "productPacking": "Susp.",
+    "price": "119",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SUPER-KOOL SUSP.",
+    "description": "Sucralfate 1 gm +Oxetacaine 20 mg/10ml",
+    "pack": "200ml",
+    "productPacking": "Susp.",
+    "price": "209",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LETLOOSE SYP",
+    "description": "Lactulose oral susp",
+    "pack": "200ml",
+    "productPacking": "susp",
+    "price": "257",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "STOP-IT DROP",
+    "description": "Ondansetron 2 mg",
+    "pack": "30 ml",
+    "productPacking": "Drops",
+    "price": "43.89",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "STOP-IT INJECTION",
+    "description": "Ondansetron 4 mg",
+    "pack": "10X2 ML",
+    "productPacking": "ampule",
+    "price": "13.13",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "STOPIT-8 TAB",
+    "description": "Ondansetron 8mg",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "89.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "XEN-RD PLUS TABLET",
+    "description": "Omeprazole 10 mg. + Domperidone 15 mg.",
+    "pack": "10x20",
+    "productPacking": "strip",
+    "price": "69.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "STOPIT-MD TABLET",
+    "description": "Ondansetron 4 mg (MD)",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "59.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ED-Z SYRUP",
+    "description": "Zinc Gluconate 20 mg",
+    "pack": "60 ml",
+    "productPacking": "Syrup",
+    "price": "60",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PYROXY-DT TAB",
+    "description": "Piroxicam dispersible tab",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "79",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PYROXY INJ",
+    "description": "Piroxicam injection 20mg",
+    "pack": "5x2ml",
+    "productPacking": "ampule",
+    "price": "26",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LAX PEG",
+    "description": "Polyethylene Glycol, Sodium Chloride, Sodium Bicarbonate & Potassium Chloride Concentrate For Oral Solution",
+    "pack": "200ml",
+    "productPacking": "susp",
+    "price": "299",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "XEN-R TAB",
+    "description": "Ranitidine 150MG Tablets",
+    "pack": "20x30",
+    "productPacking": "Strip",
+    "price": "49.75",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "XEN-R SYRUP",
+    "description": "Ranitidine 75mg",
+    "pack": "100ml",
+    "productPacking": "Syrup",
+    "price": "99.9",
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ACEMOVE-P TABLET",
+    "description": "Aceclofenac 100 mg + Paracetamol 325 mg.",
+    "pack": "20x15",
+    "productPacking": "blister",
+    "price": "112",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ACEMOVE-MR TABLET",
+    "description": "Aceclofenac 100 mg + Paracetamol 325 mg.+ Chlrozoxazone250mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "89.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ACEMOVE -P SUS",
+    "description": "Aceclofenac 50 mg + Paracetamol 125 mg.",
+    "pack": "60 ml",
+    "productPacking": "Susp.",
+    "price": "50",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OMNI-PRED 5",
+    "description": "Prednisolone Tablets I.P-5mg",
+    "pack": "50x10",
+    "productPacking": "Strip",
+    "price": "7.72",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OMNI-PRED 10",
+    "description": "Prednisolone Tablets I.P-10mg",
+    "pack": "50x10",
+    "productPacking": "Strip",
+    "price": "13.32",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CHYMOPASE TAB",
+    "description": "Trypsin 48 mg +Bromelain 90 mg & Rutoside Trihydrate 100 mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "189",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CHYMOPASE-D TAB",
+    "description": "Trypsin 48 mg +Bromelain 90 mg + Rutoside Trihydrate 100 mg+Diclofenac Potassium 50 mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "209",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DURAFLEX TABLET",
+    "description": "Metaxalone 400mg+Diclofenac Potassium 50mg",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "249",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "NOFLAM TABLET",
+    "description": "Diclofenac Potassium 50 mg + Paracetamol 325 mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "49",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "NT-SPAS TABLET",
+    "description": "Mefenamic Acid 250 mg + Dicyclomine HCl 10 mg",
+    "pack": "25x10",
+    "productPacking": "blister",
+    "price": "39.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PARADOL TABLET",
+    "description": "Paracetamol 325 mg + Tramadol 37.5 mg",
+    "pack": "20x15",
+    "productPacking": "blister",
+    "price": "179",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PASEDOL TABLET",
+    "description": "Tapentadol Hydrocloride 100mg Dispesible tablets",
+    "pack": "10*10",
+    "productPacking": "blister",
+    "price": "310",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PASE GEL ULTRA",
+    "description": "Diclofenac 1.16% + Linseed Oil 3% + Methyl Salicylate 10% + Menthol 5%+Cappisum",
+    "pack": "50gm",
+    "productPacking": "gel",
+    "price": "189",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PASE  GEL",
+    "description": "Diclofenac 1.16% + Linseed Oil 3% + Methyl Salicylate 10% + Menthol 5%+Benzyl alcohol 1%",
+    "pack": "30 gm",
+    "productPacking": "gel",
+    "price": "109",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PASE-10 TABLET",
+    "description": "Serratiopeptidase 10 mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "69.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PASE-AP TABLET",
+    "description": "Aceclofenac 100 mg + Paracetamol 325 mg + \r\nSerratiopeptidase 15 mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "109",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PASE-AP TABLET",
+    "description": "Aceclofenac 100 mg + Paracetamol 325 mg + \r\nSerratiopeptidase 15 mg",
+    "pack": "10*10",
+    "productPacking": "Alu-Alu",
+    "price": "99.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PASE-D TABLET",
+    "description": "Serratiopeptidase 10 mg + Diclofenac Potassium 50 mg",
+    "pack": "5x5x10",
+    "productPacking": "blister",
+    "price": "64.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PASE-DP TABLET",
+    "description": "Diclofenac Potassium 50mg + Paracetamol 325mg + \r\nSerratiopeptidase 10 mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "89.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SPASREST TABLET",
+    "description": "Drotaverine 80 mg + Mefenamic Acid 250 mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "79.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SPASREST-DS TABLET",
+    "description": "Drotaverine Hydrochloride 80 MG Tablets I.P.",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "160",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SPASREST INJ.",
+    "description": "Drotaverine Hydrochloride Injection",
+    "pack": "10x2ml",
+    "productPacking": "vial",
+    "price": "24.2",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ACEREST TABLET",
+    "description": "Drotaverine Hydrochloride IP  80mg + Acelofenac  IP 100mg",
+    "pack": "10*10",
+    "productPacking": "ALU-ALU",
+    "price": "109.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "T-DIP 500 TABLET",
+    "description": "Paracetamol 500 mg",
+    "pack": "15X20",
+    "productPacking": "blister",
+    "price": "20.6",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "T-DIP TABLET",
+    "description": "Paracetamol 650 mg",
+    "pack": "20*15",
+    "productPacking": "blister",
+    "price": "32",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "T-DIP Susp",
+    "description": "Paracetamol 240 mg",
+    "pack": "60ml",
+    "productPacking": "Susp.",
+    "price": "69.45",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "T-DIP SUSP",
+    "description": "Paracetamol 120 mg",
+    "pack": "60ml",
+    "productPacking": "Susp.",
+    "price": "40.32",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "T-DIP MF SUSPENSION",
+    "description": "Mefenamic Acid 50 mg + Paracetamol 125 mg",
+    "pack": "60ml",
+    "productPacking": "Susp.",
+    "price": "54.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "T-DIP MF  DS SUSP",
+    "description": "Mefenamic Acid 100 mg + Paracetamol 250 mg",
+    "pack": "60ml",
+    "productPacking": "Susp.",
+    "price": "69.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "T-DIP I.V",
+    "description": "Paracetamol Infusion IP 1000 mg",
+    "pack": "100ml",
+    "productPacking": "Infusion",
+    "price": "249",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "THIMOOV INJECTION",
+    "description": "Thiocolchicoside 4mg injection",
+    "pack": "5x2ml",
+    "productPacking": "amp.",
+    "price": "53",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "THIMOOV TABLET",
+    "description": "Thiocolchicoside 4mg + Aceclofenac 100 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "139",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "URICHECK-F 40 TAB.",
+    "description": "Febuxostat 40mg",
+    "pack": "10X10",
+    "productPacking": "alu-alu",
+    "price": "99",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "UT SPAS TABLET",
+    "description": "Flavoxate Hydrochloride 200 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "159",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "UT SPAS-O TABLET",
+    "description": "Flavoxate Hydrochloride 200 mg + Ofloxacin 200",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "169",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZOLIDE-P TABLET",
+    "description": "Nimesilde 100 mg + Paracetamol 325 mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "49.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZOXIB-120 TABLET",
+    "description": "Etoricoxib 120 mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "139",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZOXIB-90 TABLET",
+    "description": "Etoricoxib 90 mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "99",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "3D TABLET",
+    "description": "Diclofenac Potassium 50 mg + Paracetamol 325 mg +Chlrozoxazone 250 mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "69.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZOXIB- PLUS TAB",
+    "description": "Etoricoxib 60 mg +Paracetamol",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "129",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZOXIB-TC TABLET",
+    "description": "Etoricoxib 60 mg +Thiocolchicosid 4 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "219.9",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "D-NAC",
+    "description": "Diclofenac sodium 75MG + Benzyl alcohol  4%",
+    "pack": "1ml",
+    "productPacking": "ampule",
+    "price": "29",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "METHOSTAR 5MG",
+    "description": "Methotrexate tab",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "69",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "T-ZAK Tab",
+    "description": "Tofacitinib tablets 5mg",
+    "pack": "10*1*10",
+    "productPacking": "blister",
+    "price": "395",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SULFASTER-1000 TAB",
+    "description": "Sulfasalazine Delayed - Release Tablets 1000 mg",
+    "pack": "10x15",
+    "productPacking": "blister",
+    "price": "279",
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CARDIOGESIC-MR",
+    "description": "Trimetazidine Hydrochloride 35mg modified release",
+    "pack": "10*15",
+    "productPacking": "Alu-Alu",
+    "price": "139",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DAPAFLOW-M TAB",
+    "description": "Dapagliflozin & Metformin Hydrochloride(ER) Tablets",
+    "pack": "10x10",
+    "productPacking": "Alu-Alu",
+    "price": "149",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "GLYSEN TAB",
+    "description": "Metformine 500 mg. SR",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "21.5",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "GLYSENS G1 TABLET",
+    "description": "Glimepiride 1 mg + Metformin 500 mg.",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "59",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "GLYSENS G2 TABLET",
+    "description": "Glimepiride 2 mg + Metformin 500 mg.",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "99.9",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SUNLITE POWDER",
+    "description": "Cholecalciferol 60000 I.U. (Sugar Free)",
+    "pack": "10X1gm",
+    "productPacking": "sachet",
+    "price": "38.05",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SUNLIITE NDS",
+    "description": "Cholecalciferol 60000 I.U. (Sugar Free)",
+    "pack": "4X5 ml",
+    "productPacking": "bottle",
+    "price": "59",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SUNLITE NDS",
+    "description": "Vitamin D3 Oral Solution (5ml each)",
+    "pack": "1x4",
+    "productPacking": "ampule",
+    "price": "49",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SUNLITE DROPS",
+    "description": "Vitamin D3 Drops",
+    "pack": "15ml",
+    "productPacking": "drops",
+    "price": "79.9",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TELMITOP-20 TAB",
+    "description": "Telmisartan 20 MG",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "37.5",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TELMITOP-40 TAB",
+    "description": "Telmisartan 40 MG",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "62",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TELMITOP-40H TAB",
+    "description": "Telmisartan 40 MG + Hydrochlorothiazide 12.5mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "74",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TELMITOP AM TAB",
+    "description": "Telmisartan 40mg + Amlodipine 5mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "75",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TELMITOP AM H TAB",
+    "description": "Telmisartan 40MG + Hydrochlorothiazide 12.5 \r\n+ Amlodipine+5 MG",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "80.3",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "AMLOFIT-AT",
+    "description": "Atenolol & Amlodipine Tablets",
+    "pack": "10x10",
+    "productPacking": "10x10",
+    "price": "69.9",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "T-20 M TAB",
+    "description": "Teneligliptin 20 mg + Metformin Hydrochloride 500mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "129",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "T-20  TAB",
+    "description": "Teneligliptin 20 mg",
+    "pack": "10*10",
+    "productPacking": "alu-alu",
+    "price": "99",
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "B-STRAIGHT TABLET",
+    "description": "Betahistine 16 mg",
+    "pack": "25x10",
+    "productPacking": "strip",
+    "price": "79",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CITU -500 TAB",
+    "description": "Citicoline Sodium 500mg",
+    "pack": "3X10",
+    "productPacking": "alu-alu",
+    "price": "539",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ESICLON TAB",
+    "description": "Escitalopram 10 mg + Clonazepam 0.5mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "99.9",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LIMBITOL I.V.",
+    "description": "Mannitol 10mg + Glycerine 10mg",
+    "pack": "100ml",
+    "productPacking": "Infusion",
+    "price": "179",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OM TABLET",
+    "description": "Trifluoperazine 1 mg + Chlordiazepoxide 10 mg",
+    "pack": "5x5x10",
+    "productPacking": "blister",
+    "price": "49.9",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "STALIN TABLET",
+    "description": "Sertraline 50 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "89.9",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TRIPT-CX TAB",
+    "description": "Amitriptyline hydrochloride and Chlordiazepoxide tab",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "60",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TRIPT-10 TABLET",
+    "description": "Amytriptytiline HCl 10 mg",
+    "pack": "40x10",
+    "productPacking": "blister",
+    "price": "28",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TRIPT-25 TABLET",
+    "description": "Amytriptytiline HCl 25 mg",
+    "pack": "40x10",
+    "productPacking": "blister",
+    "price": "39.9",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZOLVE-500 TABLET",
+    "description": "Levetiracetam 500 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "145",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZOLVE-750 TABLET",
+    "description": "Levetiracetam 750 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "199",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "2 CALM TAB",
+    "description": "Propranolol Hydrochloride 20mg +Alprazolam 0.25mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "39.9",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "XENDOM-HS TABLET",
+    "description": "Domperidone 10 mg + Naproxen 250 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "105",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "XENDOM TABLET",
+    "description": "Domperidone 10 mg + Naproxen 500 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "159",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DOMPAR TABLET",
+    "description": "Paracetamol 500mg +Domperidone 10mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "49.9",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ETOGEM-BETA",
+    "description": "Etizolam 0.5mg  & Propranolol 20mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "70",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SOLANZIT TABLET",
+    "description": "Flupentixol 0.5mg & Melitracen  10mg tablet",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "95",
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "AKCIN INJECTION",
+    "description": "Amikacin 500 mg",
+    "pack": "2 ml",
+    "productPacking": "vial",
+    "price": "113.7",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BI-CLAV 1.2 INJ.",
+    "description": "Amoxycillin 1000 mg  +Potassium Clavulanic Acid 200mg",
+    "pack": "1.2 gm",
+    "productPacking": "vial",
+    "price": "157.52",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BI-CLAV 600 INJ.",
+    "description": "Amoxycillin & Potassium Clavulanate Inj IP",
+    "pack": "600mg",
+    "productPacking": "vial",
+    "price": "113.51",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BI-CLAV 300 INJ.",
+    "description": "Amoxycillin & Potassium Clavulanate Inj IP",
+    "pack": "300mg",
+    "productPacking": "vial",
+    "price": "89",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BI-CLAV DROP",
+    "description": "Amocycillin  +  Potassium Clavulanic Acid  oral suspension I.P",
+    "pack": "10ML",
+    "productPacking": "drop",
+    "price": "109",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BI-CLAV DRY SYP",
+    "description": "Amocycillin 200 mg  + Clavulanic Acid 28.5 mg+Lactic Bacillus",
+    "pack": "30 ml",
+    "productPacking": "Dry Syp",
+    "price": "79.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BI-CLAV DS DRY SYP",
+    "description": "Amocycillin 400 mg  + Potassium Clavulanic 57mg Oral Suspension",
+    "pack": "30 ml",
+    "productPacking": "Dry Syp",
+    "price": "129",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BI-CLAV 1000 TABLET",
+    "description": "Amocycillin 875 mg +  Clavulanic Acid 125mg",
+    "pack": "10x1x10",
+    "productPacking": "alu-alu",
+    "price": "399",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BI-CLAV KID -DT TAB",
+    "description": "Dispersible Amoxicillin & Potassium Clavulanate tab",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "165.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BI-CLAV LB  TABLET",
+    "description": "Amoxycillin 500 mg  +Potassium Clavulanic Acid 125 mg, Lactic Bacillus",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "248",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BI-CLAV 375ABLET",
+    "description": "Amoxycillin 250 mg  +Potassium Clavulanic Acid 125 mg",
+    "pack": "10x10",
+    "productPacking": "strip",
+    "price": "199",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SULTAB",
+    "description": "Sultamicillin Tosylate Tablets 375 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "529",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BULLZO-600 TABLET",
+    "description": "Linezolid 600 mg",
+    "pack": "5x10",
+    "productPacking": "alu-alu",
+    "price": "399.39",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "COMBICEF 1GM INJ.",
+    "description": "Cefoperazone 500 mg + Sulbactam 500 mg",
+    "pack": "1gm",
+    "productPacking": "vial",
+    "price": "199",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "COMBICEF-XL INJ.",
+    "description": "Cefoperazone 1000 mg + Sulbactam 500 mg",
+    "pack": "1.5 gm",
+    "productPacking": "vial",
+    "price": "365",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "COMBICEF-T 1.125 INJ.",
+    "description": "Cefoperazone 1000 mg + Tazobactam 125 mg",
+    "pack": "1.125",
+    "productPacking": "vial",
+    "price": "270",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CSF-250 TABLET",
+    "description": "Cefuroxime Axetil 250 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "229",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CSF-500 TABLET",
+    "description": "Cefuroxime Axetil 500 mg",
+    "pack": "10*10",
+    "productPacking": "alu-alu",
+    "price": "485",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CSF-CV 625 TABLET",
+    "description": "Cefuroxime Axetil 500 mg + Clavulanic Acid 125 mg",
+    "pack": "10*10",
+    "productPacking": "alu-alu",
+    "price": "499",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CSF-750 INJ.",
+    "description": "Cefuroxime Injection I.P  750 MG",
+    "pack": "750MG",
+    "productPacking": "VIAL",
+    "price": "169",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CSF-  DRY SYP",
+    "description": "Cefuroxime Axetil 125 mg",
+    "pack": "30 ml",
+    "productPacking": "Dry Syp",
+    "price": "129",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CSF-1.5 INJ.",
+    "description": "Cefuroxime Injection I.P-1.5 gm",
+    "pack": "",
+    "productPacking": "vial",
+    "price": "279",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIXCEF-100 DT",
+    "description": "Cefixime 100 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "89",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIXCEF-LB TABLET",
+    "description": "Cefixime 200& Lactic acid Bacillus  Tablets",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "149",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIXCEF-CV TABLET",
+    "description": "Cefixime 200 mg + Clavulanic Acid 125 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "379",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIXCEF-O TABLET",
+    "description": "Cefixime 200 mg + Ofloxacin 200 mg",
+    "pack": "5x10",
+    "productPacking": "alu-alu",
+    "price": "249",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIXCEF-XL",
+    "description": "Cefixime+Dicloxacillin tablets",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "274",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIXCEF-AZ TABLET",
+    "description": "Cefixime  200mg + Azithromycin with lb Tab",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "349",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIXCEF DRY SYP",
+    "description": "Cefixime 50mg",
+    "pack": "30ml",
+    "productPacking": "Dry Syp",
+    "price": "54.4",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIXCEF-100 DRY SYP",
+    "description": "Cefixime 100mg",
+    "pack": "30ml",
+    "productPacking": "Dry Syp",
+    "price": "81.68",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIXCEF-O DRY SYP",
+    "description": "Cefixime 50mg +  Ofloxacine oral susp",
+    "pack": "30ml",
+    "productPacking": "Dry Syp",
+    "price": "94.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIXCEF-CV DRY SYP",
+    "description": "Cefixime 50mg +  Clavulanic Acid 31.25 mg",
+    "pack": "30ml",
+    "productPacking": "Dry Syp",
+    "price": "109",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "HITHRO Susp.",
+    "description": "Azithromycin 200mg",
+    "pack": "30ml",
+    "productPacking": "Susp.",
+    "price": "114.24",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "HITHRO-250 TABLET",
+    "description": "Azithromycin 250 mg",
+    "pack": "10x6",
+    "productPacking": "blister",
+    "price": "78.2",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "HITHRO-500 TABLET",
+    "description": "Azithromycin 500 mg",
+    "pack": "10x5",
+    "productPacking": "blister",
+    "price": "131.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "HITHRO INJ.",
+    "description": "Azithromycin For Injection USP-500MG",
+    "pack": "",
+    "productPacking": "VIAL",
+    "price": "229",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KLEAR-500",
+    "description": "Clarithromycin 500 mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "359",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KLEAR-250 TABLET",
+    "description": "Clarithromycin 250 mg",
+    "pack": "5x1x4",
+    "productPacking": "blister",
+    "price": "120",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LAMOX-250 CAPSULE",
+    "description": "Amoxycillin 250 mg  + Lactic acid bacillus 60million spores",
+    "pack": "30*10",
+    "productPacking": "blister",
+    "price": "48.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LEOQUIN SUSP 60ml",
+    "description": "Levofloxacin 125 mg",
+    "pack": "60 ml",
+    "productPacking": "Susp.",
+    "price": "89.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LEOQUIN-250 TABLET",
+    "description": "Levofloxacin 250 mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "49.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LEOQUIN-500 TABLET",
+    "description": "Levofloxacin 500 mg",
+    "pack": "20x5",
+    "productPacking": "blister",
+    "price": "50.34",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LEOQUIN-750 TABLET",
+    "description": "Levofloxacin 750 mg",
+    "pack": "10x5",
+    "productPacking": "alu-alu",
+    "price": "69.72",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LEOQUIN-OZ TABLET",
+    "description": "Levofloxacin 250 mg + Ornidazole 500 mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "69.72",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LEOQUIN-OZ Susp",
+    "description": "Levofloxacin 125 mg + Ornidazole 125 mg",
+    "pack": "30ml",
+    "productPacking": "Susp.",
+    "price": "59.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LEOQUIN IV 100ML",
+    "description": "Levofloxacin IP 500mg+ Dextrose Anhydrous IP 5gm",
+    "pack": "100ML",
+    "productPacking": "Infusion",
+    "price": "179.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "L-OCIN-OZ TABLET",
+    "description": "Ofloxacin 200 mg + ​Ornidazole 500 mg",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "99.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OZ-IV",
+    "description": "Orindazole infusion 0.5 w/v",
+    "pack": "100ml",
+    "productPacking": "Infusion",
+    "price": "109",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MEBGYL-400 TABLET",
+    "description": "Metronidazole 400 mg",
+    "pack": "25x10",
+    "productPacking": "blister",
+    "price": "15.2",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OCIN-200 TABLET",
+    "description": "Ofloxacin 200 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu/ blister",
+    "price": "79.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OCIN-DS SUSPENSION",
+    "description": "Ofloxacin 100 mg /5ml",
+    "pack": "30ml",
+    "productPacking": "Susp.",
+    "price": "49.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OCIN-DS SUSPENSION",
+    "description": "Ofloxacin 100 mg /5ml",
+    "pack": "60ML",
+    "productPacking": "Susp.",
+    "price": "99",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OCIN-MS SUSP",
+    "description": "OFLOXACIN 50MG + METRONIDAZOLE 120MG + SIMETHICONE 10 MG /5ml",
+    "pack": "60ML",
+    "productPacking": "Susp.",
+    "price": "89",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OCIN-MS SUSP",
+    "description": "OFLOXACIN 50MG + METRONIDAZOLE 120MG + SIMETHICONE 10 MG /5ml",
+    "pack": "30ML",
+    "productPacking": "Susp.",
+    "price": "59.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OCIMET SUSP",
+    "description": "Ofloxacin & Metronidazole Suspension",
+    "pack": "60ML",
+    "productPacking": "Susp.",
+    "price": "60",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OCIMET SUSP",
+    "description": "Ofloxacin & Metronidazole Suspension",
+    "pack": "30ML",
+    "productPacking": "Susp.",
+    "price": "42",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OCIN I.V.",
+    "description": "Ofloxacin Infusion IP (0.2% W/V)",
+    "pack": "100 ml",
+    "productPacking": "Infusion",
+    "price": "159",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEFEPIME 1gm INJ",
+    "description": "Cefepime 1gm  injection",
+    "pack": "1gm",
+    "productPacking": "vial",
+    "price": "259",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEFEPIME-T",
+    "description": "Cefepime & Tazobactam injection",
+    "pack": "1.125 gm",
+    "productPacking": "vial",
+    "price": "339",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEEZIDE 1GM INJ.",
+    "description": "Ceftazidime 1 gm",
+    "pack": "1X1gm",
+    "productPacking": "vial",
+    "price": "220",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEEZIDE 2GM INJ.",
+    "description": "Ceftazidime 2 gm",
+    "pack": "1X1gm",
+    "productPacking": "vial",
+    "price": "449",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEEZIDE 250MG INJ.",
+    "description": "Ceftazidime 250 mg",
+    "pack": "1X250",
+    "productPacking": "vial",
+    "price": "80.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEEZIDE-T INJECTION",
+    "description": "Ceftazidime 1000 mg + Tazobactam 125 mg",
+    "pack": "1X1.125",
+    "productPacking": "vial",
+    "price": "529",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEEZONE 1gm INJ.",
+    "description": "Ceftriaxone 1000mg",
+    "pack": "1 gm",
+    "productPacking": "vial",
+    "price": "69.8",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEEZONE 2gm INJ.",
+    "description": "Ceftriaxone 2000mg",
+    "pack": "2gm",
+    "productPacking": "vial",
+    "price": "154.6",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEEZONE-250 INJ",
+    "description": "Ceftriaxone 250 Mg",
+    "pack": "250 mg",
+    "productPacking": "vial",
+    "price": "31.7",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEEZONE-500 INJ",
+    "description": "Ceftriaxone 500 Mg",
+    "pack": "0.5gm",
+    "productPacking": "vial",
+    "price": "56",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEEZONE-SB 1.5 INJ.",
+    "description": "Ceftriaxone 1 gm + Sulbactam 500 mg",
+    "pack": "1.5 gm",
+    "productPacking": "vial",
+    "price": "148",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEEZONE-SB 375 INJ.",
+    "description": "Ceftriaxone 250 mg + Sulbactam 125 mg",
+    "pack": "1X375 mg",
+    "productPacking": "vial",
+    "price": "45.6",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SEEZONE-T INJECTION",
+    "description": "Ceftriaxone 1 gm + Tazobactam 125 mg",
+    "pack": "1.125 gm",
+    "productPacking": "vial",
+    "price": "179",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TAZOPIPER 4.5 INJ.",
+    "description": "Piperacillin 4 gm + Tazobactam 500 mg",
+    "pack": "4.5 gm",
+    "productPacking": "vial",
+    "price": "319         446",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TAZOPIPER 2.25 INJ.",
+    "description": "Piperacillin gm + Tazobactam  mg",
+    "pack": "2.25gm",
+    "productPacking": "vial",
+    "price": "214.5",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TAZOPIPER 1.125 INJ.",
+    "description": "Piperacillin 1 gm + Tazobactam 125 mg",
+    "pack": "1.125 mg",
+    "productPacking": "vial",
+    "price": "111.6",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TRIDOXIM-  DRY SYP",
+    "description": "Cefpodoxime 50 mg",
+    "pack": "30 ml",
+    "productPacking": "Dry Syp",
+    "price": "99.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TRIDOXIM-100  DRY SYP",
+    "description": "Cefpodoxime 100 mg",
+    "pack": "30 ml",
+    "productPacking": "Dry Syp",
+    "price": "199",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TRIDOXIM-100 TAB.",
+    "description": "Cefpodoxime 100 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "149.9",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TRIDOXIM-200 TAB.",
+    "description": "Cefpodoxime 200 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "299",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TRIDOXIM-O TAB.",
+    "description": "Cefpodoxime 200 mg+Ofloxacin 200mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "309",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TRIDOXIM-CV 100 TABLET",
+    "description": "Cefodoxime 100mg+ Clavulanic Acid 62.50mg",
+    "pack": "10X10",
+    "productPacking": "alu-alu",
+    "price": "165",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "TRIDOXIM-CV TABLET",
+    "description": "Cefodoxime 200mg+ Clavulanic Acid 125mg",
+    "pack": "10*10",
+    "productPacking": "alu-alu",
+    "price": "331",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZONEM  125mg INJ",
+    "description": "Meropenem 125mg",
+    "pack": "125mg",
+    "productPacking": "vial",
+    "price": "229",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZONEM  0.5GM INJ",
+    "description": "Meropenem 500mg",
+    "pack": "0.5gm",
+    "productPacking": "vial",
+    "price": "809",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZONEM 1GM INJ",
+    "description": "Meropenem 1000 mg",
+    "pack": "1 gm",
+    "productPacking": "vial",
+    "price": "1067",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZONEM SB  1.5gm INJ",
+    "description": "Meropenem & Sulbactam (1500 mg)",
+    "pack": "1.5gm",
+    "productPacking": "vial",
+    "price": "1790",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZONEM-TZ INJ",
+    "description": "Meropenem & Tazobactam (1.125)",
+    "pack": "1.125gm",
+    "productPacking": "vial",
+    "price": "1999",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KRYSTAL-500",
+    "description": "Ciprofloxacin Tablets IP 500MG",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "46.6",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KRYSTAL-TZ",
+    "description": "Ciprofloxacin & Tinidazole Tablets",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "109",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KRYSTAL-250",
+    "description": "Ciprofloxacin Tablets IP250 MG",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "24.6",
+    "category": "ANTI-INFECTIVE DRUGS"
+  },
+  {
+    "img": "/product.png",
+    "title": "3G CREAM",
+    "description": "Nadifloxacin 10mg/gm + Mometasone Furate 1 mg/gm + Miconazole Nitrate 20 mg/gm",
+    "pack": "7.5 gm",
+    "productPacking": "cream",
+    "price": "125",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "MELINDA Inj",
+    "description": "Clindamycin 600 mg injection",
+    "pack": "4ml",
+    "productPacking": "amp.",
+    "price": "271.48",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "MELINDA CAP",
+    "description": "Clindamycin 300 mg capsule",
+    "pack": "10*10",
+    "productPacking": "blister",
+    "price": "274.9",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "MELINDA-N GEL",
+    "description": "Clindamycin Phosphate & Nicotinamide Gel",
+    "pack": "20gm",
+    "productPacking": "cream",
+    "price": "189",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "MELINDA GEL",
+    "description": "Clindamycin Phosphate Gel USP",
+    "pack": "20gm",
+    "productPacking": "cream",
+    "price": "159",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "PINKY CREAM",
+    "description": "Hydroquinone , Tretinoin & Mometasone Furoate Cream",
+    "pack": "20gm",
+    "productPacking": "cream",
+    "price": "149",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "4G CREAM",
+    "description": "Itraconazole 1.0%, Ofloxacin 0.75%, Ornidazole 2.0% & Clobetasol Propionate 0.05%",
+    "pack": "15gm",
+    "productPacking": "cream",
+    "price": "79.9",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "CETAMIDE SOAP",
+    "description": "Cetrimide 1.0% + Vit E0.025% + Glycerin 1.0%",
+    "pack": "75 Gm",
+    "productPacking": "soap",
+    "price": "89",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "KETAVALE LOTION",
+    "description": "Ketoconazole 2% Zpto 1 %",
+    "pack": "100 ml",
+    "productPacking": "Lotion",
+    "price": "249",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "KETACET CREAM",
+    "description": "Ketoconazole 2%",
+    "pack": "30gm",
+    "productPacking": "cream",
+    "price": "130",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "KETACET SOAP",
+    "description": "Ketoconazole cream 2%",
+    "pack": "75 gm",
+    "productPacking": "soap",
+    "price": "129",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "NUSALI LOTION",
+    "description": "Clobetasol propionate 0.05%& Salicyclic Acid 6%Lotion",
+    "pack": "30ml",
+    "productPacking": "Lotion",
+    "price": "179",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "NUSALI CREAM 3%",
+    "description": "Clobetasol  Propionate 0.05% & Salicylic acid 3%",
+    "pack": "20gm",
+    "productPacking": "cream",
+    "price": "89",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "CLOSPAN-NM CREAM",
+    "description": "Clobetasol Propionate 0.05%w/w + Neomycin Sulphate 0.5% w/w + Miconazole 2%w/w",
+    "pack": "15 gm",
+    "productPacking": "cream",
+    "price": "69",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "GOLD DUST POWDER",
+    "description": "Clotrimazole Absorbent Dusting Powder(Antifungal Antibacterial)",
+    "pack": "100 G",
+    "productPacking": "Pwdr.",
+    "price": "109",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "TERBIGUN TAB",
+    "description": "Terbinafine Hydrochloride 250mg",
+    "pack": "10x1x7",
+    "productPacking": "blister",
+    "price": "139.9",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "HERPIRID CREAM",
+    "description": "Aciclovir 5%w/w+Lignocaine 4%w/w",
+    "pack": "15gm",
+    "productPacking": "cream",
+    "price": "119",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "PERPURE SOAP",
+    "description": "Permethrin 1%w/w",
+    "pack": "75 Gm",
+    "productPacking": "soap",
+    "price": "89",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "PERPURE LOTION",
+    "description": "Premethrin 5% w/v",
+    "pack": "50 ml",
+    "productPacking": "Lotion",
+    "price": "109",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "UV-LOCK LOTION",
+    "description": "Sunscreen Lotion spf 30",
+    "pack": "100ml",
+    "productPacking": "Lotion",
+    "price": "329",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "ITRAGUN-200 CAP",
+    "description": "Itraconazole 200 mg",
+    "pack": "10x7",
+    "productPacking": "strip",
+    "price": "173.2",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "ITRAGUN SOAP",
+    "description": "Itraconazole  1% W/W",
+    "pack": "75gm",
+    "productPacking": "soap",
+    "price": "129",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "FLUGUN -200",
+    "description": "Fluconazole 200mg",
+    "pack": "20*1×1",
+    "productPacking": "blister",
+    "price": "19.54",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "FLUGUN -400",
+    "description": "Fluconazole 400mg",
+    "pack": "20×1x1",
+    "productPacking": "blister",
+    "price": "38.85",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "LULIGUN CREAM",
+    "description": "Luliconazole Cream",
+    "pack": "30 gm",
+    "productPacking": "cream",
+    "price": "189",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "LULIGUN CREAM",
+    "description": "Luliconazole Cream",
+    "pack": "50 gm",
+    "productPacking": "cream",
+    "price": "349",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "TERBIGUN CREAM",
+    "description": "Terbinafine Hydrochloride",
+    "pack": "20 gm",
+    "productPacking": "cream",
+    "price": "99",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "PENTAGUN-15GM",
+    "description": "ketoconazole IP 2% w/w, Iodochlorhydroxyquinoline IP 1.0%w/w,Tolnaftate IP 1.0%w/w, \r\nclobetasol propionate IP 0.05% w/w , Neomycin Sulphate IP eq. to Neomycin 0.1%w/w",
+    "pack": "15GM",
+    "productPacking": "cream",
+    "price": "91",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZOMBA-OINTMENT",
+    "description": "Mometasone Furoate Ointment I.P",
+    "pack": "15GM",
+    "productPacking": "cream",
+    "price": "159",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "FUSISTAR",
+    "description": "Fusidic Acid Cream IP",
+    "pack": "15gm",
+    "productPacking": "cream",
+    "price": "129",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "FUSISTAR-F",
+    "description": "Fusidic Acid & Clobetasol Propionate Cream",
+    "pack": "20gm",
+    "productPacking": "cream",
+    "price": "159",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "CALVERA LOTION",
+    "description": "Calamine + Aloe Vera Gel + Paraffin + Vitamin E",
+    "pack": "100 ml",
+    "productPacking": "Lotion",
+    "price": "139",
+    "category": "DERMA CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "N-PILL",
+    "description": "Norethisterone Tablets I.P.",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "199",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "B-DOX TABLET",
+    "description": "Doxylamine Succinate 10 mg + Pyridoxine 10 mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "39.9",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "B-DOX PLUS TABLET",
+    "description": "Doxylamine Succinate 10 mg + Pyridoxine 10 mg+ Folic acid 5mg",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "49.9",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "LB-DOXY TABLET",
+    "description": "​\r\nDoxycycline 100mg & Lactobacillus 60million spores",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "99",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "DOXY-TZ TABLET",
+    "description": "Doxycyclin Hyclate 100mg + Tinidazole 300mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "100",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "BIG-B6 TABLET",
+    "description": "Pyridoxine 100mg SR",
+    "pack": "5x30",
+    "productPacking": "blister",
+    "price": "149",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "BIG B6-F TABLET",
+    "description": "Pyridoxine 100mg SR +Folic Acid 5mg",
+    "pack": "10x30",
+    "productPacking": "blister",
+    "price": "139",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "COMFO-TM TABLET",
+    "description": "Tranexamic Acid 500mg + Mefenamic Acid 250 mg",
+    "pack": "5x6",
+    "productPacking": "strip",
+    "price": "117.37",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "ISORELAX-40",
+    "description": "Isoxsuprine Hydrochloride sustained 40mg  release tab",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "99",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "FLOWIN TAB",
+    "description": "Folic Acid 5 mg",
+    "pack": "20x30",
+    "productPacking": "blister",
+    "price": "46.62",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "PREGUARD softgel",
+    "description": "Natural Micronised Progesterone 200 mg (SOFTGEL)",
+    "pack": "3x10",
+    "productPacking": "blister",
+    "price": "249",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "PREGUARD-300 SR TAB",
+    "description": "Natural Micronised Progesterone 300 mg SR TAB",
+    "pack": "3x10",
+    "productPacking": "blister",
+    "price": "449",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "VOLVO VIGINAL WASH",
+    "description": "Veginal Wash",
+    "pack": "100 ml",
+    "productPacking": "VW",
+    "price": "145",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "EPOCAP CAP",
+    "description": "Evening primrose oil(Gamma Linolenic Acid Softgel Cap)",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "180",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZOTHASYL TABLETS",
+    "description": "Etamsylate 500 mg Tablets",
+    "pack": "10X10",
+    "productPacking": "strip",
+    "price": "219",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "SALVUS",
+    "description": "Dydrogesterone 10mg",
+    "pack": "10*1*10",
+    "productPacking": "blister",
+    "price": "649",
+    "category": "GYNAE CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "CARTISURE 200 TAB.",
+    "description": "S-Adenosyl L-Methionine 200mg",
+    "pack": "3X10",
+    "productPacking": "alu-alu",
+    "price": "249",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CARTISURE 400 TAB.",
+    "description": "S-Adenosyl L-Methionine 400mg",
+    "pack": "3X10",
+    "productPacking": "alu-alu",
+    "price": "549",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "CALUP TABLET",
+    "description": "Calcium Car. 1250 mg (Elemental calcium 500mg )+ Vitamin D3 250 IU",
+    "pack": "20x15",
+    "productPacking": "blister",
+    "price": "99",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "EVERCAL-K2 7 TABLET",
+    "description": "Calcium Carbonate, Calciferol, Vitamin k27, Magnesium",
+    "pack": "10x15",
+    "productPacking": "blister",
+    "price": "184.9",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "EVERCAL Suspension",
+    "description": "Calcium Citrate 100 mg+ Vitamin D3 =200 I.U",
+    "pack": "200 ml",
+    "productPacking": "Susp.",
+    "price": "149",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "EVERCAL-XP TABLET",
+    "description": "Calcium Citrate 750 mg + Calcitriol 0.25 mcg + Zinc sulphate monohydrate 7.5mg + Magnesium hydroxide 100 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "135",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "GLOWIN CAPSULE",
+    "description": "Carbonyl Iron 100 mg + Folic Acid 1.5 mg + Vitamin C 75 mg + Zinc Sulphate 61.8 mg + Vitamin B12 15 mcg",
+    "pack": "3x10",
+    "productPacking": "blister",
+    "price": "59.9",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "GLOWIN SYP",
+    "description": "Carbonyl Iron 25 mg + Folic Acid 1.5 mg + Zinc Sulphate 11 mg Cyanocobalamin  6mcg Each 5ml",
+    "pack": "200 ml",
+    "productPacking": "Syrup",
+    "price": "125",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "GLOWIN-XT TABLET",
+    "description": "Ferrous Ascorbate 100mg + Folic Acid 1.5mg",
+    "pack": "15*10",
+    "productPacking": "alu-alu",
+    "price": "119.9",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "GLOWIN-XT Softgel",
+    "description": "Ferrous Ascorbate 100mg + Folic Acid 1.5mg + Elemental Zinc 22.5mg",
+    "pack": "10*1*10",
+    "productPacking": "blister",
+    "price": "110",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "GLOWIN-XT SUSP",
+    "description": "Elemental Iron30mg + Folic Acid 0.5mg",
+    "pack": "150 ml",
+    "productPacking": "Susp.",
+    "price": "119",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "GLOWIN-XT DROP",
+    "description": "Ferrous Ascorbate  + Folic Acid Drop",
+    "pack": "15ml",
+    "productPacking": "Drops",
+    "price": "119",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "GLOWIN-FCM INJ.",
+    "description": "Ferric carboxymaltose injection",
+    "pack": "10ML",
+    "productPacking": "Infusion",
+    "price": "2490",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "NERVIT TABLET",
+    "description": "Mecobalamin 750 mcg + Alpha Lipoic Acid 50 mg +  Folic Acid\r\nVitamin B1 10 mg + Vitamin B6 3 mg + Vitamin E 25 IU",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "79",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OD-NER TABLET",
+    "description": "Mecobalamin 1500 mcg. + Alpha Lipoic Acid 100 mg + Thiamine Mononitrate 10 mg + Pyridoxine HCl 3mg + Folic Acid 1.5 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "199",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OD-NER LC TABLET",
+    "description": "L-Carnitine L-Tartrate ,Folic Acid And Mecobalamin Tablets",
+    "pack": "10x15",
+    "productPacking": "alu-alu",
+    "price": "259",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OD-NER FORTE INJECTION",
+    "description": "Methycobalamin 2500 mcg+benzyl alcohol 1.5% v/v",
+    "pack": "1x2ml",
+    "productPacking": "ampule",
+    "price": "124",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OD-NER -FC INJ",
+    "description": "Vitamin C with Methylcobalamine,Folic acid & Niacinamide Injection",
+    "pack": "1.5ml+1ml",
+    "productPacking": "Infusion",
+    "price": "99",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OD-NER INJECTION",
+    "description": "Methylcobalamin 1500 mcg.+pyridoxine 100mg+nicotinamide 100mg+benzyl alcohol 2% v/v",
+    "pack": "1x2ml",
+    "productPacking": "ampule",
+    "price": "59.9/99.9",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "RAINBOW SYRUP",
+    "description": "Multivitamin +  Multimineral with Pine Bark Extract",
+    "pack": "200 ml",
+    "productPacking": "Syrup",
+    "price": "145",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SPARX TABLET",
+    "description": "Gabapentin 300 mg + Methylcobalamin 500 mcg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "159",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "XENA CAPSULE",
+    "description": "Multimineral + Lycopene",
+    "pack": "10*10",
+    "productPacking": "blister",
+    "price": "99",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "XENA SYRUP",
+    "description": "Multi Minneral With Lycopene",
+    "pack": "200 ml",
+    "productPacking": "Syrup",
+    "price": "159",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "HELLO VIT SYRUP",
+    "description": "Multivitamin , Multimineral With Lycopene Syrup",
+    "pack": "200ml",
+    "productPacking": "Susp.",
+    "price": "199",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "Y-TAL SYRUP",
+    "description": "Multivitamin with L-Lycin & D Panthenol",
+    "pack": "200 ml",
+    "productPacking": "Syrup",
+    "price": "79.9",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "NORMYLIN TABLET",
+    "description": "Pregabalin 75 mg + nortripyline 10 mg",
+    "pack": "10X10",
+    "productPacking": "alu-alu",
+    "price": "130",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "PREMYLIN TABLET",
+    "description": "Pregabalin 75 mg + methylcobalamin 1500mcg",
+    "pack": "10X10",
+    "productPacking": "alu-alu",
+    "price": "129",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MEGAVIT CAP",
+    "description": "Lycopene, Lutein, Zeaxanthin, Multivitamins, Multi-\r\nMinerals, Ginseng & Antioxidant Softgel",
+    "pack": "10X10",
+    "productPacking": "BLISTER",
+    "price": "169",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BLESSVIT SOFTGEL \r\nCAP",
+    "description": "Calcitriol 0.25mcg (Omega 3 Fatty Acid) + Methylcobalamin 1500mcg+  Docosahexaenoic acid 120mg+Eicosapentaenoic 180mg+\r\nCalcium Carbonate 500mg & Folic Acid 400mg+ Boron 1.5 mg Softgel Capsules",
+    "pack": "10x1x10",
+    "productPacking": "blister",
+    "price": "259",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIGOSOFT DROPS",
+    "description": "Lycopene, Lutein, Zeaxanthin, Multivitamins, Multi-\r\nMinerals, Ginseng & Antioxidant Softgel",
+    "pack": "10x1x10",
+    "productPacking": "blister",
+    "price": "189",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "AMINOFILL",
+    "description": "Nutritive Infusion (Pure Crystalline Amino Acid IV)",
+    "pack": "200ML",
+    "productPacking": "vial",
+    "price": "799",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "AMINOFILL",
+    "description": "Nutritive Infusion (Pure Crystalline Amino Acid IV)",
+    "pack": "100ML",
+    "productPacking": "vial",
+    "price": "599",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "AMINOFILL 7%",
+    "description": "Amino Acid Infusions(7% w/v) With Malic Acid For Renal Insufficiency",
+    "pack": "250ml",
+    "productPacking": "vial",
+    "price": "799",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "HIT NEURO TABLETS",
+    "description": "Vitamin B Complex With B12",
+    "pack": "30X30",
+    "productPacking": "blister",
+    "price": "60",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MEGA-Q10 Cap",
+    "description": "L-carnitine 100mg + Coenzyme Q10 100mg +L-Arginine 100mg+Sodium Selenate 100mg + \r\nMethylcobalamine 1500mcg+ Lycopene10% 1000mcg+Astaxanthin 10%   16mg",
+    "pack": "10*10",
+    "productPacking": "blister",
+    "price": "550",
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "EXPERT GEL",
+    "description": "Potassium Nitrate 5% + Sodium Monofluoro Phosphate 0. 7% + Triclosan 0.3%",
+    "pack": "100 gm",
+    "productPacking": "Gel",
+    "price": "129",
+    "category": "DENTAL CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "DENTO SHINE",
+    "description": "Herbal Toothpaste",
+    "pack": "100 gm",
+    "productPacking": "toothpaste",
+    "price": "144",
+    "category": "DENTAL CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "ORAKOOL GEL",
+    "description": "Choline Salicylate+ Lignocaine Hydrochloride +Benzalkonium Chloride Gel",
+    "pack": "15 gm",
+    "productPacking": "Gel",
+    "price": "60",
+    "category": "DENTAL CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "PIORID GUM PAINT",
+    "description": "Tannic Acid, Zinc Chloride and Cetrimide Gum Astringent",
+    "pack": "15ml",
+    "productPacking": "gum paint",
+    "price": "89",
+    "category": "DENTAL CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "KETOTOP-TAB",
+    "description": "Ketorolac Tromethamine Dispersible 10 mg",
+    "pack": "10x15",
+    "productPacking": "alu-alu",
+    "price": "109.9",
+    "category": "DENTAL CARE"
+  },
+  {
+    "img": "/product.png",
+    "title": "GARD OINTMENT",
+    "description": "Lidocaine 3.0% w/w + Hydrocortisone Acetate 0.25 % w/w + Zinc Oxide 5% w/w + Allantoin 0.5 % w/w",
+    "pack": "25 gm",
+    "productPacking": "Ointment",
+    "price": "70",
+    "category": "POST OPERATIVE WOUND MANAGEMENT"
+  },
+  {
+    "img": "/product.png",
+    "title": "HEAL-ALL OINT.",
+    "description": "Metronidazole 1% w/w + Povidone Iodine 5% w/w + \r\nSucralfate 7% w/w",
+    "pack": "15 gm",
+    "productPacking": "Ointment",
+    "price": "99.9",
+    "category": "POST OPERATIVE WOUND MANAGEMENT"
+  },
+  {
+    "img": "/product.png",
+    "title": "ULTI-BACT OINT. 5gm",
+    "description": "Mupirocin 2.0% w/w",
+    "pack": "5 gm",
+    "productPacking": "Ointment",
+    "price": "109",
+    "category": "POST OPERATIVE WOUND MANAGEMENT"
+  },
+  {
+    "img": "/product.png",
+    "title": "ULTI-BACT OINT.10gm",
+    "description": "Mupirocin 2.0% w/w",
+    "pack": "10gm",
+    "productPacking": "Ointment",
+    "price": "189",
+    "category": "POST OPERATIVE WOUND MANAGEMENT"
+  },
+  {
+    "img": "/product.png",
+    "title": "OTOCURE EAR DROP",
+    "description": "Gentamicin 0.3% + clotrimazole 1%+ Lignocaine HCL 2% & Beclomethasone Dipropionate 0.025% ear drops",
+    "pack": "5 ml",
+    "productPacking": "Ear drops",
+    "price": "54.9",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SOLWAX EAR DROP",
+    "description": "Paradichloro Benzene 2%w/v+Benzene2.7%w/v+ Chlorbutol 5%w/v+Turpentine Oil 15%w/v",
+    "pack": "10 ml",
+    "productPacking": "Ear drops",
+    "price": "49.9",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SALINASE NASAL SAPRAY",
+    "description": "SODIUM CHLORIDE 0.65 % w/v+BENZALKONIUM CHLORIDE 0.02% V/V (PAEDIATRIC USE)",
+    "pack": "15 ML",
+    "productPacking": "Nasal sapray",
+    "price": "44.9",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OXYNASE NASAL DROP",
+    "description": "OXYMETAZOLINE HYDROCHLORIDE 0.05% W/V +\r\n BENZALKONIUM CHLORIDE 0.02% V/V (PAEDIATRIC USE)",
+    "pack": "10 ml",
+    "productPacking": "Nasal sapray",
+    "price": "69",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "NESOMIST- M",
+    "description": "Mometasone Furoate 0.05 % w/v Nasal Spray",
+    "pack": "10 ml",
+    "productPacking": "Nasal sapray",
+    "price": "299",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "NESOMIST- F",
+    "description": "Fluticasone-50 mcg = (0.05 % w/v) Nasal Spray",
+    "pack": "10 ml",
+    "productPacking": "Nasal sapray",
+    "price": "299",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "NESOMIST",
+    "description": "Isotonic Nasal Spray",
+    "pack": "10 ml",
+    "productPacking": "Nasal sapray",
+    "price": "499",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "Caro-fill Cap",
+    "description": "CAROVARINE",
+    "pack": "10*10",
+    "productPacking": "Blister",
+    "price": "279",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MAJOUR EYE DROP",
+    "description": "Moxifloxacin Eye Drops I.P",
+    "pack": "5ML",
+    "productPacking": "EYE DROP",
+    "price": "99",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MYGENTA-D EYE DROP",
+    "description": "Gentamicin Sulphate & Dexamethasone Sodium Phosphate Eye Drops",
+    "pack": "5ML",
+    "productPacking": "EYE DROP",
+    "price": "49",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "KRYSTAL-D",
+    "description": "Ciprofloxacin, Dexamethasone & HPMC Eye Drops",
+    "pack": "5ml",
+    "productPacking": "EYE DROP",
+    "price": "49",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "OCIN-D EYE DROP",
+    "description": "Ofloxacin, Dexamethasone Sodium Phosphate 5 HPMC Eye / Ear Drops",
+    "pack": "10ml",
+    "productPacking": "EYE DROP",
+    "price": "63",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "6BY6  SOFTGEL CAP",
+    "description": "Astaxanthin , Zeaxanthin , Lutein , Vitamins &\r\n Trace Elements",
+    "pack": "3x10",
+    "productPacking": "blister",
+    "price": "179",
+    "category": "EYE / EAR DROPS"
+  },
+  {
+    "img": "/product.png",
+    "title": "AH-HA POWDER",
+    "description": "Laxative Powder",
+    "pack": "100gm",
+    "productPacking": "Pwdr.",
+    "price": "189",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "EXPEL TABLET",
+    "description": "For Kidney Stone",
+    "pack": "10x10",
+    "productPacking": "blister",
+    "price": "49.9",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "HEP-PEP SYRUP",
+    "description": "Liver Tonic",
+    "pack": "200 ml",
+    "productPacking": "Syrup",
+    "price": "149",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "HEP-PEP FORTE SYRUP",
+    "description": "Liver Tonic (sugar free)",
+    "pack": "200 ml",
+    "productPacking": "Syrup",
+    "price": "189",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "HEP-PEP TABLET",
+    "description": "Liver Tablets",
+    "pack": "1x60",
+    "productPacking": "tab.",
+    "price": "189",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "TULSANA SYP",
+    "description": "Ayurvedic (Cough Syuph with Tulsi & Honey)",
+    "pack": "100ml",
+    "productPacking": "Syrup",
+    "price": "89.9",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "X-TONE SYRUP",
+    "description": "Uterine Tonic",
+    "pack": "200 ml",
+    "productPacking": "Syrup",
+    "price": "152.9",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "PHYTOFLEX OINTMENT",
+    "description": "Joints Pain & Rheumatoid Arthritis",
+    "pack": "75 gm",
+    "productPacking": "Ointment",
+    "price": "279",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "QIKK CALLUS",
+    "description": "Ayurvedic Bone Fracture Healing",
+    "pack": "1x45",
+    "productPacking": "caps.",
+    "price": "685",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "QIKK CALLUS",
+    "description": "Ayurvedic Bone Fracture Healing",
+    "pack": "10*1*10",
+    "productPacking": "alu-alu",
+    "price": "220",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "PASE OIL",
+    "description": "Massage Oil For Joint pain",
+    "pack": "60 ml",
+    "productPacking": "oil",
+    "price": "149",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "MAHA PASE OIL",
+    "description": "Massage Oil for Joint Pain",
+    "pack": "60ml",
+    "productPacking": "Oil",
+    "price": "159",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "CAVI-GO Natural",
+    "description": "herbal mouthwash ( haldi liquid ext. 2%+Spearmint oil 0.60%+Menthol 1%+Tea Tree Oil 1% +Glycerine 5%)",
+    "pack": "200ml",
+    "productPacking": "mouthwash",
+    "price": "199",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "FIGOSOFT DROPS",
+    "description": "For Relieves constipution",
+    "pack": "15ml",
+    "productPacking": "Drops",
+    "price": "69",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "HEP-PEP DROPS",
+    "description": "For Protect Liver Various hepatotoxins.",
+    "pack": "60ml",
+    "productPacking": "Drops",
+    "price": "99",
+    "category": "AYURVEDIC"
+  },
+  {
+    "img": "/product.png",
+    "title": "HEP-PEP PLUS CAP.",
+    "description": "Silymarin 70mg + L-Ornithine L-Aspartate 250mg + Folic Acid 1mg Nicotinamide  45mg & Calcium D-pantothenate 10mg",
+    "pack": "10x1x10",
+    "productPacking": "blister",
+    "price": "199",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "HEP-PEP INFUSION",
+    "description": "L-Ornithine L-Aspartate 5 g",
+    "pack": "1x10 ml",
+    "productPacking": "ampule",
+    "price": "249",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "HEP-PEP TAB",
+    "description": "L-Ornithine L-Aspartate 150 mg + Pancreatin 100mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "129",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "UDPIL-150 TABLET",
+    "description": "Ursodeoxycholic Acid 150mg",
+    "pack": "10*10",
+    "productPacking": "blister",
+    "price": "249",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "UDPIL-300 TABLET",
+    "description": "Ursodeoxycholic Acid 300mg",
+    "pack": "10*15",
+    "productPacking": "blister",
+    "price": "569",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "APGAIN SYRUP",
+    "description": "Cyproheptadine 2 mg + Tricholine Citrate 275 mg",
+    "pack": "200 ml",
+    "productPacking": "Syrup",
+    "price": "129.9",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "APGAIN DROPS",
+    "description": "Cyproheptadine HCL  + Tricholine Citrate Drops",
+    "pack": "15ml",
+    "productPacking": "Drops",
+    "price": "54.9",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BIOCAT SYRUP",
+    "description": "Fungal Diastase 50mg + Pepsin 10mg",
+    "pack": "200ml",
+    "productPacking": "Syrup",
+    "price": "109",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BIOCAT DROP",
+    "description": "Alpha Amylase+Dill Oil +Anise Oil+Caraway Oil +Papsin drops",
+    "pack": "15ml",
+    "productPacking": "drops",
+    "price": "79.9",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BUMPS CAPSULE",
+    "description": "Calcium Dobesilate 500MG",
+    "pack": "20x10",
+    "productPacking": "blister",
+    "price": "99",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "BON TONE TABLET",
+    "description": "Diacerein  50MG + Glucosamine750GM + MSM",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "189",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DEFZO SUSP",
+    "description": "Deflazacort 6mg/5ml",
+    "pack": "60ml",
+    "productPacking": "Susp.",
+    "price": "129",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DEFZO-6 TABLET",
+    "description": "Deflazacort 6 mg",
+    "pack": "10x10",
+    "productPacking": "alu-alu",
+    "price": "129",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DMD TABLET",
+    "description": "Hydroxychloroquine Sulphate 200mg",
+    "pack": "10X10",
+    "productPacking": "blister",
+    "price": "71.12",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "URIFLOW SYRUP",
+    "description": "Potassium Citrate 1100 mg + Citric Acid 334 mg",
+    "pack": "200ml",
+    "productPacking": "Syrup",
+    "price": "149",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "FASTNEM-200",
+    "description": "Faropenem 200 mg",
+    "pack": "1X6",
+    "productPacking": "alu-alu",
+    "price": "599",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "ZODEC-50 INJECTION",
+    "description": "Nandrolone Decanoate 50 mg",
+    "pack": "1 ml",
+    "productPacking": "ampule",
+    "price": "215",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "COLI CURE DROPS",
+    "description": "Dill Oil 0.005ml + Fennel Oil 0.0007ml +Simethicone-40mg",
+    "pack": "15ml",
+    "productPacking": "Drops",
+    "price": "59.9",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "COLI CURE-SD SUSP",
+    "description": "Dicyclomine Hydrochloride & Simethicone Susp.",
+    "pack": "30ml",
+    "productPacking": "Susp.",
+    "price": "49.9",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "DEN-GO TABLET",
+    "description": "Carica Papaya Extract 1100 With Tinospora Cordifolia Extract 100mg",
+    "pack": "5x10",
+    "productPacking": "alu-alu",
+    "price": "279",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "SAK TABLET",
+    "description": "Combipack + Mifepristone 200mg & Misoprostol 200mcg",
+    "pack": "10X5",
+    "productPacking": "alu-alu",
+    "price": "477",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LOV TIME",
+    "description": "Sildenafil citrate 100mg",
+    "pack": "20*1*4",
+    "productPacking": "blister",
+    "price": "199",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "LOV TIME  Excel",
+    "description": "Sildenafil citrate 100mg  +  Dapoxitine  60mg",
+    "pack": "20*1*4",
+    "productPacking": "blister",
+    "price": "249",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "MY-PILL 72 TAB",
+    "description": "Levonorgestrel Tab   1.5mg",
+    "pack": "20*1*1",
+    "productPacking": "blister",
+    "price": "99",
+    "category": "HEPATOPROTECTIVE PRODUCTS"
+  },
+  {
+    "img": "/product.png",
+    "title": "HERBAL  SHAMPOO",
+    "description": "WITH AMLA,RETHA,&SHIKAKAI EXTRACT",
+    "pack": "200 ML",
+    "productPacking": "SHAMPOO",
+    "price": "249",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "APPLE CIDER VINEGAR SHAMPOO",
+    "description": "WITH APPLE EXTRACT & ROSEMARY EXTRACT",
+    "pack": "200 ML",
+    "productPacking": "SHAMPOO",
+    "price": "249",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "ROSEMARY SHAMPOO",
+    "description": "WITH ROSEMARY & VITAMIN E",
+    "pack": "200 ML",
+    "productPacking": "SHAMPOO",
+    "price": "249",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "RICE WATER SHAMPOO",
+    "description": "WITH RICE WATER & SOYPROTEIN",
+    "pack": "200 ML",
+    "productPacking": "SHAMPOO",
+    "price": "249",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "ONION SHAMPOO",
+    "description": "WITH ONION EXTRACT & ALMOND OIL",
+    "pack": "200 ML",
+    "productPacking": "SHAMPOO",
+    "price": "249",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "HALDI & CHANDAN FACE WASH",
+    "description": "REPLENISHES SKIN MOISTURE",
+    "pack": "100ML",
+    "productPacking": "FACE WASH",
+    "price": "199",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "CHARCOAL FACE WASH",
+    "description": "FOAMING FACE WASH",
+    "pack": "100ML",
+    "productPacking": "FACE WASH",
+    "price": "199",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "HELLO FOOT CARE",
+    "description": "Misture Hydration (Prevents Dry Skin)",
+    "pack": "50GM",
+    "productPacking": "CREAM",
+    "price": "149",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "HELLO SOFT LOTION",
+    "description": "Moisturizing lotion",
+    "pack": "200ML",
+    "productPacking": "LOTION",
+    "price": "459",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "HELLO NEEM",
+    "description": "FOAMING FACE WASH",
+    "pack": "100ML",
+    "productPacking": "FACE WASH",
+    "price": "349",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "HELLO TEA TREE",
+    "description": "FOAMING FACE WASH",
+    "pack": "100ML",
+    "productPacking": "FACE WASH",
+    "price": "349",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "HELLO ROSE WATER",
+    "description": "FACE CLEANSER",
+    "pack": "120ML",
+    "productPacking": "FACE CLEANSER",
+    "price": "47",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "HELLO UBTAN",
+    "description": "FOAMING FACE WASH",
+    "pack": "100ML",
+    "productPacking": "FACE WASH",
+    "price": "349",
+    "category": "COSMECTIC RANGE"
+  },
+  {
+    "img": "/product.png",
+    "title": "LAVENDER HAND\r\nWASH",
+    "description": "NOURISHING & FRAGRANT",
+    "pack": "250ML",
+    "productPacking": "HAND WASH",
+    "price": "99",
+    "category": "HAND WASHES"
+  },
+  {
+    "img": "/product.png",
+    "title": "ORANGE HAND WASH",
+    "description": "MADE WITH NATURAL ELEMENTS",
+    "pack": "250ML",
+    "productPacking": "HAND WASH",
+    "price": "99",
+    "category": "HAND WASHES"
+  },
+  {
+    "img": "/product.png",
+    "title": "ALOVERA HAND\r\nWASH",
+    "description": "MADE WITH NATURAL ELEMENTS",
+    "pack": "250ML",
+    "productPacking": "HAND WASH",
+    "price": "99",
+    "category": "HAND WASHES"
+  },
+  {
+    "img": "/product.png",
+    "title": "LEMON HAND WASH",
+    "description": "ENRICHED WITH COCAMIDOPROPYL BETAINE\r\nAND GLYCERINE",
+    "pack": "250ML",
+    "productPacking": "HAND WASH",
+    "price": "99",
+    "category": "HAND WASHES"
+  }
+]
