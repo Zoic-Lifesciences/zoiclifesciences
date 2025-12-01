@@ -47,7 +47,7 @@ export default function Header() {
       {/* Top Bar */}
       
       <div className={`${scrolled ? "hidden" : ""} transition-all max-w-7xl  mx-auto flex justify-center w-full`}>
-        <div className="hidden md:flex w-[94%] text-[12px] items-center justify-between py-3 text-sm border-b border-gray-300">
+        <div className="hidden md:flex w-full text-[12px] items-center justify-between py-3 text-sm border-b border-gray-300">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone size={16} />
@@ -168,7 +168,7 @@ export default function Header() {
                       {menu === "Services" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
-                            ["/services/contract-manufacturing", "Pharma Franchise"],
+                            ["/services/pcd-pharma-franchise", "PCD Pharma Franchise"],
                             ["/services/third-party", "Third-Party Manufacturing"],
                             ["/services/research-development", "Oversees Business"],
                           ].map(([href, label]) => (
@@ -227,26 +227,26 @@ export default function Header() {
 
 
         {/* Desktop Version */}
-      <div className="max-w-7xl mx-auto flex justify-center">
-        <nav className="hidden md:flex md:flex-row flex-col py-2 items-center relative w-full justify-between md:w-[94%]">
+      <div className="max-w-7xl  mx-auto flex justify-center">
+        <nav className="hidden md:flex md:flex-row flex-col py-2 items-center relative w-full justify-between md:w-[100%]">
           {/* Logo */}
             <div className="flex items-center gap-2">
               <Image
-    src={scrolled ? "/logo.png" : "/logo2.png"}   // <-- change image based on scroll
-    alt="Zoic Logo"
-    width={scrolled ? 50 : 100}
-    height={scrolled ? 50 : 100}
-    className="transition-all duration-500"
-  />
+                  src={scrolled ? "/logo.png" : "/logo2.png"}   // <-- change image based on scroll
+                  alt="Zoic Logo"
+                  width={scrolled ? 50 : 100}
+                  height={scrolled ? 50 : 100}
+                  className="transition-all duration-500"
+                />
           </div>
 
           {/* Navigation Links */}
-          <div className="flex md:flex-row flex-col w-[70%] md:justify-between"> 
+          <div className="flex md:flex-row flex-col w-[85%] md:justify-between font-bold"> 
             <ul className="flex md:flex-row flex-col md:items-center items-start gap-10 text-lg">
             <li
               className={`${
-                isActive("/") ? "text-[#048DB7] font-semibold" : " hover:text-[#048DB7]"
-              }`}
+                isActive("/") ? "text-[#048DB7] font-semibold" : " hover:text-white hover:bg-[#048DB7] rounded-xl px-2"
+              }  `}
             >
               <Link href="/">Home</Link>
             </li>
@@ -256,8 +256,8 @@ export default function Header() {
                 key={menu}
                 className={`relative cursor-pointer flex items-center gap-1 ${
                   pathname.startsWith(`/${menu.toLowerCase()}`)
-                    ? "text-[#048DB7] font-semibold"
-                    : "hover:text-[#048DB7]"
+                    ? "text-[#048DB7] font-semibold "
+                    : "hover:text-white hover:bg-[#048DB7] rounded-xl px-2"
                 }`}
                 onMouseEnter={() => handleMouseEnter(menu)}
                 onMouseLeave={handleMouseLeave}
@@ -303,8 +303,8 @@ export default function Header() {
                       {menu === "Services" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
-                            ["/services/pharma-franchise", "Pharma Franchise"],
-                            ["/services/third-party", "Third-Party Manufacturing"],
+                            ["/services/pcd-pharma-franchise", "PCD Pharma Franchise"],
+                            ["/services/third-party-manufacturing", "Third-Party Manufacturing"],
                             ["/services/oversees-business", "Oversees Business"],
                           ].map(([href, label]) => (
                             <li key={href}>
@@ -348,9 +348,18 @@ export default function Header() {
 
             <li
               className={`cursor-pointer ${
+                pathname.startsWith("/pcd-pharma-franchise")
+                  ? "text-[#048DB7] font-semibold"
+                  : " hover:text-white hover:bg-[#048DB7] rounded-xl px-2 "
+              }`}
+            >
+              <Link href="/services/pcd-pharma-franchise">PCD Franchise</Link>
+            </li>
+            <li
+              className={`cursor-pointer ${
                 pathname.startsWith("/products")
                   ? "text-[#048DB7] font-semibold"
-                  : " hover:text-[#048DB7]"
+                  : " hover:text-white hover:bg-[#048DB7] rounded-xl px-2"
               }`}
             >
               <Link href="/products">Products</Link>
@@ -359,7 +368,7 @@ export default function Header() {
               className={`cursor-pointer ${
                 pathname.startsWith("/blog")
                   ? "text-[#048DB7] font-semibold"
-                  : "hover:text-[#048DB7]"
+                  : "hover:text-white hover:bg-[#048DB7] rounded-xl px-2"
               }`}
             >
               <Link href="/blog">Blogs</Link>

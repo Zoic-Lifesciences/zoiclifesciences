@@ -19,7 +19,7 @@ export default function Speciality() {
         {/* Heading slides in from left */}
         <div className="flex flex-col w-full">
           <h1
-            className="md:text-6xl text-5xl text-center my-10 text-[#090A69]"
+            className="regulator-nova-alts-straight tracking-wider md:text-6xl text-5xl text-center my-10 text-[#090A69]"
           >
             25 Years of Experience
           </h1>
@@ -45,7 +45,7 @@ export default function Speciality() {
             alt="Speciality"
             width={800}
             height={800}
-            className="object-contain ml-12 w-[100%]"
+            className="object-contain w-[90%] mx-auto"
           />
         </div>
       </div>

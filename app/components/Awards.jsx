@@ -1,90 +1,106 @@
 "use client";
-import { useEffect } from "react";
-import { ArrowRight } from "lucide-react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
-export default function Awards() {
+const data = [
+  { id: 7, img: "/awards/7.jpg", category: "Injectables" },
+  { id: 6, img: "/awards/8.jpg", category: "Capsules" },
+  { id: 3, img: "/awards/9.jpg", category: "Soft Gel" },
+  { id: 1, img: "/awards/10.jpg", category: "Tablets" },
+  { id: 8, img: "/awards/11.jpg", category: "Ointments" },
+  { id: 4, img: "/awards/12.jpg", category: "Powder" },
+  // { id: 2, img: "/awards/14.jpg", category: "Syrup" },
+  { id: 5, img: "/awards/15.webp", category: "Oil" },
+];
+
+export default function AwardsSection() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const total = data.length;
+
   useEffect(() => {
-    AOS.init({
-      duration: 900,
-      easing: "ease-in-out",
-      once: false,
-      offset: 120,
-    });
-  }, []);
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % total);
+    }, 2000); // rotate every 1.5s
+    return () => clearInterval(interval);
+  }, [total]);
 
   return (
-    <div className="flex flex-col text-white items-center bg-gradient-to-b from-[#1BA3CD] to-[#090A69] min-h-[320vh] w-screen py-20">
+    <div className="bg-linear-to-r from-[#1BA3CD] to-[#090A69] text-white min-h-screen flex items-center justify-center py-16 px-8">
+      <div className="max-w-7xl flex flex-col mx-auto">
 
-      {/* Title */}
-      <div data-aos="fade-down" className="text-center mb-10">
-        <h1 className="md:text-7xl text-5xl font-bold drop-shadow-xl">
-          Awards & Achievements
-        </h1>
-
-        <a className="flex items-center gap-2 cursor-pointer justify-center mt-3 text-lg hover:opacity-80 transition">
-          Explore More <ArrowRight size={24} />
-        </a>
-      </div>
-
-      <div className="w-[90%] flex flex-col gap-16">
-
-        {/* --- ROW 1 --- */}
-        <div className="flex md:flex-row flex-col gap-10">
-          <div
-            data-aos="fade-up"
-            className="md:w-2/3 w-full h-[75vh] rounded-3xl shadow-2xl bg-cover bg-center"
-            style={{ backgroundImage: "url('/awards/9.jpg')" }}
-          ></div>
-
-          <div className="flex flex-col md:w-1/3 w-full gap-10">
-            <div
-              data-aos="fade-left"
-              className="w-full h-[35vh] rounded-3xl shadow-xl bg-cover bg-center"
-              style={{ backgroundImage: "url('/awards/7.jpg')" }}
-            ></div>
-            <div
-              data-aos="fade-left"
-              data-aos-delay="200"
-              className="w-full h-[35vh] rounded-3xl shadow-xl bg-cover bg-center"
-              style={{ backgroundImage: "url('/awards/8.jpg')" }}
-            ></div>
-          </div>
+        {/* LEFT COLUMN: Heading + Tagline */}
+        <div className="w-full md:w-full flex flex-col justify-center">
+          <h1 className="regulator-nova-alts tracking-widest md:text-6xl text-5xl font-bold mb-6">Awards & Achievements</h1>
+          {/* <p className="regulator-nova-alts-straight md:text-lg text-base text-white/90 leading-relaxed">
+            Owning ISO GMP manufacturing infrastructure facilities benefits
+            associates with in-house services of drug formulations sourced from
+            trusted and credible vendors.
+          </p> */}
         </div>
 
-        {/* --- ROW 2 --- */}
-        <div className="flex md:flex-row flex-col gap-10">
-          <div
-            data-aos="fade-right"
-            className="md:w-1/3 w-full h-[60vh] rounded-3xl shadow-xl bg-cover bg-center"
-            style={{ backgroundImage: "url('/awards/10.jpg')" }}
-          ></div>
+        {/* RIGHT COLUMN: Carousel */}
+        <div className="w-full md:w-full flex justify-center items-center relative h-[60vh] mt-10">
+          {data.map((item, index) => {
+            // Calculate position relative to currentIndex
+            const position = (index - currentIndex + total) % total;
 
-          <div
-            data-aos="fade-up"
-            data-aos-delay="150"
-            className="md:w-2/3 w-full h-[80vh] rounded-3xl shadow-2xl bg-cover bg-center"
-            style={{ backgroundImage: "url('/awards/11.jpg')" }}
-          ></div>
+            // Card animation logic
+            let scale = 0.7;
+            let x = 0;
+            let opacity = 0.5;
+            let zIndex = 1;
+
+            if (position === 0) {
+              scale = 1;
+              x = 0;
+              opacity = 1;
+              zIndex = 3;
+            } else if (position === 1) {
+              scale = 0.85;
+              x = 120;
+              opacity = 0.5;
+              zIndex = 2;
+            } else if (position === total - 1) {
+              scale = 0.85;
+              x = -120;
+              opacity = 0.5;
+              zIndex = 2;
+            } else if (position === 2) {
+              scale = 0.7;
+              x = 240;
+              opacity = 0.2;
+              zIndex = 1;
+            } else if (position === total - 2) {
+              scale = 0.7;
+              x = -240;
+              opacity = 0.2;
+              zIndex = 1;
+            }
+
+            return (
+              <motion.div
+                key={item.id}
+                animate={{ scale, x, opacity }}
+                transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                style={{ zIndex }}
+                className="absolute w-[750px] h-full flex items-center justify-center "
+              >
+                <div className="relative w-full h-full shadow-2xl rounded-xl overflow-hidden">
+                  <img
+                    src={item.img}
+                    className="w-full h-full object-cover rounded-xl"
+                  />
+                  {/* <div
+                    className="absolute bottom-4 left-1/2 -translate-x-1/2 
+                      bg-[#048DB7] px-6 py-2 rounded-lg text-lg font-semibold shadow-md regulator-nova-alts tracking-wider"
+                  >
+                    {item.category}
+                  </div> */}
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
-
-        {/* --- ROW 3 (New + Large Immersive Row) --- */}
-        <div className="flex md:flex-row flex-col gap-10">
-          <div
-            data-aos="zoom-in-up"
-            className="md:w-2/3 w-full h-[85vh] rounded-3xl shadow-2xl bg-cover bg-center"
-            style={{ backgroundImage: "url('/awards/12.jpg')" }}
-          ></div>
-
-          <div
-            data-aos="fade-left"
-            data-aos-delay="200"
-            className="md:w-1/3 w-full h-[55vh] rounded-3xl shadow-xl bg-cover bg-center"
-            style={{ backgroundImage: "url('/awards/13.jpg')" }}
-          ></div>
-        </div>
-
       </div>
     </div>
   );

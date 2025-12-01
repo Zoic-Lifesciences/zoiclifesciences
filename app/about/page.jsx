@@ -12,6 +12,7 @@ import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function AboutPage() {
+  const ref = useRef();
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -36,6 +37,29 @@ export default function AboutPage() {
     return () => observer.disconnect();
   }, [isPlaying]);
 
+    useEffect(() => {
+      const node = ref.current;
+
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            // Remove class to restart animation
+            node.classList.remove("fade-in-right");
+
+            // Trigger reflow to restart
+            void node.offsetWidth;
+
+            // Add class back
+            node.classList.add("fade-in-right");
+          }
+        },
+        { threshold: 0.3 } // Trigger when 30% visible
+      );
+
+      if (node) observer.observe(node);
+      return () => observer.disconnect();
+    }, []);
+
   const handlePlay = () => {
     const video = videoRef.current;
     video.muted = false;
@@ -54,10 +78,10 @@ export default function AboutPage() {
         <Image src="/medworld.jpg" alt="ZOIC Logo" fill className="object-cover" />
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative z-10 text-center px-6">
-          <h1 className="text-6xl md:text-7xl font-bold tracking-tight mb-6 max-w-7xl">
+          <h1 className="regulator-nova-alts tracking-wider text-6xl md:text-7xl font-bold tracking-tight mb-6 max-w-7xl">
             25 Years of Global Healthcare Innovation
           </h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto text-blue-100 leading-relaxed">
+          <p className="regulator-nova-alts-straight tracking-wider text-xl md:text-2xl max-w-3xl mx-auto text-blue-100 leading-relaxed">
             For over two decades, ZOIC has transformed lives through science — driven by ethics,
             powered by innovation, and committed to global wellness.
           </p>
@@ -76,39 +100,43 @@ export default function AboutPage() {
                 <FaQuoteLeft className="text-5xl mr-5" />
               </span>
 
-              <p className="mt-10 relative text-3xl">
+              <div className="mt-10 relative text-3xl">
                 <div className="w-full top-[-20px] bg-white h-[5px] absolute"></div>
                 <div className="w-[5px] top-[20px] left-[-40px] bg-white h-full absolute"></div>
-                At Zoic, our medicine stands independently, capable of aiding recovery where even
-                blessings may falter.
-                <span className="inline-block ml-2">
+                <p className="regulator-nova-alts tracking-wider">
+                  At Zoic, our medicine stands independently, capable of aiding recovery where even
+                  blessings may not work.
+                </p>
+                {/* <span className="inline-block ml-2">
                   <FaQuoteRight className="text-xl" />
-                </span>
-              </p>
+                </span> */}
+              </div>
             </div>
 
             <div className="flex text-white mt-[20vh]">
-              <div className="w-24 h-24 relative">
-                <Image src="/logo.png" alt="ZOIC Logo" fill className="object-contain" />
+              <div className="w-36 h-36 relative">
+                <Image src="/logo2.png" alt="ZOIC Logo" fill className="object-contain" />
               </div>
 
               <div className="text-center ml-10">
-                <h1 className="text-6xl mb-5">SANJAY GUPTA</h1>
-                <p className="text-3xl">
-                  MANAGING DIRECTOR
+                <h1 className="regulator-nova-alts-straight tracking-wider text-5xl mb-5 font-bold">Mr. Sanjay Gupta</h1>
+                <p className="regulator-nova-alts tracking-wider text-xl">
+                  Managing Director
                   <br />
-                  ZOIC LIFESCIENCES
+                  Zoic Lifesciences Pvt. Ltd.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="w-[40vw] h-[90vh] overflow-hidden relative ">
+          <div 
+          ref={ref}
+          className="w-[40vw] h-[90vh] overflow-hidden relative ">
             <Image
               src="/team/sanjaygupta.png"
               alt="Sanjay Gupta"
               fill
-              className="object-cover"
+              className="fade-in-right object-cover"
             />
           </div>
         </div>
@@ -117,17 +145,18 @@ export default function AboutPage() {
       <div className="h-[90vh] w-[100vw] relative flex items-center justify-center">
         <div className="flex w-[85%] justify-between">
           <div
-            className="w-[40vw] h-[70vh] bg-amber-200 rounded-2xl bg-cover bg-center bg-no-repeat"
+            className="w-[40vw] rounded-xl h-[70vh] rounded-2xl bg-contain bg-center bg-no-repeat"
             style={{ backgroundImage: "url('/team/rohit2.jpg')" }}
           ></div>
 
           <div className="w-[50%] z-10 flex flex-col">
-            <h1 className="text-5xl text-start">The Story Behind<br /> Our Success</h1>
-
-            <p className="w-[90%] mt-5 text-lg">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum duis aute irure dolor in reprehendert in voluptate velit
-              esse cillumsint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+            <h1 className="text-5xl text-start regulator-nova-alts-straight tracking-wider">Mr. Rohit Mamgain</h1>
+            <h6 className="regulator-nova-alts mt-2 text-gray-500 text-xs">(Corporate Strategist, IIM Bangalore)</h6>
+            <p className="regulator-nova-alts tracking-wider w-[90%] mt-5 text-lg">
+              <span className="inline-block ml-2 mr-4">
+                  <FaQuoteLeft className="text-xl" />
+              </span>
+              Our journey at Zoic is driven by trust, strengthened by global ambition, and defined by the legacy we’re creating for generations to come.
             </p>
 
             <div className="w-full flex flex-col relative items-center mt-10">
@@ -166,24 +195,24 @@ export default function AboutPage() {
       <Timeline />
 
       <section className="w-[100vw] bg-gray-100 flex justify-center items-center pb-10 pt-12">
-        <div className="w-[85%] flex flex-col items-center">
+        <div className="w-[85%] flex flex-col items-center regulator-nova-alts tracking-wider">
           <h1 className="text-6xl text-center">The dream team of<br /> Marketing</h1>
-          <p className="text-center text-gray-500 text-lg mt-5">We grow business Online</p>
+          <p className="text-center text-gray-500 text-lg mt-5">We grow as a family</p>
 
-          <div className="flex w-full justify-between">
+          <div className="flex w-full justify-between regulator-nova-alts-straight tracking-wider">
             <div className="w-[22vw] bg-blue-100 rounded-2xl transition-transform duration-300 hover:scale-105">
               <div
                 className="h-[50vh] w-full bg-cover bg-center bg-no-repeat rounded-t-2xl"
-                style={{ backgroundImage: "url('/team/sanjaygupta.png')" }}
+                style={{ backgroundImage: "url('/dummy_male.png')" }}
               ></div>
 
               <div className="bg-blue-900 text-white">
-                <h1 className="ml-5 py-2 text-lg font-semibold">02</h1>
+                <h1 className="ml-5 py-2 text-lg font-semibold">01</h1>
               </div>
 
               <div className="flex justify-center items-center w-full mt-5">
                 <div className="w-[90%]">
-                  <h1 className="text-xl font-bold mb-3">SEO Website Design</h1>
+                  <h1 className="text-xl font-bold mb-3 regulator-nova-alts tracking-wider ">Cheif Executing Officer</h1>
                   <p className="text-gray-500">
                     1st on the List provides highly effective PPC advertising for every budget
                     including Google PPC Ads, Bing PPC, and ad
@@ -195,7 +224,7 @@ export default function AboutPage() {
             <div className="w-[27vw] bg-blue-100 rounded-2xl mt-[8vh] pb-10 transition-transform duration-300 hover:scale-105">
               <div
                 className="h-[50vh] w-full bg-cover bg-center bg-no-repeat rounded-t-2xl"
-                style={{ backgroundImage: "url('/md.png')" }}
+                style={{ backgroundImage: "url('/dummy_male.png')" }}
               ></div>
 
               <div className="bg-blue-900 text-white">
@@ -204,7 +233,7 @@ export default function AboutPage() {
 
               <div className="flex justify-center items-center w-full mt-5">
                 <div className="w-[90%]">
-                  <h1 className="text-xl font-bold mb-3">SEO Website Design</h1>
+                  <h1 className="text-xl font-bold mb-3  regulator-nova-alts tracking-wider">Head of Sales and Marketing</h1>
                   <p className="text-gray-500">
                     1st on the List provides highly effective PPC advertising for every budget
                     including Google PPC Ads, Bing PPC, and ad
@@ -216,16 +245,16 @@ export default function AboutPage() {
             <div className="w-[22vw] bg-blue-100 rounded-2xl transition-transform duration-300 hover:scale-105">
               <div
                 className="h-[50vh] w-full bg-cover bg-center bg-no-repeat rounded-t-2xl"
-                style={{ backgroundImage: "url('/md.png')" }}
+                style={{ backgroundImage: "url('/dummy_male.png')" }}
               ></div>
 
               <div className="bg-blue-900 text-white">
-                <h1 className="ml-5 py-2 text-lg font-semibold">02</h1>
+                <h1 className="ml-5 py-2 text-lg font-semibold ">03</h1>
               </div>
 
               <div className="flex justify-center items-center w-full mt-5">
                 <div className="w-[90%]">
-                  <h1 className="text-xl font-bold mb-3">SEO Website Design</h1>
+                  <h1 className="text-xl font-bold mb-3 regulator-nova-alts tracking-wider">Chief Finance Officer</h1>
                   <p className="text-gray-500">
                     1st on the List provides highly effective PPC advertising for every budget
                     including Google PPC Ads, Bing PPC, and ad

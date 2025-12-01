@@ -113,7 +113,7 @@ const bottomTestimonials = [
 
 export default function Testimonial() {
   return (
-    <section className="relative overflow-hidden py-16 bg-linear-to-b from-[#FFFFFF] to-[#D3EDFF]">
+    <section className="regulator-nova-alts tracking-wider relative overflow-hidden py-16 bg-linear-to-b from-[#FFFFFF] to-[#D3EDFF]">
       <div className="text-start mb-10 flex justify-center">
         <div className="flex md:flex-row flex-col justify-between w-[80%] items-center">
           <div>

@@ -69,7 +69,7 @@ export default function NewlyLaunched() {
 
   return (
     <section className="px-8 py-32 overflow-hidden">
-      <h2 className="text-7xl text-center mb-5">Newly Launched</h2>
+      <h2 className="regulator-nova-alts-straight tracking-wider text-7xl text-center mb-5">Newly Launched</h2>
       <p className="text-center text-gray-500 ">
         At <span className="text-[#048DB7] font-semibold">ZOIC</span> it’s all
         about continuous innovations.
@@ -92,16 +92,16 @@ export default function NewlyLaunched() {
                     style={{ backgroundImage: `url(${p.image})` }}
                   ></div>
                   <div className="p-4 h-48">
-                    <h3 className="text-lg font-semibold text-[#048DB7]">
+                    <h3 className="regulator-nova-alts tracking-wider font-semibold text-[#048DB7] text-2xl">
                       {p.name}
                     </h3>
-                    <p className="text-sm font-bold text-gray-700 mt-2">
+                    <p className="regulator-nova-alts-straight tracking-wider text-sm font-bold text-gray-700 mt-2">
                       Packaging: {p.pack}
                     </p>
-                    <p className="text-[10px] text-gray-500 mt-2">
+                    <p className="regulator-nova-alts-straight text-[10px] text-gray-500 mt-2">
                       <b>Composition:</b> {p.composition}
                     </p>
-                    <p className="text-[10px] text-gray-500 mt-2">
+                    <p className="regulator-nova-alts-straight text-[10px] text-gray-500 mt-2">
                       <b>Usage:</b> {p.desc}
                     </p>
                   </div>

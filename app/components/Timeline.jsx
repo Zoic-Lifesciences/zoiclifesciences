@@ -68,54 +68,45 @@ export default function LegacyTimeline() {
 
         { milestones.map((obj,index)=>{
           return index%2===0 ? (
-          <>
-        <div className="flex flex-row-reverse justify-between h-[35vh]">
-          <div className="w-[40%] relative">
-            <h1 className="text-6xl absolute left-[-25%]">0{index+1}</h1>
-            <div className="w-[5px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]"></div>
-            <div
-              ref={(el) => (boxRefs.current[index] = el)}
-              className="w-[5px] h-[20vh] absolute bg-[#1BA3CD] left-[-20%] top-[10vh] flex"
-            />
-            <div className="bg-gray-100 p-4 rounded-2xl" ref={(el) => (contentRefs.current[index] = el)}>
-              <h1 className="text-5xl mb-5">{obj.year}</h1>
-              <p>
-                {obj.text}
-              </p>
+          <div key={index} className="flex flex-row-reverse justify-between h-[35vh]">
+            <div className="w-[40%] relative">
+              <h1 className="text-6xl absolute left-[-25%]">0{index+1}</h1>
+              <div className="w-[5px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]"></div>
+              <div
+                ref={(el) => (boxRefs.current[index] = el)}
+                className="w-[5px] h-[20vh] absolute bg-[#1BA3CD] left-[-20%] top-[10vh] flex"
+              />
+              <div className="bg-gray-100 p-4 rounded-2xl" ref={(el) => (contentRefs.current[index] = el)}>
+                <h1 className="text-5xl mb-5">{obj.year}</h1>
+                <p>
+                  {obj.text}
+                </p>
+              </div>
             </div>
+            <div className="w-[40%]"></div>
           </div>
-          <div className="w-[40%]"></div>
-        </div>
-        </>)
-        :(
-        <>
-        <div className="flex flex-row h-[35vh] justify-between">
-          <div className="w-[40%] relative">
-            <div className="bg-gray-100 p-4 rounded-2xl" ref={(el) => (contentRefs.current[index] = el)}>
-              <h1 className="text-5xl mb-5">{obj.year}</h1>
-              <p>
-                {obj.text}
-              </p>
+          ):(
+          <div key={index} className="flex flex-row h-[35vh] justify-between">
+            <div className="w-[40%] relative">
+              <div className="bg-gray-100 p-4 rounded-2xl" ref={(el) => (contentRefs.current[index] = el)}>
+                <h1 className="text-5xl mb-5">{obj.year}</h1>
+                <p>
+                  {obj.text}
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="w-[40%] relative">
-            <h1 className="text-6xl absolute left-[-25%]">0{index+1}</h1>
-            <div className="w-[5px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]"></div>
-            <div
-              ref={(el) => (boxRefs.current[index] = el)}
-              className="w-[5px] h-[20vh] absolute bg-[#1BA3CD] left-[-20%] top-[10vh] flex"
-            />
-          </div>
-        </div>
-        </>)
-
+            <div className="w-[40%] relative">
+              <h1 className="text-6xl absolute left-[-25%]">0{index+1}</h1>
+              <div className="w-[5px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]"></div>
+              <div
+                ref={(el) => (boxRefs.current[index] = el)}
+                className="w-[5px] h-[20vh] absolute bg-[#1BA3CD] left-[-20%] top-[10vh] flex"
+              />
+            </div>
+          </div>)
         })
       }
-        
-        
-
-        
       </div>
     </section>
   );

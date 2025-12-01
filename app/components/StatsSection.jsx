@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
 export default function StatsSection() {
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
+  const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.3 });
 
   const stats = [
     { labelTop: "Present In", number: 20, suffix: "+", labelBottom: "States" },
@@ -27,8 +27,8 @@ export default function StatsSection() {
       ref={ref}
       className=" flex flex-col items-center text-center py-16 text-black"
     >
-      <h2 className="text-2xl md:text-3xl font-bold  mb-12 leading-relaxed">
-        DRIVEN BY QUALITY,&nbsp; DRIVEN BY TRUST
+      <h2 className="regulator-nova-alts-straight font-bold tracking-wider text-2xl md:text-4xl  mb-12 leading-relaxed">
+        Driven By Quality,&nbsp; Driven By Trust
       </h2>
 
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-2 gap-8">
