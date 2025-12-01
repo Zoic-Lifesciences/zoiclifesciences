@@ -19,6 +19,7 @@ import Speciality from "./components/Speciality"
 import Awards from "./components/Awards"
 import StatsSection from "./components/StatsSection"
 import { Montserrat, Stick } from "next/font/google";
+import Image from "next/image";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -30,7 +31,7 @@ export default function Home() {
   const [showIntro, setShowIntro] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowIntro(false), 2000); // show intro for 3s
+    const timer = setTimeout(() => setShowIntro(false), 1500); // show intro for 1.5s
     return () => clearTimeout(timer);
   }, []);
 
@@ -38,7 +39,8 @@ export default function Home() {
     <>
       {showIntro && (
         <div className="fixed inset-0 bg-linear-to-b from-[#4244CB] to-[#070865] flex justify-center items-center z-50 transition-transform duration-700">
-          <AnimatedText text="ZOIC" />
+          {/* <AnimatedText text="ZOIC" /> */}
+          <Image src="/logo2.png" alt="Zoic Logo" width={250} height={250} />
         </div>
       )}
 
@@ -53,7 +55,7 @@ export default function Home() {
         <WhatWeOffer />
         <Speciality/>
         <NewsRoom />
-        {/* <Awards/> */}
+        <Awards/>
         <Testimonial />
         <Footer />
       </main>

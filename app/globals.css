@@ -161,3 +161,18 @@ body {
 .regulator-nova-alts-straight{
   font-family: "Regulator Nova Alts Medium", sans-serif;
 }
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-right {
+  animation: fadeInRight 2s ease-out forwards;
+}

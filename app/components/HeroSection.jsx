@@ -14,15 +14,15 @@ import { FaChevronDown } from "react-icons/fa";
 export default function Herosection() {
   const slides = [
     {
-      img: "/army.webp",
-      title: "Trusted by the INDIAN ARMY",
-      desc: "Strength That Matches the Indian Army.",
-      button: "Explore Our Legacy",
-    },
-    {
       img: "/aiims.png",
       title: "A Legacy that AIIMS relies on",
       desc: "For 25+ years, ZOIC has stood for uncompromising quality in Indian healthcare.",
+      button: "Explore Our Legacy",
+    },
+    {
+      img: "/army.webp",
+      title: "Trusted by the INDIAN ARMY",
+      desc: "Strength That Matches the Indian Army.",
       button: "Explore Our Legacy",
     },
     {

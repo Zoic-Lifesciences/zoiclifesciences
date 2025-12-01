@@ -29,17 +29,41 @@ export default function CategoriesSection() {
       <div className="max-w-7xl flex flex-row">
 
         {/* LEFT COLUMN: Heading + Tagline */}
-        <div className="w-full md:w-[30%] flex flex-col justify-center">
+        <div className="w-full md:w-[40%] flex flex-col justify-start">
           <h1 className="regulator-nova-alts tracking-widest md:text-6xl text-5xl font-bold mb-6">Categories</h1>
-          <p className="regulator-nova-alts-straight md:text-lg text-base text-white/90 leading-relaxed">
-            Owning ISO GMP manufacturing infrastructure facilities benefits
-            associates with in-house services of drug formulations sourced from
-            trusted and credible vendors.
-          </p>
+          <div className="regulator-nova-alts-straight md:text-lg text-base text-white/90 ">
+            Our state-of-the-art manufacturing infrastructure allows us to provide a wide variety of pharmaceutical products. From injectables to tablets, every category is crafted with precision, quality, and compliance in mind.
+            <ul className="regulator-nova-alts-straight md:text-lg text-base text-white/90 leading-relaxed list-disc list-inside space-y-0">
+              <li>
+                Injectables
+              </li>
+              <li>
+                Capsules
+              </li>
+              <li>
+                Soft Gel
+              </li>
+              <li>
+                Tablets
+              </li>
+              <li>
+                Ointments
+              </li>
+              <li>
+                Powder
+              </li>
+              <li>
+                Syrup
+              </li>
+              <li>
+                Suspensions
+              </li>
+            </ul>
+          </div>
         </div>
 
         {/* RIGHT COLUMN: Carousel */}
-        <div className="w-full md:w-[70%] flex justify-center items-center relative h-[60vh]">
+        <div className="w-full md:w-[60%] flex justify-center items-center relative h-[60vh]">
           {data.map((item, index) => {
             // Calculate position relative to currentIndex
             const position = (index - currentIndex + total) % total;
