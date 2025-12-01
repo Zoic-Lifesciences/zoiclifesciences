@@ -1,33 +1,9 @@
 import { notFound } from "next/navigation";
 import NavBar from "../../components/NavBar"
 import Footer from "../../components/Footer"
+import products from "@/data/products.json";
 
-const products = [
-  {
-    img: "/boxq.png",
-    title: "Boxq-10",
-    description: "This product helps in treating various conditions related to the digestive system.",
-    pack: "10*1*10 ALU ALU",
-    price: "3737.00",
-    category: "Tablets",
-  },
-  {
-    img: "/ondibox.png",
-    title: "ONDIBOX-4",
-    description: "Used for nausea and vomiting prevention.",
-    pack: "10*10 ALU ALU",
-    price: "478.00",
-    category: "Tablets",
-  },
-  {
-    img: "/panbx.png",
-    title: "PANBX 40",
-    description: "A gastro-protective medication that reduces acid secretion effectively.",
-    pack: "10*10 ALU ALU",
-    price: "984.00",
-    category: "Sachets",
-  },
-];
+
 
 export default async function ProductDetail({ params }) {
   const resolvedParams = await params;
