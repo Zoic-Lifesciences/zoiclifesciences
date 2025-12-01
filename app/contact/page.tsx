@@ -76,15 +76,15 @@ export default function ContactPage() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#f6fbfd] to-white text-gray-900">
+    <main className="min-h-screen text-gray-900">
 
         <Header />
 
       <section className="max-w-6xl mx-auto px-6 py-40">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center bg-gradient-to-b from-white via-white to-[#1BA3CD] p-10 shadow-sm border border-gray-100 rounded-2xl  ">
           {/* Left: Info */}
           <motion.div initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.6 }}>
-            <h1 className="text-4xl font-[cursive] md:text-5xl font-bold" style={{ color: THEME }}>
+            <h1 className="text-4xl md:text-5xl font-bold" style={{ color: THEME }}>
               <span className="text-black">Contact </span>ZOIC
             </h1>
             <p className="mt-4 text-gray-700 max-w-xl">
@@ -114,7 +114,7 @@ export default function ContactPage() {
           <motion.div initial={{ x: 20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.6 }}>
             <form
               onSubmit={handleSubmit}
-              className="bg-white rounded-2xl p-6 md:p-8 shadow-lg border border-gray-100"
+              className=" rounded-2xl p-6 md:p-8 "
               aria-label="Contact form"
             >
               <div className="flex gap-3">
