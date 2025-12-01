@@ -19,19 +19,19 @@ export default function Header() {
 
   const [scrolled, setScrolled] = useState(false);
 
-
   useEffect(() => {
   if (pathname === "/contact") {
     setScrolled(true);
+    return;
   }
-  else{
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50); // when scrolling past 50px
-    };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }
+  const handleScroll = () => {
+    setScrolled(window.scrollY > 70);
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => window.removeEventListener("scroll", handleScroll);
 }, [pathname]);
 
 
