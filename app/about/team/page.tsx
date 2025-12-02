@@ -57,8 +57,9 @@ export default function TeamPage() {
   return (
     <>
     
-        <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-40">
-          {/* Header */}
+        <div className=" flex justify-center w-screen bg-gradient-to-b ">
+          <div className="w-[90%] bg-[#1BA3CD]/10 mt-[15vh] py-10 rounded-3xl mb-[10vh]">
+            {/* Header */}
           <div className="text-center max-w-3xl mx-auto px-4">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
@@ -113,11 +114,6 @@ export default function TeamPage() {
               whileInView={{ opacity: 1, scale: 1 }}
               className="bg-linear-to-b from-[#1BA3CD] to-[#090A69] text-white p-12 rounded-3xl shadow-xl flex flex-col md:flex-row items-center gap-10"
             >
-              <img
-                src="/team/sanjaygupta.jpg"
-                alt="Leader"
-                className="w-40 h-40 rounded-full object-cover border-4 border-white shadow-md"
-              />
 
               <div>
                 <h2 className="text-3xl font-semibold">Leadership That Inspires Excellence</h2>
@@ -128,6 +124,8 @@ export default function TeamPage() {
               </div>
             </motion.div>
           </div>
+    </div>
+          
         </div>  
         <Footer />
     </>

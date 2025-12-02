@@ -32,6 +32,14 @@ export default function Header() {
     setScrolled(true);
     return;
   }
+  if (pathname === "/careers/life-at-zoic") {
+    setScrolled(true);
+    return;
+  }
+  if (pathname === "/about/team") {
+    setScrolled(true);
+    return;
+  }
 
   const handleScroll = () => {
     setScrolled(window.scrollY > 70);
@@ -274,7 +282,7 @@ export default function Header() {
                 onMouseLeave={handleMouseLeave}
               >
                 {menu === "Services" 
-  ? <Link href="/services/pcd-pharma-franchise">Services</Link>
+  ? <Link href="/services/third-party-manufacturing">Services</Link>
   : <Link href={`/${menu.toLowerCase()}`}>{menu}</Link>
 }
                 {openMenu === menu ? (

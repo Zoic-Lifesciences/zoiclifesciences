@@ -1,6 +1,7 @@
 "use client";
 import Footer from "@/app/components/Footer";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const awards = [
   {
@@ -28,19 +29,27 @@ const awards = [
 export default function AwardsPage() {
   return (
     <>
-    
-      <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white pt-40 pb-24">
-        {/* Header Section */}
-        <div className="text-center max-w-3xl mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-semibold text-[#048DB7]">
-            Our Awards & Achievements
-          </h1>
-          <p className="mt-4 text-gray-600 text-lg">
-            We take pride in delivering world-class pharmaceutical solutions and maintaining
+    <section
+  className="w-screen h-screen relative flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat"
+  style={{ backgroundImage: "url('/awards.jpeg')" }}
+>
+  {/* Gradient Overlay */}
+  <div className="absolute inset-0  bg-gradient-to-b from-black/90 to-black/30"></div>
+
+  <h1 className="relative text-white text-6xl font-bold">
+    Award And Achievements
+  </h1>
+  <h1 className="relative text-white w-[50%] mt-5">
+    We take pride in delivering world-class pharmaceutical solutions and maintaining
             excellence across all operations. Our achievements represent our commitment to quality,
             innovation, and trust.
-          </p>
-        </div>
+  </h1>
+</section>
+    
+      <div className="min-h-screen   pb-24">
+        {/* Header Section */}
+        
+
 
         {/* Awards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6 mt-16 max-w-7xl mx-auto">

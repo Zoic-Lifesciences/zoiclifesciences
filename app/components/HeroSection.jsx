@@ -108,7 +108,7 @@ export default function Herosection() {
                   initial="hidden"
                   animate="visible"
                   transition={{ delay: 0.6 }}
-                  className="inline-block bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-lg hover:shadow-xl transition transform hover:scale-105"
+                  className="inline-block bg-[#1BA3CD] hover:bg-[#090A69] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-lg hover:shadow-xl transition transform hover:scale-105"
                 >
                   {slide.button}
                 </motion.a>
