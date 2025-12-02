@@ -103,16 +103,9 @@ export default function ContactPage() {
           
         </div>
 
-        <div className="w-full h-[60vh] mt-10 rounded-xl overflow-hidden">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.509322301689!2d78.03276167556386!3d30.30802747479193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909299a31b23237%3A0xa0d43576d12b70c3!2sZOIC%20LIFE%20SCIENCES%2F%20ONE%20OF%20THE%20BEST%20PHARMA%20COMPANIES%20IN%20INDIA!5e0!3m2!1sen!2sin!4v1764604536160!5m2!1sen!2sin"
-        width="100%"
-        height="100%"
-        loading="lazy"
-      ></iframe>
-    </div>
+       
 
-        <div className="mt-10 grid lg:grid-cols-2 gap-12 items-center bg-gradient-to-b from-white via-white to-[#1BA3CD] p-10   ">
+        <div className="mt-10 grid lg:grid-cols-2 gap-12 items-center bg-gradient-to-t w-screen from-white via-white to-[#1BA3CD]/40 p-10   ">
           {/* Left: Info */}
           <motion.div initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.6 }}>
             <h1 className="text-4xl md:text-5xl font-bold" style={{ color: THEME }}>
@@ -248,6 +241,15 @@ export default function ContactPage() {
           </motion.div>
         </div>
       </section>
+
+       <div className="w-full h-[60vh] mb-10 rounded-xl overflow-hidden">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.509322301689!2d78.03276167556386!3d30.30802747479193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909299a31b23237%3A0xa0d43576d12b70c3!2sZOIC%20LIFE%20SCIENCES%2F%20ONE%20OF%20THE%20BEST%20PHARMA%20COMPANIES%20IN%20INDIA!5e0!3m2!1sen!2sin!4v1764604536160!5m2!1sen!2sin"
+        width="100%"
+        height="100%"
+        loading="lazy"
+      ></iframe>
+    </div>
 
       <Footer />
     </main>
