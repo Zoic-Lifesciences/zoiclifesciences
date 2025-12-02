@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import NavBar from "../components/NavBar2";
+import NavBar from "./NavBar";
 
 import { motion } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";

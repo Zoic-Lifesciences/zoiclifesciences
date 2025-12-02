@@ -2,11 +2,13 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import NavBar from "./components/NavBar2";
+import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import VideoSection from "./components/VideoSection";
 import MissionSection from "./components/Mission2";
 import ChooseUs from "./components/ChooseUs";
+import RareCombinations from "./components/RareCombinations";
+import UpcomingProducts from "./components/UpcomingProducts";
 import NewlyLaunched from "./components/NewlyLaunched";
 import Certifications from "./components/Certifications";
 import WhatWeOffer from "./components/WhatWeOffer";
@@ -51,9 +53,11 @@ export default function Home() {
         <BestSeller/>
         <ChooseUs />
         <StatsSection/>
+        <RareCombinations/>
         <Certifications />
         <Category/>
         <NewlyLaunched/>
+        <UpcomingProducts/>
         <WhatWeOffer />
         <Speciality/>
         <NewsRoom />
