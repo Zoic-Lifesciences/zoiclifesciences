@@ -4,7 +4,10 @@ import Footer from "@/app/components/Footer";
 import Header from "@/app/components/NavBar";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
+import Image from "next/image";
+import { useEffect,useState } from "react";
 
 const lifeEvents = [
   {
@@ -64,30 +67,77 @@ const lifeEvents = [
 ];
 
 export default function LifeAtZoic() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+    const total = 4;
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setCurrentIndex((prev) => (prev + 1) % total);
+      }, 1500); // rotate every 1.5s
+      return () => clearInterval(interval);
+    }, [total]);
+
+  const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.3 });
   const router = useRouter();
+  const stats = [
+    { labelTop: "Present In", number: 20, suffix: "+", labelBottom: "States" },
+    { labelTop: "Over", number: 500, suffix: "+", labelBottom: "Clients" },
+    {
+      labelTop: "Close to",
+      number: 1500,
+      suffix: "+",
+      labelBottom: "Brands",
+    },
+    {
+      labelTop: "More than",
+      number: 0,
+      suffix: "+",
+      labelBottom: "DCGI Approved Products",
+    },
+  ];
 
   return (
-    <main className="bg-white text-gray-800">
-      <Header />
+    <main className="bg-gray-100 text-gray-800">
+
       {/* ===== Page Header ===== */}
-      <section className="text-center py-48 bg-linear-to-b from-[#1BA3CD] to-[#090A69] text-white font-[cursive]">
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-5xl font-bold mb-4"
-        >
-          Life at ZOIC
-        </motion.h1>
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 0.8 }}
-          className="max-w-2xl mx-auto text-lg opacity-90"
-        >
-          A glimpse into our vibrant culture — where innovation, celebration, and collaboration thrive together.
-        </motion.p>
+      <section className="bg-gray-100  ">
+        <div className="w-screen h-[100vh] flex flex-col items-center justify-center text-center">
+          <h1 className="text-5xl pt-10 mb-10">At Zoic We bring VIsion<br></br>Expertise and Dedication</h1>
+          <div className="h-[70vh] w-[80%] bg-black rounded-2xl relative">
+            <Image
+                src="/collab.avif"
+                alt="Product"
+                fill
+                className="object-cover rounded-3xl"
+              />
+          </div>
+        </div>
+        
+       
       </section>
+
+      <section
+            ref={ref}
+            className=" flex flex-col items-center text-center py-16 text-black"
+          >
+      
+            <div className="w-[80vw] justify-center flex gap-8 bg-[#1BA3CD]/50 text-white rounded-2xl">
+              {stats.map((stat, idx) => (
+                <div
+                  key={idx}
+                  className={`flex flex-col items-center justify-center p-6 rounded-xl `}
+                >
+                  <p className=" font-medium mb-2 leading-relaxed">{stat.labelTop}</p>
+                  <h3 className="text-white text-4xl md:text-7xl font-bold ">
+                    {inView && (
+                      <CountUp end={stat.number} duration={2} suffix={stat.suffix} />
+                    )}
+                  </h3>
+                  <p className=" font-medium mt-2 leading-relaxed">{stat.labelBottom}</p>
+                </div>
+              ))}
+            </div>
+          </section>
 
       {/* ===== Event Sections ===== */}
       {lifeEvents.map((event, index) => (
@@ -104,39 +154,73 @@ export default function LifeAtZoic() {
               transition={{ duration: 0.8 }}
               className={`flex-1 ${index % 2 === 0 ? "order-1" : "order-2"}`}
             >
-              <h2 className="text-4xl font-bold text-indigo-700 font-[cursive] mb-3">
+              <h2 className="text-4xl font-bold text-[#1BA3CD] mb-3">
                 {event.title}
               </h2>
-              <h3 className="text-lg font-semibold text-indigo-500 mb-3">
+              <h3 className="text-lg font-semibold text-[#1BA3CD]mb-3">
                 {event.subtitle}
               </h3>
               <p className="text-gray-700 leading-relaxed mb-6">{event.desc}</p>
             </motion.div>
 
             {/* ===== Image Gallery ===== */}
-            <motion.div
-              initial={{ opacity: 0, x: index % 2 === 0 ? 40 : -40 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-              className={`grid grid-cols-2 sm:grid-cols-3 gap-4 flex-1 ${
-                index % 2 === 0 ? "order-2" : "order-1"
-              }`}
-            >
-              {event.images.map((src, i) => (
-                <motion.div
-                  key={i}
-                  whileHover={{ scale: 1.05 }}
-                  className="overflow-hidden rounded-xl shadow-md"
-                >
-                  <img
-                    src={src}
-                    alt={`${event.title} ${i + 1}`}
-                    className="w-full h-48 object-cover hover:scale-110 transition-transform duration-500"
-                  />
-                </motion.div>
-              ))}
-            </motion.div>
+            {/* RIGHT COLUMN: Carousel */}
+                    <div className="w-full md:w-[60%] flex justify-center items-center relative h-[60vh]">
+                      {event.images.map((item, index) => {
+                        // Calculate position relative to currentIndex
+                        const position = (index - currentIndex + total) % total;
+            
+                        // Card animation logic
+                        let scale = 0.7;
+                        let x = 0;
+                        let opacity = 0.5;
+                        let zIndex = 1;
+            
+                        if (position === 0) {
+                          scale = 1;
+                          x = 0;
+                          opacity = 1;
+                          zIndex = 3;
+                        } else if (position === 1) {
+                          scale = 0.85;
+                          x = 120;
+                          opacity = 0.8;
+                          zIndex = 2;
+                        } else if (position === total - 1) {
+                          scale = 0.85;
+                          x = -120;
+                          opacity = 0.8;
+                          zIndex = 2;
+                        } else if (position === 2) {
+                          scale = 0.7;
+                          x = 240;
+                          opacity = 0.5;
+                          zIndex = 1;
+                        } else if (position === total - 2) {
+                          scale = 0.7;
+                          x = -240;
+                          opacity = 0.5;
+                          zIndex = 1;
+                        }
+            
+                        return (
+                          <motion.div
+                            key={index}
+                            animate={{ scale, x, opacity }}
+                            transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                            style={{ zIndex }}
+                            className="absolute w-[350px] h-[450px] flex items-center justify-center"
+                          >
+                            <div className="relative w-full h-full shadow-2xl rounded-xl overflow-hidden">
+                              <img
+                                src={item}
+                                className="w-full h-full object-cover rounded-xl"
+                              />
+                            </div>
+                          </motion.div>
+                        );
+                      })}
+                    </div>
           </div>
         </section>
       ))}

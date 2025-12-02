@@ -4,7 +4,7 @@ import Footer from "@/app/components/Footer";
 
 export default function Manufacturing() {
   return (
-    <div className="regulator-nova-alts-straight tracking-wider bg-blue-700 text-white w-full overflow-hidden">
+    <div className="regulator-nova-alts-straight tracking-wider bg-[#090A69] text-white w-full overflow-hidden">
 
         {/* ================= HERO (FACTORY DRONE SHOT) ================= */}
         <section className="relative h-[100vh] w-full flex items-center justify-center">
@@ -25,14 +25,14 @@ export default function Manufacturing() {
             {/* Floating Glare Effect */}
             <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute top-20 right-20 w-48 h-48 bg-white/10 blur-3xl rounded-full animate-pulse"></div>
-                <div className="absolute bottom-10 left-10 w-64 h-64 bg-blue-300/10 blur-3xl rounded-full animate-ping"></div>
+                <div className="absolute bottom-10 left-10 w-64 h-64 bg-[#1BA3CD]/10 blur-3xl rounded-full animate-ping"></div>
             </div>
 
             {/* Text Content */}
             <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
                 <h1 className="regulator-nova-alts tracking-wider text-5xl md:text-7xl font-extrabold text-white drop-shadow-2xl leading-tight">
                 India’s Leading  
-                <span className="block text-6xl text-blue-300 mt-2">Pharma Manufacturing Company</span>
+                <span className="block text-6xl text-[#1BA3CD] mt-2">Pharma Manufacturing Company</span>
                 </h1>
 
                 <p className="tracking-wider mt-6 text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
@@ -40,7 +40,7 @@ export default function Manufacturing() {
                 expert chemists, and state-of-the-art manufacturing infrastructure.
                 </p>
 
-                <button className="regulator-nova-alts mt-10 bg-white text-blue-700 px-10 py-4 font-semibold rounded-full shadow-2xl hover:bg-blue-100 transition">
+                <button className="regulator-nova-alts mt-10 bg-white text-[#090A69] px-10 py-4 font-semibold rounded-full shadow-2xl hover:bg-blue-100 transition">
                 Explore Our Manufacturing Facility
                 </button>
             </div>
@@ -65,7 +65,7 @@ export default function Manufacturing() {
             </div>
 
             {/* Image */}
-            <div className="rounded-3xl bg-blue-300 shadow-xl h-80 flex items-center justify-center text-2xl font-bold text-white">
+            <div className="rounded-3xl bg-[#1BA3CD] shadow-xl h-80 flex items-center justify-center text-2xl font-bold text-white">
               Manufacturing Image
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function Manufacturing() {
             ].map((item, idx) => (
               <div
                 key={idx}
-                className="min-w-[260px] snap-start bg-gradient-to-br from-blue-700 to-blue-900 text-white p-6 rounded-2xl shadow-xl hover:scale-105 transition"
+                className="min-w-[260px] snap-start bg-gradient-to-br from-[#090A69] to-blue-900 text-white p-6 rounded-2xl shadow-xl hover:scale-105 transition"
               >
                 <h3 className="text-xl font-semibold">{item}</h3>
               </div>
@@ -108,7 +108,7 @@ export default function Manufacturing() {
 
           {/* LEFT IMAGE */}
           <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div className="rounded-3xl bg-blue-300 h-80 shadow-2xl"></div>
+            <div className="rounded-3xl bg-[#1BA3CD] h-80 shadow-2xl"></div>
             <div>
               <h3 className="text-3xl font-bold mb-4">Advanced Infrastructure</h3>
               <p className="leading-relaxed text-lg mb-4">
@@ -138,7 +138,7 @@ export default function Manufacturing() {
               </ul>
             </div>
 
-            <div className="order-1 md:order-2 rounded-3xl bg-blue-300 h-80 shadow-2xl"></div>
+            <div className="order-1 md:order-2 rounded-3xl bg-[#1BA3CD] h-80 shadow-2xl"></div>
           </div>
 
         </div>
@@ -160,7 +160,7 @@ export default function Manufacturing() {
             ].map((item, idx) => (
               <div
                 key={idx}
-                className="bg-blue-700 text-white p-8 rounded-3xl shadow-xl hover:-translate-y-1 transition"
+                className="bg-[#090A69] text-white p-8 rounded-3xl shadow-xl hover:-translate-y-1 transition"
               >
                 <div className="text-5xl font-extrabold opacity-30">{item.step}</div>
                 <h3 className="text-2xl font-bold mt-2">{item.title}</h3>
@@ -213,13 +213,13 @@ export default function Manufacturing() {
       {/* ================= CONTACT CTA ================= */}
       <section className="py-24 bg-white text-blue-900">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <div className="bg-blue-700 text-white p-14 rounded-3xl shadow-2xl">
+          <div className="bg-[#090A69] text-white p-14 rounded-3xl shadow-2xl">
             <h2 className="text-4xl font-bold mb-6">Partner With Us for Manufacturing</h2>
             <p className="text-blue-100 text-lg mb-10">
               Build your brand with world-class pharmaceutical manufacturing.
             </p>
 
-            <button className="bg-white text-blue-700 px-10 py-4 font-semibold rounded-full shadow-lg hover:bg-blue-100 transition">
+            <button className="bg-white text-[#090A69] px-10 py-4 font-semibold rounded-full shadow-lg hover:bg-blue-100 transition">
               Contact Manufacturing Team
             </button>
           </div>

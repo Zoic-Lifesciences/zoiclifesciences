@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../components/NavBar2";
+import Header from "../components/NavBar";
 import Footer from "../components/Footer";
 import { FiMapPin, FiPhone } from "react-icons/fi";
 

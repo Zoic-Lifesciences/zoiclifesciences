@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { Phone, Mail, ChevronDown, ChevronUp } from "lucide-react";
 import Image from "next/image";
@@ -17,11 +17,45 @@ export default function Header() {
 
   const isActive = (path) => pathname === path;
 
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+  if (pathname === "/contact") {
+    setScrolled(true);
+    return;
+  }
+  if (pathname === "/products") {
+    setScrolled(true);
+    return;
+  }
+  if (pathname === "/careers/life-at-zoic") {
+    setScrolled(true);
+    return;
+  }
+
+  const handleScroll = () => {
+    setScrolled(window.scrollY > 70);
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => window.removeEventListener("scroll", handleScroll);
+}, [pathname]);
+
+
   return (
-    <header className="fixed w-screen bg-white z-50 shadow-sm">
+    <header
+      className={`fixed w-screen z-50 transition-all duration-500 ${
+        scrolled
+          ? "bg-white text-black backdrop-blur-sm shadow-md"
+          : "bg-transparent text-white "
+      }`}
+    >
+
       {/* Top Bar */}
-      <div className="flex justify-center w-full">
-        <div className="hidden md:flex w-[95%] text-[12px] items-center justify-between py-3 text-sm text-gray-600 border-b border-gray-300">
+      
+      <div className={`${scrolled ? "hidden" : ""} transition-all max-w-7xl  mx-auto flex justify-center w-full`}>
+        <div className="hidden md:flex w-full text-[12px] items-center justify-between py-3 text-sm border-b border-gray-300">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone size={16} />
@@ -32,12 +66,13 @@ export default function Header() {
               <span>info@zoiclifesciences.com</span>
             </div>
           </div>
-          <p className="text-gray-500 text-[12px]">
+          <p className=" text-[12px]">
             Delivering trusted pharmaceutical excellence — because your health
             deserves the best. Happy to serve you!
           </p>
         </div>
       </div>
+
       <div className="w-screen h-[10vh] md:hidden justify-end pr-5 flex">
         {isOpen ? <>
 <button onClick={() => setIsOpen(false)}>
@@ -72,7 +107,7 @@ export default function Header() {
             >
               {/* Header with Logo & Close */}
               <div className="flex justify-between items-center mb-6">
-                <Image src="/logo.png" alt="Zoic Logo" width={45} height={45} />
+                <Image src="/logo2.png" alt="Zoic Logo" width={45} height={45} />
                 <button onClick={() => setIsOpen(false)}>
                   <X size={28} className="text-gray-700 hover:text-[#048DB7]" />
                 </button>
@@ -84,7 +119,7 @@ export default function Header() {
                   <Link
                     href="/"
                     onClick={() => setIsOpen(false)}
-                    className={isActive("/") ? "text-[#048DB7] font-semibold" : ""}
+                    className={isActive("/") ? "text-[#048DB7]" : ""}
                   >
                     Home
                   </Link>
@@ -94,13 +129,16 @@ export default function Header() {
                 key={menu}
                 className={`relative cursor-pointer flex items-center gap-1 ${
                   pathname.startsWith(`/${menu.toLowerCase()}`)
-                    ? "text-[#048DB7] font-semibold"
+                    ? "text-[#048DB7]"
                     : "text-gray-800 hover:text-[#048DB7]"
                 }`}
                 onMouseEnter={() => handleMouseEnter(menu)}
                 onMouseLeave={handleMouseLeave}
               >
-                <Link href={`/${menu.toLowerCase()}`}>{menu}</Link>
+                {menu === "Services" 
+  ? <Link href="/services/third-party-manufacturing">Services</Link>
+  : <Link href={`/${menu.toLowerCase()}`}>{menu}</Link>
+}
                 {openMenu === menu ? (
                   <ChevronUp size={16} />
                 ) : (
@@ -141,10 +179,9 @@ export default function Header() {
                       {menu === "Services" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
-                            ["/services/contract-manufacturing", "Contract Manufacturing"],
-                            ["/services/third-party", "Third-Party Pharmaceutical Solutions"],
-                            ["/services/research-development", "Research & Development"],
-                            ["/services/distribution", "Distribution & Supply Chain"],
+                            ["/services/pcd-pharma-franchise", "PCD Pharma Franchise"],
+                            ["/services/third-party", "Third-Party Manufacturing"],
+                            ["/services/research-development", "Oversees Business"],
                           ].map(([href, label]) => (
                             <li key={href}>
                               <Link
@@ -163,8 +200,8 @@ export default function Header() {
                       {menu === "Careers" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
-                            ["/careers/life-at-zoic", "Life At Zoic"],
                             ["/careers/apply", "Apply"],
+                            ["/careers/life-at-zoic", "Life At Zoic"],
                           ].map(([href, label]) => (
                             <li key={href}>
                               <Link
@@ -188,7 +225,7 @@ export default function Header() {
                   <Link
                     href="/contact"
                     onClick={() => setIsOpen(false)}
-                    className="bg-[#048DB7] text-white px-4 py-2 rounded-full block text-center mt-4"
+                    className="bg-[#048DB7]  px-4 py-2 rounded-full block text-center mt-4"
                   >
                     Contact Us
                   </Link>
@@ -199,20 +236,28 @@ export default function Header() {
         )}
       </AnimatePresence>
 
-      <div className="w-full flex justify-center">
-        <nav className="hidden md:flex md:flex-row flex-col py-2 items-center relative w-full justify-between md:w-[95%]">
+
+        {/* Desktop Version */}
+      <div className="max-w-7xl  mx-auto flex justify-center">
+        <nav className="hidden md:flex md:flex-row flex-col py-2 items-center relative w-full justify-between md:w-[100%]">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <Image src="/logo.png" alt="Zoic Logo" width={50} height={50} />
+            <div className="flex items-center gap-2">
+              <Image
+                  src={scrolled ? "/logo.png" : "/logo2.png"}   // <-- change image based on scroll
+                  alt="Zoic Logo"
+                  width={scrolled ? 50 : 100}
+                  height={scrolled ? 50 : 100}
+                  className="transition-all duration-500"
+                />
           </div>
 
           {/* Navigation Links */}
-          <div className="flex md:flex-row flex-col w-[70%] md:justify-between"> 
+          <div className="flex md:flex-row flex-col w-[85%] md:justify-between font-bold"> 
             <ul className="flex md:flex-row flex-col md:items-center items-start gap-10 text-lg">
             <li
               className={`${
-                isActive("/") ? "text-[#048DB7] font-semibold" : "text-gray-800 hover:text-[#048DB7]"
-              }`}
+                isActive("/") ? "text-[#048DB7]" : " hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
+              }  `}
             >
               <Link href="/">Home</Link>
             </li>
@@ -222,13 +267,16 @@ export default function Header() {
                 key={menu}
                 className={`relative cursor-pointer flex items-center gap-1 ${
                   pathname.startsWith(`/${menu.toLowerCase()}`)
-                    ? "text-[#048DB7] font-semibold"
-                    : "text-gray-800 hover:text-[#048DB7]"
+                    ? "text-[#048DB7] "
+                    : "hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
                 }`}
                 onMouseEnter={() => handleMouseEnter(menu)}
                 onMouseLeave={handleMouseLeave}
               >
-                <Link href={`/${menu.toLowerCase()}`}>{menu}</Link>
+                {menu === "Services" 
+  ? <Link href="/services/pcd-pharma-franchise">Services</Link>
+  : <Link href={`/${menu.toLowerCase()}`}>{menu}</Link>
+}
                 {openMenu === menu ? (
                   <ChevronUp size={16} />
                 ) : (
@@ -248,9 +296,9 @@ export default function Header() {
                       {menu === "About" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
-                            ["/about/director-message", "Director's Message"],
-                            ["/about/award-achievement", "Award Achievement"],
-                            ["/about/our-team", "Our Team"],
+                            ["/about/", "Overview"],
+                            ["/about/awards", "Award Achievement"],
+                            ["/about/team", "Our Team"],
                           ].map(([href, label]) => (
                             <li key={href}>
                               <Link
@@ -269,10 +317,9 @@ export default function Header() {
                       {menu === "Services" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
-                            ["/services/contract-manufacturing", "Contract Manufacturing"],
-                            ["/services/third-party", "Third-Party Pharmaceutical Solutions"],
-                            ["/services/research-development", "Research & Development"],
-                            ["/services/distribution", "Distribution & Supply Chain"],
+                            ["/services/pcd-pharma-franchise", "PCD Pharma Franchise"],
+                            ["/services/third-party-manufacturing", "Third-Party Manufacturing"],
+                            ["/services/oversees-business", "Oversees Business"],
                           ].map(([href, label]) => (
                             <li key={href}>
                               <Link
@@ -291,8 +338,8 @@ export default function Header() {
                       {menu === "Careers" && (
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
+                            ["/careers/", "Apply For Job"],
                             ["/careers/life-at-zoic", "Life At Zoic"],
-                            ["/careers/apply", "Apply"],
                           ].map(([href, label]) => (
                             <li key={href}>
                               <Link
@@ -315,18 +362,36 @@ export default function Header() {
 
             <li
               className={`cursor-pointer ${
+                pathname.startsWith("/pcd-pharma-franchise")
+                  ? "text-[#048DB7]"
+                  : " hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4 "
+              }`}
+            >
+              <Link href="/services/pcd-pharma-franchise">PCD Franchise</Link>
+            </li>
+            <li
+              className={`cursor-pointer ${
                 pathname.startsWith("/products")
-                  ? "text-[#048DB7] font-semibold"
-                  : "text-gray-800 hover:text-[#048DB7]"
+                  ? "text-[#048DB7]"
+                  : " hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
               }`}
             >
               <Link href="/products">Products</Link>
             </li>
+            <li
+              className={`cursor-pointer ${
+                pathname.startsWith("/blog")
+                  ? "text-[#048DB7]"
+                  : "hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
+              }`}
+            >
+              <Link href="/blog">Blogs</Link>
+            </li>
           </ul>
 
           {/* Contact Button */}
-          <button className="bg-[#048DB7] md:mt-0 mt-5 text-white px-5 py-2 rounded-full hover:bg-[#03779A] transition">
-            <Link href="/contact">Contact Us</Link>
+          <button className="bg-[#048DB7] md:mt-0 mt-5 text-white px-4 py-2 rounded-xl hover:bg-[#03779A] transition">
+            <Link href="/contact">Contact </Link>
           </button>
           </div>
           
