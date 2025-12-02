@@ -7,7 +7,7 @@ import { X } from "lucide-react";
 import Footer from "../components/Footer";
 import { useRouter } from "next/navigation";
 import { useScroll, useTransform } from "framer-motion";
-
+import Image from "next/image";
 const jobs = [
   {
     title: "Pharmaceutical Sales Executive",
@@ -53,20 +53,25 @@ export default function CareersPage() {
   
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-900">
+    <main className="min-h-screen bg-gradient-to-br  text-gray-900">
 
       {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-center text-center py-48 px-6 bg-[url('/career-cover.webp')] bg-cover bg-no-repeat bg-top">
-
-      {/* Black overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
-
-      {/* Content */}
+      <section className="relative flex items-center text-center w-screen h-[70vh] py-10 ">
+      <div className="w-[50%] h-full bg-black relative">
+        <Image
+                        src="/career.avif"
+                        alt="igh"
+                        fill
+                        className="object-cover"
+                      />
+      </div>
+      <div className="w-[50%]">
+        {/* Content */}
       <motion.h1
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="relative text-5xl text-white"
+        className="relative text-5xl "
       >
         Join Our Mission to Redefine Healthcare
       </motion.h1>
@@ -75,7 +80,7 @@ export default function CareersPage() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.8 }}
-        className="relative mt-4 max-w-2xl text-gray-200"
+        className="relative mt-4 max-w-2xl "
       >
         At{" "}
         <span className="font-semibold text-[#04B8E0]">
@@ -84,10 +89,12 @@ export default function CareersPage() {
         , we empower people who innovate, care, and create meaningful impact
         in global healthcare.
       </motion.p>
+      </div>
+
     </section>
 
     {/* Open Positions Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-black text-center mb-10">
             Current Openings

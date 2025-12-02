@@ -75,8 +75,8 @@ export default function AboutPage() {
     <main className="bg-white text-gray-800 overflow-x-hidden">
 
       <section className="relative h-[100vh] flex items-center justify-center text-white">
-        <Image src="/medworld.jpg" alt="ZOIC Logo" fill className="object-cover" />
-        <div className="absolute inset-0 bg-black/70"></div>
+        <Image src="/aboutus.avif" alt="ZOIC Logo" fill className="object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-black/60"></div>
         <div className="relative z-10 text-center px-6">
           <h1 className="regulator-nova-alts tracking-wider text-6xl md:text-7xl font-bold tracking-tight mb-6 max-w-7xl">
             25 Years of Global Healthcare Innovation

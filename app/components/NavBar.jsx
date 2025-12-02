@@ -40,6 +40,10 @@ export default function Header() {
     setScrolled(true);
     return;
   }
+  if (pathname === "/careers") {
+    setScrolled(true);
+    return;
+  }
 
   const handleScroll = () => {
     setScrolled(window.scrollY > 70);
