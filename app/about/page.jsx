@@ -150,16 +150,16 @@ export default function AboutPage() {
           ></div>
 
           <div className="w-[50%] z-10 flex flex-col">
-            <div className="mb-10">
-              <Image
-              src="/iimLogo.webp"
-              alt="Sanjay Gupta"
-              width={200}
-    height={200}
-              className="fade-in-right object-cover"
-            />
-            <h6 className="regulator-nova-alts mt-2 text-gray-500 text-lg">(Global Strategist, IIM Bangalore)</h6>
-          </div>
+            <div className="w-[500px] h-[200px] relative">
+    <Image
+      src="/iimb.png"
+      alt="Sanjay Gupta"
+      fill
+      className="object-contain"
+    />
+  </div>
+            <h6 className="regulator-nova-alts mb-2 text-gray-500 text-lg">(Global Strategist, IIM Bangalore)</h6>
+
             <h1 className="text-5xl text-start regulator-nova-alts-straight tracking-wider">Mr. Rohit Mamgain</h1>
             <p className="regulator-nova-alts tracking-wider w-[90%] mt-5 text-lg">
               <span className="inline-block ml-2 mr-4">
