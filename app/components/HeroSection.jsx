@@ -86,7 +86,7 @@ export default function Herosection() {
                   variants={textVariant}
                   initial="hidden"
                   animate="visible"
-                  className="regulator-nova-alts-straight tracking-wider text-3xl sm:text-4xl md:text-6xl lg:text-6xl mb-4 w-150"
+                  className="regulator-nova-alts tracking-wider text-3xl sm:text-4xl md:text-6xl lg:text-6xl mb-4 w-150"
                 >
                   {slide.title}
                 </motion.h1>

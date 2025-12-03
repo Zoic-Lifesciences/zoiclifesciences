@@ -171,7 +171,7 @@ export default function Header() {
                         <ul className="text-gray-600 space-y-2 text-lg">
                           {[
                             ["/about/director-message", "Director's Message"],
-                            ["/about/award-achievement", "Award Achievement"],
+                            ["/about/awards", "Award Achievement"],
                             ["/about/our-team", "Our Team"],
                           ].map(([href, label]) => (
                             <li key={href}>
