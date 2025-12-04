@@ -88,7 +88,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="">
+      <section id="mission">
         <MissionSection />
       </section>
 
@@ -212,7 +212,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <Timeline />
+      <section id="legacy">
+  <Timeline />
+</section>
+
+      
 
       <section className="w-[100vw] bg-gray-100 flex justify-center items-center pb-10 pt-12">
         <div className="w-[85%] flex flex-col items-center regulator-nova-alts tracking-wider">

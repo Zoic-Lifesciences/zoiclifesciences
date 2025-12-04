@@ -108,14 +108,12 @@ export default function CompanyVideoPremium() {
             Today, we celebrate this journey, connecting millions through care, trust, and innovation—just as Arjun Kapoor joins us in honoring our legacy.
           </p>
 
-          <motion.a
-            href="#"
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.98 }}
+          <a
+            href="/services/third-party-manufacturing"
             className="regulator-nova-alts-straight w-[32%] inline-block mt-10 px-2 py-4 bg-[#048DB7] text-white rounded-xl shadow-lg text-sm tracking-wide font-semibold hover:bg-blue-800 transition-all"
           >
             Explore Our Capabilities
-          </motion.a>
+          </a>
         </motion.div>
       </div>
     </section>

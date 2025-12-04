@@ -124,10 +124,13 @@ export default function Testimonial() {
               Hear Directly From Our Satisfied Partners
             </p>
           </div>
-
+          <a href="https://www.google.com/search?sca_esv=e0ee5455e7f1c925&sxsrf=AE3TifNk7VHcTzgZhGk2qmK8ClpKLbuVyg:1764835580920&si=AMgyJEvkVjFQtirYNBhM3ZJIRTaSJ6PxY6y1_6WZHGInbzDnMTDoUsvMAICOOr6iFgrPlAj1dnUTGCAjM6nsinXoNcFbdeH-JVdR5mEnOsuTd4ccniET3IjluPCauerM9ZJsPvytxBAaNGVRgxlr58jetXFL6BlyxBCKmBM1n5gYFKpppX-DAAzRWCSrUiwW82QWS4VP2gSj&q=ZOIC+LIFE+SCIENCES/+ONE+OF+THE+BEST+PHARMA+COMPANIES+IN+INDIA+Reviews&sa=X&ved=2ahUKEwiB54zvvKORAxUQTmwGHUpxODgQ0bkNegQIQhAE&biw=1440&bih=812&dpr=2#lrd=0x3909299a31b23237:0xa0d43576d12b70c3,3,,,,">
           <button className="px-6 py-4 md:mt-0 mt-10 min-h-0 bg-[#048DB7] hover:bg-sky-600 text-white rounded-full shadow-md transition">
             Review us on Google
           </button>
+          </a>
+
+          
         </div>
       </div>
 

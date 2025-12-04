@@ -94,11 +94,14 @@ export default function NewRoom() {
         </div>
 
         {/* View All Button */}
+        <a href="/blog">
         <button
           className="mt-12 bg-[#04A0D1] hover:bg-[#0384b0] text-white px-8 py-3 rounded-full font-medium shadow-md transition-all duration-300"
         >
           View all articles
         </button>
+        </a>
+        
       </div>
     </section>
   );
