@@ -69,7 +69,7 @@ export default function NewlyLaunched() {
 
   return (
     <section className="px-8 py-32 overflow-hidden">
-      <h2 className="regulator-nova-alts-straight tracking-wider text-7xl text-center mb-5">Newly Launched</h2>
+      <h2 className="regulator-nova-alts-straight tracking-wider md:text-7xl text-5xl text-center mb-5">Newly Launched</h2>
       <p className="text-center text-gray-500 ">
         At <span className="text-[#048DB7] font-semibold">ZOIC</span> it’s all
         about continuous innovations.

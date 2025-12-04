@@ -62,7 +62,7 @@ export default function LegacyTimeline() {
 
   return (
     <section className="py-28 px-10 md:px-32 relative bg-linear-to-b from-[#1BA3CD]/10 to-[#090A69]/90">
-      <h2 className="text-6xl font- text-center mb-20">Our Legacy</h2>
+      <h2 className="md:text-6xl text-5xl  text-center mb-20">Our Legacy</h2>
 
       <div className="w-[80vw] gap-12 flex flex-col justify-between relative">
 
@@ -70,14 +70,14 @@ export default function LegacyTimeline() {
           return index%2===0 ? (
           <div key={index} className="flex flex-row-reverse justify-between h-[35vh]">
             <div className="w-[40%] relative">
-              <h1 className="text-6xl absolute left-[-25%]">0{index+1}</h1>
+              <h1 className="md:text-6xl text-3xl absolute left-[-25%]">0{index+1}</h1>
               <div className="w-[5px] h-[20vh] absolute bg-gray-300 left-[-20%] top-[10vh]"></div>
               <div
                 ref={(el) => (boxRefs.current[index] = el)}
                 className="w-[5px] h-[20vh] absolute bg-[#1BA3CD] left-[-20%] top-[10vh] flex"
               />
               <div className="bg-gray-100 p-4 rounded-2xl" ref={(el) => (contentRefs.current[index] = el)}>
-                <h1 className="text-5xl mb-5">{obj.year}</h1>
+                <h1 className="md:text-5xl text-2xl mb-5">{obj.year}</h1>
                 <p>
                   {obj.text}
                 </p>
@@ -89,7 +89,7 @@ export default function LegacyTimeline() {
           <div key={index} className="flex flex-row h-[35vh] justify-between">
             <div className="w-[40%] relative">
               <div className="bg-gray-100 p-4 rounded-2xl" ref={(el) => (contentRefs.current[index] = el)}>
-                <h1 className="text-5xl mb-5">{obj.year}</h1>
+                <h1 className="md:text-5xl text-2xl mb-5">{obj.year}</h1>
                 <p>
                   {obj.text}
                 </p>

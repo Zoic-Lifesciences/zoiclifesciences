@@ -25,9 +25,9 @@ export default function StatsSection() {
   return (
     <section
       ref={ref}
-      className=" flex flex-col items-center text-center py-16 text-black"
+      className=" flex flex-col items-center text-center pt-16 text-black h-[80vh]"
     >
-      <h2 className="regulator-nova-alts-straight font-bold tracking-wider text-2xl md:text-4xl  mb-12 leading-relaxed">
+      <h2 className="regulator-nova-alts-straight font-bold tracking-wider text-2xl md:text-4xl px-10  mb-12 leading-relaxed">
         Driven By Quality,&nbsp; Driven By Trust
       </h2>
 

@@ -26,10 +26,10 @@ export default function CategoriesSection() {
 
   return (
     <div className="bg-linear-to-r from-[#1BA3CD] to-[#090A69] text-white min-h-screen flex items-center justify-center py-16 px-8">
-      <div className="max-w-7xl flex flex-row">
+      <div className="max-w-7xl flex md:flex-row flex-col">
 
         {/* LEFT COLUMN: Heading + Tagline */}
-        <div className="w-full md:w-[40%] flex flex-col justify-start">
+        <div className="w-full md:w-[40%] flex flex-col  justify-start">
           <h1 className="regulator-nova-alts tracking-widest md:text-6xl text-5xl font-bold mb-6">Categories</h1>
           <div className="regulator-nova-alts-straight md:text-lg text-base text-white/90 ">
             Our state-of-the-art manufacturing infrastructure allows us to provide a wide variety of pharmaceutical products. From injectables to tablets, every category is crafted with precision, quality, and compliance in mind.
@@ -63,7 +63,7 @@ export default function CategoriesSection() {
         </div>
 
         {/* RIGHT COLUMN: Carousel */}
-        <div className="w-full md:w-[60%] flex justify-center items-center relative h-[60vh]">
+        <div className="w-full md:w-[60%] flex justify-center items-center relative h-[60vh] md:mt-0 mt-[10vh]">
           {data.map((item, index) => {
             // Calculate position relative to currentIndex
             const position = (index - currentIndex + total) % total;
@@ -107,7 +107,7 @@ export default function CategoriesSection() {
                 animate={{ scale, x, opacity }}
                 transition={{ type: "spring", stiffness: 300, damping: 30 }}
                 style={{ zIndex }}
-                className="absolute w-[350px] h-[450px] flex items-center justify-center"
+                className="absolute md:w-[25vw] md:h-[60vh] w-[80vw] h-[50vh] flex items-center justify-center"
               >
                 <div className="relative w-full h-full shadow-2xl rounded-xl overflow-hidden">
                   <img
