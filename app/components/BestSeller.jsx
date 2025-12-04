@@ -86,7 +86,7 @@ export default function BestSeller() {
   return (
     <section className="px-8 py-10 overflow-hidden bg-gray-100">
       <div className="max-w-7xl mx-auto relative py-12 w-full">
-        <h2 className="regulator-nova-alts-straight tracking-wider text-5xl mb-5">
+        <h2 className="regulator-nova-alts tracking-wider text-5xl mb-5">
           Our <span className="text-[#048DB7] font-semibold">Top Selling</span> Products
         </h2>
         <p className="text-gray-500 mb-8">
@@ -106,7 +106,7 @@ export default function BestSeller() {
             className="flex overflow-x-auto gap-5 scrollbar-hide scroll-smooth w-full"
           >
             {products.map((p) => (
-              <div key={p.id} className="w-[30vw]  p-4 flex-shrink-0">
+              <div key={p.id} className="md:w-[30vw] w-[80vw]  p-4 flex-shrink-0">
                 <div
                   className="h-[40vh] w-full bg-contain bg-no-repeat bg-center "
                   style={{ backgroundImage: `url(${p.image})` }}

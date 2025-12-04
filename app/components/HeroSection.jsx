@@ -60,7 +60,7 @@ export default function Herosection() {
   };
 
   return (
-    <section className="relative w-full h-[90vh] md:h-[100vh] bg-white text-white overflow-hidden">
+    <section className="relative w-screen h-[90vh] md:h-[100vh] bg-black text-white overflow-hidden">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}
@@ -86,7 +86,7 @@ export default function Herosection() {
               <div className="relative z-10 flex flex-col items-start justify-top pt-28 md:pt-0 md:justify-center h-full px-6  max-w-sm md:max-w-7xl mx-auto">
                 <h1
                   key={slide.title}
-                  className="regulator-nova-alts tracking-wider text-3xl sm:text-4xl md:text-6xl lg:text-6xl mb-4 w-150"
+                  className="regulator-nova-alts tracking-wider text-3xl sm:text-4xl md:text-6xl lg:text-6xl mb-4 md:w-150"
                 >
                   {slide.title}
                 </h1>

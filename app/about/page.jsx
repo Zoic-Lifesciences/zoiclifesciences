@@ -78,7 +78,7 @@ export default function AboutPage() {
         <Image src="/aboutus.avif" alt="ZOIC Logo" fill className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-black/60"></div>
         <div className="relative z-10 text-center px-6">
-          <h1 className="regulator-nova-alts tracking-wider text-6xl md:text-7xl font-bold tracking-tight mb-6 max-w-7xl">
+          <h1 className="regulator-nova-alts tracking-wider text-5xl md:text-7xl font-bold tracking-tight mb-6 max-w-7xl">
             25 Years of Global Healthcare Innovation
           </h1>
           <p className="regulator-nova-alts-straight tracking-wider text-xl md:text-2xl max-w-3xl mx-auto text-blue-100 leading-relaxed">
@@ -142,7 +142,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="h-[90vh] w-[100vw] relative flex items-center justify-center">
+      <div className="md:h-[90vh] w-[100vw] relative flex items-center justify-center">
         <div className="flex w-[85%] justify-between">
           <div
             className="w-[40vw] h-[70vh] rounded-2xl bg-contain bg-center bg-no-repeat"
@@ -174,10 +174,10 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <section className="flex justify-center h-[100vh]">
-        <div className="w-[90vw] h-[80vh] bg-[#048DB7]/20 rounded-2xl flex flex-col items-center">
-        <div className="text-center w-[50%]">
-          <h1 className="text-5xl text-center mt-10">Graphic Design Basic Core :<br></br>Principles for Visual Design</h1>
+      <section className="flex justify-center md:h-[100vh] pb-10">
+        <div className="w-[90vw] md:h-[80vh] bg-[#048DB7]/20 pb-10 rounded-2xl flex flex-col items-center">
+        <div className="text-center md:w-[50%] w-[80%]">
+          <h1 className="md:text-5xl text-4xl text-center mt-10">Graphic Design Basic Core :<br></br>Principles for Visual Design</h1>
           <p className="mt-10">Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
         </div>
         <div className="w-full flex flex-col relative items-center mt-10">
@@ -203,7 +203,7 @@ export default function AboutPage() {
                 controls={isPlaying}
                 loop
                 playsInline
-                className="w-[70vw] h-[60vh]  ml-10 bg-gray-100 object-contain rounded-3xl"
+                className="w-[70vw] h-[60vh]  md:ml-10 bg-gray-100 object-contain rounded-3xl"
                 onPlay={() => setIsPlaying(true)}
               />
 
@@ -223,8 +223,8 @@ export default function AboutPage() {
           <h1 className="text-6xl text-center">The dream team of<br /> Marketing</h1>
           <p className="text-center text-gray-500 text-lg mt-5">We grow as a family</p>
 
-          <div className="flex w-full justify-between regulator-nova-alts-straight tracking-wider">
-            <div className="w-[22vw] bg-blue-100 rounded-2xl transition-transform duration-300 hover:scale-105">
+          <div className="flex md:flex-row flex-col w-full justify-between regulator-nova-alts-straight tracking-wider">
+            <div className="md:w-[22vw] w-[80vw] bg-blue-100 rounded-2xl md:mt-[0vh] mt-[8vh] transition-transform duration-300 hover:scale-105">
               <div
                 className="h-[50vh] w-full bg-cover bg-center bg-no-repeat rounded-t-2xl"
                 style={{ backgroundImage: "url('/dummy_male.png')" }}
@@ -245,7 +245,7 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="w-[27vw] bg-blue-100 rounded-2xl mt-[8vh] pb-10 transition-transform duration-300 hover:scale-105">
+            <div className="md:w-[27vw] w-[80vw] bg-blue-100 rounded-2xl mt-[8vh] pb-10 transition-transform duration-300 hover:scale-105">
               <div
                 className="h-[50vh] w-full bg-cover bg-center bg-no-repeat rounded-t-2xl"
                 style={{ backgroundImage: "url('/dummy_male.png')" }}
@@ -266,7 +266,7 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="w-[22vw] bg-blue-100 rounded-2xl transition-transform duration-300 hover:scale-105">
+            <div className="md:w-[22vw] w-[80vw] bg-blue-100 rounded-2xl md:mt-[0vh] mt-[8vh] transition-transform duration-300 hover:scale-105">
               <div
                 className="h-[50vh] w-full bg-cover bg-center bg-no-repeat rounded-t-2xl"
                 style={{ backgroundImage: "url('/dummy_male.png')" }}

@@ -29,13 +29,8 @@ export default function AwardsSection() {
       <div className="max-w-7xl flex flex-col mx-auto">
 
         {/* LEFT COLUMN: Heading + Tagline */}
-        <div className="w-full md:w-full flex flex-col justify-center">
-          <h1 className="regulator-nova-alts tracking-widest md:text-6xl text-5xl font-bold mb-6">Awards & Achievements</h1>
-          {/* <p className="regulator-nova-alts-straight md:text-lg text-base text-white/90 leading-relaxed">
-            Owning ISO GMP manufacturing infrastructure facilities benefits
-            associates with in-house services of drug formulations sourced from
-            trusted and credible vendors.
-          </p> */}
+        <div className="w-[80vw] md:w-full flex flex-col justify-center">
+          <h1 className="regulator-nova-alts tracking-widest md:text-6xl text-4xl font-bold mb-6">Awards & Achievements</h1>
         </div>
 
         {/* RIGHT COLUMN: Carousel */}
@@ -83,7 +78,7 @@ export default function AwardsSection() {
                 animate={{ scale, x, opacity }}
                 transition={{ type: "spring", stiffness: 300, damping: 30 }}
                 style={{ zIndex }}
-                className="absolute w-[750px] h-full flex items-center justify-center "
+                className="absolute md:w-[750px] w-[300px] md:h-full h-[80%] flex items-center justify-center "
               >
                 <div className="relative w-full h-full shadow-2xl rounded-xl overflow-hidden">
                   <img
