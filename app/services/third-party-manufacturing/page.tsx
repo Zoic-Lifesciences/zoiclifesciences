@@ -39,16 +39,18 @@ export default function Manufacturing() {
                 World-class pharmaceutical production powered by advanced technology, 
                 expert chemists, and state-of-the-art manufacturing infrastructure.
                 </p>
-
-                <button className="regulator-nova-alts mt-10 bg-white text-[#090A69] px-10 py-4 font-semibold rounded-full shadow-2xl hover:bg-blue-100 transition">
+                <a href="#manufacturing">
+                  <button className="regulator-nova-alts mt-10 bg-white text-[#090A69] px-10 py-4 font-semibold rounded-full shadow-2xl hover:bg-blue-100 transition">
                 Explore Our Manufacturing Facility
                 </button>
+                </a>
+                
             </div>
         </section>
 
 
       {/* ================= INTRO ================= */}
-      <section className="py-24 bg-gray-50 text-blue-900">
+      <section className="py-24 bg-gray-50 text-blue-900" id="manufacturing">
         <div className="max-w-7xl mx-auto px-6">
 
           <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -219,9 +221,13 @@ export default function Manufacturing() {
               Build your brand with world-class pharmaceutical manufacturing.
             </p>
 
-            <button className="bg-white text-[#090A69] px-10 py-4 font-semibold rounded-full shadow-lg hover:bg-blue-100 transition">
-              Contact Manufacturing Team
+            <a href="/about/team">
+              <button className="bg-white text-[#090A69] px-10 py-4 font-semibold rounded-full shadow-lg hover:bg-blue-100 transition">
+              View Our Team
             </button>
+            </a>
+
+            
           </div>
         </div>
       </section>

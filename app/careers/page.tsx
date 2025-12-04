@@ -50,6 +50,7 @@ export default function CareersPage() {
 
   const router = useRouter();
   const [selectedJob, setSelectedJob] = useState<any>(null);
+  const [loading, setLoading] = useState(false);
   
 
   return (
@@ -224,28 +225,69 @@ export default function CareersPage() {
                 Location: {selectedJob.location} • {selectedJob.type}
               </p>
 
-              <form className="space-y-4">
-                <input
-                  type="text"
-                  placeholder="Full Name"
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500"
-                />
-                <input
-                  type="email"
-                  placeholder="Email"
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500"
-                />
-                <input
-                  type="file"
-                  className="w-full text-sm border border-gray-300 rounded-lg px-3 py-2 cursor-pointer file:mr-3 file:py-1 file:px-3 file:border-0 file:bg-[#048DB7] file:text-white file:rounded-md hover:file:bg-[#090A69]"
-                />
-                <button
-                  type="submit"
-                  className="w-full bg-[#048DB7] text-white py-2 rounded-xl font-medium hover:bg-[#090A69] transition"
-                >
-                  Submit Application
-                </button>
-              </form>
+              <form
+  className="space-y-4"
+  onSubmit={async (e) => {
+    e.preventDefault();
+    const form = e.currentTarget as HTMLFormElement;
+    const formData = new FormData(form);
+    formData.append("jobTitle", selectedJob.title);
+
+    try {
+      setLoading(true);
+      const res = await fetch("/api/apply", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await res.json();
+      if (data.success) {
+        alert(data.message);
+        setSelectedJob(null);
+        form.reset();
+      } else {
+        alert(data.message);
+      }
+    } catch (err) {
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  }}
+>
+  <input
+    name="name"
+    type="text"
+    placeholder="Full Name"
+    className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500"
+    required
+  />
+  <input
+    name="email"
+    type="email"
+    placeholder="Email"
+    className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500"
+    required
+  />
+  <input
+    name="resume"
+    type="file"
+    className="w-full text-sm border border-gray-300 rounded-lg px-3 py-2 cursor-pointer file:mr-3 file:py-1 file:px-3 file:border-0 file:bg-[#048DB7] file:text-white file:rounded-md hover:file:bg-[#090A69]"
+    required
+  />
+  <button
+    type="submit"
+    disabled={loading}
+    className={`w-full py-2 rounded-xl font-medium transition ${
+      loading
+        ? "bg-gray-400 cursor-not-allowed text-white"
+        : "bg-[#048DB7] text-white hover:bg-[#090A69]"
+    }`}
+  >
+    {loading ? "Submitting..." : "Submit Application"}
+  </button>
+</form>
+
             </motion.div>
           </motion.div>
         )}

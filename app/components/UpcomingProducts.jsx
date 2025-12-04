@@ -93,9 +93,11 @@ export default function UpcomingProducts() {
         <p className="text-gray-500 mb-8">
           At <span className="text-[#048DB7] font-semibold">ZOIC</span> it’s all about continuous innovations.
         </p>
-        <button className="text-white w-fit p-4 rounded-2xl bg-[#048DB7]">
-            Explore more
-        </button>
+        <a href="/products">
+  <button className="text-white w-fit p-4 rounded-2xl bg-[#048DB7]">
+    Explore more
+  </button>
+</a>
         </div>
         
 

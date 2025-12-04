@@ -5,7 +5,13 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
 
-    // Transporter
+    if (!body.name || !body.email || !body.city || !body.phone) {
+      return NextResponse.json(
+        { message: "Missing required fields" },
+        { status: 400 }
+      );
+    }
+
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
@@ -14,35 +20,29 @@ export async function POST(req: Request) {
       },
     });
 
-    // Email Content
     await transporter.sendMail({
       from: process.env.MAIL_USER,
       to: process.env.TO_EMAIL,
-      subject: `New Contact Form: ${body.subject}`,
+      subject: `New PCD Franchise Request from ${body.name}`,
       html: `
-        <h2>New Contact Message</h2>
+        <h2>PCD Franchise Inquiry</h2>
         <p><strong>Name:</strong> ${body.name}</p>
         <p><strong>Email:</strong> ${body.email}</p>
-        <p><strong>Phone:</strong> ${body.phone || "Not provided"}</p>
-        <p><strong>Company:</strong> ${body.company || "Not provided"}</p>
-        <p><strong>Message:</strong><br>${body.message}</p>
+        <p><strong>City:</strong> ${body.city}</p>
+        <p><strong>Phone:</strong> ${body.phone}</p>
+        <p><strong>Message:</strong> ${body.message}</p>
       `,
     });
 
     return NextResponse.json(
-      { message: "Email sent successfully!" },
+      { message: "Form submitted successfully!" },
       { status: 200 }
     );
   } catch (error) {
-    console.error("Email error:", error);
+    console.error("PCD Franchise Email error:", error);
     return NextResponse.json(
-      { message: "Failed to send email" },
+      { message: "Failed to submit" },
       { status: 500 }
     );
   }
 }
-
-console.log("MAIL_USER =", process.env.MAIL_USER);
-console.log("MAIL_PASS =", process.env.MAIL_PASS);
-console.log("TO_EMAIL =", process.env.TO_EMAIL);
-
