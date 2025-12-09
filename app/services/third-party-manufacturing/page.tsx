@@ -68,7 +68,7 @@ export default function Manufacturing() {
 
             {/* Image */}
             <div className="rounded-3xl bg-[#1BA3CD] shadow-xl h-80 flex items-center justify-center text-2xl font-bold text-white">
-              Manufacturing Image
+              
             </div>
           </div>
 

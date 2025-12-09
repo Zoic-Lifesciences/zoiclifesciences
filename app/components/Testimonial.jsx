@@ -165,16 +165,9 @@ function TestimonialCard({ name, role, text, image }) {
       <div className="text-gray-500 text-2xl mb-2">“</div>
       <p className="text-gray-600 text-sm mb-4 break-words whitespace-normal">{text}</p>
       <div className="flex items-center gap-3 mt-4 min-w-0">
-        <Image
-          src={image}
-          alt={name}
-          width={40}
-          height={40}
-          className="rounded-full flex-shrink-0"
-        />
         <div className="min-w-0">
           <p className="font-bold text-sm truncate">{name}</p>
-          <p className="text-gray-500 text-xs truncate">{role}</p>
+          <p className="font-semibold text-xs truncate">{role}</p>
         </div>
       </div>
     </div>

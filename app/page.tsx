@@ -31,7 +31,7 @@ const montserrat = Montserrat({
 
 
 export default function Home() {
-  const [showIntro, setShowIntro] = useState(true);
+  const [showIntro, setShowIntro] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setShowIntro(false), 1500); // show intro for 1.5s

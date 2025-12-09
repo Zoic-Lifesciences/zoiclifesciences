@@ -71,9 +71,16 @@ export default function PcdFranchise() {
             </p>
           </div>
 
-          <div className="rounded-3xl bg-blue-300 shadow-2xl h-80 flex items-center justify-center text-white text-3xl font-semibold">
-            IMAGE / GRAPHIC
+          <div
+            className="rounded-3xl bg-blue-300 shadow-2xl h-80 flex items-center justify-center text-white text-3xl font-semibold"
+            style={{
+              backgroundImage: "url('/no1.jpg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          >
           </div>
+
         </div>
       </section>
 

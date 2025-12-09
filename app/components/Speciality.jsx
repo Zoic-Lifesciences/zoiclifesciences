@@ -21,7 +21,7 @@ export default function Speciality() {
           <h1
             className="regulator-nova-alts-straight tracking-wider md:text-6xl text-5xl text-center my-10 text-[#090A69]"
           >
-            25 Years of Experience
+            25 Years of Excellency
           </h1>
 
         {/* Paragraph slides in from right */}

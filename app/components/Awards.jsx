@@ -3,14 +3,13 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
 const data = [
-  { id: 7, img: "/awards/7.jpg", category: "Injectables" },
-  { id: 6, img: "/awards/8.jpg", category: "Capsules" },
-  { id: 3, img: "/awards/9.jpg", category: "Soft Gel" },
-  { id: 1, img: "/awards/10.jpg", category: "Tablets" },
-  { id: 8, img: "/awards/11.jpg", category: "Ointments" },
-  { id: 4, img: "/awards/12.jpg", category: "Powder" },
-  // { id: 2, img: "/awards/14.jpg", category: "Syrup" },
-  { id: 5, img: "/awards/15.webp", category: "Oil" },
+  { id: 1, img: "/gallery/1.jpeg", category: "Injectables" },
+  { id: 2, img: "/gallery/2.jpeg", category: "Capsules" },
+  { id: 3, img: "/gallery/3.jpeg", category: "Soft Gel" },
+  { id: 4, img: "/gallery/4.jpeg", category: "Tablets" },
+  { id: 5, img: "/gallery/5.jpeg", category: "Ointments" },
+  { id: 6, img: "/gallery/6.jpeg", category: "Powder" },
+  { id: 7, img: "/gallery/7.jpeg", category: "Powder" },
 ];
 
 export default function AwardsSection() {
@@ -30,7 +29,7 @@ export default function AwardsSection() {
 
         {/* LEFT COLUMN: Heading + Tagline */}
         <div className="w-[80vw] md:w-full flex flex-col justify-center">
-          <h1 className="regulator-nova-alts tracking-widest md:text-6xl text-4xl font-bold mb-6">Awards & Achievements</h1>
+          <h1 className="regulator-nova-alts tracking-widest md:text-6xl text-4xl font-bold mb-6">Highlights</h1>
         </div>
 
         {/* RIGHT COLUMN: Carousel */}

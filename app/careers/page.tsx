@@ -54,7 +54,7 @@ export default function CareersPage() {
   
 
   return (
-    <main className="min-h-screen bg-gradient-to-br  text-gray-900">
+    <main className="min-h-screen bg-gradient-to-br  text-gray-900 pt-[10vh]">
 
       {/* Hero Section */}
       <section className="relative flex items-center text-center w-screen h-[70vh] py-10 ">

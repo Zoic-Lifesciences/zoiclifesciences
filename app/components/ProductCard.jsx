@@ -21,9 +21,6 @@ export default function ProductCard({ img, title, description, pack, productPack
 
       <div className="text-start mt-3 px-5">
         <div className="flex flex-row gap-2">
-          <span className="bg-green-600 text-white text-sm px-4 py-1 rounded-full">
-            {category} 
-          </span>
           <span className="bg-yellow-500 text-white text-sm px-4 py-1 rounded-full">{productPacking} </span>
         </div>
         <h3 className="text-lg font-semibold mt-2">{title}</h3>
