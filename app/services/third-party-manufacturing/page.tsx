@@ -29,10 +29,10 @@ export default function Manufacturing() {
             </div>
 
             {/* Text Content */}
-            <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
-                <h1 className="regulator-nova-alts tracking-wider text-5xl md:text-7xl font-extrabold text-white drop-shadow-2xl leading-tight">
+            <div className="relative z-10 max-w-7xl md:w-full w-[90%] mx-auto px-6 text-center">
+                <h1 className="regulator-nova-alts tracking-wider text-4xl md:text-7xl font-extrabold text-white drop-shadow-2xl leading-tight">
                 India’s Leading  
-                <span className="block text-6xl text-[#1BA3CD] mt-2">Pharma Manufacturing Company</span>
+                <span className="block md:text-6xl text-4xl text-[#1BA3CD] mt-2">Pharma Manufacturing Company</span>
                 </h1>
 
                 <p className="tracking-wider mt-6 text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">

@@ -51,7 +51,7 @@ export default function Home() {
         <HeroSection />   
         <VideoSection />
         <BestSeller/>
-        <ChooseUs />
+         <ChooseUs />
         <StatsSection/>
         <RareCombinations/>
         <Certifications />
@@ -63,7 +63,7 @@ export default function Home() {
         <NewsRoom />
         <Awards/>
         <Testimonial />
-        <Footer />
+        <Footer /> 
       </main>
     </>
   );

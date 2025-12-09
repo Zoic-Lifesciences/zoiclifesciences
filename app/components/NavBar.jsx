@@ -59,37 +59,14 @@ export default function Header() {
   }, [pathname]);
 
   return (
-    <header
-      className={`fixed w-screen z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-white text-black backdrop-blur-sm shadow-md"
-          : "bg-transparent text-white"
-      }`}
-    >
-      {/* Top Bar */}
-      <div
-        className={`${scrolled ? "hidden" : ""} transition-all max-w-7xl mx-auto flex justify-center w-full`}
-      >
-        <div className="hidden md:flex w-full text-[12px] items-center justify-between py-3 text-sm border-b border-gray-300">
-          <div className="flex items-center gap-6">
-            <div className="flex items-center gap-2">
-              <Phone size={16} />
-              <span>+(91) 7088014041</span>
-            </div>
-            <div className="flex items-center gap-2 border-r-2 pr-2 border-gray-300">
-              <Mail size={16} />
-              <span>info@zoiclifesciences.com</span>
-            </div>
-          </div>
-          <p className="text-[12px]">
-            Delivering trusted pharmaceutical excellence — because your health
-            deserves the best. Happy to serve you!
-          </p>
-        </div>
-      </div>
+    <div className="relative">
 
-      <div className="w-screen h-[10vh] md:hidden justify-end pr-5 flex">
-        {isOpen ? (
+      <div className="w-screen h-[10vh] z-50 fixed bg-white text-black md:hidden items-center justify-between px-5 flex">
+        <div>
+          <Image src="/logo.png" alt="Zoic Logo" width={45} height={45} />
+        </div>
+        <div className="">
+          {isOpen ? (
           <button onClick={() => setIsOpen(false)}>
             <X size={28} />
           </button>
@@ -98,7 +75,11 @@ export default function Header() {
             <Menu size={28} />
           </button>
         )}
+        </div>
+        
       </div>
+
+
 
       {/* Slide-in Mobile Navbar */}
       <AnimatePresence>
@@ -110,7 +91,7 @@ export default function Header() {
               animate={{ opacity: 0.4 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="fixed inset-0 bg-black z-40"
+              className="fixed inset-0 z-40"
               onClick={() => setIsOpen(false)}
             />
 
@@ -123,15 +104,14 @@ export default function Header() {
               className="fixed top-0 right-0 h-full w-3/4 sm:w-1/2 bg-white z-50 shadow-2xl p-6 flex flex-col"
             >
               {/* Header with Logo & Close */}
-              <div className="flex justify-between items-center mb-6">
-                <Image src="/logo2.png" alt="Zoic Logo" width={45} height={45} />
+              <div className="flex justify-end items-center mb-6 ">
                 <button onClick={() => setIsOpen(false)}>
                   <X size={28} className="text-gray-700 hover:text-[#048DB7]" />
                 </button>
               </div>
 
               {/* Links */}
-              <ul className="space-y-6 text-lg text-gray-800">
+              <ul className="space-y-6 text-lg text-gray-800 bg-white">
                 <li>
                   <Link
                     href="/"
@@ -241,7 +221,7 @@ export default function Header() {
                   <Link
                     href="/services/pcd-pharma-franchise"
                     onClick={() => setIsOpen(false)}
-                    className={isActive("/") ? "text-[#048DB7]" : ""}
+                    className={isActive("/pcd-pharma-franchise") ? "text-[#048DB7]" : ""}
                   >
                     PCD Franchise
                   </Link>
@@ -251,7 +231,7 @@ export default function Header() {
                   <Link
                     href="/blog"
                     onClick={() => setIsOpen(false)}
-                    className={isActive("/") ? "text-[#048DB7]" : ""}
+                    className={isActive("/blog") ? "text-[#048DB7]" : ""}
                   >
                     Blog
                   </Link>
@@ -262,7 +242,7 @@ export default function Header() {
                   <Link
                     href="/contact"
                     onClick={() => setIsOpen(false)}
-                    className="bg-[#048DB7] px-4 py-2 rounded-full block text-center mt-4"
+                    className="bg-[#048DB7] text-white px-4 py-2 rounded-full block text-center mt-4"
                   >
                     Contact Us
                   </Link>
@@ -272,6 +252,38 @@ export default function Header() {
           </>
         )}
       </AnimatePresence>
+      <header
+      className={`fixed w-screen z-50 transition-all duration-500 ${
+        scrolled
+          ? "bg-white text-black backdrop-blur-sm shadow-md"
+          : "bg-transparent text-white"
+      }`}
+    >
+      {/* Top Bar */}
+      <div
+        className={`${scrolled ? "hidden" : ""} transition-all max-w-7xl mx-auto flex justify-center w-full`}
+      >
+        <div className="hidden md:flex w-full text-[12px] items-center justify-between py-3 text-sm border-b border-gray-300">
+          <div className="flex items-center gap-6">
+            <div className="flex items-center gap-2">
+              <Phone size={16} />
+              <span>+(91) 7088014041</span>
+            </div>
+            <div className="flex items-center gap-2 border-r-2 pr-2 border-gray-300">
+              <Mail size={16} />
+              <span>info@zoiclifesciences.com</span>
+            </div>
+          </div>
+          <p className="text-[12px]">
+            Delivering trusted pharmaceutical excellence — because your health
+            deserves the best. Happy to serve you!
+          </p>
+        </div>
+      </div>
+
+      
+
+      
 
       {/* Desktop Version */}
       <div className="max-w-7xl mx-auto flex justify-center">
@@ -431,5 +443,7 @@ export default function Header() {
         </nav>
       </div>
     </header>
+    </div>
+    
   );
 }

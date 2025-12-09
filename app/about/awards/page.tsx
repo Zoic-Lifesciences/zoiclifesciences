@@ -36,10 +36,10 @@ export default function AwardsPage() {
   {/* Gradient Overlay */}
   <div className="absolute inset-0  bg-gradient-to-b from-black/90 to-black/30"></div>
 
-  <h1 className="relative text-white text-6xl font-bold">
+  <h1 className="relative text-white md:text-6xl text-4xl text-center font-bold">
     Award And Achievements
   </h1>
-  <h1 className="relative text-white w-[50%] mt-5">
+  <h1 className="relative text-white md:w-[50%] w-[80%] text-center mt-5">
     We take pride in delivering world-class pharmaceutical solutions and maintaining
             excellence across all operations. Our achievements represent our commitment to quality,
             innovation, and trust.

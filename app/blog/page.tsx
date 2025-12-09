@@ -1,6 +1,7 @@
 import { hygraph } from "../lib/hygraph";
 import { GET_POSTS } from "../lib/queries";
 import Link from "next/link";
+import Footer from "@/app/components/Footer";
 
 export const revalidate = 60; // ISR: revalidate every 60s
 
@@ -8,7 +9,8 @@ export default async function BlogPage() {
   const { posts } = await hygraph.request(GET_POSTS);
 
   return (
-    <main className="max-w-5xl mx-auto px-6 pt-[15vh]">
+    <>
+    <main className="max-w-5xl mx-auto px-6 pt-[15vh] pb-10">
       <h1 className="text-4xl font-bold mb-10">Company Blog</h1>
 
       {/* FLEX COLUMN LIST */}
@@ -33,6 +35,10 @@ export default async function BlogPage() {
           </Link>
         ))}
       </div>
+      
     </main>
+    <Footer />
+    </>
+    
   );
 }

@@ -37,7 +37,7 @@ export default function WhatWeOffer() {
   ];
 
   return (
-    <section className="bg-linear-to-r h-[100vh] from-[#1BA3CD] to-[#090A69] py-16 px-6 text-white flex flex-col items-center text-center">
+    <section className="bg-linear-to-r from-[#1BA3CD] to-[#090A69] py-16 px-6 text-white flex flex-col items-center text-center">
       {/* Header */}
       <h2 className="regulator-nova-alts-straight tracking-wider md:text-6xl text-5xl mb-4" >
         What we offer
@@ -49,11 +49,11 @@ export default function WhatWeOffer() {
       </p>
 
       {/* Offer Cards */}
-      <div className="flex md:flex-row flex-col h-[50vh] gap-8 max-w-7xl">
+      <div className="flex md:flex-row flex-col md:h-[50vh] h-[150vh] gap-8 max-w-7xl">
         {offers.map((offer, index) => (
           <div
             key={index}
-            className="relative flex flex-col md:h-full h-[90vh] md:w-[20vw] w-[80vw] overflow-hidden group shadow-lg hover:scale-105 transition-transform duration-300"
+            className="relative flex flex-col h-full md:w-[20vw] w-[80vw] overflow-hidden group shadow-lg hover:scale-105 transition-transform duration-300"
             style={{
               borderTopRightRadius: "20%",
               borderBottomLeftRadius: "20%",

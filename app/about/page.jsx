@@ -92,11 +92,11 @@ export default function AboutPage() {
         <MissionSection />
       </section>
 
-      <div className="h-[100vh] w-[100vw] bg-linear-to-r from-[#1BA3CD] to-[#090A69] relative flex items-center justify-center">
-        <div className="flex w-[85%] h-[80%] justify-between items-center ">
-          <div className="w-[50%] flex flex-col text-white mb-[10vh] ">
+      <div className=" w-[100vw] bg-linear-to-r from-[#1BA3CD] to-[#090A69] relative flex  py-16 items-center justify-center">
+        <div className="flex md:flex-row flex-col w-[85%] h-[80%] justify-between items-center ">
+          <div className="md:w-[50%] w-[80%] flex flex-col text-white mb-[10vh] ">
             <div className="w-[90%] text-2xl flex relative ">
-              <span className="inline-block">
+              <span className="inline-block ">
                 <FaQuoteLeft className="text-5xl mr-5" />
               </span>
 
@@ -113,13 +113,13 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="flex text-white mt-[20vh]">
-              <div className="w-36 h-36 relative">
+            <div className="flex md:flex-row flex-col items-center  text-white mt-[20vh]">
+              <div className="w-36 h-36 relative mb-10">
                 <Image src="/logo2.png" alt="ZOIC Logo" fill className="object-contain" />
               </div>
 
               <div className="text-center ml-10">
-                <h1 className="regulator-nova-alts-straight tracking-wider text-5xl mb-5 font-bold">Mr. Sanjay Gupta</h1>
+                <h1 className="regulator-nova-alts-straight tracking-wider md:text-5xl text-4xl mb-5 font-bold">Mr. Sanjay Gupta</h1>
                 <p className="regulator-nova-alts tracking-wider text-xl">
                   Managing Director
                   <br />
@@ -131,7 +131,7 @@ export default function AboutPage() {
 
           <div 
           ref={ref}
-          className="w-[40vw] h-[70vh] relative ">
+          className="md:w-[40vw] w-[90vw] h-[70vh] relative ">
             <Image
               src="/md.png"
               alt="Sanjay Gupta"
@@ -142,14 +142,14 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="md:h-[90vh] w-[100vw] relative flex items-center justify-center">
-        <div className="flex w-[85%] justify-between">
+      <div className="md:h-[90vh] w-[100vw] relative flex items-center justify-center py-16">
+        <div className="flex w-[85%] justify-between md:flex-row flex-col-reverse">
           <div
-            className="w-[40vw] h-[50vh] rounded-2xl bg-contain bg-center bg-no-repeat"
+            className="md:w-[40vw] w-[80vw] h-[50vh] rounded-2xl bg-contain bg-center bg-no-repeat"
             style={{ backgroundImage: "url('/team/Arindam.jpeg')" }}
           ></div>
 
-          <div className="w-[50%] z-10 flex flex-col">
+          <div className="md:w-[50%] w-[80vw] z-10 flex flex-col">
             <h6 className="regulator-nova-alts mb-2 text-gray-500 text-lg">(Chief Executing Officer)</h6>
 
             <h1 className="text-5xl text-start regulator-nova-alts-straight tracking-wider">Mr. Arindam Gupta</h1>
