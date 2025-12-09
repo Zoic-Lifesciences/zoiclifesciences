@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import NavBar from "./NavBar";
+import Image from "next/image";
 
 import { motion } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
@@ -77,8 +77,17 @@ export default function Herosection() {
           <SwiperSlide key={i} className="h-full relative">
             <div
               className="relative w-full h-full bg-center bg-cover bg-no-repeat"
-              style={{ backgroundImage: `url(${slide.img})` }}
+             
             >
+
+      {/* Background Image */}
+      <Image
+        src={slide.img}
+        alt={slide.title}
+        fill
+        priority={i === 0}
+        className="object-cover object-center z-0"
+      />
               <div className="absolute inset-0 bg-linear-to-l from-transparent via-[#1BA3CD]/20 to-[#090A69]"></div>
               <div className="w-full h-40 absolute inset-0 bg-linear-to-b from-[#090A69]/80 via-[#090A69]/10 to-transparent" ></div>
 
