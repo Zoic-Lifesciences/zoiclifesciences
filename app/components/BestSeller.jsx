@@ -1,7 +1,7 @@
 "use client";
 import { useRef } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-
+import Image from "next/image";
 
 export default function BestSeller() {
   const products = [
@@ -108,9 +108,16 @@ export default function BestSeller() {
             {products.map((p) => (
               <div key={p.id} className="md:w-[30vw] w-[80vw]  p-4 flex-shrink-0">
                 <div
-                  className="h-[40vh] w-full bg-contain bg-no-repeat bg-center "
-                  style={{ backgroundImage: `url(${p.image})` }}
-                ></div>
+                  className="h-[40vh] w-full bg-contain bg-no-repeat bg-center relative"
+                >
+                  <Image
+    src={p.image}
+    alt="Product image"
+    fill
+    className="object-contain"
+    priority
+  />
+                </div>
                 <h3 className="text-xl text-[#048DB7] font-bold mt-3">{p.name}</h3>
                 <p className="text-gray-600">{p.pack}</p>
                 <p className="font-semibold mt-1">{p.composition}</p>
