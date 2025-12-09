@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 export default function NewlyLaunched() {
   const products = [
@@ -88,9 +89,16 @@ export default function NewlyLaunched() {
                     border border-gray-200 rounded-t-[10%] mx-5"
                 >
                   <div
-                    className="h-[28vh] w-full bg-contain bg-no-repeat bg-center overflow-hidden rounded-t-[10%]"
-                    style={{ backgroundImage: `url(${p.image})` }}
-                  ></div>
+                    className="h-[28vh] w-full bg-contain bg-no-repeat bg-center overflow-hidden rounded-t-[10%] relative"
+                  >
+                    <Image
+    src={p.image}
+    alt="Product image"
+    fill
+    className="object-contain"
+    priority
+  />
+                  </div>
                   <div className="p-4 h-48">
                     <h3 className="regulator-nova-alts tracking-wider font-semibold text-[#048DB7] text-2xl">
                       {p.name}
