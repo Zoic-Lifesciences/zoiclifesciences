@@ -68,7 +68,7 @@ const lifeEvents = [
 
 export default function LifeAtZoic() {
   const [currentIndex, setCurrentIndex] = useState(0);
-    const total = 4;
+    const total = 5;
   
     useEffect(() => {
       const interval = setInterval(() => {
@@ -80,45 +80,34 @@ export default function LifeAtZoic() {
   const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.3 });
   const router = useRouter();
   const stats = [
-    { labelTop: "Present In", number: 20, suffix: "+", labelBottom: "States" },
-    { labelTop: "Over", number: 500, suffix: "+", labelBottom: "Clients" },
+    { labelTop: "Over", number: 100, suffix: "+", labelBottom: "Employees" },
+    { labelTop: "Over", number: 10, suffix: "+", labelBottom: "Teams" },
     {
       labelTop: "Close to",
-      number: 1500,
+      number: 500,
       suffix: "+",
       labelBottom: "Brands",
     },
     {
-      labelTop: "More than",
-      number: 0,
+      labelTop: "Export to",
+      number: 6,
       suffix: "+",
-      labelBottom: "DCGI Approved Products",
+      labelBottom: "Countries",
     },
   ];
 
   return (
-    <main className="bg-gray-100 text-gray-800">
+    <main className="bg-gray-100 text-gray-800 pt-[10vh]">
 
       {/* ===== Page Header ===== */}
-      <section className="bg-gray-100  ">
-        <div className="w-screen h-[100vh] flex flex-col items-center justify-center text-center">
-          <h1 className="text-5xl pt-10 mb-10">At Zoic We bring VIsion<br></br>Expertise and Dedication</h1>
-          <div className="h-[70vh] w-[80%] bg-black rounded-2xl relative">
-            <Image
-                src="/collab.avif"
-                alt="Product"
-                fill
-                className="object-cover rounded-3xl"
-              />
-          </div>
+      <section className="bg-gray-100  pb-16">
+        <div className="w-screen flex flex-col items-center justify-center text-center">
+          <h1 className="text-5xl pt-10 mb-10">At Zoic We bring Vision<br></br>Expertise and Dedication</h1>
+          
         </div>
-        
-       
-      </section>
-
-      <section
+          <section
             ref={ref}
-            className=" flex flex-col items-center text-center py-16 text-black"
+            className=" flex flex-col items-center text-center  text-black"
           >
       
             <div className="w-[80vw] justify-center flex gap-8 bg-[#1BA3CD]/50 text-white rounded-2xl">
@@ -138,6 +127,9 @@ export default function LifeAtZoic() {
               ))}
             </div>
           </section>
+      </section>
+
+    
 
       {/* ===== Event Sections ===== */}
       {lifeEvents.map((event, index) => (

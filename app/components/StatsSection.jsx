@@ -7,18 +7,18 @@ export default function StatsSection() {
 
   const stats = [
     { labelTop: "Present In", number: 20, suffix: "+", labelBottom: "States" },
-    { labelTop: "Over", number: 500, suffix: "+", labelBottom: "Clients" },
+    { labelTop: "Over", number: 1000, suffix: "+", labelBottom: "Clients" },
     {
       labelTop: "Close to",
-      number: 1500,
+      number: 500,
       suffix: "+",
       labelBottom: "Brands",
     },
     {
-      labelTop: "More than",
-      number: 0,
+      labelTop: "Exported to",
+      number: 6,
       suffix: "+",
-      labelBottom: "DCGI Approved Products",
+      labelBottom: "Countries",
     },
   ];
 

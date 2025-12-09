@@ -9,7 +9,7 @@ import { Menu, X } from "lucide-react";
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(null);
-  const [isOpen,setIsOpen] =useState(false)
+  const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
   const handleMouseEnter = (menu) => setOpenMenu(menu);
@@ -20,65 +20,68 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-  if (pathname === "/contact") {
-    setScrolled(true);
-    return;
-  }
-  if (pathname === "/products") {
-    setScrolled(true);
-    return;
-  }
-  if (pathname === "/careers/life-at-zoic") {
-    setScrolled(true);
-    return;
-  }
-  if (pathname === "/careers/life-at-zoic") {
-    setScrolled(true);
-    return;
-  }
-  if (pathname === "/about/team") {
-    setScrolled(true);
-    return;
-  }
-  if (pathname === "/careers") {
-    setScrolled(true);
-    return;
-  }
+    if (pathname === "/contact") {
+      setScrolled(true);
+      return;
+    }
+    if (pathname === "/products") {
+      setScrolled(true);
+      return;
+    }
+    if (pathname === "/blog " || pathname.startsWith("/blog/")) {
+      setScrolled(true);
+      return;
+    }
+    if (pathname === "/careers/life-at-zoic") {
+      setScrolled(true);
+      return;
+    }
+    if (pathname === "/careers/life-at-zoic") {
+      setScrolled(true);
+      return;
+    }
+    if (pathname === "/about/team") {
+      setScrolled(true);
+      return;
+    }
+    if (pathname === "/careers") {
+      setScrolled(true);
+      return;
+    }
 
-  const handleScroll = () => {
-    setScrolled(window.scrollY > 70);
-  };
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 70);
+    };
 
-  window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-  return () => window.removeEventListener("scroll", handleScroll);
-}, [pathname]);
-
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [pathname]);
 
   return (
     <header
       className={`fixed w-screen z-50 transition-all duration-500 ${
         scrolled
           ? "bg-white text-black backdrop-blur-sm shadow-md"
-          : "bg-transparent text-white "
+          : "bg-transparent text-white"
       }`}
     >
-
       {/* Top Bar */}
-      
-      <div className={`${scrolled ? "hidden" : ""} transition-all max-w-7xl  mx-auto flex justify-center w-full`}>
+      <div
+        className={`${scrolled ? "hidden" : ""} transition-all max-w-7xl mx-auto flex justify-center w-full`}
+      >
         <div className="hidden md:flex w-full text-[12px] items-center justify-between py-3 text-sm border-b border-gray-300">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone size={16} />
-              <span>+(91)98736 12234</span>
+              <span>+(91) 7088014041</span>
             </div>
             <div className="flex items-center gap-2 border-r-2 pr-2 border-gray-300">
               <Mail size={16} />
               <span>info@zoiclifesciences.com</span>
             </div>
           </div>
-          <p className=" text-[12px]">
+          <p className="text-[12px]">
             Delivering trusted pharmaceutical excellence — because your health
             deserves the best. Happy to serve you!
           </p>
@@ -86,13 +89,15 @@ export default function Header() {
       </div>
 
       <div className="w-screen h-[10vh] md:hidden justify-end pr-5 flex">
-        {isOpen ? <>
-<button onClick={() => setIsOpen(false)}>
-  <X size={28} />      {/* Close (cross) icon */}
-</button></>:<>
-        <button onClick={() => setIsOpen(true)}>
-  <Menu size={28} />   {/* Hamburger icon */}
-</button></> }
+        {isOpen ? (
+          <button onClick={() => setIsOpen(false)}>
+            <X size={28} />
+          </button>
+        ) : (
+          <button onClick={() => setIsOpen(true)}>
+            <Menu size={28} />
+          </button>
+        )}
       </div>
 
       {/* Slide-in Mobile Navbar */}
@@ -136,108 +141,128 @@ export default function Header() {
                     Home
                   </Link>
                 </li>
+
                 {["About", "Services", "Careers"].map((menu) => (
-              <li
-                key={menu}
-                className={`relative cursor-pointer flex items-center gap-1 ${
-                  pathname.startsWith(`/${menu.toLowerCase()}`)
-                    ? "text-[#048DB7]"
-                    : "text-gray-800 hover:text-[#048DB7]"
-                }`}
-                onMouseEnter={() => handleMouseEnter(menu)}
-                onMouseLeave={handleMouseLeave}
-              >
-                {menu === "Services" 
-  ? <Link href="/services/third-party-manufacturing">Services</Link>
-  : <Link href={`/${menu.toLowerCase()}`}>{menu}</Link>
-}
-                {openMenu === menu ? (
-                  <ChevronUp size={16} />
-                ) : (
-                  <ChevronDown size={16} />
-                )}
+                  <li
+                    key={menu}
+                    className={`relative cursor-pointer flex items-center gap-1 ${
+                      pathname.startsWith(`/${menu.toLowerCase()}`)
+                        ? "text-[#048DB7]"
+                        : "text-gray-800 hover:text-[#048DB7]"
+                    }`}
+                    onMouseEnter={() => handleMouseEnter(menu)}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    {menu === "Services" ? (
+                      <Link href="/services/third-party-manufacturing">Services</Link>
+                    ) : (
+                      <Link href={`/${menu.toLowerCase()}`}>{menu}</Link>
+                    )}
 
-                {/* Dropdown */}
-                <AnimatePresence>
-                  {openMenu === menu && (
-                    <motion.div
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      transition={{ duration: 0.3 }}
-                      className="absolute top-full -left-2 mt-2 w-64 bg-white shadow-lg rounded-lg border border-gray-200 p-4 z-50"
-                    >
-                      {menu === "About" && (
-                        <ul className="text-gray-600 space-y-2 text-lg">
-                          {[
-                            ["/about/director-message", "Director's Message"],
-                            ["/about/awards", "Award Achievement"],
-                            ["/about/our-team", "Our Team"],
-                          ].map(([href, label]) => (
-                            <li key={href}>
-                              <Link
-                                href={href}
-                                className={`hover:text-[#048DB7] transition-colors duration-300 ${
-                                  isActive(href) ? "text-[#048DB7]" : ""
-                                }`}
-                              >
-                                {label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
+                    {openMenu === menu ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
 
-                      {menu === "Services" && (
-                        <ul className="text-gray-600 space-y-2 text-lg">
-                          {[
-                            ["/services/pcd-pharma-franchise", "PCD Pharma Franchise"],
-                            ["/services/third-party", "Third-Party Manufacturing"],
-                            ["/services/research-development", "Oversees Business"],
-                          ].map(([href, label]) => (
-                            <li key={href}>
-                              <Link
-                                href={href}
-                                className={`hover:text-[#048DB7] transition-colors duration-300 ${
-                                  isActive(href) ? "text-[#048DB7]" : ""
-                                }`}
-                              >
-                                {label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
+                    {/* Dropdown */}
+                    <AnimatePresence>
+                      {openMenu === menu && (
+                        <motion.div
+                          initial={{ opacity: 0, y: -10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -10 }}
+                          transition={{ duration: 0.3 }}
+                          className="absolute top-full -left-2 mt-2 w-64 bg-white shadow-lg rounded-lg border border-gray-200 p-4 z-50"
+                        >
+                          {menu === "About" && (
+                            <ul className="text-gray-600 space-y-2 text-lg">
+                              {[
+                                ["/about", "Overview"],
+                                ["/about/awards", "Award Achievement"],
+                                ["/about/team", "Our Team"],
+                              ].map(([href, label]) => (
+                                <li key={href}>
+                                  <Link
+                                    href={href}
+                                    className={`hover:text-[#048DB7] transition-colors duration-300 ${
+                                      isActive(href) ? "text-[#048DB7]" : ""
+                                    }`}
+                                  >
+                                    {label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
 
-                      {menu === "Careers" && (
-                        <ul className="text-gray-600 space-y-2 text-lg">
-                          {[
-                            ["/careers/apply", "Apply"],
-                            ["/careers/life-at-zoic", "Life At Zoic"],
-                          ].map(([href, label]) => (
-                            <li key={href}>
-                              <Link
-                                href={href}
-                                className={`hover:text-[#048DB7] transition-colors duration-300 ${
-                                  isActive(href) ? "text-[#048DB7]" : ""
-                                }`}
-                              >
-                                {label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
+                          {menu === "Services" && (
+                            <ul className="text-gray-600 space-y-2 text-lg">
+                              {[
+                                ["/services/pcd-pharma-franchise", "PCD Pharma Franchise"],
+                                ["/services/third-party-manufacturing", "Third-Party Manufacturing"],
+                                ["/services/oversees-business", "Oversees Business"],
+                              ].map(([href, label]) => (
+                                <li key={href}>
+                                  <Link
+                                    href={href}
+                                    className={`hover:text-[#048DB7] transition-colors duration-300 ${
+                                      isActive(href) ? "text-[#048DB7]" : ""
+                                    }`}
+                                  >
+                                    {label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+
+                          {menu === "Careers" && (
+                            <ul className="text-gray-600 space-y-2 text-lg">
+                              {[
+                                ["/careers/", "Apply"],
+                                ["/careers/life-at-zoic", "Life At Zoic"],
+                              ].map(([href, label]) => (
+                                <li key={href}>
+                                  <Link
+                                    href={href}
+                                    className={`hover:text-[#048DB7] transition-colors duration-300 ${
+                                      isActive(href) ? "text-[#048DB7]" : ""
+                                    }`}
+                                  >
+                                    {label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </motion.div>
                       )}
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </li>
-            ))}
+                    </AnimatePresence>
+                  </li>
+                ))}
+                <li>
+                  <Link
+                    href="/services/pcd-pharma-franchise"
+                    onClick={() => setIsOpen(false)}
+                    className={isActive("/") ? "text-[#048DB7]" : ""}
+                  >
+                    PCD Franchise
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    href="/blog"
+                    onClick={() => setIsOpen(false)}
+                    className={isActive("/") ? "text-[#048DB7]" : ""}
+                  >
+                    Blog
+                  </Link>
+                </li>
+
+
                 <li>
                   <Link
                     href="/contact"
                     onClick={() => setIsOpen(false)}
-                    className="bg-[#048DB7]  px-4 py-2 rounded-full block text-center mt-4"
+                    className="bg-[#048DB7] px-4 py-2 rounded-full block text-center mt-4"
                   >
                     Contact Us
                   </Link>
@@ -248,170 +273,163 @@ export default function Header() {
         )}
       </AnimatePresence>
 
-
-        {/* Desktop Version */}
-      <div className="max-w-7xl  mx-auto flex justify-center">
+      {/* Desktop Version */}
+      <div className="max-w-7xl mx-auto flex justify-center">
         <nav className="hidden md:flex md:flex-row flex-col py-2 items-center relative w-full justify-between md:w-[100%]">
           {/* Logo */}
-            <div className="flex items-center gap-2">
-              <Image
-                  src={scrolled ? "/logo.png" : "/logo2.png"}   // <-- change image based on scroll
-                  alt="Zoic Logo"
-                  width={scrolled ? 50 : 100}
-                  height={scrolled ? 50 : 100}
-                  className="transition-all duration-500"
-                />
+          <div className="flex items-center gap-2">
+            <Image
+              src={scrolled ? "/logo.png" : "/logo2.png"}
+              alt="Zoic Logo"
+              width={scrolled ? 50 : 100}
+              height={scrolled ? 50 : 100}
+              className="transition-all duration-500"
+            />
           </div>
 
           {/* Navigation Links */}
-          <div className="flex md:flex-row flex-col w-[85%] md:justify-between font-bold"> 
-            <ul className="flex md:flex-row flex-col md:items-center items-start gap-10 text-lg">
-            <li
-              className={`${
-                isActive("/") ? "text-[#048DB7]" : " hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
-              }  `}
-            >
-              <Link href="/">Home</Link>
-            </li>
-
-            {["About", "Services", "Careers"].map((menu) => (
+          <div className="flex md:flex-row flex-col w-[85%] md:justify-between font-bold">
+            <ul className="flex md:flex-row flex-col md:items-center items-start gap-5 text-lg">
               <li
-                key={menu}
-                className={`relative cursor-pointer flex items-center gap-1 ${
-                  pathname.startsWith(`/${menu.toLowerCase()}`)
-                    ? "text-[#048DB7] "
+                className={`${
+                  isActive("/") ? "text-[#048DB7]" : "hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
+                }`}
+              >
+                <Link href="/">Home</Link>
+              </li>
+
+              {["About", "Services", "Careers"].map((menu) => (
+                <li
+                  key={menu}
+                  className={`relative cursor-pointer flex items-center gap-1 ${
+                    pathname.startsWith(`/${menu.toLowerCase()}`)
+                      ? "text-[#048DB7]"
+                      : "hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
+                  }`}
+                  onMouseEnter={() => handleMouseEnter(menu)}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {menu === "Services" ? (
+                    <Link href="/services/third-party-manufacturing">Services</Link>
+                  ) : (
+                    <Link href={`/${menu.toLowerCase()}`}>{menu}</Link>
+                  )}
+
+                  {openMenu === menu ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+
+                  {/* Dropdown */}
+                  <AnimatePresence>
+                    {openMenu === menu && (
+                      <motion.div
+                        initial={{ opacity: 0, y: -10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.3 }}
+                        className="absolute top-full -left-2 mt-2 w-64 bg-white shadow-lg rounded-lg border border-gray-200 p-4 z-50"
+                      >
+                        {menu === "About" && (
+                          <ul className="text-gray-600 space-y-2 text-lg">
+                            {[
+                              ["/about/", "Overview"],
+                              ["/about/awards", "Award Achievement"],
+                              ["/about/team", "Our Team"],
+                            ].map(([href, label]) => (
+                              <li key={href}>
+                                <Link
+                                  href={href}
+                                  className={`hover:text-[#048DB7] transition-colors duration-300 ${
+                                    isActive(href) ? "text-[#048DB7]" : ""
+                                  }`}
+                                >
+                                  {label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+
+                        {menu === "Services" && (
+                          <ul className="text-gray-600 space-y-2 text-lg">
+                            {[
+                              ["/services/pcd-pharma-franchise", "PCD Pharma Franchise"],
+                              ["/services/third-party-manufacturing", "Third-Party Manufacturing"],
+                              ["/services/oversees-business", "Oversees Business"],
+                            ].map(([href, label]) => (
+                              <li key={href}>
+                                <Link
+                                  href={href}
+                                  className={`hover:text-[#048DB7] transition-colors duration-300 ${
+                                    isActive(href) ? "text-[#048DB7]" : ""
+                                  }`}
+                                >
+                                  {label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+
+                        {menu === "Careers" && (
+                          <ul className="text-gray-600 space-y-2 text-lg">
+                            {[
+                              ["/careers/", "Apply For Job"],
+                              ["/careers/life-at-zoic", "Life At Zoic"],
+                            ].map(([href, label]) => (
+                              <li key={href}>
+                                <Link
+                                  href={href}
+                                  className={`hover:text-[#048DB7] transition-colors duration-300 ${
+                                    isActive(href) ? "text-[#048DB7]" : ""
+                                  }`}
+                                >
+                                  {label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </li>
+              ))}
+
+              <li
+                className={`cursor-pointer ${
+                  pathname.startsWith("/pcd-pharma-franchise")
+                    ? "text-[#048DB7]"
                     : "hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
                 }`}
-                onMouseEnter={() => handleMouseEnter(menu)}
-                onMouseLeave={handleMouseLeave}
               >
-                {menu === "Services" 
-  ? <Link href="/services/third-party-manufacturing">Services</Link>
-  : <Link href={`/${menu.toLowerCase()}`}>{menu}</Link>
-}
-                {openMenu === menu ? (
-                  <ChevronUp size={16} />
-                ) : (
-                  <ChevronDown size={16} />
-                )}
-
-                {/* Dropdown */}
-                <AnimatePresence>
-                  {openMenu === menu && (
-                    <motion.div
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      transition={{ duration: 0.3 }}
-                      className="absolute top-full -left-2 mt-2 w-64 bg-white shadow-lg rounded-lg border border-gray-200 p-4 z-50"
-                    >
-                      {menu === "About" && (
-                        <ul className="text-gray-600 space-y-2 text-lg">
-                          {[
-                            ["/about/", "Overview"],
-                            ["/about/awards", "Award Achievement"],
-                            ["/about/team", "Our Team"],
-                          ].map(([href, label]) => (
-                            <li key={href}>
-                              <Link
-                                href={href}
-                                className={`hover:text-[#048DB7] transition-colors duration-300 ${
-                                  isActive(href) ? "text-[#048DB7]" : ""
-                                }`}
-                              >
-                                {label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-
-                      {menu === "Services" && (
-                        <ul className="text-gray-600 space-y-2 text-lg">
-                          {[
-                            ["/services/pcd-pharma-franchise", "PCD Pharma Franchise"],
-                            ["/services/third-party-manufacturing", "Third-Party Manufacturing"],
-                            ["/services/oversees-business", "Oversees Business"],
-                          ].map(([href, label]) => (
-                            <li key={href}>
-                              <Link
-                                href={href}
-                                className={`hover:text-[#048DB7] transition-colors duration-300 ${
-                                  isActive(href) ? "text-[#048DB7]" : ""
-                                }`}
-                              >
-                                {label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-
-                      {menu === "Careers" && (
-                        <ul className="text-gray-600 space-y-2 text-lg">
-                          {[
-                            ["/careers/", "Apply For Job"],
-                            ["/careers/life-at-zoic", "Life At Zoic"],
-                          ].map(([href, label]) => (
-                            <li key={href}>
-                              <Link
-                                href={href}
-                                className={`hover:text-[#048DB7] transition-colors duration-300 ${
-                                  isActive(href) ? "text-[#048DB7]" : ""
-                                }`}
-                              >
-                                {label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </motion.div>
-                  )}
-                </AnimatePresence>
+                <Link href="/services/pcd-pharma-franchise">PCD Franchise</Link>
               </li>
-            ))}
+              <li
+                className={`cursor-pointer ${
+                  pathname.startsWith("/products")
+                    ? "text-[#048DB7]"
+                    : "hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
+                }`}
+              >
+                <Link href="/products">Products</Link>
+              </li>
+              <li
+                className={`cursor-pointer ${
+                  pathname.startsWith("/blog")
+                    ? "text-[#048DB7]"
+                    : "hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
+                }`}
+              >
+                <Link href="/blog">Blogs</Link>
+              </li>
+            </ul>
 
-            <li
-              className={`cursor-pointer ${
-                pathname.startsWith("/pcd-pharma-franchise")
-                  ? "text-[#048DB7]"
-                  : " hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4 "
-              }`}
-            >
-              <Link href="/services/pcd-pharma-franchise">PCD Franchise</Link>
-            </li>
-            <li
-              className={`cursor-pointer ${
-                pathname.startsWith("/products")
-                  ? "text-[#048DB7]"
-                  : " hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
-              }`}
-            >
-              <Link href="/products">Products</Link>
-            </li>
-            <li
-              className={`cursor-pointer ${
-                pathname.startsWith("/blog")
-                  ? "text-[#048DB7]"
-                  : "hover:text-white hover:bg-[#048DB7] py-2 rounded-xl px-4"
-              }`}
-            >
-              <Link href="/blog">Blogs</Link>
-            </li>
-          </ul>
-
-          {/* Contact Button */}
-          <button className="bg-[#048DB7] md:mt-0 mt-5 text-white px-4 py-2 rounded-xl hover:bg-[#03779A] transition">
-            <Link href="/contact">Contact </Link>
-          </button>
+            {/* Contact Button */}
+            <button className="bg-[#048DB7] md:mt-0 mt-5 text-white px-4 py-2 rounded-xl hover:bg-[#03779A] transition">
+              <Link href="/contact">Contact</Link>
+            </button>
           </div>
-          
         </nav>
       </div>
-
-      {/* Navbar */}
-      
     </header>
   );
 }

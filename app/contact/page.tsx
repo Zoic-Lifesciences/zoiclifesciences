@@ -82,30 +82,9 @@ export default function ContactPage() {
 
       <Header />
 
-      <section className=" px-6 py-40 w-screen flex flex-col items-center">
-        <div className="flex w-[70%] h-[30vh] justify-between">
-          <div className="w-[50%]">
-            <h1 className="text-6xl font-bold mb-5">Get in touch</h1>
-            <p className="w-[90%] text-gray-700">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum Lorem Ipsum Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-          </div>
-          <div className="flex w-[50%] justify-between text-start">
-            <div className="flex flex-col gap-2">
-    <FiMapPin className="text-blue-600" size={28}/>
-    <h1>Our Address</h1>
-    <span>123 Ahmedabad, Gujarat, India</span>
-  </div>
-          <div className="flex flex-col gap-2">
-    <FiPhone className="text-blue-600" size={28}/>
-    <h1>Our Phone Details</h1>
-    <span>+91 98765 43210</span>
-  </div>
-          </div>
-          
-        </div>
-
-       
-
-        <div className="mt-10 grid lg:grid-cols-2 gap-12 items-center bg-gradient-to-t w-screen from-white via-white to-[#1BA3CD]/40 p-10   ">
+      <section className=" px-6 py-20 w-screen flex flex-col items-center">
+        
+        <div className="mt-10 grid lg:grid-cols-2 gap-12 items-center shadow-2xl rounded-2xl bg-gradient-to-b w-[80vw] from-white  to-[#1BA3CD]/40 p-10   ">
           {/* Left: Info */}
           <motion.div initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.6 }}>
             <h1 className="text-4xl md:text-5xl font-bold" style={{ color: THEME }}>

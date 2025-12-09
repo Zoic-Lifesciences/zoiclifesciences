@@ -122,7 +122,7 @@ export default function RareCombinations() {
                 ></div>
                 <h3 className="text-xl text-[#048DB7] font-bold mt-3">{p.name}</h3>
                 <p className="text-gray-600">{p.pack}</p>
-                <p className="font-semibold mt-1">{p.price}</p>
+                <p className="font-semibold mt-1">{p.composition}</p>
               </div>
             ))}
           </div>

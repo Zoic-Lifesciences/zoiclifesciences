@@ -92,8 +92,8 @@ export default function AboutPage() {
         <MissionSection />
       </section>
 
-      <div className="h-[90vh] w-[100vw] bg-linear-to-r from-[#1BA3CD] to-[#090A69] relative flex items-end justify-center">
-        <div className="flex w-[85%] h-[80%] justify-between items-end ">
+      <div className="h-[100vh] w-[100vw] bg-linear-to-r from-[#1BA3CD] to-[#090A69] relative flex items-center justify-center">
+        <div className="flex w-[85%] h-[80%] justify-between items-center ">
           <div className="w-[50%] flex flex-col text-white mb-[10vh] ">
             <div className="w-[90%] text-2xl flex relative ">
               <span className="inline-block">
@@ -131,12 +131,12 @@ export default function AboutPage() {
 
           <div 
           ref={ref}
-          className="w-[40vw] h-[90vh] overflow-hidden relative ">
+          className="w-[40vw] h-[70vh] relative ">
             <Image
-              src="/team/sanjaygupta.png"
+              src="/md.png"
               alt="Sanjay Gupta"
               fill
-              className="fade-in-right object-cover"
+              className="fade-in-right object-cover rounded-2xl"
             />
           </div>
         </div>
@@ -145,22 +145,14 @@ export default function AboutPage() {
       <div className="md:h-[90vh] w-[100vw] relative flex items-center justify-center">
         <div className="flex w-[85%] justify-between">
           <div
-            className="w-[40vw] h-[70vh] rounded-2xl bg-contain bg-center bg-no-repeat"
-            style={{ backgroundImage: "url('/team/rohit2.jpg')" }}
+            className="w-[40vw] h-[50vh] rounded-2xl bg-contain bg-center bg-no-repeat"
+            style={{ backgroundImage: "url('/team/Arindam.jpeg')" }}
           ></div>
 
           <div className="w-[50%] z-10 flex flex-col">
-            <div className="w-[500px] h-[200px] relative">
-    <Image
-      src="/iimb.png"
-      alt="Sanjay Gupta"
-      fill
-      className="object-contain"
-    />
-  </div>
-            <h6 className="regulator-nova-alts mb-2 text-gray-500 text-lg">(Global Strategist, IIM Bangalore)</h6>
+            <h6 className="regulator-nova-alts mb-2 text-gray-500 text-lg">(Chief Executing Officer)</h6>
 
-            <h1 className="text-5xl text-start regulator-nova-alts-straight tracking-wider">Mr. Rohit Mamgain</h1>
+            <h1 className="text-5xl text-start regulator-nova-alts-straight tracking-wider">Mr. Arindam Gupta</h1>
             <p className="regulator-nova-alts tracking-wider w-[90%] mt-5 text-lg">
               <span className="inline-block ml-2 mr-4">
                   <FaQuoteLeft className="text-xl" />
@@ -174,11 +166,11 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <section className="flex justify-center md:h-[100vh] pb-10">
-        <div className="w-[90vw] md:h-[80vh] bg-[#048DB7]/20 pb-10 rounded-2xl flex flex-col items-center">
+      <section className="flex justify-center  pb-10">
+        <div className="w-[90vw] bg-[#048DB7]/20 pb-10 rounded-2xl flex flex-col items-center">
         <div className="text-center md:w-[50%] w-[80%]">
-          <h1 className="md:text-5xl text-4xl text-center mt-10">Graphic Design Basic Core :<br></br>Principles for Visual Design</h1>
-          <p className="mt-10">Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+          <h1 className="md:text-5xl text-4xl text-center mt-10">Zoic Pharma Health Focus :<br></br>Standards for Trusted Medical Care</h1>
+          <p className="mt-10">Quality Assurance Quality Innovation QualityAssurance Medical Research Quality Excellence Medical Care Medical Excellence Medical Care</p>
         </div>
         <div className="w-full flex flex-col relative items-center mt-10">
               {!isPlaying && (
@@ -199,7 +191,7 @@ export default function AboutPage() {
 
               <video
                 ref={videoRef}
-                src=""
+                src={null}
                 controls={isPlaying}
                 loop
                 playsInline
@@ -236,10 +228,9 @@ export default function AboutPage() {
 
               <div className="flex justify-center items-center w-full mt-5">
                 <div className="w-[90%]">
-                  <h1 className="text-xl font-bold mb-3 regulator-nova-alts tracking-wider ">Cheif Executing Officer</h1>
+                  <h1 className="text-xl font-bold mb-3 regulator-nova-alts tracking-wider ">Head of Sales</h1>
                   <p className="text-gray-500">
-                    1st on the List provides highly effective PPC advertising for every budget
-                    including Google PPC Ads, Bing PPC, and ad
+                    Provides strategic direction to ensure company operations run efficiently and effectively.
                   </p>
                 </div>
               </div>
@@ -257,10 +248,9 @@ export default function AboutPage() {
 
               <div className="flex justify-center items-center w-full mt-5">
                 <div className="w-[90%]">
-                  <h1 className="text-xl font-bold mb-3  regulator-nova-alts tracking-wider">Head of Sales and Marketing</h1>
+                  <h1 className="text-xl font-bold mb-3  regulator-nova-alts tracking-wider">Chief Operating Officer</h1>
                   <p className="text-gray-500">
-                    1st on the List provides highly effective PPC advertising for every budget
-                    including Google PPC Ads, Bing PPC, and ad
+                    Provides strategic direction to ensure company operations run efficiently and effectively.
                   </p>
                 </div>
               </div>
@@ -280,8 +270,7 @@ export default function AboutPage() {
                 <div className="w-[90%]">
                   <h1 className="text-xl font-bold mb-3 regulator-nova-alts tracking-wider">Chief Finance Officer</h1>
                   <p className="text-gray-500">
-                    1st on the List provides highly effective PPC advertising for every budget
-                    including Google PPC Ads, Bing PPC, and ad
+                    Provides strategic direction to ensure company operations run efficiently and effectively.
                   </p>
                 </div>
               </div>

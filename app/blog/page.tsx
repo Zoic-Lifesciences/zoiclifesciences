@@ -6,11 +6,13 @@ export const revalidate = 60; // ISR: revalidate every 60s
 
 export default async function BlogPage() {
   const { posts } = await hygraph.request(GET_POSTS);
-  
+
   return (
-    <main className="max-w-5xl mx-auto px-6 py-10">
+    <main className="max-w-5xl mx-auto px-6 pt-[15vh]">
       <h1 className="text-4xl font-bold mb-10">Company Blog</h1>
-      <div className="grid md:grid-cols-2 gap-8">
+
+      {/* FLEX COLUMN LIST */}
+      <div className="flex flex-col space-y-8">
         {posts.map((post: any) => (
           <Link
             href={`/blog/${post.slug}`}
@@ -21,9 +23,10 @@ export default async function BlogPage() {
               <img
                 src={post.coverImage.url}
                 alt={post.title}
-                className="rounded-lg mb-4"
+                className="rounded-lg mb-4 w-full"
               />
             )}
+
             <h2 className="text-xl font-semibold mb-1">{post.title}</h2>
             <p className="text-gray-600 mb-2">{post.excerpt.text}</p>
             <p className="text-sm text-gray-500">{post.date}</p>

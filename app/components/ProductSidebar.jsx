@@ -10,18 +10,21 @@ export default function ProductSidebar({
       <h2 className="text-lg font-semibold mb-4">Categories</h2>
       <ul className="space-y-2">
         {categories.map((cat, idx) => (
-          <li
-            key={idx}
-            onClick={() => setSelectedCategory(cat)}
-            className={`cursor-pointer hover:text-green-600 ${
-              selectedCategory === cat
-                ? "text-green-600 font-semibold"
-                : "text-gray-700"
-            }`}
-          >
-            {cat}
-          </li>
-        ))}
+  <li
+    key={idx}
+    onClick={() => setSelectedCategory(cat)}
+    className={`cursor-pointer hover:text-green-600 ${
+      selectedCategory === cat
+        ? "text-green-600 font-semibold"
+        : "text-gray-700"
+    }`}
+  >
+    <span className="block max-w-full truncate hover:whitespace-normal hover:overflow-visible">
+      {cat}
+    </span>
+  </li>
+))}
+
       </ul>
     </div>
   );

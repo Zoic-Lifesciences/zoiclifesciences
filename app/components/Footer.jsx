@@ -43,7 +43,7 @@ export default function Footer() {
             <ul className="space-y-1 text-sm text-gray-400">
               <li><a href="/about" className="hover:text-white">About</a></li>
               <li><a href="/contact" className="hover:text-white">Contact</a></li>
-              <li><a href="/privacy" className="hover:text-white">Privacy Policy</a></li>
+              <li><a href="/pcd-pharma-franchise" className="hover:text-white">Get Franchise</a></li>
             </ul>
           </div>
           <div>
@@ -51,7 +51,8 @@ export default function Footer() {
             <ul className="space-y-1 text-sm text-gray-400">
               <li><a href="/about" className="hover:text-white">About</a></li>
               <li><a href="/contact" className="hover:text-white">Contact</a></li>
-              <li><a href="/privacy" className="hover:text-white">Privacy Policy</a></li>
+              <li><a href="/blog" className="hover:text-white">Blogs</a></li>
+              <li><a href="/pcd-pharma-franchise" className="hover:text-white">Get Franchise</a></li>
             </ul>
           </div>
         </div>
