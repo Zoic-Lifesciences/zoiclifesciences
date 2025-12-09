@@ -6,7 +6,7 @@ import { useState,useRef } from "react";
 import { X } from "lucide-react";
 import Footer from "../components/Footer";
 import { useRouter } from "next/navigation";
-import { useScroll, useTransform } from "framer-motion";
+import { useEffect } from "react";
 import Image from "next/image";
 const jobs = [
   {
@@ -46,6 +46,7 @@ const items=[
               },
             ]
 
+  
 export default function CareersPage() {
 
   const router = useRouter();
@@ -57,8 +58,8 @@ export default function CareersPage() {
     <main className="min-h-screen bg-gradient-to-br  text-gray-900 pt-[10vh]">
 
       {/* Hero Section */}
-      <section className="relative flex items-center text-center w-screen h-[70vh] py-10 ">
-      <div className="w-[50%] h-full bg-black relative">
+      <section className="relative flex md:flex-row flex-col-reverse items-center text-center w-screen md:h-[70vh] py-10 ">
+      <div className="md:w-[50%] w-[80%] md:h-full h-[30vh] md:h-full relative">
         <Image
                         src="/career.avif"
                         alt="igh"

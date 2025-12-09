@@ -95,8 +95,21 @@ export default function LifeAtZoic() {
       labelBottom: "Countries",
     },
   ];
+  const [isMobile, setIsMobile] = useState(false);
+
+useEffect(() => {
+  const checkMobile = () => {
+    setIsMobile(window.innerWidth < 768); // Tailwind md breakpoint
+  };
+
+  checkMobile();
+  window.addEventListener("resize", checkMobile);
+  return () => window.removeEventListener("resize", checkMobile);
+}, []);
+
 
   return (
+    
     <main className="bg-gray-100 text-gray-800 pt-[10vh]">
 
       {/* ===== Page Header ===== */}
@@ -110,7 +123,7 @@ export default function LifeAtZoic() {
             className=" flex flex-col items-center text-center  text-black"
           >
       
-            <div className="w-[80vw] justify-center flex gap-8 bg-[#1BA3CD]/50 text-white rounded-2xl">
+            <div className="w-[80vw] mx-auto grid grid-cols-2  md:grid-cols-4 gap-6 bg-[#1BA3CD]/50 text-white rounded-2xl p-4 md:p-8">
               {stats.map((stat, idx) => (
                 <div
                   key={idx}
@@ -173,28 +186,31 @@ export default function LifeAtZoic() {
                           x = 0;
                           opacity = 1;
                           zIndex = 3;
-                        } else if (position === 1) {
-                          scale = 0.85;
-                          x = 120;
-                          opacity = 0.8;
-                          zIndex = 2;
-                        } else if (position === total - 1) {
-                          scale = 0.85;
-                          x = -120;
-                          opacity = 0.8;
-                          zIndex = 2;
-                        } else if (position === 2) {
-                          scale = 0.7;
-                          x = 240;
-                          opacity = 0.5;
-                          zIndex = 1;
-                        } else if (position === total - 2) {
-                          scale = 0.7;
-                          x = -240;
-                          opacity = 0.5;
-                          zIndex = 1;
-                        }
-            
+                        } 
+                        if (!isMobile) {
+  if (position === 1) {
+    scale = 0.85;
+    x = 120;
+    opacity = 0.8;
+    zIndex = 2;
+  } else if (position === total - 1) {
+    scale = 0.85;
+    x = -120;
+    opacity = 0.8;
+    zIndex = 2;
+  } else if (position === 2) {
+    scale = 0.7;
+    x = 240;
+    opacity = 0.5;
+    zIndex = 1;
+  } else if (position === total - 2) {
+    scale = 0.7;
+    x = -240;
+    opacity = 0.5;
+    zIndex = 1;
+  }
+}
+
                         return (
                           <motion.div
                             key={index}

@@ -117,7 +117,7 @@ export default function ContactPage() {
           <motion.div initial={{ x: 20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.6 }}>
             <form
               onSubmit={handleSubmit}
-              className=" rounded-2xl p-6 md:p-8"
+              className=" rounded-2xl md:p-8"
               aria-label="Contact form"
             >
               <div className="flex gap-3">

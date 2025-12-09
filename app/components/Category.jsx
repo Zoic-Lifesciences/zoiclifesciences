@@ -24,6 +24,18 @@ export default function CategoriesSection() {
     return () => clearInterval(interval);
   }, [total]);
 
+  const [isMobile, setIsMobile] = useState(false);
+
+useEffect(() => {
+  const checkMobile = () => {
+    setIsMobile(window.innerWidth < 768); // Tailwind md breakpoint
+  };
+
+  checkMobile();
+  window.addEventListener("resize", checkMobile);
+  return () => window.removeEventListener("resize", checkMobile);
+}, []);
+
   return (
     <div className="bg-linear-to-r from-[#1BA3CD] to-[#090A69] text-white min-h-screen flex items-center justify-center py-16 px-8">
       <div className="max-w-7xl flex md:flex-row flex-col">
@@ -79,27 +91,30 @@ export default function CategoriesSection() {
               x = 0;
               opacity = 1;
               zIndex = 3;
-            } else if (position === 1) {
-              scale = 0.85;
-              x = 120;
-              opacity = 0.8;
-              zIndex = 2;
-            } else if (position === total - 1) {
-              scale = 0.85;
-              x = -120;
-              opacity = 0.8;
-              zIndex = 2;
-            } else if (position === 2) {
-              scale = 0.7;
-              x = 240;
-              opacity = 0.5;
-              zIndex = 1;
-            } else if (position === total - 2) {
-              scale = 0.7;
-              x = -240;
-              opacity = 0.5;
-              zIndex = 1;
             }
+            if (!isMobile) {
+  if (position === 1) {
+    scale = 0.85;
+    x = 120;
+    opacity = 0.8;
+    zIndex = 2;
+  } else if (position === total - 1) {
+    scale = 0.85;
+    x = -120;
+    opacity = 0.8;
+    zIndex = 2;
+  } else if (position === 2) {
+    scale = 0.7;
+    x = 240;
+    opacity = 0.5;
+    zIndex = 1;
+  } else if (position === total - 2) {
+    scale = 0.7;
+    x = -240;
+    opacity = 0.5;
+    zIndex = 1;
+  }
+}
 
             return (
               <motion.div
