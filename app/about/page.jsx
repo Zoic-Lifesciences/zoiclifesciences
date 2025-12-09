@@ -191,7 +191,7 @@ export default function AboutPage() {
 
               <video
                 ref={videoRef}
-                src=""
+                src={null}
                 controls={isPlaying}
                 loop
                 playsInline
