@@ -25,16 +25,22 @@ rows.forEach(row => {
   if (typeof firstCell === "number") {
     const [_, brand, composition, pack, productPacking, price] = row;
 
-    products.push({
-  img: "/product.png",
-  title: String(brand || "").trim(),
-  description: String(composition || "").trim(),
-  pack: String(pack || "").trim(),
-  productPacking: String(productPacking || "").trim(),
-  price: String(price || "").trim(),
-  category: currentCategory
-});
+    const title = String(brand || "").trim();
 
+    // Assign type only if brand has more than one word
+    const words = title.split(" ");
+    const type = words.length > 1 ? words[words.length - 1] : "";
+
+    products.push({
+      img: "/product.png",
+      title: title,
+      description: String(composition || "").trim(),
+      pack: String(pack || "").trim(),
+      productPacking: String(productPacking || "").trim(),
+      price: String(price || "").trim(),
+      category: currentCategory,
+      type: type
+    });
   }
 });
 

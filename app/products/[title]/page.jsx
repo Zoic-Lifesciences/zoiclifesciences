@@ -11,6 +11,9 @@ export default async function ProductDetail({ params }) {
   const product = products.find((p) => p.title === decodedTitle);
 
   if (!product) return notFound();
+   // IMAGE NAME LOGIC
+  const imageName = product.title.trim().split(" ")[0];
+  const encodedImageName = encodeURIComponent(imageName);
 
   return (
     <>
@@ -19,7 +22,12 @@ export default async function ProductDetail({ params }) {
       <div className="bg-white rounded-2xl shadow-lg p-8 max-w-2xl w-full">
         <div className="flex flex-col items-center">
           {product.img ? (
-            <img src={product.img} alt={product.title} className="h-48 object-contain mb-4" />
+            <img
+              src={`/productImages/${encodedImageName}.jpg`}
+              alt={product.title}
+              className="h-48 object-contain mb-4"
+            />
+
           ) : (
             <div className="h-48 flex items-center justify-center text-gray-400 mb-4">
               No Image Available
@@ -27,6 +35,9 @@ export default async function ProductDetail({ params }) {
           )}
           <span className="bg-blue-600 text-white text-sm px-4 py-1 rounded-full">
             {product.category}
+          </span>
+          <span className="bg-yellow-500 mt-5 text-white text-sm px-4 py-1 rounded-full">
+            {product.productPacking}
           </span>
           <h1 className="text-2xl font-bold mt-3">{product.title}</h1>
           <p className="text-gray-700 mt-2 text-center">{product.description}</p>

@@ -6,7 +6,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "99.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "CAPSULE"
   },
   {
     "img": "/product.png",
@@ -15,7 +16,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "159",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -24,7 +26,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "219",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -33,7 +36,8 @@
     "pack": "20X10",
     "productPacking": "blister",
     "price": "59.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -42,7 +46,8 @@
     "pack": "25X10",
     "productPacking": "blister",
     "price": "36.74",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -51,7 +56,8 @@
     "pack": "60ml",
     "productPacking": "Syrup",
     "price": "65",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "60ml"
   },
   {
     "img": "/product.png",
@@ -60,7 +66,8 @@
     "pack": "100 ml",
     "productPacking": "Syrup",
     "price": "94.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "100ML"
   },
   {
     "img": "/product.png",
@@ -69,7 +76,8 @@
     "pack": "100ml",
     "productPacking": "Syrup",
     "price": "115",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -78,7 +86,8 @@
     "pack": "60ml",
     "productPacking": "Syrup",
     "price": "54.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "JUNIOR"
   },
   {
     "img": "/product.png",
@@ -87,7 +96,8 @@
     "pack": "100ml",
     "productPacking": "Syrup",
     "price": "199",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -96,7 +106,8 @@
     "pack": "15ml",
     "productPacking": "drops",
     "price": "44",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "DROPS"
   },
   {
     "img": "/product.png",
@@ -105,7 +116,8 @@
     "pack": "60ml",
     "productPacking": "Syrup",
     "price": "119",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -114,7 +126,8 @@
     "pack": "15 ml",
     "productPacking": "Drops",
     "price": "59",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "Drop"
   },
   {
     "img": "/product.png",
@@ -123,7 +136,8 @@
     "pack": "100 ml",
     "productPacking": "Syrup",
     "price": "119",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -132,7 +146,8 @@
     "pack": "100 ml",
     "productPacking": "Syrup",
     "price": "94.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -141,7 +156,8 @@
     "pack": "100ml",
     "productPacking": "Syrup",
     "price": "99",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -150,7 +166,8 @@
     "pack": "20x15",
     "productPacking": "blister",
     "price": "62.5",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -159,7 +176,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "66.5",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -168,7 +186,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "149",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -177,7 +196,8 @@
     "pack": "20X10",
     "productPacking": "blister",
     "price": "89",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -186,7 +206,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "119.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -195,7 +216,8 @@
     "pack": "5x10ml",
     "productPacking": "Vial",
     "price": "59",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "INJECTION"
   },
   {
     "img": "/product.png",
@@ -204,7 +226,8 @@
     "pack": "15ml",
     "productPacking": "Drops",
     "price": "60.39",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -213,7 +236,8 @@
     "pack": "30x10",
     "productPacking": "Blister",
     "price": "49.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -222,7 +246,8 @@
     "pack": "100ml",
     "productPacking": "Susp.",
     "price": "129",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -231,7 +256,8 @@
     "pack": "15ml",
     "productPacking": "Drops",
     "price": "54.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -240,7 +266,8 @@
     "pack": "60ML",
     "productPacking": "SUSP.",
     "price": "54.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -249,7 +276,8 @@
     "pack": "60ml",
     "productPacking": "Susp.",
     "price": "69.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SUSP.(60ML)"
   },
   {
     "img": "/product.png",
@@ -258,7 +286,8 @@
     "pack": "30 ml",
     "productPacking": "Syrup",
     "price": "49",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -267,7 +296,8 @@
     "pack": "50x15",
     "productPacking": "blister",
     "price": "29.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -276,7 +306,8 @@
     "pack": "30 ml",
     "productPacking": "Susp.",
     "price": "69.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -285,7 +316,8 @@
     "pack": "60 ml",
     "productPacking": "Syrup",
     "price": "109",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "Syrup"
   },
   {
     "img": "/product.png",
@@ -294,7 +326,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "69.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "KID"
   },
   {
     "img": "/product.png",
@@ -303,7 +336,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "140",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -312,7 +346,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "169",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -321,7 +356,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "99",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -330,7 +366,8 @@
     "pack": "100 ml",
     "productPacking": "Syrup",
     "price": "135",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -339,7 +376,8 @@
     "pack": "10x15",
     "productPacking": "blister",
     "price": "39.3",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -348,7 +386,8 @@
     "pack": "10x15",
     "productPacking": "blister",
     "price": "72.1",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -357,7 +396,8 @@
     "pack": "15 ml",
     "productPacking": "Drops",
     "price": "42.35",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "DROPS"
   },
   {
     "img": "/product.png",
@@ -366,7 +406,8 @@
     "pack": "100ml",
     "productPacking": "Syrup",
     "price": "99",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -375,7 +416,8 @@
     "pack": "60ML",
     "productPacking": "Syrup",
     "price": "30.22",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -384,7 +426,8 @@
     "pack": "10x6",
     "productPacking": "blister",
     "price": "119.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -393,7 +436,8 @@
     "pack": "10x6",
     "productPacking": "blister",
     "price": "69.9",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -402,7 +446,8 @@
     "pack": "100ml",
     "productPacking": "Susp.",
     "price": "109",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "Susp."
   },
   {
     "img": "/product.png",
@@ -411,7 +456,8 @@
     "pack": "100ml",
     "productPacking": "Susp",
     "price": "69",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -420,7 +466,8 @@
     "pack": "200ml",
     "productPacking": "Susp",
     "price": "209",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -429,7 +476,8 @@
     "pack": "60ML",
     "productPacking": "Susp",
     "price": "44.5",
-    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS"
+    "category": "ANTI-HISTAMINE  / ANTI-TUSSIVE / EXPECTORANTS / ANTI-ASTHMATIC DRUGS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -438,7 +486,8 @@
     "pack": "10*10",
     "productPacking": "Alu-Alu",
     "price": "269",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -447,7 +496,8 @@
     "pack": "20X21.8G",
     "productPacking": "sachet",
     "price": "23.11",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "SAC"
   },
   {
     "img": "/product.png",
@@ -456,7 +506,8 @@
     "pack": "200ML",
     "productPacking": "TATRA PACK",
     "price": "31.5",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "ORS"
   },
   {
     "img": "/product.png",
@@ -465,7 +516,8 @@
     "pack": "1x12",
     "productPacking": "ampule",
     "price": "49",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -474,7 +526,8 @@
     "pack": "20x20",
     "productPacking": "strip",
     "price": "59.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB."
   },
   {
     "img": "/product.png",
@@ -483,7 +536,8 @@
     "pack": "1gmx20",
     "productPacking": "sachet",
     "price": "23.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "PWD."
   },
   {
     "img": "/product.png",
@@ -492,7 +546,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "99",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -501,7 +556,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "429",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -510,7 +566,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "349",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -519,7 +576,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "229",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -528,7 +586,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "190",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -537,7 +596,8 @@
     "pack": "40MG",
     "productPacking": "vial",
     "price": "44.99",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -546,7 +606,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "59.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "CAP."
   },
   {
     "img": "/product.png",
@@ -555,7 +616,8 @@
     "pack": "10x15",
     "productPacking": "strip",
     "price": "89.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "CAP."
   },
   {
     "img": "/product.png",
@@ -564,7 +626,8 @@
     "pack": "200ml",
     "productPacking": "susp",
     "price": "139",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -573,7 +636,8 @@
     "pack": "170 ml",
     "productPacking": "Susp.",
     "price": "149",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -582,7 +646,8 @@
     "pack": "200ml",
     "productPacking": "Susp.",
     "price": "139",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -591,7 +656,8 @@
     "pack": "100ml",
     "productPacking": "syp",
     "price": "93",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -600,7 +666,8 @@
     "pack": "200ML",
     "productPacking": "Susp.",
     "price": "120",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "GEL"
   },
   {
     "img": "/product.png",
@@ -609,7 +676,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "279",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -618,7 +686,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "220",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "Caps."
   },
   {
     "img": "/product.png",
@@ -627,7 +696,8 @@
     "pack": "10x1 kit",
     "productPacking": "strip",
     "price": "279",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "KIT"
   },
   {
     "img": "/product.png",
@@ -636,7 +706,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "24.52",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB."
   },
   {
     "img": "/product.png",
@@ -645,7 +716,8 @@
     "pack": "10ml",
     "productPacking": "vial",
     "price": "56.5",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -654,7 +726,8 @@
     "pack": "20x10",
     "productPacking": "alu-alu",
     "price": "69.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB."
   },
   {
     "img": "/product.png",
@@ -663,7 +736,8 @@
     "pack": "20x10",
     "productPacking": "alu-alu",
     "price": "74.5",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB."
   },
   {
     "img": "/product.png",
@@ -672,7 +746,8 @@
     "pack": "10x10",
     "productPacking": "strip/ Alu-lau",
     "price": "99.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -681,7 +756,8 @@
     "pack": "3X10",
     "productPacking": "blister",
     "price": "219",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -690,7 +766,8 @@
     "pack": "10x10",
     "productPacking": "Alu-alu",
     "price": "99",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -699,7 +776,8 @@
     "pack": "20x10",
     "productPacking": "alu-alu",
     "price": "69.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -708,7 +786,8 @@
     "pack": "VAIL",
     "productPacking": "",
     "price": "99",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -717,7 +796,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "219",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "CAP"
   },
   {
     "img": "/product.png",
@@ -726,7 +806,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "229 /207",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "CAP"
   },
   {
     "img": "/product.png",
@@ -735,7 +816,8 @@
     "pack": "10x10",
     "productPacking": "strip/ Alu-lau",
     "price": "99.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "CAP"
   },
   {
     "img": "/product.png",
@@ -744,7 +826,8 @@
     "pack": "5x5x10",
     "productPacking": "blister",
     "price": "49.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -753,7 +836,8 @@
     "pack": "5x5x10",
     "productPacking": "blister",
     "price": "49.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -762,7 +846,8 @@
     "pack": "100 ml",
     "productPacking": "Susp.",
     "price": "119",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "SUSP."
   },
   {
     "img": "/product.png",
@@ -771,7 +856,8 @@
     "pack": "200ml",
     "productPacking": "Susp.",
     "price": "209",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "SUSP."
   },
   {
     "img": "/product.png",
@@ -780,7 +866,8 @@
     "pack": "200ml",
     "productPacking": "susp",
     "price": "257",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -789,7 +876,8 @@
     "pack": "30 ml",
     "productPacking": "Drops",
     "price": "43.89",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -798,7 +886,8 @@
     "pack": "10X2 ML",
     "productPacking": "ampule",
     "price": "13.13",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "INJECTION"
   },
   {
     "img": "/product.png",
@@ -807,7 +896,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "89.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -816,7 +906,8 @@
     "pack": "10x20",
     "productPacking": "strip",
     "price": "69.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -825,7 +916,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "59.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -834,7 +926,8 @@
     "pack": "60 ml",
     "productPacking": "Syrup",
     "price": "60",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -843,7 +936,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "79",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -852,7 +946,8 @@
     "pack": "5x2ml",
     "productPacking": "ampule",
     "price": "26",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -861,7 +956,8 @@
     "pack": "200ml",
     "productPacking": "susp",
     "price": "299",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "PEG"
   },
   {
     "img": "/product.png",
@@ -870,7 +966,8 @@
     "pack": "20x30",
     "productPacking": "Strip",
     "price": "49.75",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -879,7 +976,8 @@
     "pack": "100ml",
     "productPacking": "Syrup",
     "price": "99.9",
-    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS"
+    "category": "ANTI-EMETIC / ANTACIDS / ANTISECRETORY / GUT MOTILITY MODIFIERS / INTESTINAL FLORA REJUVENATOR DRUGS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -888,7 +986,8 @@
     "pack": "20x15",
     "productPacking": "blister",
     "price": "112",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -897,7 +996,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "89.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -906,7 +1006,8 @@
     "pack": "60 ml",
     "productPacking": "Susp.",
     "price": "50",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "SUS"
   },
   {
     "img": "/product.png",
@@ -915,7 +1016,8 @@
     "pack": "50x10",
     "productPacking": "Strip",
     "price": "7.72",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "5"
   },
   {
     "img": "/product.png",
@@ -924,7 +1026,8 @@
     "pack": "50x10",
     "productPacking": "Strip",
     "price": "13.32",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "10"
   },
   {
     "img": "/product.png",
@@ -933,7 +1036,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "189",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -942,7 +1046,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "209",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -951,7 +1056,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "249",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -960,7 +1066,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "49",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -969,7 +1076,8 @@
     "pack": "25x10",
     "productPacking": "blister",
     "price": "39.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -978,7 +1086,8 @@
     "pack": "20x15",
     "productPacking": "blister",
     "price": "179",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -987,7 +1096,8 @@
     "pack": "10*10",
     "productPacking": "blister",
     "price": "310",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -996,7 +1106,8 @@
     "pack": "50gm",
     "productPacking": "gel",
     "price": "189",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "ULTRA"
   },
   {
     "img": "/product.png",
@@ -1005,7 +1116,8 @@
     "pack": "30 gm",
     "productPacking": "gel",
     "price": "109",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "GEL"
   },
   {
     "img": "/product.png",
@@ -1014,7 +1126,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "69.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1023,7 +1136,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "109",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1032,7 +1146,8 @@
     "pack": "10*10",
     "productPacking": "Alu-Alu",
     "price": "99.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1041,7 +1156,8 @@
     "pack": "5x5x10",
     "productPacking": "blister",
     "price": "64.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1050,7 +1166,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "89.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1059,7 +1176,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "79.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1068,7 +1186,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "160",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1077,7 +1196,8 @@
     "pack": "10x2ml",
     "productPacking": "vial",
     "price": "24.2",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -1086,7 +1206,8 @@
     "pack": "10*10",
     "productPacking": "ALU-ALU",
     "price": "109.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1095,7 +1216,8 @@
     "pack": "15X20",
     "productPacking": "blister",
     "price": "20.6",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1104,7 +1226,8 @@
     "pack": "20*15",
     "productPacking": "blister",
     "price": "32",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1113,7 +1236,8 @@
     "pack": "60ml",
     "productPacking": "Susp.",
     "price": "69.45",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "Susp"
   },
   {
     "img": "/product.png",
@@ -1122,7 +1246,8 @@
     "pack": "60ml",
     "productPacking": "Susp.",
     "price": "40.32",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -1131,7 +1256,8 @@
     "pack": "60ml",
     "productPacking": "Susp.",
     "price": "54.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "SUSPENSION"
   },
   {
     "img": "/product.png",
@@ -1140,7 +1266,8 @@
     "pack": "60ml",
     "productPacking": "Susp.",
     "price": "69.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -1149,7 +1276,8 @@
     "pack": "100ml",
     "productPacking": "Infusion",
     "price": "249",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "I.V"
   },
   {
     "img": "/product.png",
@@ -1158,7 +1286,8 @@
     "pack": "5x2ml",
     "productPacking": "amp.",
     "price": "53",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "INJECTION"
   },
   {
     "img": "/product.png",
@@ -1167,7 +1296,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "139",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1176,7 +1306,8 @@
     "pack": "10X10",
     "productPacking": "alu-alu",
     "price": "99",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TAB."
   },
   {
     "img": "/product.png",
@@ -1185,7 +1316,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "159",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1194,7 +1326,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "169",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1203,7 +1336,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "49.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1212,7 +1346,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "139",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1221,7 +1356,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "99",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1230,7 +1366,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "69.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1239,7 +1376,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "129",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1248,7 +1386,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "219.9",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1257,7 +1396,8 @@
     "pack": "1ml",
     "productPacking": "ampule",
     "price": "29",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -1266,7 +1406,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "69",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "5MG"
   },
   {
     "img": "/product.png",
@@ -1275,7 +1416,8 @@
     "pack": "10*1*10",
     "productPacking": "blister",
     "price": "395",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "Tab"
   },
   {
     "img": "/product.png",
@@ -1284,7 +1426,8 @@
     "pack": "10x15",
     "productPacking": "blister",
     "price": "279",
-    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS"
+    "category": "ANTI-INFLAMMATORY / ANALGESIC / ANTI-SPASMODIC / ANTI-GOUT DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1293,7 +1436,8 @@
     "pack": "10*15",
     "productPacking": "Alu-Alu",
     "price": "139",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -1302,7 +1446,8 @@
     "pack": "10x10",
     "productPacking": "Alu-Alu",
     "price": "149",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1311,7 +1456,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "21.5",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1320,7 +1466,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "59",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1329,7 +1476,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "99.9",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1338,7 +1486,8 @@
     "pack": "10X1gm",
     "productPacking": "sachet",
     "price": "38.05",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "POWDER"
   },
   {
     "img": "/product.png",
@@ -1347,7 +1496,8 @@
     "pack": "4X5 ml",
     "productPacking": "bottle",
     "price": "59",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "NDS"
   },
   {
     "img": "/product.png",
@@ -1356,7 +1506,8 @@
     "pack": "1x4",
     "productPacking": "ampule",
     "price": "49",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "NDS"
   },
   {
     "img": "/product.png",
@@ -1365,7 +1516,8 @@
     "pack": "15ml",
     "productPacking": "drops",
     "price": "79.9",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "DROPS"
   },
   {
     "img": "/product.png",
@@ -1374,7 +1526,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "37.5",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1383,7 +1536,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "62",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1392,7 +1546,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "74",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1401,7 +1556,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "75",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1410,7 +1566,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "80.3",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1419,7 +1576,8 @@
     "pack": "10x10",
     "productPacking": "10x10",
     "price": "69.9",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -1428,7 +1586,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "129",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1437,7 +1596,8 @@
     "pack": "10*10",
     "productPacking": "alu-alu",
     "price": "99",
-    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS"
+    "category": "ANTI-HYPERTENSIVES / HYPOLIPIDEMIC DRUGS / ANTI-DIABETIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1446,7 +1606,8 @@
     "pack": "25x10",
     "productPacking": "strip",
     "price": "79",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1455,7 +1616,8 @@
     "pack": "3X10",
     "productPacking": "alu-alu",
     "price": "539",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1464,7 +1626,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "99.9",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1473,7 +1636,8 @@
     "pack": "100ml",
     "productPacking": "Infusion",
     "price": "179",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "I.V."
   },
   {
     "img": "/product.png",
@@ -1482,7 +1646,8 @@
     "pack": "5x5x10",
     "productPacking": "blister",
     "price": "49.9",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1491,7 +1656,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "89.9",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1500,7 +1666,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "60",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1509,7 +1676,8 @@
     "pack": "40x10",
     "productPacking": "blister",
     "price": "28",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1518,7 +1686,8 @@
     "pack": "40x10",
     "productPacking": "blister",
     "price": "39.9",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1527,7 +1696,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "145",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1536,7 +1706,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "199",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1545,7 +1716,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "39.9",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1554,7 +1726,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "105",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1563,7 +1736,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "159",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1572,7 +1746,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "49.9",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1581,7 +1756,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "70",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -1590,7 +1766,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "95",
-    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS"
+    "category": "ANTI-EPILEPTIC / ANTI-VERTIGO / PSYCHOTROPIC DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1599,7 +1776,8 @@
     "pack": "2 ml",
     "productPacking": "vial",
     "price": "113.7",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJECTION"
   },
   {
     "img": "/product.png",
@@ -1608,7 +1786,8 @@
     "pack": "1.2 gm",
     "productPacking": "vial",
     "price": "157.52",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -1617,7 +1796,8 @@
     "pack": "600mg",
     "productPacking": "vial",
     "price": "113.51",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -1626,7 +1806,8 @@
     "pack": "300mg",
     "productPacking": "vial",
     "price": "89",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -1635,7 +1816,8 @@
     "pack": "10ML",
     "productPacking": "drop",
     "price": "109",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -1644,7 +1826,8 @@
     "pack": "30 ml",
     "productPacking": "Dry Syp",
     "price": "79.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -1653,7 +1836,8 @@
     "pack": "30 ml",
     "productPacking": "Dry Syp",
     "price": "129",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -1662,7 +1846,8 @@
     "pack": "10x1x10",
     "productPacking": "alu-alu",
     "price": "399",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1671,7 +1856,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "165.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -1680,7 +1866,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "248",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1689,7 +1876,8 @@
     "pack": "10x10",
     "productPacking": "strip",
     "price": "199",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "375ABLET"
   },
   {
     "img": "/product.png",
@@ -1698,7 +1886,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "529",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -1707,7 +1896,8 @@
     "pack": "5x10",
     "productPacking": "alu-alu",
     "price": "399.39",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1716,7 +1906,8 @@
     "pack": "1gm",
     "productPacking": "vial",
     "price": "199",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -1725,7 +1916,8 @@
     "pack": "1.5 gm",
     "productPacking": "vial",
     "price": "365",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -1734,7 +1926,8 @@
     "pack": "1.125",
     "productPacking": "vial",
     "price": "270",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -1743,7 +1936,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "229",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1752,7 +1946,8 @@
     "pack": "10*10",
     "productPacking": "alu-alu",
     "price": "485",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1761,7 +1956,8 @@
     "pack": "10*10",
     "productPacking": "alu-alu",
     "price": "499",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1770,7 +1966,8 @@
     "pack": "750MG",
     "productPacking": "VIAL",
     "price": "169",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -1779,7 +1976,8 @@
     "pack": "30 ml",
     "productPacking": "Dry Syp",
     "price": "129",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -1788,7 +1986,8 @@
     "pack": "",
     "productPacking": "vial",
     "price": "279",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -1797,7 +1996,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "89",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "DT"
   },
   {
     "img": "/product.png",
@@ -1806,7 +2006,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "149",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1815,7 +2016,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "379",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1824,7 +2026,8 @@
     "pack": "5x10",
     "productPacking": "alu-alu",
     "price": "249",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1833,7 +2036,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "274",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -1842,7 +2046,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "349",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1851,7 +2056,8 @@
     "pack": "30ml",
     "productPacking": "Dry Syp",
     "price": "54.4",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -1860,7 +2066,8 @@
     "pack": "30ml",
     "productPacking": "Dry Syp",
     "price": "81.68",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -1869,7 +2076,8 @@
     "pack": "30ml",
     "productPacking": "Dry Syp",
     "price": "94.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -1878,7 +2086,8 @@
     "pack": "30ml",
     "productPacking": "Dry Syp",
     "price": "109",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -1887,7 +2096,8 @@
     "pack": "30ml",
     "productPacking": "Susp.",
     "price": "114.24",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "Susp."
   },
   {
     "img": "/product.png",
@@ -1896,7 +2106,8 @@
     "pack": "10x6",
     "productPacking": "blister",
     "price": "78.2",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1905,7 +2116,8 @@
     "pack": "10x5",
     "productPacking": "blister",
     "price": "131.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1914,7 +2126,8 @@
     "pack": "",
     "productPacking": "VIAL",
     "price": "229",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -1923,7 +2136,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "359",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -1932,7 +2146,8 @@
     "pack": "5x1x4",
     "productPacking": "blister",
     "price": "120",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1941,7 +2156,8 @@
     "pack": "30*10",
     "productPacking": "blister",
     "price": "48.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "CAPSULE"
   },
   {
     "img": "/product.png",
@@ -1950,7 +2166,8 @@
     "pack": "60 ml",
     "productPacking": "Susp.",
     "price": "89.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "60ml"
   },
   {
     "img": "/product.png",
@@ -1959,7 +2176,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "49.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1968,7 +2186,8 @@
     "pack": "20x5",
     "productPacking": "blister",
     "price": "50.34",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1977,7 +2196,8 @@
     "pack": "10x5",
     "productPacking": "alu-alu",
     "price": "69.72",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1986,7 +2206,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "69.72",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -1995,7 +2216,8 @@
     "pack": "30ml",
     "productPacking": "Susp.",
     "price": "59.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "Susp"
   },
   {
     "img": "/product.png",
@@ -2004,7 +2226,8 @@
     "pack": "100ML",
     "productPacking": "Infusion",
     "price": "179.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "100ML"
   },
   {
     "img": "/product.png",
@@ -2013,7 +2236,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "99.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2022,7 +2246,8 @@
     "pack": "100ml",
     "productPacking": "Infusion",
     "price": "109",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2031,7 +2256,8 @@
     "pack": "25x10",
     "productPacking": "blister",
     "price": "15.2",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2040,7 +2266,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu/ blister",
     "price": "79.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2049,7 +2276,8 @@
     "pack": "30ml",
     "productPacking": "Susp.",
     "price": "49.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SUSPENSION"
   },
   {
     "img": "/product.png",
@@ -2058,7 +2286,8 @@
     "pack": "60ML",
     "productPacking": "Susp.",
     "price": "99",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SUSPENSION"
   },
   {
     "img": "/product.png",
@@ -2067,7 +2296,8 @@
     "pack": "60ML",
     "productPacking": "Susp.",
     "price": "89",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -2076,7 +2306,8 @@
     "pack": "30ML",
     "productPacking": "Susp.",
     "price": "59.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -2085,7 +2316,8 @@
     "pack": "60ML",
     "productPacking": "Susp.",
     "price": "60",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -2094,7 +2326,8 @@
     "pack": "30ML",
     "productPacking": "Susp.",
     "price": "42",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -2103,7 +2336,8 @@
     "pack": "100 ml",
     "productPacking": "Infusion",
     "price": "159",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "I.V."
   },
   {
     "img": "/product.png",
@@ -2112,7 +2346,8 @@
     "pack": "1gm",
     "productPacking": "vial",
     "price": "259",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -2121,7 +2356,8 @@
     "pack": "1.125 gm",
     "productPacking": "vial",
     "price": "339",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2130,7 +2366,8 @@
     "pack": "1X1gm",
     "productPacking": "vial",
     "price": "220",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -2139,7 +2376,8 @@
     "pack": "1X1gm",
     "productPacking": "vial",
     "price": "449",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -2148,7 +2386,8 @@
     "pack": "1X250",
     "productPacking": "vial",
     "price": "80.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -2157,7 +2396,8 @@
     "pack": "1X1.125",
     "productPacking": "vial",
     "price": "529",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJECTION"
   },
   {
     "img": "/product.png",
@@ -2166,7 +2406,8 @@
     "pack": "1 gm",
     "productPacking": "vial",
     "price": "69.8",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -2175,7 +2416,8 @@
     "pack": "2gm",
     "productPacking": "vial",
     "price": "154.6",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -2184,7 +2426,8 @@
     "pack": "250 mg",
     "productPacking": "vial",
     "price": "31.7",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -2193,7 +2436,8 @@
     "pack": "0.5gm",
     "productPacking": "vial",
     "price": "56",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -2202,7 +2446,8 @@
     "pack": "1.5 gm",
     "productPacking": "vial",
     "price": "148",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -2211,7 +2456,8 @@
     "pack": "1X375 mg",
     "productPacking": "vial",
     "price": "45.6",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -2220,7 +2466,8 @@
     "pack": "1.125 gm",
     "productPacking": "vial",
     "price": "179",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJECTION"
   },
   {
     "img": "/product.png",
@@ -2229,7 +2476,8 @@
     "pack": "4.5 gm",
     "productPacking": "vial",
     "price": "319         446",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -2238,7 +2486,8 @@
     "pack": "2.25gm",
     "productPacking": "vial",
     "price": "214.5",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -2247,7 +2496,8 @@
     "pack": "1.125 mg",
     "productPacking": "vial",
     "price": "111.6",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -2256,7 +2506,8 @@
     "pack": "30 ml",
     "productPacking": "Dry Syp",
     "price": "99.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -2265,7 +2516,8 @@
     "pack": "30 ml",
     "productPacking": "Dry Syp",
     "price": "199",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -2274,7 +2526,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "149.9",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TAB."
   },
   {
     "img": "/product.png",
@@ -2283,7 +2536,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "299",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TAB."
   },
   {
     "img": "/product.png",
@@ -2292,7 +2546,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "309",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TAB."
   },
   {
     "img": "/product.png",
@@ -2301,7 +2556,8 @@
     "pack": "10X10",
     "productPacking": "alu-alu",
     "price": "165",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2310,7 +2566,8 @@
     "pack": "10*10",
     "productPacking": "alu-alu",
     "price": "331",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2319,7 +2576,8 @@
     "pack": "125mg",
     "productPacking": "vial",
     "price": "229",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -2328,7 +2586,8 @@
     "pack": "0.5gm",
     "productPacking": "vial",
     "price": "809",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -2337,7 +2596,8 @@
     "pack": "1 gm",
     "productPacking": "vial",
     "price": "1067",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -2346,7 +2606,8 @@
     "pack": "1.5gm",
     "productPacking": "vial",
     "price": "1790",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -2355,7 +2616,8 @@
     "pack": "1.125gm",
     "productPacking": "vial",
     "price": "1999",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -2364,7 +2626,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "46.6",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2373,7 +2636,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "109",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2382,7 +2646,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "24.6",
-    "category": "ANTI-INFECTIVE DRUGS"
+    "category": "ANTI-INFECTIVE DRUGS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2391,7 +2656,8 @@
     "pack": "7.5 gm",
     "productPacking": "cream",
     "price": "125",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "CREAM"
   },
   {
     "img": "/product.png",
@@ -2400,7 +2666,8 @@
     "pack": "4ml",
     "productPacking": "amp.",
     "price": "271.48",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "Inj"
   },
   {
     "img": "/product.png",
@@ -2409,7 +2676,8 @@
     "pack": "10*10",
     "productPacking": "blister",
     "price": "274.9",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "CAP"
   },
   {
     "img": "/product.png",
@@ -2418,7 +2686,8 @@
     "pack": "20gm",
     "productPacking": "cream",
     "price": "189",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "GEL"
   },
   {
     "img": "/product.png",
@@ -2427,7 +2696,8 @@
     "pack": "20gm",
     "productPacking": "cream",
     "price": "159",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "GEL"
   },
   {
     "img": "/product.png",
@@ -2436,7 +2706,8 @@
     "pack": "20gm",
     "productPacking": "cream",
     "price": "149",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "CREAM"
   },
   {
     "img": "/product.png",
@@ -2445,7 +2716,8 @@
     "pack": "15gm",
     "productPacking": "cream",
     "price": "79.9",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "CREAM"
   },
   {
     "img": "/product.png",
@@ -2454,7 +2726,8 @@
     "pack": "75 Gm",
     "productPacking": "soap",
     "price": "89",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "SOAP"
   },
   {
     "img": "/product.png",
@@ -2463,7 +2736,8 @@
     "pack": "100 ml",
     "productPacking": "Lotion",
     "price": "249",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "LOTION"
   },
   {
     "img": "/product.png",
@@ -2472,7 +2746,8 @@
     "pack": "30gm",
     "productPacking": "cream",
     "price": "130",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "CREAM"
   },
   {
     "img": "/product.png",
@@ -2481,7 +2756,8 @@
     "pack": "75 gm",
     "productPacking": "soap",
     "price": "129",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "SOAP"
   },
   {
     "img": "/product.png",
@@ -2490,7 +2766,8 @@
     "pack": "30ml",
     "productPacking": "Lotion",
     "price": "179",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "LOTION"
   },
   {
     "img": "/product.png",
@@ -2499,7 +2776,8 @@
     "pack": "20gm",
     "productPacking": "cream",
     "price": "89",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "3%"
   },
   {
     "img": "/product.png",
@@ -2508,7 +2786,8 @@
     "pack": "15 gm",
     "productPacking": "cream",
     "price": "69",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "CREAM"
   },
   {
     "img": "/product.png",
@@ -2517,7 +2796,8 @@
     "pack": "100 G",
     "productPacking": "Pwdr.",
     "price": "109",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "POWDER"
   },
   {
     "img": "/product.png",
@@ -2526,7 +2806,8 @@
     "pack": "10x1x7",
     "productPacking": "blister",
     "price": "139.9",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -2535,7 +2816,8 @@
     "pack": "15gm",
     "productPacking": "cream",
     "price": "119",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "CREAM"
   },
   {
     "img": "/product.png",
@@ -2544,7 +2826,8 @@
     "pack": "75 Gm",
     "productPacking": "soap",
     "price": "89",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "SOAP"
   },
   {
     "img": "/product.png",
@@ -2553,7 +2836,8 @@
     "pack": "50 ml",
     "productPacking": "Lotion",
     "price": "109",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "LOTION"
   },
   {
     "img": "/product.png",
@@ -2562,7 +2846,8 @@
     "pack": "100ml",
     "productPacking": "Lotion",
     "price": "329",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "LOTION"
   },
   {
     "img": "/product.png",
@@ -2571,7 +2856,8 @@
     "pack": "10x7",
     "productPacking": "strip",
     "price": "173.2",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "CAP"
   },
   {
     "img": "/product.png",
@@ -2580,7 +2866,8 @@
     "pack": "75gm",
     "productPacking": "soap",
     "price": "129",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "SOAP"
   },
   {
     "img": "/product.png",
@@ -2589,7 +2876,8 @@
     "pack": "20*1×1",
     "productPacking": "blister",
     "price": "19.54",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "-200"
   },
   {
     "img": "/product.png",
@@ -2598,7 +2886,8 @@
     "pack": "20×1x1",
     "productPacking": "blister",
     "price": "38.85",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "-400"
   },
   {
     "img": "/product.png",
@@ -2607,7 +2896,8 @@
     "pack": "30 gm",
     "productPacking": "cream",
     "price": "189",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "CREAM"
   },
   {
     "img": "/product.png",
@@ -2616,7 +2906,8 @@
     "pack": "50 gm",
     "productPacking": "cream",
     "price": "349",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "CREAM"
   },
   {
     "img": "/product.png",
@@ -2625,7 +2916,8 @@
     "pack": "20 gm",
     "productPacking": "cream",
     "price": "99",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "CREAM"
   },
   {
     "img": "/product.png",
@@ -2634,7 +2926,8 @@
     "pack": "15GM",
     "productPacking": "cream",
     "price": "91",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2643,7 +2936,8 @@
     "pack": "15GM",
     "productPacking": "cream",
     "price": "159",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2652,7 +2946,8 @@
     "pack": "15gm",
     "productPacking": "cream",
     "price": "129",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2661,7 +2956,8 @@
     "pack": "20gm",
     "productPacking": "cream",
     "price": "159",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2670,7 +2966,8 @@
     "pack": "100 ml",
     "productPacking": "Lotion",
     "price": "139",
-    "category": "DERMA CARE"
+    "category": "DERMA CARE",
+    "type": "LOTION"
   },
   {
     "img": "/product.png",
@@ -2679,7 +2976,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "199",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2688,7 +2986,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "39.9",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2697,7 +2996,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "49.9",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2706,7 +3006,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "99",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2715,7 +3016,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "100",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2724,7 +3026,8 @@
     "pack": "5x30",
     "productPacking": "blister",
     "price": "149",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2733,7 +3036,8 @@
     "pack": "10x30",
     "productPacking": "blister",
     "price": "139",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2742,7 +3046,8 @@
     "pack": "5x6",
     "productPacking": "strip",
     "price": "117.37",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2751,7 +3056,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "99",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2760,7 +3066,8 @@
     "pack": "20x30",
     "productPacking": "blister",
     "price": "46.62",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -2769,7 +3076,8 @@
     "pack": "3x10",
     "productPacking": "blister",
     "price": "249",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "softgel"
   },
   {
     "img": "/product.png",
@@ -2778,7 +3086,8 @@
     "pack": "3x10",
     "productPacking": "blister",
     "price": "449",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -2787,7 +3096,8 @@
     "pack": "100 ml",
     "productPacking": "VW",
     "price": "145",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "WASH"
   },
   {
     "img": "/product.png",
@@ -2796,7 +3106,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "180",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "CAP"
   },
   {
     "img": "/product.png",
@@ -2805,7 +3116,8 @@
     "pack": "10X10",
     "productPacking": "strip",
     "price": "219",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": "TABLETS"
   },
   {
     "img": "/product.png",
@@ -2814,7 +3126,8 @@
     "pack": "10*1*10",
     "productPacking": "blister",
     "price": "649",
-    "category": "GYNAE CARE"
+    "category": "GYNAE CARE",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -2823,7 +3136,8 @@
     "pack": "3X10",
     "productPacking": "alu-alu",
     "price": "249",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TAB."
   },
   {
     "img": "/product.png",
@@ -2832,7 +3146,8 @@
     "pack": "3X10",
     "productPacking": "alu-alu",
     "price": "549",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TAB."
   },
   {
     "img": "/product.png",
@@ -2841,7 +3156,8 @@
     "pack": "20x15",
     "productPacking": "blister",
     "price": "99",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2850,7 +3166,8 @@
     "pack": "10x15",
     "productPacking": "blister",
     "price": "184.9",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2859,7 +3176,8 @@
     "pack": "200 ml",
     "productPacking": "Susp.",
     "price": "149",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "Suspension"
   },
   {
     "img": "/product.png",
@@ -2868,7 +3186,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "135",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2877,7 +3196,8 @@
     "pack": "3x10",
     "productPacking": "blister",
     "price": "59.9",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "CAPSULE"
   },
   {
     "img": "/product.png",
@@ -2886,7 +3206,8 @@
     "pack": "200 ml",
     "productPacking": "Syrup",
     "price": "125",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -2895,7 +3216,8 @@
     "pack": "15*10",
     "productPacking": "alu-alu",
     "price": "119.9",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2904,7 +3226,8 @@
     "pack": "10*1*10",
     "productPacking": "blister",
     "price": "110",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "Softgel"
   },
   {
     "img": "/product.png",
@@ -2913,7 +3236,8 @@
     "pack": "150 ml",
     "productPacking": "Susp.",
     "price": "119",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -2922,7 +3246,8 @@
     "pack": "15ml",
     "productPacking": "Drops",
     "price": "119",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -2931,7 +3256,8 @@
     "pack": "10ML",
     "productPacking": "Infusion",
     "price": "2490",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "INJ."
   },
   {
     "img": "/product.png",
@@ -2940,7 +3266,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "79",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2949,7 +3276,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "199",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2958,7 +3286,8 @@
     "pack": "10x15",
     "productPacking": "alu-alu",
     "price": "259",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -2967,7 +3296,8 @@
     "pack": "1x2ml",
     "productPacking": "ampule",
     "price": "124",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "INJECTION"
   },
   {
     "img": "/product.png",
@@ -2976,7 +3306,8 @@
     "pack": "1.5ml+1ml",
     "productPacking": "Infusion",
     "price": "99",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "INJ"
   },
   {
     "img": "/product.png",
@@ -2985,7 +3316,8 @@
     "pack": "1x2ml",
     "productPacking": "ampule",
     "price": "59.9/99.9",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "INJECTION"
   },
   {
     "img": "/product.png",
@@ -2994,7 +3326,8 @@
     "pack": "200 ml",
     "productPacking": "Syrup",
     "price": "145",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -3003,7 +3336,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "159",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3012,7 +3346,8 @@
     "pack": "10*10",
     "productPacking": "blister",
     "price": "99",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "CAPSULE"
   },
   {
     "img": "/product.png",
@@ -3021,7 +3356,8 @@
     "pack": "200 ml",
     "productPacking": "Syrup",
     "price": "159",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -3030,7 +3366,8 @@
     "pack": "200ml",
     "productPacking": "Susp.",
     "price": "199",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -3039,7 +3376,8 @@
     "pack": "200 ml",
     "productPacking": "Syrup",
     "price": "79.9",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -3048,7 +3386,8 @@
     "pack": "10X10",
     "productPacking": "alu-alu",
     "price": "130",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3057,7 +3396,8 @@
     "pack": "10X10",
     "productPacking": "alu-alu",
     "price": "129",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3066,7 +3406,8 @@
     "pack": "10X10",
     "productPacking": "BLISTER",
     "price": "169",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "CAP"
   },
   {
     "img": "/product.png",
@@ -3075,7 +3416,8 @@
     "pack": "10x1x10",
     "productPacking": "blister",
     "price": "259",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "\r\nCAP"
   },
   {
     "img": "/product.png",
@@ -3084,7 +3426,8 @@
     "pack": "10x1x10",
     "productPacking": "blister",
     "price": "189",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "DROPS"
   },
   {
     "img": "/product.png",
@@ -3093,7 +3436,8 @@
     "pack": "200ML",
     "productPacking": "vial",
     "price": "799",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -3102,7 +3446,8 @@
     "pack": "100ML",
     "productPacking": "vial",
     "price": "599",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -3111,7 +3456,8 @@
     "pack": "250ml",
     "productPacking": "vial",
     "price": "799",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "7%"
   },
   {
     "img": "/product.png",
@@ -3120,7 +3466,8 @@
     "pack": "30X30",
     "productPacking": "blister",
     "price": "60",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "TABLETS"
   },
   {
     "img": "/product.png",
@@ -3129,7 +3476,8 @@
     "pack": "10*10",
     "productPacking": "blister",
     "price": "550",
-    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS"
+    "category": "NEUTRACEUTICALS / NEUROTROPICS / ANTI-OXIDANT SUPPLEMENTS",
+    "type": "Cap"
   },
   {
     "img": "/product.png",
@@ -3138,7 +3486,8 @@
     "pack": "100 gm",
     "productPacking": "Gel",
     "price": "129",
-    "category": "DENTAL CARE"
+    "category": "DENTAL CARE",
+    "type": "GEL"
   },
   {
     "img": "/product.png",
@@ -3147,7 +3496,8 @@
     "pack": "100 gm",
     "productPacking": "toothpaste",
     "price": "144",
-    "category": "DENTAL CARE"
+    "category": "DENTAL CARE",
+    "type": "SHINE"
   },
   {
     "img": "/product.png",
@@ -3156,7 +3506,8 @@
     "pack": "15 gm",
     "productPacking": "Gel",
     "price": "60",
-    "category": "DENTAL CARE"
+    "category": "DENTAL CARE",
+    "type": "GEL"
   },
   {
     "img": "/product.png",
@@ -3165,7 +3516,8 @@
     "pack": "15ml",
     "productPacking": "gum paint",
     "price": "89",
-    "category": "DENTAL CARE"
+    "category": "DENTAL CARE",
+    "type": "PAINT"
   },
   {
     "img": "/product.png",
@@ -3174,7 +3526,8 @@
     "pack": "10x15",
     "productPacking": "alu-alu",
     "price": "109.9",
-    "category": "DENTAL CARE"
+    "category": "DENTAL CARE",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -3183,7 +3536,8 @@
     "pack": "25 gm",
     "productPacking": "Ointment",
     "price": "70",
-    "category": "POST OPERATIVE WOUND MANAGEMENT"
+    "category": "POST OPERATIVE WOUND MANAGEMENT",
+    "type": "OINTMENT"
   },
   {
     "img": "/product.png",
@@ -3192,7 +3546,8 @@
     "pack": "15 gm",
     "productPacking": "Ointment",
     "price": "99.9",
-    "category": "POST OPERATIVE WOUND MANAGEMENT"
+    "category": "POST OPERATIVE WOUND MANAGEMENT",
+    "type": "OINT."
   },
   {
     "img": "/product.png",
@@ -3201,7 +3556,8 @@
     "pack": "5 gm",
     "productPacking": "Ointment",
     "price": "109",
-    "category": "POST OPERATIVE WOUND MANAGEMENT"
+    "category": "POST OPERATIVE WOUND MANAGEMENT",
+    "type": "5gm"
   },
   {
     "img": "/product.png",
@@ -3210,7 +3566,8 @@
     "pack": "10gm",
     "productPacking": "Ointment",
     "price": "189",
-    "category": "POST OPERATIVE WOUND MANAGEMENT"
+    "category": "POST OPERATIVE WOUND MANAGEMENT",
+    "type": "OINT.10gm"
   },
   {
     "img": "/product.png",
@@ -3219,7 +3576,8 @@
     "pack": "5 ml",
     "productPacking": "Ear drops",
     "price": "54.9",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -3228,7 +3586,8 @@
     "pack": "10 ml",
     "productPacking": "Ear drops",
     "price": "49.9",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -3237,7 +3596,8 @@
     "pack": "15 ML",
     "productPacking": "Nasal sapray",
     "price": "44.9",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": "SAPRAY"
   },
   {
     "img": "/product.png",
@@ -3246,7 +3606,8 @@
     "pack": "10 ml",
     "productPacking": "Nasal sapray",
     "price": "69",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -3255,7 +3616,8 @@
     "pack": "10 ml",
     "productPacking": "Nasal sapray",
     "price": "299",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": "M"
   },
   {
     "img": "/product.png",
@@ -3264,7 +3626,8 @@
     "pack": "10 ml",
     "productPacking": "Nasal sapray",
     "price": "299",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": "F"
   },
   {
     "img": "/product.png",
@@ -3273,7 +3636,8 @@
     "pack": "10 ml",
     "productPacking": "Nasal sapray",
     "price": "499",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -3282,7 +3646,8 @@
     "pack": "10*10",
     "productPacking": "Blister",
     "price": "279",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": "Cap"
   },
   {
     "img": "/product.png",
@@ -3291,7 +3656,8 @@
     "pack": "5ML",
     "productPacking": "EYE DROP",
     "price": "99",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -3300,7 +3666,8 @@
     "pack": "5ML",
     "productPacking": "EYE DROP",
     "price": "49",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -3309,7 +3676,8 @@
     "pack": "5ml",
     "productPacking": "EYE DROP",
     "price": "49",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -3318,7 +3686,8 @@
     "pack": "10ml",
     "productPacking": "EYE DROP",
     "price": "63",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -3327,7 +3696,8 @@
     "pack": "3x10",
     "productPacking": "blister",
     "price": "179",
-    "category": "EYE / EAR DROPS"
+    "category": "EYE / EAR DROPS",
+    "type": "CAP"
   },
   {
     "img": "/product.png",
@@ -3336,7 +3706,8 @@
     "pack": "100gm",
     "productPacking": "Pwdr.",
     "price": "189",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "POWDER"
   },
   {
     "img": "/product.png",
@@ -3345,7 +3716,8 @@
     "pack": "10x10",
     "productPacking": "blister",
     "price": "49.9",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3354,7 +3726,8 @@
     "pack": "200 ml",
     "productPacking": "Syrup",
     "price": "149",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -3363,7 +3736,8 @@
     "pack": "200 ml",
     "productPacking": "Syrup",
     "price": "189",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -3372,7 +3746,8 @@
     "pack": "1x60",
     "productPacking": "tab.",
     "price": "189",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3381,7 +3756,8 @@
     "pack": "100ml",
     "productPacking": "Syrup",
     "price": "89.9",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "SYP"
   },
   {
     "img": "/product.png",
@@ -3390,7 +3766,8 @@
     "pack": "200 ml",
     "productPacking": "Syrup",
     "price": "152.9",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -3399,7 +3776,8 @@
     "pack": "75 gm",
     "productPacking": "Ointment",
     "price": "279",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "OINTMENT"
   },
   {
     "img": "/product.png",
@@ -3408,7 +3786,8 @@
     "pack": "1x45",
     "productPacking": "caps.",
     "price": "685",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "CALLUS"
   },
   {
     "img": "/product.png",
@@ -3417,7 +3796,8 @@
     "pack": "10*1*10",
     "productPacking": "alu-alu",
     "price": "220",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "CALLUS"
   },
   {
     "img": "/product.png",
@@ -3426,7 +3806,8 @@
     "pack": "60 ml",
     "productPacking": "oil",
     "price": "149",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "OIL"
   },
   {
     "img": "/product.png",
@@ -3435,7 +3816,8 @@
     "pack": "60ml",
     "productPacking": "Oil",
     "price": "159",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "OIL"
   },
   {
     "img": "/product.png",
@@ -3444,7 +3826,8 @@
     "pack": "200ml",
     "productPacking": "mouthwash",
     "price": "199",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "Natural"
   },
   {
     "img": "/product.png",
@@ -3453,7 +3836,8 @@
     "pack": "15ml",
     "productPacking": "Drops",
     "price": "69",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "DROPS"
   },
   {
     "img": "/product.png",
@@ -3462,7 +3846,8 @@
     "pack": "60ml",
     "productPacking": "Drops",
     "price": "99",
-    "category": "AYURVEDIC"
+    "category": "AYURVEDIC",
+    "type": "DROPS"
   },
   {
     "img": "/product.png",
@@ -3471,7 +3856,8 @@
     "pack": "10x1x10",
     "productPacking": "blister",
     "price": "199",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "CAP."
   },
   {
     "img": "/product.png",
@@ -3480,7 +3866,8 @@
     "pack": "1x10 ml",
     "productPacking": "ampule",
     "price": "249",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "INFUSION"
   },
   {
     "img": "/product.png",
@@ -3489,7 +3876,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "129",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -3498,7 +3886,8 @@
     "pack": "10*10",
     "productPacking": "blister",
     "price": "249",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3507,7 +3896,8 @@
     "pack": "10*15",
     "productPacking": "blister",
     "price": "569",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3516,7 +3906,8 @@
     "pack": "200 ml",
     "productPacking": "Syrup",
     "price": "129.9",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -3525,7 +3916,8 @@
     "pack": "15ml",
     "productPacking": "Drops",
     "price": "54.9",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "DROPS"
   },
   {
     "img": "/product.png",
@@ -3534,7 +3926,8 @@
     "pack": "200ml",
     "productPacking": "Syrup",
     "price": "109",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -3543,7 +3936,8 @@
     "pack": "15ml",
     "productPacking": "drops",
     "price": "79.9",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "DROP"
   },
   {
     "img": "/product.png",
@@ -3552,7 +3946,8 @@
     "pack": "20x10",
     "productPacking": "blister",
     "price": "99",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "CAPSULE"
   },
   {
     "img": "/product.png",
@@ -3561,7 +3956,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "189",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3570,7 +3966,8 @@
     "pack": "60ml",
     "productPacking": "Susp.",
     "price": "129",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -3579,7 +3976,8 @@
     "pack": "10x10",
     "productPacking": "alu-alu",
     "price": "129",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3588,7 +3986,8 @@
     "pack": "10X10",
     "productPacking": "blister",
     "price": "71.12",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3597,7 +3996,8 @@
     "pack": "200ml",
     "productPacking": "Syrup",
     "price": "149",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "SYRUP"
   },
   {
     "img": "/product.png",
@@ -3606,7 +4006,8 @@
     "pack": "1X6",
     "productPacking": "alu-alu",
     "price": "599",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": ""
   },
   {
     "img": "/product.png",
@@ -3615,7 +4016,8 @@
     "pack": "1 ml",
     "productPacking": "ampule",
     "price": "215",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "INJECTION"
   },
   {
     "img": "/product.png",
@@ -3624,7 +4026,8 @@
     "pack": "15ml",
     "productPacking": "Drops",
     "price": "59.9",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "DROPS"
   },
   {
     "img": "/product.png",
@@ -3633,7 +4036,8 @@
     "pack": "30ml",
     "productPacking": "Susp.",
     "price": "49.9",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "SUSP"
   },
   {
     "img": "/product.png",
@@ -3642,7 +4046,8 @@
     "pack": "5x10",
     "productPacking": "alu-alu",
     "price": "279",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3651,7 +4056,8 @@
     "pack": "10X5",
     "productPacking": "alu-alu",
     "price": "477",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "TABLET"
   },
   {
     "img": "/product.png",
@@ -3660,7 +4066,8 @@
     "pack": "20*1*4",
     "productPacking": "blister",
     "price": "199",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "TIME"
   },
   {
     "img": "/product.png",
@@ -3669,7 +4076,8 @@
     "pack": "20*1*4",
     "productPacking": "blister",
     "price": "249",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "Excel"
   },
   {
     "img": "/product.png",
@@ -3678,7 +4086,8 @@
     "pack": "20*1*1",
     "productPacking": "blister",
     "price": "99",
-    "category": "HEPATOPROTECTIVE PRODUCTS"
+    "category": "HEPATOPROTECTIVE PRODUCTS",
+    "type": "TAB"
   },
   {
     "img": "/product.png",
@@ -3687,7 +4096,8 @@
     "pack": "200 ML",
     "productPacking": "SHAMPOO",
     "price": "249",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "SHAMPOO"
   },
   {
     "img": "/product.png",
@@ -3696,7 +4106,8 @@
     "pack": "200 ML",
     "productPacking": "SHAMPOO",
     "price": "249",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "SHAMPOO"
   },
   {
     "img": "/product.png",
@@ -3705,7 +4116,8 @@
     "pack": "200 ML",
     "productPacking": "SHAMPOO",
     "price": "249",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "SHAMPOO"
   },
   {
     "img": "/product.png",
@@ -3714,7 +4126,8 @@
     "pack": "200 ML",
     "productPacking": "SHAMPOO",
     "price": "249",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "SHAMPOO"
   },
   {
     "img": "/product.png",
@@ -3723,7 +4136,8 @@
     "pack": "200 ML",
     "productPacking": "SHAMPOO",
     "price": "249",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "SHAMPOO"
   },
   {
     "img": "/product.png",
@@ -3732,7 +4146,8 @@
     "pack": "100ML",
     "productPacking": "FACE WASH",
     "price": "199",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "WASH"
   },
   {
     "img": "/product.png",
@@ -3741,7 +4156,8 @@
     "pack": "100ML",
     "productPacking": "FACE WASH",
     "price": "199",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "WASH"
   },
   {
     "img": "/product.png",
@@ -3750,7 +4166,8 @@
     "pack": "50GM",
     "productPacking": "CREAM",
     "price": "149",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "CARE"
   },
   {
     "img": "/product.png",
@@ -3759,7 +4176,8 @@
     "pack": "200ML",
     "productPacking": "LOTION",
     "price": "459",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "LOTION"
   },
   {
     "img": "/product.png",
@@ -3768,7 +4186,8 @@
     "pack": "100ML",
     "productPacking": "FACE WASH",
     "price": "349",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "NEEM"
   },
   {
     "img": "/product.png",
@@ -3777,7 +4196,8 @@
     "pack": "100ML",
     "productPacking": "FACE WASH",
     "price": "349",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "TREE"
   },
   {
     "img": "/product.png",
@@ -3786,7 +4206,8 @@
     "pack": "120ML",
     "productPacking": "FACE CLEANSER",
     "price": "47",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "WATER"
   },
   {
     "img": "/product.png",
@@ -3795,7 +4216,8 @@
     "pack": "100ML",
     "productPacking": "FACE WASH",
     "price": "349",
-    "category": "COSMECTIC RANGE"
+    "category": "COSMECTIC RANGE",
+    "type": "UBTAN"
   },
   {
     "img": "/product.png",
@@ -3804,7 +4226,8 @@
     "pack": "250ML",
     "productPacking": "HAND WASH",
     "price": "99",
-    "category": "HAND WASHES"
+    "category": "HAND WASHES",
+    "type": "HAND\r\nWASH"
   },
   {
     "img": "/product.png",
@@ -3813,7 +4236,8 @@
     "pack": "250ML",
     "productPacking": "HAND WASH",
     "price": "99",
-    "category": "HAND WASHES"
+    "category": "HAND WASHES",
+    "type": "WASH"
   },
   {
     "img": "/product.png",
@@ -3822,7 +4246,8 @@
     "pack": "250ML",
     "productPacking": "HAND WASH",
     "price": "99",
-    "category": "HAND WASHES"
+    "category": "HAND WASHES",
+    "type": "HAND\r\nWASH"
   },
   {
     "img": "/product.png",
@@ -3831,6 +4256,7 @@
     "pack": "250ML",
     "productPacking": "HAND WASH",
     "price": "99",
-    "category": "HAND WASHES"
+    "category": "HAND WASHES",
+    "type": "WASH"
   }
 ]

@@ -2,73 +2,39 @@
 import { useRef } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import Image from "next/image";
+import products from "@/data/products.json";
+import { useRouter } from "next/navigation";
 
 export default function UpcomingProducts() {
-  const products = [
-    {
-      id: 1,
-      name: "COMBICEF-XL",
-      price: "INR. 249/-",
-      desc: "Overnight Moisturising, Softens & Heals Dry Feet",
-      image: "/combicef-xl.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 2,
-      name: "FIXCEF- 0",
-      price: "INR. 349/-",
-      desc: "Broad Spectrum, Protects from UV, Blue Light",
-      image: "/fixcef-o1.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 3,
-      name: "SEEZIDE-T",
-      price: "INR. 149/-",
-      desc: "Natural & Premium Rose Water for Skin",
-      image: "/seezidet.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 4,
-      name: "SEEZONE 1000mg",
-      price: "INR. 199/-",
-      desc: "Removes Dirt, Deep Cleans & Refreshes",
-      image: "/seezone1000mg.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 5,
-      name: "SEEZONE SB",
-      price: "INR. 149/-",
-      desc: "Natural & Premium Rose Water for Skin",
-      image: "/SeezoneSB.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 6,
-      name: "SULTAB",
-      price: "INR. 199/-",
-      desc: "Removes Dirt, Deep Cleans & Refreshes",
-      image: "/sultab.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 7,
-      name: "BI-CLAV 1000",
-      price: "INR. 199/-",
-      desc: "Removes Dirt, Deep Cleans & Refreshes",
-      image: "/biclav1000.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
+  const router = useRouter();
+  const bestSellerNames = [
+
+    "ASTHARIL-LS SYRUP",
+    "BIG-B6 TABLET",
+    "DOXWAY-AM TABLET",
+    "DURAFLEX TABLET",
+    "DOXY-TZ TABLET",
+    "PHYTOFLEX",
+    "SEEZONE 2gm INJ.",
+    "HERPIRID CREAM"
   ];
+  // CLICK HANDLER
+  const openProduct = (name) => {
+    // find product from products.json
+    const product = products.find((p) => p.title === name);
+    if (!product) return;
+
+    const imageName = product.title.trim().split(" ")[0];
+    const encodedImageName = encodeURIComponent(imageName);
+
+   router.push(
+  `/products/${encodeURIComponent(product.title)}?composition=${encodeURIComponent(
+    product.composition
+  )}`
+);
+
+  };
+
 
   const scrollRef = useRef(null);
 
@@ -87,17 +53,18 @@ export default function UpcomingProducts() {
     <section className="px-8 py-10 overflow-hidden bg-gray-100">
       <div className="max-w-7xl mx-auto relative py-12 w-full flex md:flex-row flex-col">
         <div className="mr-10 flex flex-col justify-center">
-            <h2 className="regulator-nova-alts tracking-wider text-4xl mb-5">
+            <h2 className="regulator-nova-alts-straight tracking-wider text-4xl mb-5">
            <span className="text-[#048DB7] text-5xl font-semibold">Upcoming</span> <br></br>Products
         </h2>
         <p className="text-gray-500 mb-8">
           At <span className="text-[#048DB7] font-semibold">ZOIC</span> it’s all about continuous innovations.
         </p>
-        <a href="/products">
+       <a href="/products">
   <button className="text-white w-fit p-4 rounded-2xl bg-[#048DB7]">
     Explore more
   </button>
 </a>
+
         </div>
         
 
@@ -113,25 +80,39 @@ export default function UpcomingProducts() {
             ref={scrollRef}
             className="flex overflow-x-auto gap-5 scrollbar-hide scroll-smooth w-full"
           >
-            {products.map((p) => (
-              <div key={p.id} className="md:w-[30vw] w-[80vw]  p-4 flex-shrink-0">
-                <div
-                  className="h-[40vh] w-full bg-contain bg-no-repeat bg-center relative"
+            {bestSellerNames.map((name, index) => {
+              const product = products.find((p) => p.title === name);
+              if (!product) return null;
 
+  const imageName = product.title.trim().split(" ")[0];
+  const encodedImage = encodeURIComponent(imageName);
+
+              return (
+                <div
+                  key={index}
+                  onClick={() => openProduct(name)}
+                  className="md:w-[30vw] w-[80vw] p-4 flex-shrink-0 cursor-pointer"
                 >
-                  <Image
-    src={p.image}
-    alt="Product image"
-    fill
-    className="object-contain"
-    priority
+                  <div className="h-[40vh] w-full bg-contain bg-no-repeat bg-center relative">
+                    <img
+    src={`/productImages/${encodedImage}.jpg`}
+    alt="Image Not found"
+    onError={(e) => {
+      if (e.target.src.endsWith(".jpg")) {
+        e.target.src = `/productImages/${encodedImage}.jpeg`;
+      } else {
+        e.target.src = "/productImages/default.avif";
+      }
+    }}
+    className="h-76 mx-auto object-contain"
   />
+                  </div>
+                  <h3 className="text-xl text-[#048DB7] font-bold mt-3">{product.title}</h3>
+                  <p className="text-gray-600">{product.pack}</p>
+                  <p className="font-semibold mt-1">{product.description}</p>
                 </div>
-                <h3 className="text-xl text-[#048DB7] font-bold mt-3">{p.name}</h3>
-                <p className="text-gray-600">{p.pack}</p>
-                <p className="font-semibold mt-1">{p.composition}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           <button

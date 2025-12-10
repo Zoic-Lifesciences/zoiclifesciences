@@ -3,7 +3,7 @@ export default function TopBar({
   selectedPacking,
   setSelectedPacking,
 }) {
-  const categories = ["All", ...new Set(products.map((p) => p.productPacking))];
+  const categories = ["All", ...new Set(products.map((p) => p.type))];
 
   return (
     <div className="w-full bg-white rounded-xl ">

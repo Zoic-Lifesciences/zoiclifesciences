@@ -7,18 +7,27 @@ import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
 import products from "@/data/products.json";
 
+function getImageName(title) {
+  const ImageName = title.trim().split(" ")[0];
+  return encodeURIComponent(ImageName);
+}
+const processedProducts = products.map((p) => ({
+  ...p,
+  ImageName: getImageName(p.title),
+}));
+
 export default function Page() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedPacking, setSelectedPacking] = useState("All");
   const [searchTerm, setSearchTerm] = useState("");
 
-  const filteredProducts = products.filter((item) => {
+  const filteredProducts = processedProducts.filter((item) => {
     const matchCategory =
       selectedCategory === "All" || item.category === selectedCategory;
 
     const matchPacking =
       selectedPacking === "All" ||
-      item.productPacking === selectedPacking;
+      item.type === selectedPacking;
 
     const search = searchTerm.toLowerCase();
     const matchSearch =
