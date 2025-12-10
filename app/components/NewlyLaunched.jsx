@@ -1,72 +1,39 @@
 "use client";
 import Image from "next/image";
+import products from "@/data/products.json";
+import { useRouter } from "next/navigation";
 
 export default function NewlyLaunched() {
-  const products = [
-    {
-      id: 1,
-      name: "COMBICEF-XL",
-      price: "INR. 249/-",
-      desc: "Overnight Moisturising, Softens & Heals Dry Feet",
-      image: "/combicef-xl.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 2,
-      name: "FIXCEF- 0",
-      price: "INR. 349/-",
-      desc: "Broad Spectrum, Protects from UV, Blue Light",
-      image: "/fixcef-o1.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 3,
-      name: "SEEZIDE-T",
-      price: "INR. 149/-",
-      desc: "Natural & Premium Rose Water for Skin",
-      image: "/seezidet.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 4,
-      name: "SEEZONE 1000mg",
-      price: "INR. 199/-",
-      desc: "Removes Dirt, Deep Cleans & Refreshes",
-      image: "/seezone1000mg.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 5,
-      name: "SEEZONE SB",
-      price: "INR. 149/-",
-      desc: "Natural & Premium Rose Water for Skin",
-      image: "/SeezoneSB.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 6,
-      name: "SULTAB",
-      price: "INR. 199/-",
-      desc: "Removes Dirt, Deep Cleans & Refreshes",
-      image: "/sultab.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
-    {
-      id: 7,
-      name: "BI-CLAV 1000",
-      price: "INR. 199/-",
-      desc: "Removes Dirt, Deep Cleans & Refreshes",
-      image: "/biclav1000.jpg",
-      pack: "10x10 Tablets",
-      composition: "Cefixime 200mg + Clavulanic Acid 125mg",
-    },
+  const router = useRouter();
+  const bestSellerNames = [
+
+    "FASTNEM-200",
+    "FUSISTAR-F",
+    "ZOTHASYL TABLETS",
+    "SALVUS",
+    "BILLU TAB",
+    "PIKU SYRUP",
+    "URIKOOL-100 SYP",
+    "LAX PEG"
   ];
+  
+  // CLICK HANDLER
+  const openProduct = (name) => {
+    // find product from products.json
+    const product = products.find((p) => p.title === name);
+    if (!product) return;
+
+    const imageName = product.title.trim().split(" ")[0];
+    const encodedImageName = encodeURIComponent(imageName);
+
+   router.push(
+  `/products/${encodeURIComponent(product.title)}?composition=${encodeURIComponent(
+    product.composition
+  )}`
+);
+
+  };
+  
 
   return (
     <section className="px-8 py-32 overflow-hidden">
@@ -82,39 +49,51 @@ export default function NewlyLaunched() {
         <div className="relative overflow-hidden py-12 w-full">
           <div className="scroll-container">
             <div className="scroll-content">
-              {[...products, ...products].map((p, index) => (
-                <div
-                  key={p.id + index}
-                  className="md:w-[20vw] w-[80vw] shrink-0 bg-white shadow-xl
-                    border border-gray-200 rounded-t-[10%] mx-5"
-                >
-                  <div
-                    className="h-[28vh] w-full bg-contain bg-no-repeat bg-center overflow-hidden rounded-t-[10%] relative"
-                  >
-                    <Image
-    src={p.image}
-    alt="Product image"
-    fill
-    className="object-contain"
-    priority
-  />
-                  </div>
-                  <div className="p-4 h-48">
-                    <h3 className="regulator-nova-alts tracking-wider font-semibold text-[#048DB7] text-2xl">
-                      {p.name}
-                    </h3>
-                    <p className="regulator-nova-alts-straight tracking-wider text-sm font-bold text-gray-700 mt-2">
-                      Packaging: {p.pack}
-                    </p>
-                    <p className="regulator-nova-alts-straight text-[10px] text-gray-500 mt-2">
-                      <b>Composition:</b> {p.composition}
-                    </p>
-                    <p className="regulator-nova-alts-straight text-[10px] text-gray-500 mt-2">
-                      <b>Usage:</b> {p.desc}
-                    </p>
-                  </div>
-                </div>
-              ))}
+              {bestSellerNames.map((name, index) => {
+  const product = products.find((p) => p.title === name);
+  if (!product) return null;
+
+  const imageName = product.title.trim().split(" ")[0];
+  const encodedImage = encodeURIComponent(imageName);
+
+  return (
+    <div
+      key={product.id + index}
+      onClick={() => openProduct(name)}
+      className="md:w-[20vw] w-[80vw] shrink-0 bg-white shadow-xl border border-gray-200 rounded-t-[10%] mx-5"
+    >
+      <div className="h-[28vh] w-full bg-contain bg-no-repeat bg-center overflow-hidden rounded-t-[10%] relative">
+        <img
+          src={`/productImages/${encodedImage}.jpg`}
+          alt="Image Not found"
+          onError={(e) => {
+            if (e.target.src.endsWith(".jpg")) {
+              e.target.src = `/productImages/${encodedImage}.jpeg`;
+            } else {
+              e.target.src = "/productImages/default.avif";
+            }
+          }}
+          className="h-76 mx-auto object-contain"
+        />
+      </div>
+      <div className="p-4 h-48">
+        <h3 className="regulator-nova-alts tracking-wider font-semibold text-[#048DB7] text-2xl">
+          {product.title}
+        </h3>
+        <p className="regulator-nova-alts-straight tracking-wider text-sm font-bold text-gray-700 mt-2">
+          Packaging: {product.pack}
+        </p>
+        <p className="regulator-nova-alts-straight text-[10px] text-gray-500 mt-2">
+          <b>Composition:</b> {product.description}
+        </p>
+        <p className="regulator-nova-alts-straight text-[10px] text-gray-500 mt-2">
+          <b>Usage:</b> {product.productPacking}
+        </p>
+      </div>
+    </div>
+  );
+})}
+
             </div>
           </div>
         </div>

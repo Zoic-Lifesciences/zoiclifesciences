@@ -3,16 +3,37 @@ import { useRouter } from "next/navigation";
 
 export default function ProductCard({ img, title, description, pack, productPacking, price, category }) {
   const router = useRouter();
+  
 
-  const handleClick = () => {
+  
+  
+  const imageName = title.trim().split(" ")[0];
+ const encodedImageName = encodeURIComponent(imageName);
+
+const handleClick = () => {
     // encode title so it’s URL-safe
-    router.push(`/products/${encodeURIComponent(title)}`);
+    router.push(
+    `/products/${encodeURIComponent(title)}?composition=${encodeURIComponent(description)}`
+  );
   };
 
   return (
+    
     <div className="bg-white rounded-2xl shadow-md p-4 flex flex-col justify-between hover:shadow-lg transition">
       {img ? (
-        <img src={img} alt={title} className="h-76 mx-auto object-contain" />
+        <img
+  src={`/productImages/${encodedImageName}.jpg`}
+  alt={title}
+  onError={(e) => {
+    if (e.target.src.includes(".jpg")) {
+      e.target.src = `/productImages/${encodedImageName}.jpeg`
+    } else {
+      e.target.src = "/productImages/default.avif"
+    }
+  }}
+  className="h-76 mx-auto object-contain"
+/>
+
       ) : (
         <div className="h-32 flex items-center justify-center text-gray-400">
           No Image Available

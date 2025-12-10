@@ -24,7 +24,7 @@ export default function Header() {
       setScrolled(true);
       return;
     }
-    if (pathname === "/products") {
+    if (pathname === "/products" || pathname.startsWith("/products") ){
       setScrolled(true);
       return;
     }
