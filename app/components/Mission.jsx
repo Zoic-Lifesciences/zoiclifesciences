@@ -24,7 +24,7 @@ export default function MissionSection() {
             data-aos="fade-up"
           >
             <Target className="w-10 h-10 mb-3 group-hover:text-white transition-colors duration-300" />
-            <h2 className="text-4xl mb-2 regulator-nova-alts">Our Mission</h2>
+            <h2 className="md:text-4xl text-2xl mb-2 regulator-nova-alts">Our Mission</h2>
             <p className="text-md mt-5 regulator-nova-alts-straight tracking-wider">
               We at Zoic Life Sciences believe that complete customer
               satisfaction is the key to expanding business everywhere.
@@ -38,7 +38,7 @@ export default function MissionSection() {
             data-aos-delay="100"
           >
             <Eye className="w-10 h-10 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
-            <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69] regulator-nova-alts tracking-wider">Our Vision</h2>
+            <h2 className="md:text-4xl text-2xl mb-2 group-hover:text-white text-[#090A69] regulator-nova-alts tracking-wider">Our Vision</h2>
             <p className="text-md mt-5 regulator-nova-alts-straight tracking-wider">
               To uphold our social responsibilities by delivering the highest
               standard of healthcare services.
@@ -52,7 +52,7 @@ export default function MissionSection() {
             data-aos-delay="200"
           >
             <Gem className="w-10 h-10 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
-            <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69] regulator-nova-alts tracking-wider">Our Value</h2>
+            <h2 className="md:text-4xl text-2xl mb-2 group-hover:text-white text-[#090A69] regulator-nova-alts tracking-wider">Our Value</h2>
             <p className="text-md mt-5 regulator-nova-alts-straight tracking-wider">
               Our business values with clients are as simple as lifelong
               “business relations”.
@@ -66,7 +66,7 @@ export default function MissionSection() {
             data-aos-delay="300"
           >
             <ShieldCheck className="w-10 h-10 mb-3 text-[#090A69] group-hover:text-white transition-colors duration-300" />
-            <h2 className="text-4xl mb-2 group-hover:text-white text-[#090A69] regulator-nova-alts tracking-wider">Quality Control</h2>
+            <h2 className="md:text-4xl text-2xl mb-2 group-hover:text-white text-[#090A69] regulator-nova-alts tracking-wider">Quality Control</h2>
             <p className="text-md mt-5 regulator-nova-alts-straight tracking-wider">
               Our medicines are developed under the strict guidance of renowned
               healthcare professionals.
@@ -81,7 +81,7 @@ export default function MissionSection() {
         ></div>
 
         <div className="md:w-[45%] w-[80%] md:pl-12 relative" data-aos="fade-right">
-          <h1 className="font-bold tracking-wider md:text-6xl text-5xl text-[#090A69] mb-4 leading-tight regulator-nova-alts-straight">
+          <h1 className="font-bold tracking-wider md:text-6xl text-3xl text-[#090A69] mb-4 leading-tight regulator-nova-alts-straight">
             Our Mission, Vision, <br /> and Values
           </h1>
           <p className="regulator-nova-alts tracking-wider text-gray-600">

@@ -37,9 +37,9 @@ export default function Certifications() {
   ];
 
   return (
-    <section className="bg-[#EFFBFF] py-32 px-6 flex flex-col items-center text-center">
+    <section className="bg-[#EFFBFF] md:py-32 py-16 px-6 flex flex-col items-center text-center">
       <div className="w-[90vw] text-center flex justify-center flex-col items-center">
-        <h2 className="regulator-nova-alts-straight tracking-wider md:text-5xl text-5xl text-[#090A69] mb-4" data-aos="fade-up">
+        <h2 className="regulator-nova-alts-straight tracking-wider md:text-5xl text-3xl text-[#090A69] mb-4" data-aos="fade-up">
           Certifications That Define Excellence
         </h2>
         <p className="text-gray-600 max-w-3xl text-center" data-aos="fade-up" data-aos-delay="100">

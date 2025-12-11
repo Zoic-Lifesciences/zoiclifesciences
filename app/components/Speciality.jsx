@@ -14,19 +14,19 @@ export default function Speciality() {
   }, []);
 
   return (
-    <div className="flex flex-col w-screen items-center my-10 py-10 max-w-7xl mx-auto">
+    <div className="flex flex-col w-screen items-center my-10 md:py-10 max-w-7xl mx-auto">
       <div className="w-[100%] flex md:flex-col flex-col items-center justify-around px-6 md:px-20 gap-10">
         {/* Heading slides in from left */}
         <div className="flex flex-col w-full">
           <h1
-            className="regulator-nova-alts-straight tracking-wider md:text-6xl text-5xl text-center my-10 text-[#090A69]"
+            className="regulator-nova-alts-straight tracking-wider md:text-6xl text-3xl text-center my-10 text-[#090A69]"
           >
             25 Years of Excellency
           </h1>
 
         {/* Paragraph slides in from right */}
         <p
-          className="mb-10 text-start"
+          className="mb-10 text-center"
         >
           At ZOIC Life Sciences, we are committed to empowering pharma professionals, distributors, and
           entrepreneurs with profitable franchise opportunities backed by trust, quality, and innovation.

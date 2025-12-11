@@ -50,11 +50,11 @@ export default function UpcomingProducts() {
   };
 
   return (
-    <section className="px-8 py-10 overflow-hidden bg-gray-100">
+    <section className="md:px-8 px-5 md:py-10 overflow-hidden bg-gray-100">
       <div className="max-w-7xl mx-auto relative py-12 w-full flex md:flex-row flex-col">
         <div className="mr-10 flex flex-col justify-center">
             <h2 className="regulator-nova-alts-straight tracking-wider text-4xl mb-5">
-           <span className="text-[#048DB7] text-5xl font-semibold">Upcoming</span> <br></br>Products
+           <span className="text-[#048DB7] md:text-5xl text-3xl font-semibold">Upcoming</span> <br></br>Products
         </h2>
         <p className="text-gray-500 mb-8">
           At <span className="text-[#048DB7] font-semibold">ZOIC</span> it’s all about continuous innovations.
@@ -68,7 +68,7 @@ export default function UpcomingProducts() {
         </div>
         
 
-        <div className="relative flex items-center w-[80%]">
+        <div className="relative flex items-center md:w-[80%] w-[95%]">
           <button
             onClick={() => scroll("left")}
             className="absolute left-0 z-10 bg-white p-3 rounded-full shadow-md"

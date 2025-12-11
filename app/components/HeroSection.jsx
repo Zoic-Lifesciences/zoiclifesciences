@@ -7,12 +7,17 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import Image from "next/image";
-
-import { motion } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
 
 export default function Herosection() {
   const slides = [
+    {
+      img: "/hero1.png",
+      ref: "/products",
+      title: "Exporting Across the Globe",
+      desc: "Our products are trusted in multiple countries worldwide.",
+      button: "Explore Our products",
+    },
     {
       img: "/army.webp",
       ref: "/about#legacy",
@@ -124,7 +129,7 @@ export default function Herosection() {
         <div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
-          className="text-teal-400 text-2xl sm:text-3xl"
+          className="text-[#1BA3CD] text-2xl sm:text-3xl"
         >
           <FaChevronDown />
         </div>

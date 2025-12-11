@@ -117,7 +117,7 @@ export default function Testimonial() {
       <div className="text-start mb-10 flex justify-center">
         <div className="flex md:flex-row flex-col justify-between w-[80%] items-center">
           <div>
-            <h2 className="md:text-6xl text-5xl text-[#090A69]">
+            <h2 className="md:text-6xl text-3xl text-[#090A69]">
               What <span className="text-[#048DB7]">Our Clients</span> Say
             </h2>
             <p className="text-gray-600 mt-2">

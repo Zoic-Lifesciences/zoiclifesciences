@@ -33,10 +33,10 @@ export default function NewRoom() {
 
   return (
     <section className="flex justify-center flex-col items-center bg-gray-100">
-      <div className="md:w-[80vw] w-[90vw] py-20 px-6 flex flex-col items-center text-center">
+      <div className="md:w-[80vw] w-[90vw] md:py-20 py-16 px-6 flex flex-col items-center text-center">
 
         {/* Section Header */}
-        <h2 className="md:text-6xl text-5xl md:mt-10 mt-5 mb-5">
+        <h2 className="md:text-6xl text-3xl md:mt-10 mt-5 mb-5">
           <span className="text-[#04A0D1]">ZOIC’s</span> Newsroom
         </h2>
         <p className="text-gray-600 max-w-3xl mb-12">

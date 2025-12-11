@@ -39,7 +39,7 @@ export default function WhatWeOffer() {
   return (
     <section className="bg-linear-to-r from-[#1BA3CD] to-[#090A69] py-16 px-6 text-white flex flex-col items-center text-center">
       {/* Header */}
-      <h2 className="regulator-nova-alts-straight tracking-wider md:text-6xl text-5xl mb-4" >
+      <h2 className="regulator-nova-alts-straight tracking-wider md:text-6xl text-3xl mb-4" >
         What we offer
       </h2>
       <p className="max-w-3xl text-gray-200 mb-10" >

@@ -35,16 +35,16 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className="bg-linear-to-r from-[#1BA3CD] to-[#090A69] text-white min-h-screen flex items-center justify-center py-16 px-8">
+    <div className="bg-linear-to-r from-[#1BA3CD] to-[#090A69] text-white  flex items-center justify-center py-16 px-8">
       <div className="max-w-7xl flex flex-col mx-auto">
 
         {/* LEFT COLUMN: Heading + Tagline */}
         <div className="w-[80vw] md:w-full flex flex-col justify-center">
-          <h1 className="regulator-nova-alts tracking-widest md:text-6xl text-4xl font-bold mb-6">Highlights</h1>
+          <h1 className="regulator-nova-alts tracking-widest md:text-6xl text-3xl font-bold mb-6 text-center">Highlights</h1>
         </div>
 
         {/* RIGHT COLUMN: Carousel */}
-        <div className="w-full md:w-full flex justify-center items-center relative h-[60vh] mt-10">
+        <div className="w-full md:w-full flex justify-center items-center relative h-[60vh] md:mt-10">
           {data.map((item, index) => {
             // Calculate position relative to currentIndex
             const position = (index - currentIndex + total) % total;

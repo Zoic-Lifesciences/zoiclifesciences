@@ -42,7 +42,7 @@ useEffect(() => {
 
         {/* LEFT COLUMN: Heading + Tagline */}
         <div className="w-full md:w-[40%] flex flex-col  justify-start">
-          <h1 className="regulator-nova-alts tracking-widest md:text-6xl text-5xl font-bold mb-6">Categories</h1>
+          <h1 className="regulator-nova-alts tracking-widest md:text-6xl text-3xl font-bold mb-6">Categories</h1>
           <div className="regulator-nova-alts-straight md:text-lg text-base text-white/90 ">
             Our state-of-the-art manufacturing infrastructure allows us to provide a wide variety of pharmaceutical products. From injectables to tablets, every category is crafted with precision, quality, and compliance in mind.
             <ul className="regulator-nova-alts-straight md:text-lg text-base text-white/90 leading-relaxed list-disc list-inside space-y-0">

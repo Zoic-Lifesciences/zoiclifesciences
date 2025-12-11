@@ -93,14 +93,14 @@ export default function AboutPage() {
       </section>
 
       <div className=" w-[100vw] bg-linear-to-r from-[#1BA3CD] to-[#090A69] relative flex  py-16 items-center justify-center">
-        <div className="flex md:flex-row flex-col w-[85%] h-[80%] justify-between items-center ">
-          <div className="md:w-[50%] w-[80%] flex flex-col text-white mb-[10vh] ">
+        <div className="flex md:flex-row flex-col-reverse w-[85%] h-[80%] justify-between items-center ">
+          <div className="md:w-[50%] w-[80%] flex md:flex-col flex-col-reverse text-white mb-[10vh] ">
             <div className="w-[90%] text-2xl flex relative ">
               <span className="inline-block ">
                 <FaQuoteLeft className="text-5xl mr-5" />
               </span>
 
-              <div className="mt-10 relative text-3xl">
+              <div className="mt-10 relative md:text-3xl text-xl">
                 <div className="w-full top-[-20px] bg-white h-[5px] absolute"></div>
                 <div className="w-[5px] top-[20px] left-[-40px] bg-white h-full absolute"></div>
                 <p className="regulator-nova-alts tracking-wider">
@@ -113,13 +113,13 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="flex md:flex-row flex-col items-center  text-white mt-[20vh]">
+            <div className="flex md:flex-row flex-col items-center  text-white md:mt-[20vh]">
               <div className="w-36 h-36 relative mb-10">
                 <Image src="/logo2.png" alt="ZOIC Logo" fill className="object-contain" />
               </div>
 
-              <div className="text-center ml-10">
-                <h1 className="regulator-nova-alts-straight tracking-wider md:text-5xl text-4xl mb-5 font-bold">Mr. Sanjay Gupta</h1>
+              <div className="text-center md:ml-10 mb-10">
+                <h1 className="regulator-nova-alts-straight tracking-wider md:text-5xl text-3xl mb-5 font-bold">Mr. Sanjay Gupta</h1>
                 <p className="regulator-nova-alts tracking-wider text-xl">
                   Managing Director
                   <br />
@@ -131,7 +131,7 @@ export default function AboutPage() {
 
           <div 
           ref={ref}
-          className="md:w-[40vw] w-[90vw] h-[70vh] relative ">
+          className="md:w-[40vw] w-[80vw] md:h-[70vh] h-[40vh] mb-10  relative ">
             <Image
               src="/md.png"
               alt="Sanjay Gupta"
