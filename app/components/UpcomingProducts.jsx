@@ -93,19 +93,20 @@ export default function UpcomingProducts() {
                   onClick={() => openProduct(name)}
                   className="md:w-[30vw] w-[80vw] p-4 flex-shrink-0 cursor-pointer"
                 >
-                  <div className="h-[40vh] w-full bg-contain bg-no-repeat bg-center relative">
-                    <img
-    src={`/productImages/${encodedImage}.jpg`}
-    alt="Image Not found"
-    onError={(e) => {
-      if (e.target.src.endsWith(".jpg")) {
-        e.target.src = `/productImages/${encodedImage}.jpeg`;
-      } else {
-        e.target.src = "/productImages/default.avif";
-      }
-    }}
-    className="h-76 mx-auto object-contain"
-  />
+                  <div className="h-[40vh] w-[80%] bg-contain bg-no-repeat bg-center relative">
+                    <Image
+          src={`/productImages/${encodedImage}.jpg`}
+          alt="Image Not found"
+          fill
+          className="h-76 mx-auto object-cover"
+          onError={() => {
+            if (src.endsWith(".jpg")) {
+              setSrc(`/productImages/${encodedImage}.jpeg`);
+            } else {
+              setSrc("/productImages/default.avif");
+            }
+          }}
+        />
                   </div>
                   <h3 className="text-xl text-[#048DB7] font-bold mt-3">{product.title}</h3>
                   <p className="text-gray-600">{product.pack}</p>
