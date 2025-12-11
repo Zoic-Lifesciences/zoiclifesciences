@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export default function ProductCard({ img, title, description, pack, productPacking, price, category }) {
   const router = useRouter();
@@ -21,18 +22,20 @@ const handleClick = () => {
     
     <div className="bg-white rounded-2xl shadow-md p-4 flex flex-col justify-between hover:shadow-lg transition">
       {img ? (
-        <img
-  src={`/productImages/${encodedImageName}.jpg`}
-  alt={title}
-  onError={(e) => {
-    if (e.target.src.includes(".jpg")) {
-      e.target.src = `/productImages/${encodedImageName}.jpeg`
-    } else {
-      e.target.src = "/productImages/default.avif"
-    }
-  }}
-  className="h-76 mx-auto object-contain"
-/>
+       <Image
+      src={`/productImages/${encodedImageName}.jpg`}
+      alt={title}
+      width={400}
+      height={400}
+      className="h-76 mx-auto object-contain"
+      onError={() => {
+        if (src.includes(".jpg")) {
+          setSrc(`/productImages/${encodedImageName}.jpeg`);
+        } else {
+          setSrc("/productImages/default.avif");
+        }
+      }}
+    />
 
       ) : (
         <div className="h-32 flex items-center justify-center text-gray-400">
