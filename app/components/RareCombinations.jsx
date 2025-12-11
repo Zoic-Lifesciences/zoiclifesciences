@@ -94,7 +94,7 @@ export default function RareCombinations() {
                   onClick={() => openProduct(name)}
                   className="md:w-[30vw] w-[80vw] p-4 flex-shrink-0 cursor-pointer"
                 >
-                  <div className="h-[40vh] w-[80%] bg-contain bg-no-repeat bg-center relative">
+                  <div className="md:h-[350px] md:w-[350px] h-[250px] w-[250px] bg-contain bg-no-repeat bg-center relative">
                     <Image
           src={`/productImages/${encodedImage}.jpg`}
           alt="Image Not found"
