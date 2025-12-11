@@ -53,9 +53,9 @@ export default function BestSeller() {
   };
 
   return (
-    <section className="px-8 py-10 overflow-hidden bg-gray-100">
+    <section className="md:px-8 px-4 md:py-10 py-0 overflow-hidden bg-gray-100">
       <div className="max-w-7xl mx-auto relative py-12 w-full">
-        <h2 className="regulator-nova-alts tracking-wider text-5xl mb-5">
+        <h2 className="regulator-nova-alts tracking-wider md:text-5xl text-3xl mb-5">
           Our <span className="text-[#048DB7] font-semibold">Top Selling</span> Products
         </h2>
         <p className="text-gray-500 mb-8">

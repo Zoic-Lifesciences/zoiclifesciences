@@ -42,7 +42,7 @@ export default function CompanyVideoPremium() {
   };
 
   return (
-    <section className="w-full bg-white py-28 px-6 lg:px-20 font-['Inter']">
+    <section className="w-full bg-white md:py-28 py-16 px-6 lg:px-20 font-['Inter']">
       <div className="flex flex-col-reverse md:flex-row  gap-16 items-center max-w-7xl mx-auto">
 
         {/* LEFT — VIDEO */}
@@ -95,7 +95,7 @@ export default function CompanyVideoPremium() {
         //   data-aos="fade-left"
           className="flex flex-col justify-center"
         >
-          <h2 className="regulator-nova-alts text-4xl lg:text-5xl leading-[1.2] font-['Plus_Jakarta_Sans'] tracking-normal">
+          <h2 className="regulator-nova-alts text-3xl lg:text-5xl leading-[1.2] font-['Plus_Jakarta_Sans'] tracking-normal">
             A Legacy That Reaches <br/>
             <span className="text-[#048DB7]">  Every Corner of India </span>
           </h2>
