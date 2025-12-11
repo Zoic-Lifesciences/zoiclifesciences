@@ -12,14 +12,14 @@ import { FaChevronDown } from "react-icons/fa";
 export default function Herosection() {
   const slides = [
     {
-      img: "/hero1.png",
+      img: "/hero2.png",
       ref: "/products",
       title: "Exporting Across the Globe",
       desc: "Our products are trusted in multiple countries worldwide.",
       button: "Explore Our products",
     },
     {
-      img: "/army.webp",
+      img: "/hero3.jpg",
       ref: "/about#legacy",
       title: "Trusted by the INDIAN ARMY",
       desc: "Strength That Matches the Indian Army.",
