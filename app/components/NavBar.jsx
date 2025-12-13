@@ -267,11 +267,11 @@ export default function Header() {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone size={16} />
-              <span>+(91) 7088014041</span>
+              <span>+(91) 7060249961</span>
             </div>
             <div className="flex items-center gap-2 border-r-2 pr-2 border-gray-300">
               <Mail size={16} />
-              <span>info@zoiclifesciences.com</span>
+              <span>zoiclifesciences.med@gmail.com</span>
             </div>
           </div>
           <p className="text-[12px]">
