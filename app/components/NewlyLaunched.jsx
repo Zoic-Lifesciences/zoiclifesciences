@@ -59,11 +59,18 @@ export default function NewlyLaunched() {
 
   return (
     <div
-      key={product.id + index}
+      key={index}
       onClick={() => openProduct(name)}
-      className="md:w-[20vw] w-[80vw] shrink-0 bg-white shadow-xl border border-gray-200 rounded-t-[10%] mx-5"
+      className="
+        md:w-[20vw] w-[80vw]
+        hover:cursor-pointer shrink-0
+        bg-white shadow-xl border border-gray-200
+        rounded-t-[10%] mx-5
+        transition-transform duration-300 ease-out
+        hover:-translate-y-2 hover:scale-[1.03]
+      "
     >
-      <div className="h-[28vh] w-full bg-contain bg-no-repeat bg-center overflow-hidden rounded-t-[10%] relative">
+      <div className="h-[28vh]  w-full bg-contain bg-no-repeat bg-center overflow-hidden rounded-t-[10%] relative">
         <img
           src={`/productImages/${encodedImage}.jpg`}
           alt="Image Not found"

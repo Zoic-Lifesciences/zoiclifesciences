@@ -8,43 +8,45 @@ import Footer from "../components/Footer";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import Image from "next/image";
+
 const jobs = [
   {
     title: "Pharmaceutical Sales Executive",
-    location: "Chandigarh, India",
+    location: "Dehradun, Uttarakhand",
     type: "Full-time",
     description:
-      "Drive growth by building trusted relationships with healthcare professionals for our innovative products.",
+      "Promote pharmaceutical products to doctors, chemists, and healthcare professionals. Build strong client relationships, achieve sales targets, conduct product presentations, and expand market presence in the assigned territory.",
   },
   {
-    title: "Quality Assurance Officer",
-    location: "Baddi, Himachal Pradesh",
+    title: "Business Development Officer",
+    location: "Dehradun, Uttarakhand",
     type: "Full-time",
     description:
-      "Ensure GMP compliance and product quality to meet global standards and regulatory requirements.",
+      "Identify new business opportunities, develop strategic partnerships, and expand the company’s client base. Drive revenue growth through market research, lead generation, and negotiation with distributors and institutional clients.",
   },
   {
-    title: "R&D Chemist",
-    location: "Ahmedabad, India",
+    title: "PCD Franchise Sales Manager",
+    location: "Dehradun, Uttarakhand",
     type: "Full-time",
     description:
-      "Lead formulation development and stability testing to create new, effective healthcare solutions.",
+      "Manage and grow the PCD franchise network by onboarding new franchise partners, supporting existing associates, ensuring target achievement, and strengthening brand presence across assigned regions.",
   },
 ];
+
 const items=[
-              {
-                title: "Innovative Environment",
-                text: "Work with modern pharmaceutical technology and research-driven teams.",
-              },
-              {
-                title: "Career Growth",
-                text: "Grow in a culture that values your learning, contribution, and leadership.",
-              },
-              {
-                title: "Global Impact",
-                text: "Help us make essential healthcare accessible to every corner of the world.",
-              },
-            ]
+{
+  title: "Innovative Environment",
+  text: "Work with modern pharmaceutical technology and research-driven teams.",
+},
+{
+  title: "Career Growth",
+  text: "Grow in a culture that values your learning, contribution, and leadership.",
+},
+{
+  title: "Global Impact",
+  text: "Help us make essential healthcare accessible to every corner of the world.",
+},
+]
 
   
 export default function CareersPage() {

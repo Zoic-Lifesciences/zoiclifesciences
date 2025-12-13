@@ -109,11 +109,15 @@ export default function CompanyVideoPremium() {
           </p>
 
           <a
-            href="/services/third-party-manufacturing"
-            className="regulator-nova-alts-straight w-[32%] inline-block mt-10 px-2 py-4 bg-[#048DB7] text-white rounded-xl shadow-lg text-sm tracking-wide font-semibold hover:bg-blue-800 transition-all"
-          >
-            Explore Our Capabilities
-          </a>
+              href="/product-list.pdf"
+              download
+              className="inline-block mt-10 ml-5 bg-green-500 w-[40%] text-white px-10 py-4 font-semibold rounded-full shadow-2xl 
+                hover:bg-green-100 hover:text-green-600 
+                transform transition-all duration-300 ease-in-out
+                hover:-translate-y-2 cursor-pointer"
+            >
+              Download Our Product List &#x2B73;
+            </a>
         </motion.div>
       </div>
     </section>

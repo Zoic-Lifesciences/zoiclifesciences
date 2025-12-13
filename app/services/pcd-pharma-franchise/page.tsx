@@ -16,10 +16,26 @@ export default function PcdFranchise() {
             Zoic Life Sciences – India’s Leading Monopoly Based PCD Franchise Provider
           </p>
           <a href="#getFranchise">
-            <button className="mt-10 bg-white text-[#1BA3CD] px-10 py-4 font-semibold rounded-full shadow-2xl hover:bg-blue-100 transition">
+            <button className="mt-10 bg-white text-[#1BA3CD] 
+              px-10 py-4 font-semibold rounded-full shadow-2xl 
+              hover:bg-blue-100 transition
+              transform transition-all duration-300 ease-in-out
+              hover:-translate-y-2 hover:cursor-pointer">
               Get Franchise
             </button>
           </a>
+            <a
+              href="/product-list.pdf"
+              download
+              className="inline-block mt-10 ml-5 bg-green-500 text-white px-10 py-4 font-semibold rounded-full shadow-2xl 
+                hover:bg-green-100 hover:text-green-600 
+                transform transition-all duration-300 ease-in-out
+                hover:-translate-y-2 cursor-pointer"
+            >
+              Download Product List
+            </a>
+
+
         </div>
 
         <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
@@ -64,7 +80,7 @@ export default function PcdFranchise() {
           <div className="bg-white shadow-2xl rounded-3xl p-10 border border-blue-200 bg-opacity-80 backdrop-blur">
             <h2 className="text-4xl font-bold mb-6">Why We Are No. 1</h2>
             <p className="leading-relaxed mb-4">
-              Zoic Life Sciences is e top PCD pharma company offering monopoly rights across India.
+              Zoic Life Sciences is a top PCD pharma company offering monopoly rights across India.
             </p>
             <p className="leading-relaxed">
               Our values—Integrity, Respect, Collaboration, Innovation—drive our excellence.
@@ -72,12 +88,9 @@ export default function PcdFranchise() {
           </div>
 
           <div
-            className="rounded-3xl bg-blue-300 shadow-2xl bg-fit h-80 flex items-center justify-center text-white text-3xl font-semibold"
-            style={{
-              backgroundImage: "url('/no1.jpg')",
-              backgroundPosition: "center",
-            }}
+            className="rounded-3xl bg-blue-300 shadow-2xl h-[80vh] flex items-center justify-center text-white text-3xl font-semibold"
           >
+            <Image src={'/no1.jpg'} alt="No. 1 Company zoic" width={500} height={500} className="w-full h-full"/>
           </div>
 
         </div>

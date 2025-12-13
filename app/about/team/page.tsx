@@ -2,6 +2,7 @@
 import Footer from "@/app/components/Footer";
 import { motion } from "framer-motion";
 import TeamCard from "../../components/TeamCard"
+import { useRouter } from "next/navigation";
 
 const team = [
   
@@ -13,21 +14,33 @@ const team = [
   },
   {
     name: "Mukesh Rawat",
-    role: "",
+    role: "Product Manager",
     image: "/team/Mukesh_rawat.jpeg",
     bio: "Zoic is the best place to work because it offers a supportive environment, encourages learning, and provides opportunities to grow. The management is approachable, the culture is positive, and I feel motivated and valued in my work.",
   },
   {
+    name: "Manmohan Semwal",
+    role: "Accounts & Finance",
+    image: "/team/manmohan_semwal.jpeg",
+    bio: "With over 8 years of experience at Zoic Lifesciences, I’ve grown both professionally and personally.Under the guidance of my supportive seniors and Managing Director, I’ve learned that hard work and dedication are the true keys to success. Zoic Lifesciences has given me the opportunity to learn continuously and contribute with purpose every day.",
+  },
+  {
     name: "Priya Singh",
-    role: "",
+    role: "Sales Executive",
     image: "/team/Priya_singh.jpeg",
     bio: "My 2 year journey at zoic Life sciences has been truly wonderful.The best part of being here has been the opportunity to learn grow and support.I have gained invaluable knowledge and skills.Thank you so much zoic Life sciences for being such an important part of my career.",
   },
   {
     name: "Anjali meena",
-    role: "",
+    role: "Sales Executive",
     image: "/team/Anjali_meena.jpeg",
     bio: "Hello everyone.My name is Anjali Meena .Working in zoic life sciences for the last 3 months.My journey till nowfilled with my personal growth ,valuable learning experiences.My colleagues and managers are very supportive to me as they are committed to employees growth and development.Encouraging team work ,provide guidance and sharing wealth of knowledge.Thanku zoic for being soo kind.",
+  },
+  {
+    name: "ANJALI KATARIA",
+    role: "Sales Executive",
+    image: "/team/Anjali_kataria.jpeg",
+    bio: "I, Anjali, have been associated with Zoic Life Sciences for the past 1.5 years, and my experience with the organization has been highly rewarding. Throughout my journey here, I have had the opportunity to learn, grow, and enhance my skills in a supportive and collaborative work environment.",
   },
   {
     name: "Rajni kaur",
@@ -36,32 +49,22 @@ const team = [
     bio: "Working as a Sales Executive, I have learned a lot about customer coordination, product handling and product knowledge. The best thing about this company provides great support, clear guidance and a friendly work environment.",
   },
   {
-    name: "ANJALI KATARIA",
-    role: "",
-    image: "/team/",
-    bio: "I, Anjali, have been associated with Zoic Life Sciences for the past 1.5 years, and my experience with the organization has been highly rewarding. Throughout my journey here, I have had the opportunity to learn, grow, and enhance my skills in a supportive and collaborative work environment.",
-  },
-  {
     name: "SIMRAN THAKUR",
-    role: "",
+    role: "Sales Executive",
     image: "/team/",
     bio: "At Zoic, I feel THAT I belong to this organization.Encouraging insights &amp; deep life lessons I receive on a time to time basis from the leadership. Perfect professional and personal work life balance.",
   },
   {
     name: "TRIPTI SHARMA",
-    role: "",
+    role: "Sales Manager",
     image: "/team/",
     bio: "25TH- SEPT- 2025 How fast time flies, it has been more than 5 years.Exceptional work culture, excellent learning environment, 360 degree support.",
-  },
-  {
-    name: "Manmohan Semwal",
-    role: "Accounts & Finance",
-    image: "/team/",
-    bio: "With over 8 years of experience at Zoic Lifesciences, I’ve grown both professionally and personally.Under the guidance of my supportive seniors and Managing Director, I’ve learned that hard work and dedication are the true keys to success. Zoic Lifesciences has given me the opportunity to learn continuously and contribute with purpose every day.",
   },
 ];
 
 export default function TeamPage() {
+
+  const router = useRouter();
   return (
     <>
     
@@ -72,7 +75,7 @@ export default function TeamPage() {
             <h1
               className="text-4xl md:text-5xl font-bold text-[#048DB7]"
             >
-              Meet Our Team
+              Meet Our Dynamic Team
             </h1>
 
             <p
@@ -97,13 +100,27 @@ export default function TeamPage() {
               className="bg-linear-to-b from-[#1BA3CD] to-[#090A69] text-white p-12 rounded-3xl shadow-xl flex flex-col md:flex-row items-center gap-10"
             >
 
-              <div>
-                <h2 className="text-3xl font-semibold">Leadership That Inspires Excellence</h2>
-                <p className="mt-3 text-blue-100 text-md leading-relaxed">
+             <div className="flex flex-col">
+                <h2 className="text-3xl font-semibold text-left">
+                  Leadership That Inspires Excellence
+                </h2>
+
+                <p className="mt-3 text-blue-100 text-md leading-relaxed text-left">
                   Under the guidance of our leadership team, ZOIC has become a trusted name 
                   in pharmaceutical innovation, PCD franchise development, and quality-driven healthcare solutions.
                 </p>
+
+                {/* Centered Button */}
+                <div className="flex justify-center mt-6">
+                  <button 
+                    onClick={() => router.push("/careers")}
+                    className="w-[200px] bg-white cursor-pointer text-[#048DB7] hover:shadow-md hover:-translate-y-1 font-semibold px-6 py-3 rounded-xl hover:bg-indigo-100 transition-all"
+                  >
+                    Join Us Today
+                  </button>
+                </div>
               </div>
+
             </motion.div>
           </div>
     </div>

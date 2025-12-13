@@ -62,12 +62,12 @@ export default function BestSeller() {
           At <span className="text-[#048DB7] font-semibold">ZOIC</span> it’s all about continuous innovations.
         </p>
 
-        <div className="relative flex items-center">
+        <div className="relative flex items-center ">
           <button
             onClick={() => scroll("left")}
-            className="absolute left-0 z-10 bg-white p-3 rounded-full shadow-md"
+            className="absolute left-0 z-10 bg-white p-3 rounded-full shadow-md "
           >
-            <FiChevronLeft className="text-2xl text-[#048DB7]" />
+            <FiChevronLeft className="text-2xl text-[#048DB7] " />
           </button>
 
           <div
@@ -78,29 +78,31 @@ export default function BestSeller() {
               const product = products.find((p) => p.title === name);
               if (!product) return null;
 
-  const imageName = product.title.trim().split(" ")[0];
-  const encodedImage = encodeURIComponent(imageName);
+              const imageName = product.title.trim().split(" ")[0];
+              const encodedImage = encodeURIComponent(imageName);
 
               return (
                 <div
                   key={index}
                   onClick={() => openProduct(name)}
-                  className="md:w-[30vw] w-[80vw] p-4 flex-shrink-0 cursor-pointer flex flex-col justify-start"
+                  className="md:w-[30vw] w-[80vw] p-4 flex-shrink-0 hover:cursor-pointer
+                            transform transition-transform duration-300
+                            hover:-translate-y-2"
                 >
                   <div className="md:h-[350px] md:w-[350px] h-[250px] w-[250px] bg-contain bg-no-repeat bg-center relative">
                     <Image
-        src={`/productImages/${encodedImage}.jpg`}
-        alt="Image Not found"
-        fill
-        className="h-76 mx-auto object-cover"
-        onError={() => {
-          if (src.endsWith(".jpg")) {
-            setSrc(`/productImages/${encodedImage}.jpeg`);
-          } else {
-            setSrc("/productImages/default.avif");
-          }
-        }}
-      />
+                      src={`/productImages/${encodedImage}.jpg`}
+                      alt="Image Not found"
+                      fill
+                      className="h-76 mx-auto object-cover"
+                      onError={() => {
+                        if (src.endsWith(".jpg")) {
+                          setSrc(`/productImages/${encodedImage}.jpeg`);
+                        } else {
+                          setSrc("/productImages/default.avif");
+                        }
+                      }}
+                    />
                   </div>
                   <h3 className="text-xl text-[#048DB7] font-bold mt-3">{product.title}</h3>
                   <p className="text-gray-600">{product.pack}</p>

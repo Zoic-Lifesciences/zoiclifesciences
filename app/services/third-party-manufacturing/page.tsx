@@ -1,6 +1,7 @@
 "use client";
 
 import Footer from "@/app/components/Footer";
+import Image from "next/image";
 
 export default function Manufacturing() {
   return (
@@ -53,7 +54,7 @@ export default function Manufacturing() {
       <section className="py-24 bg-gray-50 text-blue-900" id="manufacturing">
         <div className="max-w-7xl mx-auto px-6">
 
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Intro Card */}
             <div className="bg-white p-10 rounded-3xl shadow-2xl border border-blue-200">
               <h2 className="text-4xl font-bold mb-6">Top Pharma Manufacturer in India</h2>
@@ -67,8 +68,12 @@ export default function Manufacturing() {
             </div>
 
             {/* Image */}
-            <div className="rounded-3xl bg-[#1BA3CD] shadow-xl h-80 flex items-center justify-center text-2xl font-bold text-white">
-              
+            <div className="rounded-3xl bg-[#1BA3CD] shadow-xl h-[85vh] flex items-center justify-center text-2xl font-bold text-white">
+              <Image src={'/plant1.jpeg'} 
+                alt="Zoic Manufacturing Plant Image " 
+                width={1000} height={500}
+                className="w-full h-full"
+              />
             </div>
           </div>
 
@@ -110,7 +115,13 @@ export default function Manufacturing() {
 
           {/* LEFT IMAGE */}
           <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div className="rounded-3xl bg-[#1BA3CD] h-80 shadow-2xl"></div>
+            <div className="rounded-3xl bg-[#1BA3CD] h-[40vh] shadow-2xl">
+              <Image src={'/advanced-infrastructure.webp'} 
+                alt="Zoic Advanced Infrastructure " 
+                width={1000} height={500}
+                className="w-full h-full"
+              />
+            </div>
             <div>
               <h3 className="text-3xl font-bold mb-4">Advanced Infrastructure</h3>
               <p className="leading-relaxed text-lg mb-4">
@@ -140,7 +151,13 @@ export default function Manufacturing() {
               </ul>
             </div>
 
-            <div className="order-1 md:order-2 rounded-3xl bg-[#1BA3CD] h-80 shadow-2xl"></div>
+            <div className="order-1 md:order-2 rounded-3xl bg-[#1BA3CD] h-[40vh] shadow-2xl">
+              <Image src={'/quality.webp'} 
+                alt="Zoic Quality" 
+                width={1000} height={500}
+                className="w-full h-full"
+              />
+            </div>
           </div>
 
         </div>
@@ -184,15 +201,15 @@ export default function Manufacturing() {
             {[
                 {
                 name: "WHO-GMP Certified",
-                img: "/who-cert.jpeg" // place your image in public/certifications/
+                img: "/who-cert.jpg" // place your image in public/certifications/
                 },
                 {
                 name: "ISO 9001:2015 Certified",
-                img: "/iso-cert.jpeg"
+                img: "/iso-cert.jpg"
                 },
                 {
                 name: "GMP Certified",
-                img: "/gmp-cert.jpeg"
+                img: "/gmp-cert.jpg"
                 }
             ].map((item, idx) => (
                 <div
