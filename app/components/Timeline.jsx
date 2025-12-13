@@ -47,16 +47,13 @@ export default function LegacyTimeline() {
   }, []);
 
   const milestones = [
-    { year: "2000", text: "ZOIC founded with a focus on ethical pharma solutions." },
-    { year: "2002", text: "First international partnership established." },
-    { year: "2005", text: "Expanded manufacturing capabilities." },
-    { year: "2010", text: "Entered 15+ countries with R&D centers." },
-    { year: "2012", text: "Received multiple pharma quality certifications." },
-    { year: "2015", text: "Launched biotechnology division." },
-    { year: "2017", text: "Introduced sustainable pharma initiatives." },
-    { year: "2020", text: "Adopted AI & digital therapeutics in operations." },
-    { year: "2022", text: "Global expansion into 40+ countries." },
-    { year: "2025", text: "Future-focused initiatives for precision medicine." },
+    { year: "2000", text: "The company was established in Uttarakhand with the strong commitment to ethical practices." },
+    { year: "2004", text: "Expanded operation to himachal pradesh with an ethical practices." },
+    { year: "2009", text: "Landed in western UP with ethical presence." },
+    { year: "2014", text: "Launched the PCD PHARMA FRANCHISE, first franchise was started in Guwahati Assam. Currently we are successfully covering 20+ states through growing pcd franchsie network." },
+    { year: "2021", text: "Set up our first in house manufacturing unit in the liquid and ointment section" },
+    { year: "2023", text: "ZOIC Lifesciences Did it's first export, setting up a benchmark for generations to come." },
+    { year: "2025", text: "Planning to establish another manufacturing unit for tablets and capsules section" },
   ];
     
 
