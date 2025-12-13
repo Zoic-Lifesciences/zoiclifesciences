@@ -10,7 +10,6 @@ export default function BestSeller() {
 
   // ONLY product names to display in the slider
   const bestSellerNames = [
-    "BI-CLAV 1000 TABLET",
     "FULLFLORA",
     "OM TABLET",
     "RABICLIP-ITR CAP",
@@ -20,7 +19,8 @@ export default function BestSeller() {
     "PENTAKOOL INJ",
     "ACEMOVE-P TABLET",
     "RIBS TABLET",
-    "TRIPT-10 TABLET"
+    "TRIPT-10 TABLET",
+    "BI-CLAV-1000-TABLET",
   ];
 
   const scrollRef = useRef(null);

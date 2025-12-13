@@ -7,14 +7,15 @@ export default function NewlyLaunched() {
   const router = useRouter();
   const bestSellerNames = [
 
-    "FASTNEM-200",
+    "FASTNEM-200-TAB",
+    "FASTNEM-DRY-SYP",
     "FUSISTAR-F",
-    "ZOTHASYL TABLETS",
+    "ZOTHASYL-TABLETS",
     "SALVUS",
-    "BILLU TAB",
+    "BILLU",
     "PIKU SYRUP",
-    "URIKOOL-100 SYP",
-    "LAX PEG"
+    "URIKOOL-100",
+    "LAX-PEG",
   ];
   
   // CLICK HANDLER

@@ -351,7 +351,7 @@
   },
   {
     "img": "/product.png",
-    "title": "BILLU TAB",
+    "title": "BILLU",
     "description": "Bilastine 20mg",
     "pack": "10x10",
     "productPacking": "alu-alu",
@@ -651,7 +651,7 @@
   },
   {
     "img": "/product.png",
-    "title": "URIKOOL-100 SYP",
+    "title": "URIKOOL-100",
     "description": "Disodium Hydrogen Citrate Syp",
     "pack": "100ml",
     "productPacking": "syp",
@@ -951,7 +951,7 @@
   },
   {
     "img": "/product.png",
-    "title": "LAX PEG",
+    "title": "LAX-PEG",
     "description": "Polyethylene Glycol, Sodium Chloride, Sodium Bicarbonate & Potassium Chloride Concentrate For Oral Solution",
     "pack": "200ml",
     "productPacking": "susp",
@@ -1841,7 +1841,7 @@
   },
   {
     "img": "/product.png",
-    "title": "BI-CLAV 1000 TABLET",
+    "title": "BI-CLAV-1000-TABLET",
     "description": "Amocycillin 875 mg +  Clavulanic Acid 125mg",
     "pack": "10x1x10",
     "productPacking": "alu-alu",
@@ -3111,7 +3111,7 @@
   },
   {
     "img": "/product.png",
-    "title": "ZOTHASYL TABLETS",
+    "title": "ZOTHASYL-TABLETS",
     "description": "Etamsylate 500 mg Tablets",
     "pack": "10X10",
     "productPacking": "strip",
@@ -4001,7 +4001,7 @@
   },
   {
     "img": "/product.png",
-    "title": "FASTNEM-200",
+    "title": "FASTNEM-200-TAB",
     "description": "Faropenem 200 mg",
     "pack": "1X6",
     "productPacking": "alu-alu",
