@@ -210,7 +210,7 @@ export default function AboutPage() {
 
       
 
-      <section className="w-[100vw] bg-gray-100 flex justify-center items-center pb-10 pt-12">
+      {/* <section className="w-[100vw] bg-gray-100 flex justify-center items-center pb-10 pt-12">
         <div className="w-[85%] flex flex-col items-center regulator-nova-alts tracking-wider">
           <h1 className="text-6xl text-center">The dream team of<br /> Marketing</h1>
           <p className="text-center text-gray-500 text-lg mt-5">We grow as a family</p>
@@ -277,7 +277,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </main>
