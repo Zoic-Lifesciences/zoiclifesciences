@@ -176,3 +176,23 @@ body {
 .fade-in-right {
   animation: fadeInRight 2s ease-out forwards;
 }
+
+/* Chrome, Edge, Safari */
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 4px;              /* VERY thin */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Invisible track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.25); /* subtle thumb */
+  border-radius: 999px;
+}
+
+/* Optional: slightly visible on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+}

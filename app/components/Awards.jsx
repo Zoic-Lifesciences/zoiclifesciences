@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
 const data = [
-  { id: 1, img: "/gallery/1.jpeg", category: "Injectables" },
-  { id: 2, img: "/gallery/2.jpeg", category: "Capsules" },
-  { id: 3, img: "/gallery/3.jpeg", category: "Soft Gel" },
-  { id: 4, img: "/gallery/4.jpeg", category: "Tablets" },
-  { id: 5, img: "/gallery/5.jpeg", category: "Ointments" },
-  { id: 6, img: "/gallery/6.jpeg", category: "Powder" },
-  { id: 7, img: "/gallery/7.jpeg", category: "Powder" },
+  { id: 1, img: "/gallery/1.jpeg", category: "Highlights" },
+  { id: 2, img: "/gallery/2.jpeg", category: "Highlights" },
+  { id: 3, img: "/gallery/3.jpeg", category: "Highlights" },
+  { id: 4, img: "/gallery/4.jpeg", category: "Highlights" },
+  { id: 5, img: "/gallery/5.jpeg", category: "Highlights" },
+  { id: 6, img: "/gallery/6.jpeg", category: "Highlights" },
+  { id: 7, img: "/gallery/7.jpeg", category: "Highlights" },
 ];
 
 export default function AwardsSection() {
@@ -44,7 +44,7 @@ useEffect(() => {
         </div>
 
         {/* RIGHT COLUMN: Carousel */}
-        <div className="w-full md:w-full flex justify-center items-center relative h-[60vh] md:mt-10">
+        <div className="w-full md:w-full flex justify-center items-center relative h-[80vh] md:mt-10">
           {data.map((item, index) => {
             // Calculate position relative to currentIndex
             const position = (index - currentIndex + total) % total;
@@ -62,33 +62,31 @@ useEffect(() => {
               zIndex = 3;
             } 
             if (!isMobile) {
-  if (position === 1) {
-    scale = 0.85;
-    x = 120;
-    opacity = 0.8;
-    zIndex = 2;
-  } else if (position === total - 1) {
-    scale = 0.85;
-    x = -120;
-    opacity = 0.8;
-    zIndex = 2;
-  } else if (position === 2) {
-    scale = 0.7;
-    x = 240;
-    opacity = 0.5;
-    zIndex = 1;
-  } else if (position === total - 2) {
-    scale = 0.7;
-    x = -240;
-    opacity = 0.5;
-    zIndex = 1;
-  }
-}
-
-
+              if (position === 1) {
+                scale = 0.85;
+                x = 120;
+                opacity = 0.8;
+                zIndex = 2;
+              } else if (position === total - 1) {
+                scale = 0.85;
+                x = -120;
+                opacity = 0.8;
+                zIndex = 2;
+              } else if (position === 2) {
+                scale = 0.7;
+                x = 240;
+                opacity = 0.5;
+                zIndex = 1;
+              } else if (position === total - 2) {
+                scale = 0.7;
+                x = -240;
+                opacity = 0.5;
+                zIndex = 1;
+              }
+            }
             return (
               <motion.div
-                key={item.id}
+                key={index}
                 animate={{ scale, x, opacity }}
                 transition={{ type: "spring", stiffness: 300, damping: 30 }}
                 style={{ zIndex }}

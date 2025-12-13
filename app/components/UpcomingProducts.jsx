@@ -84,8 +84,8 @@ export default function UpcomingProducts() {
               const product = products.find((p) => p.title === name);
               if (!product) return null;
 
-  const imageName = product.title.trim().split(" ")[0];
-  const encodedImage = encodeURIComponent(imageName);
+              const imageName = product.title.trim().split(" ")[0];
+              const encodedImage = encodeURIComponent(imageName);
 
               return (
                 <div

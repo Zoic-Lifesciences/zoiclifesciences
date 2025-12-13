@@ -118,7 +118,7 @@ useEffect(() => {
 
             return (
               <motion.div
-                key={item.id}
+                key={index}
                 animate={{ scale, x, opacity }}
                 transition={{ type: "spring", stiffness: 300, damping: 30 }}
                 style={{ zIndex }}

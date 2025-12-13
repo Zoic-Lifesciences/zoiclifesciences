@@ -113,10 +113,14 @@ export default function Herosection() {
                 </p>
 
                 <a
-                  href={slide.ref}
-                  className="inline-block bg-[#1BA3CD] hover:bg-[#090A69] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-lg hover:shadow-xl transition transform hover:scale-105"
+                  href="/product-list.pdf"
+                  download
+                  className="inline-block mt-10 ml-5 bg-green-500 text-white px-10 py-4 font-semibold rounded-full shadow-2xl 
+                    hover:bg-green-100 hover:text-green-600 
+                    transform transition-all duration-300 ease-in-out
+                    hover:-translate-y-2 cursor-pointer"
                 >
-                  {slide.button}
+                  Download Product List  &#x2B73;
                 </a>
               </div>
             </div>

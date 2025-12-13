@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Header from "../components/NavBar";
 import Footer from "../components/Footer";
+import Image from "next/image";
 import { FiMapPin, FiPhone } from "react-icons/fi";
 
 
@@ -98,18 +99,50 @@ export default function ContactPage() {
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="bg-white rounded-xl p-5 shadow-sm border border-gray-100">
                 <h4 className="text-sm font-semibold text-gray-600">Head Office</h4>
-                <p className="text-gray-700 mt-1 text-sm">Plot No. X, Industrial Area, Chandigarh, India</p>
+                <p className="text-gray-700 mt-1 text-sm">72/1, Tyagi Road, Dehradun - 248001</p>
               </div>
+
+              {/* Plant-1 */}
               <div className="bg-white rounded-xl p-5 shadow-sm border border-gray-100">
                 <h4 className="text-sm font-semibold text-gray-600">General Enquiries</h4>
-                <p className="text-gray-700 mt-1 text-sm">contact@zoicpharma.com</p>
-                <p className="text-gray-700 mt-1 text-sm">+91 98765 43210</p>
+                <p className="text-gray-700 mt-1 text-xs">&#128231; zoiclifesciences.med@gmail.com</p>
+                <p className="text-gray-700 mt-1 text-xs">&#128231; arindam@zoiclifesciences.com</p>
+                <p className="text-gray-700 mt-1 text-sm">&#x1F4DE; +91 7060249961</p>
+              </div>
+              <div className="bg-white rounded-xl p-5 shadow-sm border border-gray-100">
+                <h4 className="text-sm font-semibold text-gray-600">Plant-1 </h4>
+                <p className="text-gray-700 mt-1 text-sm">
+                  Khatauni No-513, Khasra No. 87, Minutes, 
+                  Central Hope Town, Tehsil,
+                  Vikas Nagar, Distt. Dehradun, Uttarakhand.(India)
+                </p>
+                <p className="text-gray-700 mt-1 text-sm">&#128231; arindam@zoiclifesciences.com</p>
+                <p className="text-gray-700 mt-1 text-sm">&#x1F4DE; +91 7060249961</p>
+              </div>
+              <div className="bg-white rounded-xl p-5 shadow-sm border border-gray-100 py-0 px-0">
+                <Image src={'/plant1.jpeg'} alt="Plant 1 - ZOIC" width={500} height={500} className="object-cover"/>
+              </div>
+
+              {/* Plant-2 */}
+              <div className="bg-white rounded-xl p-5 shadow-sm border border-gray-100">
+                <h4 className="text-sm font-semibold text-gray-600">Plant-2 </h4>
+                <p className="text-gray-700 mt-1 text-sm">(GMP Certified Company)</p>
+                <p className="text-gray-700 mt-1 text-sm">
+                  Vill-Santokhgarh Puruwala, Paonta Sahib, Distt.-Sirmour(H.P.)
+                  173001
+                  (A Division of Zoic Lifesciences)
+                </p>
+                <p className="text-gray-700 mt-1 text-sm">&#128231; arindam@zoiclifesciences.com</p>
+                <p className="text-gray-700 mt-1 text-sm">&#x1F4DE; +91 7060249961</p>
+              </div>
+              <div className="bg-white rounded-xl p-5 shadow-sm border border-gray-100 py-0 px-0">
+                <Image src={'/plant1.jpeg'} alt="Plant 1 - ZOIC" width={500} height={500} className="object-cover"/>
               </div>
             </div>
 
             <div className="mt-8">
-              <h5 className="text-sm font-medium text-gray-600">Office Hours</h5>
-              <p className="text-gray-700 text-sm">Mon — Fri: 9:30am — 6:00pm IST</p>
+              <h5 className="text-gray-600 font-bold text-lg">Office Hours</h5>
+              <p className="text-gray-700 text-sm">Mon — Sat: 9:30am - 6:00pm IST</p>
             </div>
           </motion.div>
 
@@ -221,7 +254,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-       <div className="w-full h-[60vh] mb-10 rounded-xl overflow-hidden">
+       <div className="max-w-7xl mx-auto h-[60vh] mb-10 rounded-xl overflow-hidden">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.509322301689!2d78.03276167556386!3d30.30802747479193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909299a31b23237%3A0xa0d43576d12b70c3!2sZOIC%20LIFE%20SCIENCES%2F%20ONE%20OF%20THE%20BEST%20PHARMA%20COMPANIES%20IN%20INDIA!5e0!3m2!1sen!2sin!4v1764604536160!5m2!1sen!2sin"
         width="100%"
